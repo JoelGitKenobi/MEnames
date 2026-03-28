@@ -1,11 +1,13 @@
 ﻿l_english:
  # Namelist display names
+ name_list_MEG_alliance:0 "Alliance"
  name_list_MEG_quarian:0 "Quarian Flotilla"
- name_list_MEG_salarian:0 "Salarian Union"  
+ name_list_MEG_salarian:0 "Salarian Union"
  name_list_MEG_turian:0 "Turian Hierarchy"
  name_list_MEG_volus:0 "Vol Protectorate"
  
  # Alternative format without name_list prefix
+ MEG_alliance:0 "Alliance"
  MEG_quarian:0 "Quarian Flotilla"
  MEG_salarian:0 "Salarian Union"
  MEG_turian:0 "Turian Hierarchy"

@@ -29,6 +29,7 @@ MEG_quarian = {
 		   "Xaezay" "Shurah" "Malarm" "Velarm" "Heereh" "Jigro" "Misost" "Jaewa" "Sisost" "Xemorn" "Toyya" "Shadir" "Zaemorn" "Luwa" "Tochol" "Laaca" "Jizay" "Wefirn" 
 		   "Yazay" "Jaafirn" "Vaafis" "Higro" "Gaetalir" "Seraka" "Rowal" "Hechol" "Haayya" "Gurah" "Canbay" "Fukor" "Zaalazi" "Dilinaga" "Duhasek" "Farka"
 		   "Muuruturut" "Lycarmasia" "Drorkamat" "Lipyralia" "Elcama" "Yqusmin" "Zeerkinot" "Keelimarth" "Murmiteen"
+		   "Idenna" "Keelah Si'yah" "Novarra" "Perroth" "Qam" "Palesi" "Iktomi" "Yorona" "Nedas" "Keelah Varren"
 		}
 		
 		mining_station = { }
@@ -47,6 +48,7 @@ MEG_quarian = {
 			"Claarith Flotilla" "Qormoric Flotilla" "Xirmictian Flotilla" 
 			"Paricnartian Flotilla" "Tyrvirmakin Flotilla" "Lurvimshit Flotilla" 
 			"Luyrmigratian Flotilla" "Werriladrian Flotilla" "Sekarentian Flotilla"
+			"Rannoch Defense Flotilla" "Idenna Flotilla" "Keelah Si'yah Flotilla" "Pilgrimage Flotilla" "Homeworld Survey Flotilla"
 		}
 		sequential_name = "$ORD$ Flotilla"
 	}
@@ -83,31 +85,75 @@ MEG_quarian = {
 			}
 		}
 		
-		pc_desert = { names = { } }
+		pc_desert = {
+			names = {
+				"Rannoch" "New Rannoch" "Ket'osh" "Far'os" "Tel'Gara" "Haza" "Ankedar" "Tor'Raan"
+			}
+		}
 		
-		pc_arid = { names = { } }
+		pc_arid = {
+			names = {
+				"Haestrom" "New Haestrom" "Adas" "Uriyah" "Kaddi" "Ekuna" "Geth's End" "Vas Qorim"
+			}
+		}
 		
-		pc_savannah = { names = { } }
+		pc_savannah = {
+			names = {
+				"Tikkun" "Azra" "Tel'Vama" "Rilorah" "Seya" "Keelah's Light" "Menaad" "Dar'Rann"
+			}
+		}
 				
-		pc_tropical = { names = { } }
+		pc_tropical = {
+			names = {
+				"Yorala" "Vael's Rest" "Lyran Bay" "Nara's Hope" "Hushan" "Tal'Rema"
+			}
+		}
 		
-		pc_continental = { names = { } }
+		pc_continental = {
+			names = {
+				"Keelah" "Nar Rannoch" "Old Khel" "Veeda" "Rannal" "Ahnor" "Weyra" "Qesh"
+			}
+		}
 		
-		pc_gaia = { names = { } }
+		pc_gaia = {
+			names = {
+				"Keelah's Embrace" "True Rannoch" "Dawn of Khel" "Taliora" "Bright Haestrom"
+			}
+		}
 		
-		pc_ocean = { names = { } }
+		pc_ocean = {
+			names = {
+				"Anili Sea" "Vaelor" "Rema Tide" "Nedas Blue" "Qela" "Ilya's Wake"
+			}
+		}
 		
-		pc_tundra = { names = { } }
+		pc_tundra = {
+			names = {
+				"Cold Tikkun" "Kheled" "Ulnay's Reach" "Yor's Rest" "Ice Veeda"
+			}
+		}
 		
-		pc_arctic = { names = { } }
+		pc_arctic = {
+			names = {
+				"White Rannoch" "Frozen Adas" "Nasra Chill" "Pale Uriyah" "Rime Kaddi"
+			}
+		}
 		
-		pc_alpine = { names = { } }
+		pc_alpine = {
+			names = {
+				"High Haestrom" "Kel's Spine" "Raan's Crown" "Tor'Vela" "Mountain Tikkun"
+			}
+		}
 
-		pc_nuked = { names = { } }
+		pc_nuked = {
+			names = {
+				"Broken Haestrom" "Ash Rannoch" "Glass Kaddi" "Ruined Adas" "Silent Ket'osh"
+			}
+		}
 
-		pc_ai = { names = { } }
+		pc_ai = { names = { "Gethless Core" "Quarian Archive" "Pilgrim Node" "Keelah Circuit" } }
 		
-		pc_machine = { names = { } }
+		pc_machine = { names = { "Raan Matrix" "Xen Lattice" "Memory of Rannoch" "Synthetic Ulnay" } }
 	}
 
 	### CHARACTERS
@@ -127,7 +173,8 @@ MEG_quarian = {
 				"Cun'Geeras" "Val'Faemin" "Culo'Cesal" "Wuf'Guzu" "Vaann'Hara" "Run'Wuzh" "Zetor'Zeen" "Futor'Tunn" "Nof'Zulon" 
 				"Fil'Medda" "Faesin'Saaman" "Kaelo'Sinn" "Ros'Zeelas" "Cusin'Taelin" "Raato'Veelan" "Wan'Vinis" "Ralo'Ness" 
 				"Vel'Fanis" "Faef'Yizh" "Cih'Shulan" "Vaato'Shaenar" "Laetor'Heesa" "Veenn'Laelan" "Jimm'Naerul" "Caam'Raanna" 
-				"Zaan'Humos" "Vaal'Zaenn" "Hen'Zemas" "Jisin'Fisal" "Ril'Jimm" "Hen'Reefor" "Yomm'Tuman" "Yeeto'Ralon" "Lusin'Homor" 
+				"Zaan'Humos" "Vaal'Zaenn" "Hen'Zemas" "Jisin'Fisal" "Ril'Jimm" "Hen'Reefor" "Yomm'Tuman" "Yeeto'Ralon" "Lusin'Homor"
+				"Han'Gerrel" "Kal'Reegar" "Rael'Zorah" "Veetor'Nara" "Lemm'Shal" "Koris'Zaal" "Naar'Veen" "Tor'Kelan"
 			}
 			first_names_female = {
 				"Laemu'Zarul" "Yehu'Shosal" "Yaanu'Wus" "Helo'Ceefor" "Nenni'Taalon" "Shofi'Nasal" "Zaefu'Vofor" "Cafi'Geefal" "Canu'Yonna" 
@@ -138,7 +185,8 @@ MEG_quarian = {
 				"Lume'Maasar" "Homma'Hom" "Yaehu'Wilas" "Jara'Forrel" "Feenna'Hullo" "Shesa'Leezh" "Yaafu'Milun" "Caele'Lara" "Maehu'Nizu" 
 				"Jume'Meesar" "Nonnu'Xill" "Funna'Gamas" "Naane'Tumor" "Saahi'Vulon" "Meri'Vaallo" "Saammo'Gunis" "Nenno'Yaeram" "Miha'Wenar" 
 				"Yaeli'Renis" "Hufi'Shar" "Hammi'Faema" "Shaaho'Naalan" "Fala'Lorul" "Maemma'Ziram" "Sheso'Maenis" "Mela'Zaelon" "Senu'Gaerol" 
-				"Cila'Gamos" "Yala'Teme" "Shemmu'Tallo" "Zenna'Furam" "Wala'Rerrel" "Shofi'Leemm" "Maaha'Sime" "Nola'Yusal" 
+				"Cila'Gamos" "Yala'Teme" "Shemmu'Tallo" "Zenna'Furam" "Wala'Rerrel" "Shofi'Leemm" "Maaha'Sime" "Nola'Yusal"
+				"Tali'Zorah" "Shala'Raan" "Daro'Xen" "Lia'Vael" "Shio'Leth" "Qetsi'Olam" "Yara'Vel" "Nema'Shira"
 			}
 			
 			# Always combined with a first name
@@ -167,6 +215,7 @@ MEG_quarian = {
 		   "Xaezay" "Shurah" "Malarm" "Velarm" "Heereh" "Jigro" "Misost" "Jaewa" "Sisost" "Xemorn" "Toyya" "Shadir" "Zaemorn" "Luwa" "Tochol" "Laaca" "Jizay" "Wefirn" 
 		   "Yazay" "Jaafirn" "Vaafis" "Higro" "Gaetalir" "Seraka" "Rowal" "Hechol" "Haayya" "Gurah" "Canbay" "Fukor" "Zaalazi" "Dilinaga" "Duhasek" "Farka"
 		   "Muuruturut" "Lycarmasia" "Drorkamat" "Lipyralia" "Elcama" "Yqusmin" "Zeerkinot" "Keelimarth" "Murmiteen"
+		   "Idenna" "Keelah Si'yah" "Novarra" "Perroth" "Qam" "Palesi" "Iktomi" "Yorona" "Nedas" "Keelah Varren"
 			}
 			regnal_first_names_male = {
 				"Femm'Fumas" "Kotor'Yumin" "Zaal'Gama" "Far'Caamma" "Yun'Xaelan" "Leem'Silun" "Nunn'Juzh" "Zun'Cedor" "Wam'Saazh"
@@ -177,7 +226,8 @@ MEG_quarian = {
 				"Cun'Geeras" "Val'Faemin" "Culo'Cesal" "Wuf'Guzu" "Vaann'Hara" "Run'Wuzh" "Zetor'Zeen" "Futor'Tunn" "Nof'Zulon" 
 				"Fil'Medda" "Faesin'Saaman" "Kaelo'Sinn" "Ros'Zeelas" "Cusin'Taelin" "Raato'Veelan" "Wan'Vinis" "Ralo'Ness" 
 				"Vel'Fanis" "Faef'Yizh" "Cih'Shulan" "Vaato'Shaenar" "Laetor'Heesa" "Veenn'Laelan" "Jimm'Naerul" "Caam'Raanna" 
-				"Zaan'Humos" "Vaal'Zaenn" "Hen'Zemas" "Jisin'Fisal" "Ril'Jimm" "Hen'Reefor" "Yomm'Tuman" "Yeeto'Ralon" "Lusin'Homor" 
+				"Zaan'Humos" "Vaal'Zaenn" "Hen'Zemas" "Jisin'Fisal" "Ril'Jimm" "Hen'Reefor" "Yomm'Tuman" "Yeeto'Ralon" "Lusin'Homor"
+				"Han'Gerrel" "Kal'Reegar" "Rael'Zorah" "Veetor'Nara" "Lemm'Shal" "Koris'Zaal" "Naar'Veen" "Tor'Kelan"
 			}
 			regnal_first_names_female = {
 				"Laemu'Zarul" "Yehu'Shosal" "Yaanu'Wus" "Helo'Ceefor" "Nenni'Taalon" "Shofi'Nasal" "Zaefu'Vofor" "Cafi'Geefal" "Canu'Yonna" 
@@ -188,7 +238,8 @@ MEG_quarian = {
 				"Lume'Maasar" "Homma'Hom" "Yaehu'Wilas" "Jara'Forrel" "Feenna'Hullo" "Shesa'Leezh" "Yaafu'Milun" "Caele'Lara" "Maehu'Nizu" 
 				"Jume'Meesar" "Nonnu'Xill" "Funna'Gamas" "Naane'Tumor" "Saahi'Vulon" "Meri'Vaallo" "Saammo'Gunis" "Nenno'Yaeram" "Miha'Wenar" 
 				"Yaeli'Renis" "Hufi'Shar" "Hammi'Faema" "Shaaho'Naalan" "Fala'Lorul" "Maemma'Ziram" "Sheso'Maenis" "Mela'Zaelon" "Senu'Gaerol" 
-				"Cila'Gamos" "Yala'Teme" "Shemmu'Tallo" "Zenna'Furam" "Wala'Rerrel" "Shofi'Leemm" "Maaha'Sime" "Nola'Yusal" 
+				"Cila'Gamos" "Yala'Teme" "Shemmu'Tallo" "Zenna'Furam" "Wala'Rerrel" "Shofi'Leemm" "Maaha'Sime" "Nola'Yusal"
+				"Tali'Zorah" "Shala'Raan" "Daro'Xen" "Lia'Vael" "Shio'Leth" "Qetsi'Olam" "Yara'Vel" "Nema'Shira"
 			}
 			regnal_second_names = {
 				"Zaalazi" "Fukor" "Canbay" "Gurah" "Haayya" "Hechol" "Rowal" "Sholeya" "Yaarah" "Zuzay"
@@ -206,7 +257,7 @@ MEG_quarian = {
 				"Cunil" "Yaaraka" "Shonna" "Jaaraka" "Sichol" "Haavo" "Cowa" "Teehala" "Meeyya" "Veedoruk" "Giron"
 				"Wozal" "Fiwan" "Weevum" "Zeevo" "Saejol" "Saedin" "Leelazi" "Fewib" "Reenna" "Sogro" "Haewal"
 				"Regro" "Sogro" "Gewa" "Faara" "Xudolor" "Natalir" "Weeca" "Mesost" "Laavo" "Logro" "Mochol"
-				"Taevum" "Zaarah" "Xaaca"
+				"Taevum" "Zaarah" "Xaaca" "Idenna" "Keelah Si'yah" "Novarra" "Perroth" "Qam" "Palesi" "Iktomi"
 			}
 		}
 	}

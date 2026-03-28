@@ -1,0 +1,493 @@
+MEG_alliance = {
+	randomized = no
+
+	ship_names = {
+		generic = { }
+		corvette = {
+			"SSV Danube" "SSV Baikal" "SSV Niagara" "SSV Volga" "SSV Rhine" "SSV Yukon" "SSV Mekong" "SSV Orinoco"
+			"SSV Ganges" "SSV Indus" "SSV Tigris" "SSV Euphrates" "SSV Lena" "SSV Congo" "SSV Seine" "SSV Thames"
+			"SSV Elbe" "SSV Vistula" "SSV Tagus" "SSV Po" "SSV Dnieper" "SSV Niger" "SSV Jordan" "SSV Zambezi"
+			"SSV Limpopo" "SSV Parana" "SSV Amazon" "SSV Missouri" "SSV Colorado" "SSV Columbia" "SSV Fraser" "SSV Mackenzie"
+			"SSV Ontario" "SSV Huron" "SSV Erie" "SSV Superior" "SSV Michigan" "SSV Victoria" "SSV Tanganyika" "SSV Titicaca"
+			"SSV Ladoga" "SSV Onega" "SSV Garda" "SSV Como" "SSV Tahoe" "SSV Rotorua" "SSV Iceland" "SSV Cyprus"
+			"SSV Crete" "SSV Sardinia" "SSV Corsica" "SSV Sicily" "SSV Honshu" "SSV Hokkaido" "SSV Kyushu" "SSV Luzon"
+			"SSV Borneo" "SSV Sumatra" "SSV Java" "SSV Flores" "SSV Madeira" "SSV Azores" "SSV Capri" "SSV Skye"
+			"SSV Orkney" "SSV Shetland" "SSV Falkland" "SSV Maui" "SSV Kauai" "SSV Kodiak" "SSV Zanzibar"
+			"SSV Nile" "SSV Rhone" "SSV Loire" "SSV Ucayali" "SSV Meuse" "SSV Oder" "SSV Neva" "SSV Don"
+			"SSV Kuban" "SSV Amur" "SSV Ob" "SSV Yenisei" "SSV Irtysh" "SSV Angara" "SSV Kolyma" "SSV Brahmaputra"
+			"SSV Narmada" "SSV Godavari" "SSV Krishna" "SSV Kaveri" "SSV Yamuna" "SSV Tapti" "SSV Mahanadi" "SSV Brahmani"
+			"SSV Yangtze" "SSV Pearl" "SSV Salween" "SSV Irrawaddy" "SSV Chao Phraya" "SSV Han" "SSV Nakdong" "SSV Tone"
+			"SSV Shinano" "SSV Murray" "SSV Darling" "SSV Waikato" "SSV Clutha" "SSV Waitaki" "SSV Balaton" "SSV Van"
+			"SSV Sevan" "SSV Biwa" "SSV Peipus" "SSV Ilmen" "SSV Issyk-Kul" "SSV Balkhash" "SSV Albert" "SSV Edward"
+			"SSV Malawi" "SSV Turkana" "SSV Kivu" "SSV Chad" "SSV Eyre" "SSV Taupo" "SSV Tasmania" "SSV Greenland"
+			"SSV Newfoundland" "SSV Sakhalin" "SSV Shikoku" "SSV Jeju" "SSV Palawan" "SSV Mindoro" "SSV Cebu" "SSV Negros"
+			"SSV Sulawesi" "SSV Timor" "SSV Halmahera" "SSV Faroe" "SSV Hebrides" "SSV Malta" "SSV Rhodes" "SSV Lesbos"
+			"SSV Aare" "SSV Adige" "SSV Allegheny" "SSV Arkansas" "SSV Avon" "SSV Benue" "SSV Brenta" "SSV Cauca"
+			"SSV Citarum" "SSV Clinch" "SSV Clyde" "SSV Daugava" "SSV Delaware" "SSV Drau" "SSV Ebro" "SSV Essequibo"
+			"SSV Exe" "SSV Foyle" "SSV Gila" "SSV Guadiana" "SSV Guadalquivir" "SSV Jhelum" "SSV Jubba" "SSV Klamath"
+			"SSV Kura" "SSV Liffey" "SSV Lot" "SSV Lule" "SSV Main" "SSV Mondego" "SSV Murrumbidgee" "SSV Nemunas"
+			"SSV Olt" "SSV Orange" "SSV Ouse" "SSV Platte" "SSV Ravi" "SSV Rioni" "SSV Roper" "SSV Sabine"
+			"SSV Shannon" "SSV Snake" "SSV Sutlej" "SSV Tana" "SSV Tisza" "SSV Ural" "SSV Vardar" "SSV Wabash"
+			"SSV Weser" "SSV Wye" "SSV Yalu" "SSV Yarra" "SSV Yonne" "SSV Zeya" "SSV Athabasca" "SSV Constance"
+			"SSV Inari" "SSV Managua" "SSV Maggiore" "SSV Nasser" "SSV Neuchatel" "SSV Okeechobee" "SSV Prespa" "SSV Saimaa"
+			"SSV Toba" "SSV Vattern" "SSV Windermere" "SSV Kinneret" "SSV Bracciano" "SSV Nemi" "SSV Ohrid" "SSV Annecy"
+			"SSV Atitlan" "SSV Anglesey" "SSV Bornholm" "SSV Gotland" "SSV Oland" "SSV Saaremaa" "SSV Hiiumaa" "SSV Chios"
+			"SSV Naxos" "SSV Samos" "SSV Corfu" "SSV Ithaca" "SSV Lefkada" "SSV Cephalonia" "SSV Zakynthos" "SSV Lemnos"
+			"SSV Imbros" "SSV Gozo" "SSV Elba" "SSV Ischia" "SSV Procida" "SSV Menorca" "SSV Mallorca" "SSV Ibiza"
+			"SSV Formentera" "SSV Tenerife" "SSV Lanzarote" "SSV Fuerteventura" "SSV La Palma" "SSV Gomera" "SSV Hierro" "SSV Socotra"
+			"SSV Reunion" "SSV Mauritius" "SSV Rodrigues" "SSV Pemba" "SSV Comino" "SSV Iguazu" "SSV Kaieteur" "SSV Tugela"
+			"SSV Dettifoss" "SSV Gullfoss" "SSV Seljalandsfoss" "SSV Skogafoss" "SSV Svartifoss" "SSV Dynjandi" "SSV Hraunfossar" "SSV Langfoss"
+			"SSV Mardalsfossen" "SSV Vinnufossen" "SSV Jog" "SSV Huka" "SSV Sutherland" "SSV Ban Gioc" "SSV Athirappilly" "SSV Dudhsagar"
+			"SSV Rhinefall" "SSV Havasu" "SSV Dniester" "SSV Neretva" "SSV Svir" "SSV Vuoksi" "SSV Jucar" "SSV Minho"
+			"SSV Douro" "SSV Evros" "SSV Nysa" "SSV Inn" "SSV Kemi" "SSV Paatsjoki" "SSV Mjosa" "SSV Siljan"
+			"SSV Kallavesi" "SSV Inarijarvi"
+		}
+		frigate = {
+			"SSV Normandy" "SSV Trafalgar" "SSV Hastings" "SSV Agincourt" "SSV Waterloo" "SSV Marathon" "SSV Thermopylae" "SSV Salamis"
+			"SSV Cannae" "SSV Actium" "SSV Tours" "SSV Yorktown" "SSV Gettysburg" "SSV Midway" "SSV Verdun" "SSV Somme"
+			"SSV Arnhem" "SSV Austerlitz" "SSV Borodino" "SSV Lepanto" "SSV Jutland" "SSV Ypres" "SSV Kursk" "SSV Stalingrad"
+			"SSV El Alamein" "SSV Bastogne" "SSV Saratoga" "SSV Bunker Hill" "SSV Antietam" "SSV Shiloh" "SSV Poitiers" "SSV Crecy"
+			"SSV Tannenberg" "SSV Sedan" "SSV Gallipoli" "SSV Iwo Jima" "SSV Okinawa" "SSV Inchon" "SSV Sekigahara" "SSV Gaugamela"
+			"SSV Zama" "SSV Adrianople" "SSV Manzikert" "SSV Hattin" "SSV Talas" "SSV Ain Jalut" "SSV Bannockburn" "SSV Bosworth"
+			"SSV Blenheim" "SSV Culloden" "SSV Balaclava" "SSV Navarino" "SSV Mons" "SSV Dunkirk" "SSV Monte Cassino" "SSV Tobruk"
+			"SSV Khe Sanh" "SSV Chosin" "SSV Marne" "SSV Cambrai" "SSV Coral Sea" "SSV Leyte Gulf" "SSV Tsushima" "SSV Vicksburg"
+			"SSV Badr" "SSV Pelusium" "SSV Plataea" "SSV Muret" "SSV Naseby" "SSV Ramillies" "SSV Fontenoy" "SSV Isandlwana"
+			"SSV Issus" "SSV Hydaspes" "SSV Chaeronea" "SSV Leuctra" "SSV Delium" "SSV Carrhae" "SSV Philippi" "SSV Pharsalus"
+			"SSV Munda" "SSV Teutoburg" "SSV Chalons" "SSV Bouvines" "SSV Legnica" "SSV Nicopolis" "SSV Kosovo" "SSV Varna"
+			"SSV Mohacs" "SSV Lutzen" "SSV Rocroi" "SSV Poltava" "SSV Malplaquet" "SSV Plassey" "SSV Trenton" "SSV Brandywine"
+			"SSV Cowpens" "SSV New Orleans" "SSV Fredericksburg" "SSV Chancellorsville" "SSV Spotsylvania" "SSV Petersburg" "SSV Passchendaele" "SSV Caporetto"
+			"SSV Narvik" "SSV Kasserine" "SSV Kharkov" "SSV Smolensk" "SSV Minsk" "SSV Guadalcanal" "SSV Saipan" "SSV Peleliu"
+			"SSV Tarawa" "SSV Wake" "SSV Khafji" "SSV Hue" "SSV Mogadishu" "SSV Ascalon" "SSV Nicaea" "SSV Dorylaeum"
+			"SSV Jaffa" "SSV Lundy's Lane" "SSV Corregidor" "SSV Manila Bay" "SSV Mobile Bay" "SSV Sadowa" "SSV Solferino" "SSV Ticonderoga"
+			"SSV Lund" "SSV Breitenfeld" "SSV Rivoli" "SSV Friedland" "SSV Mukden" "SSV Kohima" "SSV Imjin" "SSV Megiddo"
+			"SSV Flodden" "SSV Towton" "SSV Yarmuk" "SSV Panipat"
+			"SSV Trebia" "SSV Trasimene" "SSV Metaurus" "SSV Alesia" "SSV Catalaunian Plains" "SSV Sluys" "SSV Halidon Hill" "SSV Neville's Cross"
+			"SSV Formigny" "SSV Castillon" "SSV Pavia" "SSV Bicocca" "SSV Cerignola" "SSV Dreux" "SSV Fornovo" "SSV Marignano"
+			"SSV Ravenna" "SSV Pultusk" "SSV Wagram" "SSV Lodi" "SSV Arcole" "SSV Eylau" "SSV Talavera" "SSV Vittoria"
+			"SSV Camperdown" "SSV Copenhagen" "SSV Dogger Bank" "SSV Coronel" "SSV Matapan" "SSV River Plate" "SSV Albuera" "SSV Busaco"
+			"SSV Fuentes de Onoro" "SSV Salamanca" "SSV Leipzig" "SSV Quatre Bras" "SSV Ligny" "SSV Torgau" "SSV Rossbach" "SSV Leuthen"
+			"SSV Kunersdorf" "SSV Zorndorf" "SSV Hohenfriedberg" "SSV Mollwitz" "SSV Kolin" "SSV Plevna" "SSV Shipka" "SSV Gravelotte"
+			"SSV Mars-la-Tour" "SSV Liaoyang" "SSV Bataan" "SSV Anzio" "SSV Ortona" "SSV Huertgen" "SSV Remagen" "SSV Mortain"
+			"SSV Falaise" "SSV Caen" "SSV Bardia" "SSV Gazala" "SSV Mareth" "SSV Bir Hakeim" "SSV Sidi Barrani" "SSV Mersa Matruh"
+			"SSV Alam Halfa" "SSV Prokhorovka" "SSV Brody" "SSV Changde" "SSV Taierzhuang" "SSV Bull Run" "SSV Fort Donelson" "SSV Chickamauga"
+			"SSV Cold Harbor" "SSV Missionary Ridge" "SSV Murfreesboro" "SSV Wilsons Creek" "SSV Pea Ridge" "SSV Cedar Creek" "SSV Seven Pines" "SSV Williamsburg"
+			"SSV Wilderness" "SSV Monmouth" "SSV Princeton" "SSV Camden" "SSV Guilford Court House" "SSV Kings Mountain" "SSV Waxhaws" "SSV Germantown"
+			"SSV Long Island" "SSV Edgehill" "SSV Marston Moor" "SSV Prestonpans" "SSV Falkirk" "SSV Dunbar" "SSV Worcester" "SSV Killiecrankie"
+			"SSV Boyne" "SSV Pydna" "SSV Cynoscephalae" "SSV Arsuf" "SSV Dandanaqan" "SSV Mohi" "SSV Grunwald" "SSV Arras"
+			"SSV Messines" "SSV Loos" "SSV Vimy Ridge" "SSV Amiens" "SSV Yser" "SSV Delville Wood" "SSV Corunna" "SSV Inkerman"
+			"SSV Alma" "SSV Lundy" "SSV Abukir" "SSV Brunanburh" "SSV Stamford Bridge" "SSV Tewkesbury" "SSV Barnet" "SSV Hexham"
+			"SSV Clontarf" "SSV Las Navas de Tolosa" "SSV Anghiari" "SSV Hohenlinden" "SSV Aspern-Essling" "SSV Jena" "SSV Auerstedt" "SSV Talana Hill"
+			"SSV Colenso" "SSV Spion Kop" "SSV Paardeberg" "SSV Ladysmith" "SSV Bladensburg" "SSV Villers-Bretonneux" "SSV Dogali" "SSV Ctesiphon"
+			"SSV Fleurus" "SSV Denain" "SSV Jemappes" "SSV Hondschoote"
+		}
+		destroyer = {
+			"SSV Bavaria" "SSV Sahara" "SSV Lapland" "SSV Patagonia" "SSV Anatolia" "SSV Brittany" "SSV Galicia" "SSV Tuscany"
+			"SSV Savoy" "SSV Catalonia" "SSV Andalusia" "SSV Algarve" "SSV Silesia" "SSV Bohemia" "SSV Moravia" "SSV Dalmatia"
+			"SSV Lombardy" "SSV Provence" "SSV Aquitaine" "SSV Burgundy" "SSV Lorraine" "SSV Flanders" "SSV Picardy" "SSV Occitania"
+			"SSV Castile" "SSV Aragon" "SSV Navarre" "SSV Transylvania" "SSV Carpathia" "SSV Crimea" "SSV Karelia" "SSV Balkans"
+			"SSV Caucasia" "SSV Mesopotamia" "SSV Levant" "SSV Sundarbans" "SSV Gobi" "SSV Altai" "SSV Appalachia" "SSV Cascadia"
+			"SSV Sonora" "SSV Mojave" "SSV Great Basin" "SSV Black Forest" "SSV Outback" "SSV Pampas" "SSV Steppe" "SSV Taiga"
+			"SSV Tundra" "SSV Savanna" "SSV Wetlands" "SSV Everglades" "SSV Badlands" "SSV Fenland" "SSV Midlands" "SSV Pennines"
+			"SSV Deccan" "SSV Punjab" "SSV Sindh" "SSV Balochistan" "SSV Khorasan" "SSV Kashmir" "SSV Maghreb" "SSV Sahel"
+			"SSV Masuria" "SSV Pannonia" "SSV Thrace" "SSV Lusatia" "SSV Banat" "SSV Dobruja" "SSV Wallachia" "SSV Ardennes"
+			"SSV Highlands" "SSV Lowlands" "SSV Heathland" "SSV Marshland" "SSV Wold" "SSV Plateau"
+			"SSV Yucatan" "SSV Amazonia" "SSV Atacama" "SSV Cerrado" "SSV Pantanal" "SSV Sertao" "SSV Altiplano" "SSV Guiana"
+			"SSV Gran Chaco" "SSV Mato Grosso" "SSV Kalahari" "SSV Namib" "SSV Karoo" "SSV Veld" "SSV Okavango" "SSV Llanos"
+			"SSV Manitoba" "SSV Saskatchewan" "SSV Quebec" "SSV Acadia" "SSV Nunavut" "SSV Labrador" "SSV Kimberley" "SSV Pilbara"
+			"SSV Nullarbor" "SSV Fynbos" "SSV Rift Valley" "SSV Gran Sabana" "SSV Orinoquia" "SSV Tablelands" "SSV Downlands" "SSV Moorlands"
+			"SSV Basin Range" "SSV Guyenne" "SSV Dauphine" "SSV Berry" "SSV Limousin" "SSV Gascogne" "SSV Languedoc" "SSV Auvergne"
+			"SSV Franche-Comte" "SSV Murcia" "SSV Estremadura" "SSV La Mancha" "SSV Calabria" "SSV Campania" "SSV Apulia" "SSV Umbria"
+			"SSV Abruzzo" "SSV Friuli" "SSV Venetia" "SSV Istria" "SSV Slavonia" "SSV Vojvodina" "SSV Podolia" "SSV Ruthenia"
+			"SSV Chaco" "SSV Taieri" "SSV Tableland" "SSV Heath" "SSV Low Country" "SSV Uplands" "SSV Driftveld" "SSV Borderland"
+			"SSV Yorkshire" "SSV Cornwall" "SSV Devon" "SSV Kent" "SSV Wessex" "SSV Mercia" "SSV East Anglia" "SSV Northumbria"
+			"SSV Connacht" "SSV Leinster" "SSV Munster" "SSV Ulster" "SSV Galloway" "SSV Cumbria" "SSV Cotswolds" "SSV Chilterns"
+			"SSV Eifel" "SSV Harz" "SSV Black Country" "SSV Ruhr" "SSV Rhineland" "SSV Westphalia" "SSV Pomerania" "SSV Brandenburg"
+			"SSV Mecklenburg" "SSV Holstein" "SSV Swabia" "SSV Franconia" "SSV Tyrol" "SSV Carniola" "SSV Carinthia" "SSV Styria"
+			"SSV Mazovia" "SSV Warmia" "SSV Podlasie" "SSV Volhynia" "SSV Polesia" "SSV Bessarabia" "SSV Bukovina" "SSV Moldavia"
+			"SSV Prussia" "SSV Courland" "SSV Livonia" "SSV Samogitia" "SSV Ingria" "SSV Cappadocia" "SSV Cilicia" "SSV Bithynia"
+			"SSV Lydia" "SSV Phrygia" "SSV Lycia" "SSV Pamphylia" "SSV Pisidia" "SSV Galatia" "SSV Pontus" "SSV Hejaz"
+			"SSV Nejd" "SSV Asir" "SSV Hadramaut" "SSV Cyrenaica" "SSV Tripolitania" "SSV Fezzan" "SSV Ifriqiya" "SSV Kabylia"
+			"SSV Rif" "SSV Souss" "SSV Darfur" "SSV Nubia" "SSV Tigray" "SSV Ogaden" "SSV Oromia" "SSV Katanga"
+			"SSV Kasai" "SSV Ubangi" "SSV Gujarat" "SSV Bengal" "SSV Assam" "SSV Bihar" "SSV Odisha" "SSV Malwa"
+			"SSV Marwar" "SSV Bundelkhand" "SSV Konkan" "SSV Doab" "SSV Sikkim" "SSV Garhwal" "SSV Kumaon" "SSV Ladakh"
+			"SSV Gilgit" "SSV Hunza" "SSV Yunnan" "SSV Guangxi" "SSV Guangdong" "SSV Sichuan" "SSV Shaanxi" "SSV Gansu"
+			"SSV Qinghai" "SSV Manchuria" "SSV Ussuri" "SSV Primorye" "SSV Xinjiang" "SSV Kansai" "SSV Kanto" "SSV Tohoku"
+			"SSV Chugoku" "SSV Ryukyu" "SSV Arnhem Land" "SSV Riverina" "SSV Gippsland" "SSV Goldfields" "SSV Mallee" "SSV Monaro"
+			"SSV Wimmera" "SSV Canterbury" "SSV Otago" "SSV Southland" "SSV Northland" "SSV Ozarks" "SSV Piedmont" "SSV Tidewater"
+			"SSV Palouse" "SSV Bluegrass" "SSV Sandhills" "SSV Pine Barrens" "SSV Llano Estacado" "SSV Trans-Pecos" "SSV Caatinga" "SSV Selva"
+			"SSV Oriente" "SSV Chiquitania" "SSV Araucania" "SSV Cuyo" "SSV Hainaut" "SSV Brabant" "SSV Zeeland" "SSV Gelderland"
+			"SSV Drenthe" "SSV Overijssel" "SSV Scania" "SSV Halland" "SSV Smaland" "SSV Vasterbotten" "SSV Norrland" "SSV Fujian"
+			"SSV Hunan" "SSV Hubei" "SSV Henan" "SSV Hebei" "SSV Jiangxi" "SSV Jiangsu" "SSV Shanxi" "SSV Shandong"
+			"SSV Ningxia" "SSV Tibet"
+		}
+		cruiser = {
+			"SSV Tokyo" "SSV Cairo" "SSV Berlin" "SSV London" "SSV Madrid" "SSV Paris" "SSV Rome" "SSV Athens"
+			"SSV Vienna" "SSV Prague" "SSV Warsaw" "SSV Budapest" "SSV Lisbon" "SSV Oslo" "SSV Stockholm" "SSV Helsinki"
+			"SSV Dublin" "SSV Edinburgh" "SSV Glasgow" "SSV Moscow" "SSV Kyiv" "SSV Istanbul" "SSV Ankara" "SSV Tbilisi"
+			"SSV Yerevan" "SSV Baku" "SSV Tehran" "SSV Baghdad" "SSV Damascus" "SSV Jerusalem" "SSV Riyadh" "SSV Doha"
+			"SSV Dubai" "SSV Muscat" "SSV Delhi" "SSV Mumbai" "SSV Kolkata" "SSV Chennai" "SSV Bengaluru" "SSV Karachi"
+			"SSV Lahore" "SSV Dhaka" "SSV Kathmandu" "SSV Bangkok" "SSV Hanoi" "SSV Manila" "SSV Jakarta" "SSV Singapore"
+			"SSV Seoul" "SSV Busan" "SSV Beijing" "SSV Shanghai" "SSV Nanjing" "SSV Taipei" "SSV Hong Kong" "SSV Sydney"
+			"SSV Melbourne" "SSV Brisbane" "SSV Perth" "SSV Auckland" "SSV Wellington" "SSV Nairobi" "SSV Lagos" "SSV Accra"
+			"SSV Dakar" "SSV Casablanca" "SSV Algiers" "SSV Tunis" "SSV Rabat" "SSV Johannesburg" "SSV Cape Town" "SSV Addis Ababa"
+			"SSV Kinshasa" "SSV Luanda" "SSV Mexico City" "SSV Havana" "SSV Toronto" "SSV Montreal" "SSV Vancouver" "SSV Seattle"
+			"SSV Boston" "SSV Chicago" "SSV New York" "SSV Philadelphia" "SSV Atlanta" "SSV Denver" "SSV Phoenix" "SSV Sao Paulo"
+			"SSV Santiago" "SSV Buenos Aires"
+			"SSV San Francisco" "SSV Los Angeles" "SSV San Diego" "SSV Portland" "SSV Houston" "SSV Dallas" "SSV Miami" "SSV Detroit"
+			"SSV Minneapolis" "SSV Cleveland" "SSV St Louis" "SSV Baltimore" "SSV Austin" "SSV Charlotte" "SSV Nashville" "SSV Ottawa"
+			"SSV Calgary" "SSV Edmonton" "SSV Quebec City" "SSV Winnipeg" "SSV Halifax" "SSV San Juan" "SSV San Jose" "SSV Guatemala City"
+			"SSV Panama City" "SSV Quito" "SSV Lima" "SSV Bogota" "SSV Caracas" "SSV Montevideo" "SSV La Paz" "SSV Asuncion"
+			"SSV Recife" "SSV Brasilia" "SSV Salvador" "SSV Belo Horizonte" "SSV Porto Alegre" "SSV Medellin" "SSV Guayaquil" "SSV Maracaibo"
+			"SSV Valparaiso" "SSV Cordoba" "SSV Rosario" "SSV Mendoza" "SSV Durban" "SSV Kampala" "SSV Dar es Salaam" "SSV Mombasa"
+			"SSV Harare" "SSV Gaborone" "SSV Windhoek" "SSV Maputo" "SSV Khartoum" "SSV Tripoli" "SSV Benghazi" "SSV Alexandria"
+			"SSV Port Said" "SSV Jeddah" "SSV Medina" "SSV Kuwait City" "SSV Amman" "SSV Beirut" "SSV Aleppo" "SSV Esfahan"
+			"SSV Shiraz" "SSV Kabul" "SSV Samarkand" "SSV Tashkent" "SSV Almaty" "SSV Bishkek" "SSV Ulaanbaatar" "SSV Novosibirsk"
+			"SSV Vladivostok" "SSV Yokohama" "SSV Osaka" "SSV Kyoto" "SSV Nagoya" "SSV Sapporo" "SSV Kobe" "SSV Fukuoka"
+			"SSV Nagasaki" "SSV Incheon"
+		}
+		battleship = {
+			"SSV Da Vinci" "SSV Mandela" "SSV Curie" "SSV Einstein" "SSV Aristotle" "SSV Plato" "SSV Socrates" "SSV Archimedes" "SSV Euclid" "SSV Darwin"
+			"SSV Tesla" "SSV Maxwell" "SSV Pasteur" "SSV Edison" "SSV Oppenheimer" "SSV Feynman" "SSV Lovelace" "SSV Hypatia" "SSV Noether" "SSV Ramanujan"
+			"SSV Bose" "SSV Raman" "SSV Al-Khwarizmi" "SSV Avicenna" "SSV Averroes" "SSV Sun Tzu" "SSV Confucius" "SSV Laozi" "SSV Michelangelo" "SSV Raphael"
+			"SSV Donatello" "SSV Rembrandt" "SSV Vermeer" "SSV Beethoven" "SSV Mozart" "SSV Bach" "SSV Chopin" "SSV Verdi" "SSV Cervantes" "SSV Shakespeare"
+			"SSV Dante" "SSV Homer" "SSV Virgil" "SSV Tolstoy" "SSV Goethe" "SSV Picasso" "SSV Kahlo" "SSV Tagore" "SSV Gandhi" "SSV Lincoln"
+			"SSV Churchill" "SSV Roosevelt" "SSV Washington" "SSV Martin Luther King" "SSV Boudica" "SSV Joan of Arc" "SSV Napoleon" "SSV Caesar" "SSV Augustus" "SSV Alexander"
+			"SSV Hannibal" "SSV Saladin" "SSV Suleiman" "SSV Akbar" "SSV Tokugawa" "SSV Meiji" "SSV Bismarck" "SSV Garibaldi" "SSV Bolivar" "SSV San Martin"
+			"SSV Mansa Musa" "SSV Shaka" "SSV Sejong" "SSV Genghis" "SSV Zheng He" "SSV Descartes" "SSV Maimonides" "SSV Locke" "SSV Rousseau" "SSV Voltaire"
+			"SSV Hume" "SSV Pascal" "SSV Ibn Khaldun" "SSV Hopper" "SSV Rutherford" "SSV Galileo" "SSV Garbo" "SSV Seacole" "SSV Elcano" "SSV Magellan"
+			"SSV Sappho" "SSV Aeschylus" "SSV Sophocles" "SSV Euripides" "SSV Pythagoras" "SSV Diogenes" "SSV Cicero" "SSV Seneca" "SSV Marcus Aurelius" "SSV Tacitus"
+			"SSV Alhazen" "SSV Rumi" "SSV Ibn Battuta" "SSV Al-Biruni" "SSV Machiavelli" "SSV Galen" "SSV Moliere" "SSV Hugo" "SSV Balzac" "SSV Petrarch"
+			"SSV Boccaccio" "SSV Donne" "SSV Milton" "SSV Byron" "SSV Shelley" "SSV Keats" "SSV Dickens" "SSV Woolf" "SSV Austen" "SSV Yeats"
+			"SSV Joyce" "SSV Kafka" "SSV Camus" "SSV Sartre" "SSV Beauvoir" "SSV Hegel" "SSV Kant" "SSV Spinoza" "SSV Leibniz" "SSV Montesquieu"
+			"SSV Richelieu" "SSV Disraeli" "SSV Ataturk" "SSV Nehru" "SSV Patel" "SSV Ptolemy" "SSV Basho" "SSV Hokusai" "SSV Ozu" "SSV Nightingale"
+			"SSV Tubman" "SSV Douglass" "SSV Du Bois" "SSV Planck" "SSV Heisenberg" "SSV Bohr" "SSV Schrodinger" "SSV Dirac" "SSV Meitner" "SSV Cajal"
+			"SSV Murasaki" "SSV Galvani" "SSV Brunelleschi" "SSV Bernini" "SSV Goya" "SSV El Greco" "SSV Calder" "SSV Rodin" "SSV Bernoulli" "SSV Hilbert"
+		}
+		titan = {
+			"SSV Everest" "SSV Fuji" "SSV Kilimanjaro" "SSV Denali" "SSV Aconcagua" "SSV Elbrus" "SSV Vinson" "SSV Kosciuszko"
+			"SSV Matterhorn" "SSV Rainier" "SSV Whitney" "SSV Shasta" "SSV Logan" "SSV Damavand" "SSV Ararat" "SSV Etna"
+			"SSV Kenya" "SSV Roraima" "SSV Chimborazo" "SSV Cotopaxi" "SSV Huascaran" "SSV Puncak Jaya" "SSV Annapurna" "SSV K2"
+			"SSV Kangchenjunga" "SSV Lhotse" "SSV Makalu" "SSV Cho Oyu" "SSV Dhaulagiri" "SSV Manaslu" "SSV Aoraki" "SSV Taranaki"
+			"SSV Elbert" "SSV Hood" "SSV Toubkal" "SSV Ben Nevis" "SSV Snowdon" "SSV Kazbek" "SSV Ushba" "SSV Mont Blanc"
+			"SSV Scafell" "SSV Carrauntoohil" "SSV Sinai" "SSV Athos" "SSV Meru" "SSV Triglav" "SSV Popocatepetl" "SSV Orizaba"
+			"SSV Table Mountain" "SSV Hunter" "SSV Ruapehu" "SSV Mauna Kea" "SSV Mauna Loa" "SSV Teide" "SSV Elgon" "SSV Stanley"
+			"SSV Hekla" "SSV Tai Shan" "SSV Uluru" "SSV Cervino"
+		}
+		juggernaut = {
+			"SSV Eurasia" "SSV Africa" "SSV Antarctica" "SSV Europe" "SSV Asia" "SSV Oceania" "SSV Australia" "SSV North America"
+			"SSV South America" "SSV Afro-Eurasia" "SSV Zealandia" "SSV Pangaea" "SSV Gondwana" "SSV Laurasia" "SSV Rodinia" "SSV Pannotia"
+			"SSV Baltica" "SSV Laurentia" "SSV Avalonia" "SSV Siberia" "SSV Sahul" "SSV Sunda" "SSV Kenorland" "SSV Nuna" "SSV Ur"
+		}
+		colossus = {
+			"SSV Ragnarok" "SSV Armageddon" "SSV Gehenna" "SSV Tartarus" "SSV Abaddon" "SSV Sheol" "SSV Pandemonium" "SSV Apocalypse"
+			"SSV Erebus" "SSV Niflheim" "SSV Helheim" "SSV Avernus" "SSV Cataclysm" "SSV Oblivion" "SSV Nemesis" "SSV Thanatos"
+			"SSV Chaos" "SSV Doomsday" "SSV Deluge" "SSV Ruin" "SSV Leviathan" "SSV Endtimes" "SSV Hades" "SSV Phlegethon" "SSV Asphodel"
+		}
+		science = {
+			"MSV Kepler" "MSV Curiosity" "MSV Insight" "MSV Magellan" "MSV Copernicus" "MSV Newton" "MSV Faraday" "MSV Darwin"
+			"MSV Franklin" "MSV Hubble" "MSV Galilei" "MSV Sagan" "MSV Turing" "MSV Mendel" "MSV Cassini" "MSV Voyager"
+			"MSV Discovery" "MSV Surveyor" "MSV Endeavour" "MSV Horizon" "MSV Resolve" "MSV Aperture" "MSV Meridian" "MSV Zenith"
+		}
+		colonizer = {
+			"MSV Horizon" "MSV New Dawn" "MSV Meridian" "MSV Ascent" "MSV Aurora" "MSV Haven" "MSV New Horizon" "MSV Liberty"
+			"MSV New Meridian" "MSV Aurora Prime" "MSV Solace" "MSV Prospect" "MSV Highplain" "MSV Arcadia" "MSV Olympia" "MSV Asteria"
+			"MSV New Arcadia" "MSV Pacifica" "MSV Pelagia" "MSV Elysium" "MSV Newhaven" "MSV Sunreach" "MSV Meridian Nova" "MSV Ascent Nova"
+		}
+		constructor = {
+			"MSV Foundry" "MSV Keystone" "MSV Scaffold" "MSV Forge" "MSV Pillar" "MSV Foundation" "MSV Cornerstone" "MSV Framework"
+			"MSV Hammer" "MSV Gantry" "MSV Breakwater" "MSV Junction" "MSV Span" "MSV Bulwark" "MSV Dockyard" "MSV Truss"
+			"MSV Rivet" "MSV Brace" "MSV Anchor" "MSV Lattice" "MSV Bedrock" "MSV Abutment" "MSV Caisson" "MSV Drydock"
+		}
+		transport = {
+			"UT-07 Kodiak" "UT-12 Elk" "UT-18 Moose" "UT-24 Ox" "UT-31 Bison" "UT-42 Walrus"
+			"DT-09 Bear" "DT-14 Aurochs" "DT-22 Arctodus" "DT-28 Boar" "DT-35 Mastodon" "DT-41 Rhino"
+			"HT-11 Mammoth" "HT-19 Buffalo" "HT-26 Caribou" "HT-37 Yak" "HT-52 Stag" "HT-68 Gaur"
+			"AT-05 Ram" "AT-17 Bull" "AT-33 Bison" "AT-44 Grizzly" "AT-57 Tusk" "AT-72 Direwolf"
+		}
+
+		mining_station = { }
+		research_station = { }
+		observation_station = { }
+
+		military_station_small = { }
+		military_station_medium = { }
+		military_station_large = { }
+	}
+
+	ship_class_names = {
+		corvette = {
+			"Strike-10" "Strike-20" "Strike-30" "Strike-40" "Strike-50" "Strike-60" "Strike-70" "Strike-80" "Strike-90"
+			"Breach-10" "Breach-20" "Breach-30" "Breach-40" "Breach-50" "Breach-60" "Breach-70" "Breach-80" "Breach-90"
+			"Guard-10" "Guard-20" "Guard-30" "Guard-40" "Guard-50" "Guard-60" "Guard-70" "Guard-80" "Guard-90"
+		}
+		frigate = {
+			"S-SR1" "S-SR2" "S-SR3" "S-SR4" "S-SR5" "S-SR6" "S-SR7" "S-SR8" "S-SR9"
+			"T-SR1" "T-SR2" "T-SR3" "T-SR4" "T-SR5" "T-SR6" "T-SR7" "T-SR8" "T-SR9"
+		}
+		destroyer = {
+			"Aegis SR-1" "Aegis SR-2" "Aegis SR-3" "Aegis SR-4" "Aegis SR-5" "Aegis SR-6" "Aegis SR-7" "Aegis SR-8" "Aegis SR-9"
+			"Lancer SR-1" "Lancer SR-2" "Lancer SR-3" "Lancer SR-4" "Lancer SR-5" "Lancer SR-6" "Lancer SR-7" "Lancer SR-8" "Lancer SR-9"
+			"Patriot SR-1" "Patriot SR-2" "Patriot SR-3" "Patriot SR-4" "Patriot SR-5" "Patriot SR-6" "Patriot SR-7" "Patriot SR-8" "Patriot SR-9"
+		}
+		cruiser = {
+			"Vanguard SR-1" "Vanguard SR-2" "Vanguard SR-3" "Vanguard SR-4" "Vanguard SR-5" "Vanguard SR-6" "Vanguard SR-7" "Vanguard SR-8" "Vanguard SR-9"
+			"Bulwark SR-1" "Bulwark SR-2" "Bulwark SR-3" "Bulwark SR-4" "Bulwark SR-5" "Bulwark SR-6" "Bulwark SR-7" "Bulwark SR-8" "Bulwark SR-9"
+			"Trident SR-1" "Trident SR-2" "Trident SR-3" "Trident SR-4" "Trident SR-5" "Trident SR-6" "Trident SR-7" "Trident SR-8" "Trident SR-9"
+			"Arsenal SR-1" "Arsenal SR-2" "Arsenal SR-3" "Arsenal SR-4" "Arsenal SR-5" "Arsenal SR-6" "Arsenal SR-7" "Arsenal SR-8" "Arsenal SR-9"
+		}
+		battleship = {
+			"Dominus SR-1" "Dominus SR-2" "Dominus SR-3" "Dominus SR-4" "Dominus SR-5" "Dominus SR-6" "Dominus SR-7" "Dominus SR-8" "Dominus SR-9"
+			"Bastion SR-1" "Bastion SR-2" "Bastion SR-3" "Bastion SR-4" "Bastion SR-5" "Bastion SR-6" "Bastion SR-7" "Bastion SR-8" "Bastion SR-9"
+			"Aegis Prime SR-1" "Aegis Prime SR-2" "Aegis Prime SR-3" "Aegis Prime SR-4" "Aegis Prime SR-5" "Aegis Prime SR-6" "Aegis Prime SR-7" "Aegis Prime SR-8" "Aegis Prime SR-9"
+		}
+		titan = {
+			"MONK I" "MONK II" "MONK III" "MONK IV" "MONK V" "MONK VI" "MONK VII" "MONK VIII" "MONK IX"
+			"PRIEST I" "PRIEST II" "PRIEST III" "PRIEST IV" "PRIEST V" "PRIEST VI" "PRIEST VII" "PRIEST VIII" "PRIEST IX"
+			"INQUIS I" "INQUIS II" "INQUIS III" "INQUIS IV" "INQUIS V" "INQUIS VI" "INQUIS VII" "INQUIS VIII" "INQUIS IX"
+		}
+		juggernaut = {
+			"POFA Phase I" "POFA Phase II" "POFA Phase III" "POFA Phase IV" "POFA Phase V" "POFA Phase VI" "POFA Phase VII" "POFA Phase VIII" "POFA Phase IX"
+		}
+		colossus = {
+			"IGEM I" "IGEM II" "IGEM III"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"First Fleet" "Second Fleet" "Third Fleet" "Fourth Fleet" "Fifth Fleet" "Sixth Fleet" "Seventh Fleet" "Eighth Fleet"
+		}
+		sequential_name = "$ORD$ Fleet"
+	}
+
+	army_names = {
+		defense_army = {
+			random_names = { "2nd Frontier Division" "10th Frontier Division" "103rd Marine Division" }
+			sequential_name = "$ORD$ Marine Division"
+		}
+
+		assault_army = {
+			random_names = { "212th Marine Brigade" "232nd Marine Brigade" "3rd Brigade" "14th Infantry Regiment" "Delta Squad" }
+			sequential_name = "$ORD$ Marine Regiment"
+		}
+
+		slave_army = { sequential_name = "$ORD$ Marine Detachment" }
+		clone_army = { sequential_name = "$ORD$ Marine Detachment" }
+		robotic_army = { sequential_name = "$ORD$ Combat Support Craft" }
+		robotic_defense_army = { sequential_name = "$ORD$ Combat Support Craft" }
+	}
+
+	planet_names = {
+		generic = {
+			names = {
+				"Earth" "Luna" "Mars" "Terra Nova" "Eden Prime" "Elysium" "Horizon" "Ontarom" "Akuze" "Mindoir" "Shanxi"
+				"Fehl Prime" "Benning" "Demeter" "Watson" "Haven" "Liberty" "Ascent" "Prospect" "Solace" "Sunreach" "Highplain"
+				"Graymarch" "Northfall" "Winterhaven" "Aurora Prime" "Liberty Prime" "Meridian Nova" "Ascent Nova" "Arcadia" "Olympia"
+				"Asteria" "Pacifica" "Pelagia" "Olympus" "Helicon" "Verona" "Oliveira" "Sendai" "Cordoba" "Meridian" "Aurora"
+				"Prairie" "Mariner" "Polaris" "Amundsen"
+			}
+		}
+
+		pc_desert = {
+			names = {
+				"Mars" "Fehl Prime" "Asteria" "Carthage" "Tarsis" "Drypoint" "Sunward" "Red Mesa" "Hardline" "Sirocco"
+				"Burnham" "Outrider" "Ashfield" "Helios" "Dustfall"
+			}
+		}
+
+		pc_arid = {
+			names = {
+				"Terra Nova" "Ontarom" "Prospect" "Solace" "Cordoba" "Frontier" "Landfall" "Ridgeway" "Dry River" "Trailhead"
+				"Waystation" "Crossing" "Stonegate" "Westreach" "Dusthaven"
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				"Highplain" "Sunreach" "Prairie" "Longfield" "Grassmere" "Summerfield" "Goldplain" "Hartland" "Meadowrise" "Redgrass"
+				"Open Sky" "Broadacre" "Plainview" "Farfield" "Harvest"
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				"Haven" "Aurora" "Meridian" "Meridian Nova" "Bloom" "Newhaven" "Sunharbor" "Brightwater" "Fairwind" "Harborlight"
+				"Port Meridian" "Golden Shore" "Azure Bay" "Seabloom" "Greenhaven"
+			}
+		}
+
+		pc_continental = {
+			names = {
+				"Earth" "Eden Prime" "Horizon" "Benning" "Arcadia" "Liberty" "Ascent" "Verona" "Sendai" "Oliveira"
+				"Westfall" "Brighton" "Clearwater" "Fairfield" "Asteria" "New Horizon" "Stonebridge" "Riverside" "Kingsley" "Oakridge"
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				"Elysium" "Olympia" "Olympus" "Helicon" "Aurora Prime" "Arcadia Prime" "Meridian Prime" "New Arcadia" "Halcyon" "Serenity"
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				"Pelagia" "Mariner" "Pacifica" "Bluewater" "Coral Bay" "Deephaven" "Fairtide" "Port Azure" "Seafall" "Wavecrest"
+				"Driftport" "Saltwind" "New Pacifica" "Harborside" "Stillwater"
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				"Graymarch" "Northfall" "Winterhaven" "Coldreach" "Lastlight" "Frostgate" "Stonewatch" "Whitefield" "Hardwinter" "Snowmarch"
+				"Farwatch" "Ironwood" "Bleakwater" "Rimefall" "Northreach"
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				"Polaris" "Amundsen" "Borealis" "Northstar" "Shackleton" "Resolute" "Icefall" "Snowrest" "Aurora Station" "Winterstar"
+				"Everwhite" "Packice" "Cold Harbor" "Pioneer Ice" "Glacier Point"
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				"Elysium" "Olympus" "Helicon" "Summit" "Crestview" "Highwatch" "Skyreach" "Silver Peak" "Cloudrest" "White Summit"
+				"Pinnacle" "Montara" "Stonecrest" "Aerie" "Highmark"
+			}
+		}
+
+		pc_nuked = {
+			names = {
+				"Ashfall" "Dead Horizon" "Burnside" "Glassfield" "Silent Reach" "Cinder" "Blackwater" "Dustplain" "Last Dawn" "Ruin"
+			}
+		}
+
+		pc_ai = {
+			names = {
+				"Arcturus Node" "Relay Point" "Watchtower" "Signal Grid" "Pathfinder"
+			}
+		}
+
+		pc_machine = {
+			names = {
+				"Gridline" "Control" "Iron Reach" "Machine Harbor" "Forgepoint"
+			}
+		}
+	}
+
+	character_names = {
+		names1 = {
+			weight = 100
+			full_names = { }
+
+			first_names = {
+				"Alex" "Avery" "Bailey" "Bellamy" "Blake" "Brennan" "Briar" "Brooklyn" "Cameron" "Campbell" "Casey" "Charlie"
+				"Dakota" "Dallas" "Darian" "Devin" "Drew" "Eden" "Elliot" "Ellis" "Emerson" "Finley" "Frankie" "Harley"
+				"Hayden" "Hollis" "Jaden" "Jamie" "Jordan" "Jules" "Justice" "Kai" "Kendall" "Kieran" "Lane" "Lennox"
+				"Logan" "Mackenzie" "Marlowe" "Micah" "Morgan" "Murphy" "Noel" "Oakley" "Parker" "Payton" "Peyton" "Phoenix"
+				"Quinn" "Reese" "Remy" "Riley" "Robin" "Rory" "Rowan" "Ryan" "Sage" "Sam" "Sawyer" "Scout"
+				"Shannon" "Shea" "Sidney" "Skyler" "Spencer" "Sydney" "Tanner" "Taylor" "Teagan" "Terry" "Toby" "Tristan"
+				"Winter" "Alden" "Arden" "Ari" "Cody" "Corey" "Angel" "Blaine" "Carey" "Carter" "Devon" "Emery"
+				"Fallon" "Greer" "Indigo" "Jesse" "Jody" "Kerry" "Lee" "Linden" "Merritt" "Palmer" "Reagan" "Reilly"
+				"Shiloh" "Sterling" "Tatum" "Wren"
+			}
+
+			first_names_male = {
+				"Aaron" "Adam" "Adrian" "Aidan" "Alan" "Albert" "Alec" "Andrew" "Anthony" "Arthur" "Austin" "Benjamin"
+				"Bradley" "Brandon" "Brian" "Caleb" "Calvin" "Carson" "Carter" "Charles" "Christian" "Christopher" "Cole" "Colin"
+				"Connor" "Daniel" "David" "Declan" "Derek" "Dominic" "Dylan" "Edward" "Eli" "Elijah" "Emmett" "Eric"
+				"Ethan" "Evan" "Felix" "Gabe" "Gabriel" "Gavin" "George" "Grant" "Gray" "Gregory" "Harrison" "Henry"
+				"Hunter" "Ian" "Isaac" "Jack" "Jackson" "Jacob" "James" "Jason" "Jasper" "Jayden" "Jeremiah" "Jeremy"
+				"Jesse" "Joel" "John" "Jonathan" "Joseph" "Joshua" "Julian" "Justin" "Kevin" "Kyle" "Landon" "Leo"
+				"Leon" "Liam" "Lucas" "Luke" "Marcus" "Mark" "Mason" "Matthew" "Max" "Micah" "Michael" "Miles"
+				"Nathan" "Nicholas" "Noah" "Nolan" "Oliver" "Owen" "Patrick" "Paul" "Peter" "Philip" "Preston" "Reid"
+				"Robert" "Ryan" "Samuel" "Scott" "Sean" "Sebastian" "Seth" "Simon" "Spencer" "Stephen" "Steven" "Tanner"
+				"Theo" "Thomas" "Timothy" "Trevor" "Tyler" "Victor" "Vincent" "Wade" "Walker" "Wesley" "William" "Wyatt"
+				"Xavier" "Zachary" "Ren" "Haruto" "Kaito" "Kenji" "Daichi" "Riku" "Takumi" "Yuto" "Sora" "Akira"
+				"Anton" "Bruno" "Darius" "Emil" "Erik" "Hugo" "Ivan" "Jonas" "Kristof" "Lars" "Luca" "Lukas"
+				"Marcel" "Mateo" "Nico" "Nikolai" "Oskar" "Pavel" "Roman" "Soren" "Stefan" "Tomas" "Viktor" "Marek"
+				"Abel" "Asher" "Beau" "Bennett" "Brett" "Bryce" "Cade" "Chase" "Corbin" "Damian" "Damon" "Dean"
+				"Finn" "Graham" "Grant" "Grayson" "Holden" "Jace" "Jared" "Jonah" "Kellan" "Knox" "Levi" "Malcolm"
+				"Martin" "Milo" "Nathaniel" "Neil" "Omar" "Oscar" "Owen" "Porter" "Ronan" "Shane" "Silas" "Travis"
+				"Trent" "Zane" "Brody" "Colton" "Dalton" "Garrett" "Hudson" "Jaxon" "Keegan" "Maxwell" "Ryder" "Weston"
+			}
+
+			first_names_female = {
+				"Abigail" "Addison" "Adeline" "Alexandra" "Alice" "Allison" "Alyssa" "Amanda" "Amelia" "Amy" "Andrea" "Angela"
+				"Anna" "Aria" "Ashley" "Aubrey" "Audrey" "Autumn" "Ava" "Bella" "Bethany" "Brianna" "Brooke" "Camila"
+				"Caroline" "Charlotte" "Chloe" "Claire" "Clara" "Delaney" "Eleanor" "Elena" "Elizabeth" "Ella" "Ellie" "Emily"
+				"Emma" "Erin" "Eva" "Evelyn" "Faith" "Gabriella" "Grace" "Hailey" "Hannah" "Harper" "Hazel" "Heather"
+				"Isabel" "Isabella" "Ivy" "Jade" "Jenna" "Jessica" "Jocelyn" "Jordan" "Josephine" "Julia" "Kaitlyn" "Karen"
+				"Katherine" "Kayla" "Lauren" "Layla" "Leah" "Lillian" "Lily" "Lucy" "Madeline" "Madison" "Makayla" "Maria"
+				"Maya" "Megan" "Melanie" "Mia" "Morgan" "Natalie" "Nicole" "Nora" "Olivia" "Paige" "Penelope" "Piper"
+				"Rachel" "Rebecca" "Riley" "Rose" "Ruby" "Samantha" "Sarah" "Savannah" "Scarlett" "Sophia" "Stella" "Taylor"
+				"Trinity" "Valerie" "Vanessa" "Victoria" "Violet" "Zoe" "Aiko" "Akemi" "Asuka" "Emi" "Hana" "Haruka"
+				"Hikari" "Kaede" "Mei" "Mika" "Reina" "Sakura" "Yui" "Yuna" "Alessia" "Amelie" "Anja" "Astrid"
+				"Beatrice" "Celine" "Elisa" "Elsa" "Emilia" "Esme" "Freya" "Greta" "Helena" "Ingrid" "Lara" "Lena"
+				"Lucia" "Marta" "Mila" "Nadia" "Noemi" "Petra" "Sonia" "Tessa" "Valentina" "Vera" "Yvette" "Bianca"
+				"Adriana" "Ainsley" "Alana" "Alina" "Annabelle" "Arabella" "Ariel" "Brinley" "Cassandra" "Catherine" "Cecilia" "Daphne"
+				"Delilah" "Eliza" "Fiona" "Genevieve" "Georgia" "Holly" "Jasmine" "Joanna" "Juliette" "Kara" "Keira" "Kiara"
+				"Laura" "Leila" "Lila" "Lydia" "Marissa" "Naomi" "Phoebe" "Rosalie" "Serena" "Sienna" "Skylar" "Vivian"
+				"Adelaide" "Daniela" "Gemma" "Hallie" "Jillian" "Leona" "Maren" "Roslyn" "Thea" "Willow" "Zara" "Elodie"
+			}
+
+			second_names = {
+				"Adams" "Adkins" "Aguilar" "Alexander" "Allen" "Alvarez" "Anderson" "Armstrong" "Arnold" "Atkins" "Austin" "Bailey"
+				"Baker" "Ball" "Banks" "Barber" "Barker" "Barnes" "Barrett" "Barton" "Bates" "Beck" "Bell" "Bennett"
+				"Benson" "Berry" "Bishop" "Black" "Blair" "Blake" "Boone" "Bowen" "Boyd" "Bradley" "Brady" "Brewer"
+				"Bridges" "Brooks" "Brown" "Bryant" "Buchanan" "Burke" "Burns" "Burton" "Butler" "Byrd" "Caldwell" "Campbell"
+				"Cannon" "Carlson" "Carpenter" "Carr" "Carroll" "Carter" "Casey" "Castillo" "Chambers" "Chandler" "Chapman" "Clark"
+				"Clarke" "Clay" "Clayton" "Cobb" "Cole" "Coleman" "Collins" "Conner" "Cook" "Cooper" "Cox" "Craig"
+				"Crawford" "Cross" "Cruz" "Cunningham" "Daniels" "Davidson" "Davis" "Dawson" "Dean" "Delgado" "Diaz" "Dixon"
+				"Douglas" "Doyle" "Drake" "Duncan" "Dunn" "Edwards" "Ellis" "Erickson" "Evans" "Farrell" "Ferguson" "Fernandez"
+				"Fields" "Fisher" "Fletcher" "Flores" "Ford" "Foster" "Fox" "Franklin" "Frazier" "Freeman" "Garcia" "Gardner"
+				"Garner" "Garrett" "George" "Gibson" "Gilbert" "Giles" "Gill" "Glover" "Gomez" "Gonzales" "Gonzalez" "Goodman"
+				"Gordon" "Graham" "Grant" "Graves" "Gray" "Green" "Greene" "Griffin" "Gross" "Guerrero" "Gutierrez" "Hall"
+				"Hamilton" "Hammond" "Hansen" "Hanson" "Hardy" "Harper" "Harris" "Harrison" "Hart" "Harvey" "Hawkins" "Hayes"
+				"Henderson" "Henry" "Hernandez" "Hicks" "Higgins" "Hill" "Hines" "Hoffman" "Holland" "Holmes" "Holt" "Hopkins"
+				"Horton" "Howard" "Howell" "Hudson" "Hughes" "Hunt" "Hunter" "Ingram" "Jackson" "Jacobs" "James" "Jenkins"
+				"Jennings" "Jensen" "Johnson" "Johnston" "Jones" "Jordan" "Keller" "Kelly" "Kennedy" "Kim" "King" "Knight"
+				"Lambert" "Lane" "Larson" "Lawson" "Lawrence" "Lee" "Leonard" "Lewis" "Little" "Long" "Lopez" "Lowe"
+				"Lynch" "Marshall" "Martin" "Martinez" "Mason" "Matthews" "May" "Mccarthy" "Mccoy" "Mcdaniel" "Mcdonald" "Medina"
+				"Mendez" "Meyer" "Miles" "Miller" "Mills" "Mitchell" "Montgomery" "Moore" "Morales" "Moreno" "Morgan" "Morris"
+				"Morrison" "Murphy" "Murray" "Myers" "Nelson" "Newman" "Nichols" "Nicholson" "Norris" "Norton" "Olson" "Ortiz"
+				"Owens" "Palmer" "Parker" "Patterson" "Payne" "Pearson" "Pena" "Perez" "Perkins" "Perry" "Peters" "Peterson"
+				"Phillips" "Pierce" "Porter" "Powell" "Price" "Quinn" "Ramirez" "Ramos" "Ray" "Reed" "Reese" "Reeves"
+				"Reid" "Reyes" "Reynolds" "Rhodes" "Rice" "Richards" "Richardson" "Riley" "Rivera" "Robbins" "Roberts" "Robertson"
+				"Robinson" "Rodgers" "Rodriguez" "Rogers" "Romero" "Rose" "Ross" "Ruiz" "Russell" "Ryan" "Salazar" "Sanchez"
+				"Sanders" "Sandoval" "Santiago" "Santos" "Schaefer" "Schmidt" "Schneider" "Schultz" "Scott" "Sharp" "Shaw" "Shelton"
+				"Shepherd" "Silva" "Simmons" "Simpson" "Singh" "Snyder" "Spencer" "Stanley" "Stephens" "Stevens" "Stewart" "Stone"
+				"Sullivan" "Summers" "Sutton" "Tate" "Taylor" "Terry" "Thomas" "Thompson" "Torres" "Townsend" "Tran" "Tucker"
+				"Turner" "Vargas" "Vasquez" "Vaughn" "Wade" "Wagner" "Walker" "Wallace" "Walsh" "Ward" "Warren" "Washington"
+				"Waters" "Watkins" "Watson" "Weaver" "Webb" "Weber" "Wells" "West" "Wheeler" "White" "Whitman" "Williams"
+				"Williamson" "Willis" "Wilson" "Wise" "Wolfe" "Wong" "Wood" "Woods" "Wright" "Wyatt" "Young" "Sato"
+				"Suzuki" "Takahashi" "Tanaka" "Watanabe" "Ito" "Yamamoto" "Nakamura" "Kobayashi" "Kato" "Yoshida" "Yamada" "Sasaki"
+				"Yamaguchi" "Matsumoto" "Inoue" "Kimura" "Hayashi" "Shimizu" "Yamazaki" "Mori" "Abe" "Ikeda" "Hashimoto" "Ishikawa"
+				"Weber" "Moreau" "Laurent" "Fischer" "Becker" "Schneider" "Wagner" "Meyer" "Bauer" "Keller" "Schmidt" "Hoffmann"
+				"Muller" "Kraus" "Neumann" "Hartmann" "Braun" "Richter" "Vogel" "Lambert" "Renault" "Dupont" "Bernard" "Morel"
+				"Faure" "Mercier" "Lefevre" "Dubois" "Fontaine" "Girard" "Durand" "Petit" "Rousseau" "Gauthier" "Leclerc" "Bonnet"
+				"Fournier" "Vidal" "Costa" "Oliveira" "Pereira" "Ferreira" "Sousa" "Rossi" "Bianchi" "Romano" "Greco" "Marino"
+				"Conti" "Esposito" "Colombo" "Ricci" "Weiss" "Keller" "Kovacs" "Horvat" "Novak" "Popov" "Petrov" "Sokolov"
+				"Markovic" "Dimitrov" "Ivanov" "Klein" "Becker" "Fournier" "Costa" "Ribeiro" "Mendes" "Correia" "Nunes" "Barbosa"
+				"Abbott" "Acosta" "Avery" "Baldwin" "Barrera" "Barron" "Baxter" "Bentley" "Blevins" "Booker" "Bowers" "Branch"
+				"Briggs" "Brock" "Buckley" "Callahan" "Cantu" "Carver" "Cline" "Combs" "Conley" "Copeland" "Dalton" "Daugherty"
+				"Decker" "Denton" "Donovan" "Downs" "Dyer" "Eaton" "Espinoza" "Finch" "Foley" "Frost" "Gallegos" "Garrison"
+				"Glass" "Golden" "Greer" "Harding" "Jarvis" "Kerr" "Maddox" "Massey" "Mclean" "Mercer" "Monroe" "Navarro"
+				"Noble" "Osborne" "Pruitt" "Ritter" "Rowe" "Slater" "Stokes" "Sweeney" "Talbot" "Valdez" "Whitaker" "York"
+			}
+		}
+
+		names2 = {
+			weight = 4
+			full_names_male = {
+				"David Anderson" "Steven Hackett" "Kaidan Alenko" "Jeff Moreau" "James Vega" "Richard Jenkins"
+				"Nathaniel Kahoku" "Paul Grissom" "Alec Ryder" "Donnel Udina" "Jon Grissom" "Nitesh Singh"
+			}
+			full_names_female = {
+				"Ashley Williams" "Karen Chakwas" "Samantha Traynor" "Anita Goyle" "Hannah Shepard" "Rebecca Petrovsky"
+				"Khalisah al-Jilani" "Gianna Parasini" "Ines Llosa" "Karin Chakwas" "Nirali Bhatia"
+			}
+		}
+	}
+}

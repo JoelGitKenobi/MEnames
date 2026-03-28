@@ -33,6 +33,8 @@ MEG_turian = {
 			Incus Architectus Accommodator Vulcanus Obstinatio Diligens Zephyrus Aenigma Inquisitor Scylla Sanctor Aspera Eminentia Astutia Alacritas Prosperitas Perseverantia Apex Lumen Memoria Peregrinatio
 			Vagabundus Viator Legatus Emissarius Dubitatio Explorator Vagus Veritas Salve Prophetia "Sine Fine" Virtus Potentia Expansio Praecursor Prosperitas Culmen Aedis Seminarium Messis Demeter Isis Ceres Exodus
 			Fundatio Stirps Progenies Obligatio Propositus Providentia Adquiritor Agricola Aurora Puritas Communitas Fraternitas
+			"Primarch One" "Primarch Two" "Palaven Ascendant" "Spear of Menae" "Trebia Watch" "Victus Invicta" "Gavorn's Wrath" "Apex of Palaven"
+			"Hierarchy's Due" "Third Talon" "Fourth Talon" "Fifth Talon" "Iron Standard" "Cabal's Oath" "Sky of Menae" "Shield of Trebia"
 		}
 		
 		mining_station = { }
@@ -48,6 +50,7 @@ MEG_turian = {
 	fleet_names = {
 		random_names = {
 			"Palaven Fleet" "Hierarchy Fleet" "Cabals Fleet" "Blackwatch Fleet" "Trebia Fleet" "Menae Defense Fleet" "First Fleet" "Second Fleet"
+			"Third Fleet" "Victus Fleet" "Outer Colony Fleet" "Talon Reserve Fleet" "Primarch's Guard Fleet"
 		}
 		sequential_name = "$ORD$ Turian Fleet"
 	}
@@ -76,31 +79,75 @@ MEG_turian = {
 			}
 		}
 		
-		pc_desert = { names = { } }
+		pc_desert = {
+			names = {
+				"Invictus" "Gothis" "Taetrus" "Digeris" "Pheiros" "Sicara" "Veloran" "Tarsis"
+			}
+		}
 		
-		pc_arid = { names = { } }
+		pc_arid = {
+			names = {
+				"Impera" "Essenus" "Baetis" "Aephus" "Rocam" "Varrus" "Corvin" "Hesperon"
+			}
+		}
 		
-		pc_savannah = { names = { } }
+		pc_savannah = {
+			names = {
+				"Palaven" "Trebia" "Macedyn" "Parthia" "Solium" "Aurex" "Castrum" "Nicon"
+			}
+		}
 				
-		pc_tropical = { names = { } }
+		pc_tropical = {
+			names = {
+				"Nanus" "Veridia" "Lacinium" "Avena" "Tiberon" "Ilyra"
+			}
+		}
 		
-		pc_continental = { names = { } }
+		pc_continental = {
+			names = {
+				"Menae" "Thracia" "Magna" "Carinthus" "Caelora" "Pallanis" "Rhenor" "Hierax"
+			}
+		}
 		
-		pc_gaia = { names = { } }
+		pc_gaia = {
+			names = {
+				"Nova Palaven" "Sine Fine" "Concordia" "Aeternum" "Gloria Palatina"
+			}
+		}
 		
-		pc_ocean = { names = { } }
+		pc_ocean = {
+			names = {
+				"Pelagia" "Tethys" "Navarch" "Littora" "Blue Menae" "Corynthe"
+			}
+		}
 		
-		pc_tundra = { names = { } }
+		pc_tundra = {
+			names = {
+				"Frost Trebia" "Pale Impera" "Crispus" "Nivalis" "Cold Victus"
+			}
+		}
 		
-		pc_arctic = { names = { } }
+		pc_arctic = {
+			names = {
+				"Glacies" "Boreas" "White Palaven" "Arcturon" "Ice Baetis"
+			}
+		}
 		
-		pc_alpine = { names = { } }
+		pc_alpine = {
+			names = {
+				"High Menae" "Aquila Mons" "Scarpus" "Talonis" "Vigil Peak"
+			}
+		}
 
-		pc_nuked = { names = { } }
+		pc_nuked = {
+			names = {
+				"Burned Menae" "Ash Palaven" "Black Trebia" "Ruined Invictus" "Glass Impera"
+			}
+		}
 
-		pc_ai = { names = { } }
+		pc_ai = { names = { "Strategos Node" "Palaven Logic" "Legion Matrix" "Talon Archive" } }
 		
-		pc_machine = { names = { } }
+		pc_machine = { names = { "Hierarchy Forge" "Menae Lattice" "Trebia Core" "Steel Palaven" } }
 	}
 
 
@@ -115,12 +162,12 @@ MEG_turian = {
 				Rolan Sato Lilihierax Mehrkuri Chisilix Venari Garkko Grizz Ogrinn Tactus Enterus Ellis Neno Idus Razun Iustinix Extan Kihilix Daherax 
 				Serus Alsadrus Uvalum Titrinus Janus Lahere Sanus Ulrixen Hanae Teheris Derius Meln Vertin Huck Hexnar Sanex Gradius Ternitus Vamire Faros 
 				Elgus Jaxum Salur Ferrus Minador Quart Hunner Astrae Tobestick Marnek Joppa Delwian Ledius Eratian
-				Pratur Actin Sareko Cheros Tusi Lorir Teras
+				Pratur Actin Sareko Cheros Tusi Lorir Teras Fedorian Adrastus Septien Corian Vetrus Castorix
 			}
 			first_names_female = {
 				Nyreen Pavan Shastina Abrudas Vetra Octa Anela Arayna Dinara Orinia Lilira Naxus Reta Himar Lana Vitola Dixali Solana
 				Nyvan Nytina Nydas Nyra Nyta Pareen Patina Padas Para Pata Shasreen Shasvan Shasdas Shasra Shasta Abrureen Abruvan Abrutina Abrura Abruta
-				Ocreen Ocvan Octina Ocdas Ocra Maxivia 
+				Ocreen Ocvan Octina Ocdas Ocra Maxivia Aventa Corissa Valyra Tiranne Melita Castana
 			}
 			second_names = {
 				Victus Vakarian Arterius Aurelos Oraka Tiron Actus Haliat "Qui'in" Nazario Gavorn Kryik Sidonis Kuril Coronati Pallin Talid Palanurus Quarn 
@@ -128,25 +175,25 @@ MEG_turian = {
 				Sylvatus Partinax Relius Yahirix Tanus Antivus Lilix Tertius Septimax Machaera Pagasi Dianix Iheras Partainis Satorim Ravidus Daphnon Gaudium Nyrek 
 				Dellk Korilius Irvinus Siyan Iherax Sycoram Septimas Squaron Riten Spartarus Quentiys Ursinus Paramon Borlin Darikun Latronus Korlick Lux Patathor 
 				Vadus Genchak Ixiri Raedun Rubicum Arborandum Bartus Egnadus
-				Pratur Actin Sareko Cheros Tusi Lorir Teras
+				Pratur Actin Sareko Cheros Tusi Lorir Teras Primax Castellan Varro Tetranus Corvinus Palatin
 			}
 			regnal_first_names_male = {
 				Adrien Tarquin Garrus Saren Desolas Timus Septimus Etarn Tonn Elanos Lorik Illo Preitior Nihlus Lantar Irix Venari Joram Chisilix 
 				Rolan Sato Lilihierax Mehrkuri Chisilix Venari Garkko Grizz Ogrinn Tactus Enterus Ellis Neno Idus Razun Iustinix Extan Kihilix Daherax 
 				Serus Alsadrus Uvalum Titrinus Janus Lahere Sanus Ulrixen Hanae Teheris Derius Meln Vertin Huck Hexnar Sanex Gradius Ternitus Vamire Faros 
-				Elgus Jaxum Salur Ferrus Minador Quart Hunner Astrae Tobestick Marnek Joppa Delwian Ledius Eratian
+				Elgus Jaxum Salur Ferrus Minador Quart Hunner Astrae Tobestick Marnek Joppa Delwian Ledius Eratian Fedorian Adrastus Septien Corian Vetrus
 			}
 			regnal_first_names_female = {
 				Nyreen Pavan Shastina Abrudas Vetra Octa Anela Arayna Dinara Orinia Lilira Naxus Reta Himar Lana Vitola Dixali Solana
 				Nyvan Nytina Nydas Nyra Nyta Pareen Patina Padas Para Pata Shasreen Shasvan Shasdas Shasra Shasta Abrureen Abruvan Abrutina Abrura Abruta
-				Ocreen Ocvan Octina Ocdas Ocra Maxivia 
+				Ocreen Ocvan Octina Ocdas Ocra Maxivia Aventa Corissa Valyra Tiranne Melita
 			}
 			regnal_second_names = {
 				Victus Vakarian Arterius Aurelos Oraka Tiron Actus Haliat "Qui'in" Nazario Gavorn Kryik Sidonis Kuril Coronati Pallin Talid Palanurus Quarn 
 				Davaria Kandros Sahira Emperus Vyrnnus Chellick Fedorian Corinthus Haron Invectus Jacobus Vidinos Valterus Raxirian Valen Scartos Saneraxis Hanus 
 				Sylvatus Partinax Relius Yahirix Tanus Antivus Lilix Tertius Septimax Machaera Pagasi Dianix Iheras Partainis Satorim Ravidus Daphnon Gaudium Nyrek 
 				Dellk Korilius Irvinus Siyan Iherax Sycoram Septimas Squaron Riten Spartarus Quentiys Ursinus Paramon Borlin Darikun Latronus Korlick Lux Patathor 
-				Vadus Genchak Ixiri Raedun Rubicum Arborandum Bartus Egnadus
+				Vadus Genchak Ixiri Raedun Rubicum Arborandum Bartus Egnadus Primax Castellan Varro Tetranus Corvinus Palatin
 			}
 		}
 

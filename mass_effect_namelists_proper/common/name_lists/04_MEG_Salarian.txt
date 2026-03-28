@@ -3,22 +3,24 @@ MEG_salarian = {
 
 	ship_names = {
 		generic = {
-			Anoleis Kirrahe Vorleon Rentola Linron Palon Saleon Imness Bau Holin Tolan Heplorn Avot 
-			Solus Hanok Uwan Dalu Chalben Dezen Girlan Gaezik Olorn Oponi Eluso Tozeni Aerajii Ehei
-			Jorhart Saezze Waerow Tuzore Faebar Ulana Sartop Jimori Faedann Iluse Irgop Porajio
-			Maerlum Ulua Waebop Zamali Omal Faerlane Jebern Yemoro Mustar Zaenmorne Cimum Derlane
-			Badirn Cerbano Calum Weralo Aegok Haemina Cirgol Jaeljio Aerorth Firixe Resar Iwani
-			Mirborm Cazalo Hiwirn Nussa Irpann Onis Wasoln Daraji Uson Fedrok Yawin Hazal Laerbum Baeral
-			Gewar Baemal Jepaw Aenik Burann Rudrok Jaemann Julu Pubart Jarlan Obart Baessi Bumok Taekse
-			Modorth Jezika Lerlarp Gonise Ostirn Sajia Alern Yawane Vaernum Jorjio Dotall Buhee Lirtol Irjio
-			Haemarth Gomala Jorparp Wazom Sarstal Romin Zerbarf Lizz Linarp Beral Sistin Olon Horirn Elban
-			Derwarf Zelben Wegok Hewan Dedaw Nonorm Sural
+			"Anoleis" "Kirrahe" "Vorleon" "Rentola" "Linron" "Palon" "Saleon" "Imness" "Bau" "Holin" "Tolan" "Heplorn" "Avot"
+			"Solus" "Hanok" "Uwan" "Dalu" "Chalben" "Dezen" "Girlan" "Gaezik" "Olorn" "Oponi" "Eluso" "Tozeni" "Aerajii" "Ehei"
+			"Jorhart" "Saezze" "Waerow" "Tuzore" "Faebar" "Ulana" "Sartop" "Jimori" "Faedann" "Iluse" "Irgop" "Porajio"
+			"Maerlum" "Ulua" "Waebop" "Zamali" "Omal" "Faerlane" "Jebern" "Yemoro" "Mustar" "Zaenmorne" "Cimum" "Derlane"
+			"Badirn" "Cerbano" "Calum" "Weralo" "Aegok" "Haemina" "Cirgol" "Jaeljio" "Aerorth" "Firixe" "Resar" "Iwani"
+			"Mirborm" "Cazalo" "Hiwirn" "Nussa" "Irpann" "Onis" "Wasoln" "Daraji" "Uson" "Fedrok" "Yawin" "Hazal" "Laerbum" "Baeral"
+			"Gewar" "Baemal" "Jepaw" "Aenik" "Burann" "Rudrok" "Jaemann" "Julu" "Pubart" "Jarlan" "Obart" "Baessi" "Bumok" "Taekse"
+			"Modorth" "Jezika" "Lerlarp" "Gonise" "Ostirn" "Sajia" "Alern" "Yawane" "Vaernum" "Jorjio" "Dotall" "Buhee" "Lirtol" "Irjio"
+			"Haemarth" "Gomala" "Jorparp" "Wazom" "Sarstal" "Romin" "Zerbarf" "Lizz" "Linarp" "Beral" "Sistin" "Olon" "Horirn" "Elban"
+			"Derwarf" "Zelben" "Wegok" "Hewan" "Dedaw" "Nonorm" "Sural" "Valern" "Wiks" "Jath" "Kallo" "Esheel" "Inoste" "Todrok"
+			"Current One" "Current Two" "Current Three" "Observation One" "Observation Two" "Vector One" "Vector Two" "Survey Three" "Analysis Four"
+			"Rapid Inference" "Silent Calculus" "Thin Horizon" "Bright Enzyme" "Glass Current" "Wet Logic" "Quick Trial" "Open Secret"
+			"Spectral Wake" "Transit Memory" "Vigilant Thesis" "Ablative Proof" "Delta Spiral" "Signal Marsh" "Apex Estuary" "Shaded Delta"
 		}
 		
 		mining_station = { }
 		research_station = { }
 		observation_station = { }
-
 
 		military_station_small = {}
 		military_station_medium = {}
@@ -28,6 +30,7 @@ MEG_salarian = {
 	fleet_names = {
 		random_names = {
 			"First Fleet" "Second Fleet" "Third Fleet" "STG Fleet" "Sur'Kesh Defense Fleet" "Mannovai Fleet" "Special Tasks Group"
+			"Aegohr Survey Fleet" "Valern Task Force" "Kirrahe Recon Fleet" "Outer Marsh Patrol" "Rapid Response Flotilla"
 		}
 		sequential_name = "$ORD$ Salarian Fleet"
 	}
@@ -47,98 +50,130 @@ MEG_salarian = {
 		robotic_army = { sequential_name = "$ORD$ Hunter-Killer Group" }
 		
 		robotic_defense_army = { sequential_name = "$ORD$ Hunter-Protector Group" }
-		
-
-		
-		# psionic_army = { 
-		# 	random_names = {}
-		# 	sequential_name = "$ORD$ Biotic Commando Team"
-		# }
-		
-
 	}
 
 	planet_names = {
-
 		generic = {
 			names = {
 				"Sur'Kesh" "Mannovai" "Rannadril" "Gorot II" "Nasurn" "Aegohr" "Senoquol" "Halegeuse" "Jaeto" "Erinle" "Belan" "Dagnes" "Saiden" "Olor" "Vomien"
 			}
 		}
 		
-		pc_desert = { names = { } }
+		pc_desert = {
+			names = {
+				"Nasurn" "Dagnes" "Halegeuse" "Torvul" "Saeresh" "Jelann" "Morlis" "Urdalen"
+			}
+		}
 		
-		pc_arid = { names = { } }
+		pc_arid = {
+			names = {
+				"Aegohr" "Belan" "Saiden" "Jaeto" "Verash" "Gelorin" "Tassuro" "Wenass"
+			}
+		}
 		
-		pc_savannah = { names = { } }
+		pc_savannah = {
+			names = {
+				"Rannadril" "Olor" "Vomien" "Caset" "Linovar" "Jevanis" "Tirgol" "Suralon"
+			}
+		}
 				
-		pc_tropical = { names = { } }
+		pc_tropical = {
+			names = {
+				"Sur'Kesh" "Mannovai" "Erinle" "Senoquol" "Weylar" "Ithoran" "Valorum" "Neshara"
+			}
+		}
 		
-		pc_continental = { names = { } }
+		pc_continental = {
+			names = {
+				"Gorot II" "Aldrune" "Kirravel" "Meloran" "Taesul" "Renovar" "Ulvessa" "Paelor"
+			}
+		}
 		
-		pc_gaia = { names = { } }
+		pc_gaia = {
+			names = {
+				"New Sur'Kesh" "Aevora" "Keshan Prime" "Veshalon" "Salora" "Elyndra"
+			}
+		}
 		
-		pc_ocean = { names = { } }
+		pc_ocean = {
+			names = {
+				"Wethran" "Nolavir" "Mareth" "Uvelis" "Rilune" "Theris Delta" "Sualor" "Kasheen"
+			}
+		}
 		
-		pc_tundra = { names = { } }
+		pc_tundra = {
+			names = {
+				"Cold Jaeto" "Yorven" "Talen Drift" "Heskir" "Norweth" "Pale Sural"
+			}
+		}
 		
-		pc_arctic = { names = { } }
+		pc_arctic = {
+			names = {
+				"White Valern" "Kesh Frost" "Irvok" "Tirn Ice" "Sorveth" "Ulnor"
+			}
+		}
 		
-		pc_alpine = { names = { } }
+		pc_alpine = {
+			names = {
+				"High Erinle" "Zorath Rim" "Vaelis Peak" "Gorim Rise" "Keloran" "Westrin"
+			}
+		}
 
-		pc_nuked = { names = { } }
+		pc_nuked = {
+			names = {
+				"Burned Nasurn" "Glass Mannovai" "Dead Olor" "Black Sur'Kesh" "Ashen Rannadril"
+			}
+		}
 
-		pc_ai = { names = { } }
+		pc_ai = { names = { "Logic Habitat" "Inference Node" "Wetwork Array" "Salient Archive" } }
 		
-		pc_machine = { names = { } }
+		pc_machine = { names = { "Synthetic Delta" "Marsh Matrix" "Observer Lattice" "Kesh Process" } }
 	}
-
 
 	### CHARACTERS
 
 	character_names = {
-
 		names1 = {
 			weight = 100
 			first_names_male = {
-				Bel Mordin Chorban Ganto Ish Jaroth Jondum Kendo Maelon Marab Menos Morl Morlan 
-				Padok Schells Tazzik Telon Jetal Edorth Saemorth Fodan Owik Tirlan Jaerpan Morlan Chorban Jondum 
-				Mealon Ish Jaroth Mordin Schells Alud Solik Padok Tazzik Beelo Bel  Lonar Kendo Ganto Menos 
-				Morl Sekat Marab Telon Jiahe Haruta Jundub Sayn Fargut Chesith Jeirt Sellea Solik Sel Ijib Yalson 
-				Renko Narid Hamis Sahyar Urjon Siress Kannik Ammar Jelith Ahz Daroth Shelum
-				Mileb Saseoss Strinen Tezzen Gaerrot
+				"Bel" "Mordin" "Chorban" "Ganto" "Ish" "Jaroth" "Jondum" "Kendo" "Maelon" "Marab" "Menos" "Morl" "Morlan"
+				"Padok" "Schells" "Tazzik" "Telon" "Jetal" "Edorth" "Saemorth" "Fodan" "Owik" "Tirlan" "Jaerpan" "Alud" "Solik"
+				"Beelo" "Lonar" "Jiahe" "Haruta" "Jundub" "Sayn" "Fargut" "Chesith" "Jeirt" "Sellea" "Sel" "Ijib" "Yalson"
+				"Renko" "Narid" "Hamis" "Sahyar" "Urjon" "Siress" "Kannik" "Ammar" "Jelith" "Ahz" "Daroth" "Shelum"
+				"Mileb" "Saseoss" "Strinen" "Tezzen" "Gaerrot" "Valern" "Kallo" "Wiks" "Esheel" "Todrok" "Chaerson" "Gurji"
+				"Rellan" "Sanak" "Vass" "Inoste" "Jath" "Helor" "Tirvass" "Rasil" "Kelarn" "Voren" "Talor" "Weyr"
 			}
 			first_names_female = {
-				Lystheni Sekat Jitin Morstin Caenant Anirn Aetip Yotirn Cidol Dermar Daerart
-				Palon Bau Ledra Maerun Arlon Jenzin Vaykom Thein Varsinth Milon Stranaka Narra 
-				Husaru Sio Kirosa Silon Tar Sao Turwin Jarwinar Kerad Edcronus Taltz Solem Saradril Dragel Sylar Kieron
-				Vamnesa Meloth Janeon Laeven Molos Alil
+				"Lystheni" "Sekat" "Jitin" "Morstin" "Caenant" "Anirn" "Aetip" "Yotirn" "Cidol" "Dermar" "Daerart"
+				"Palon" "Bau" "Ledra" "Maerun" "Arlon" "Jenzin" "Vaykom" "Thein" "Varsinth" "Milon" "Stranaka" "Narra"
+				"Husaru" "Sio" "Kirosa" "Silon" "Tar" "Sao" "Turwin" "Jarwinar" "Kerad" "Edcronus" "Taltz" "Solem" "Saradril" "Dragel" "Sylar" "Kieron"
+				"Vamnesa" "Meloth" "Janeon" "Laeven" "Molos" "Alil" "Weyra" "Saleth" "Renassa" "Thelia" "Vesrin" "Taelor"
+				"Jorassa" "Mireth" "Sarell" "Nolira" "Kelith" "Darvess" "Tirena" "Vorani" "Lureth" "Mareth"
 			}
 			second_names = {
-				Anoleis Kirrahe Vorleon Rentola Linron Saleon Imness Bau Holin Tolan Heplorn Avot 
-				Solus Hanok Uwan Dalu Chalben Dezen Girlan Gaezik Olorn Oponi Eluso Tozeni Aerajii Ehei
-				Esheel Valern Tolan Wiks Vass Ochren Bau Gurji Inoste Sanak Rellan Chaerson Todrok Chinak Toson
- 			}
+				"Anoleis" "Kirrahe" "Vorleon" "Rentola" "Linron" "Saleon" "Imness" "Bau" "Holin" "Tolan" "Heplorn" "Avot"
+				"Solus" "Hanok" "Uwan" "Dalu" "Chalben" "Dezen" "Girlan" "Gaezik" "Olorn" "Oponi" "Eluso" "Tozeni" "Aerajii" "Ehei"
+				"Esheel" "Valern" "Wiks" "Vass" "Ochren" "Gurji" "Inoste" "Sanak" "Rellan" "Chaerson" "Todrok" "Chinak" "Toson"
+				"Jath" "Nemor" "Kelarn" "Voren" "Sural" "Paelor" "Tirvass" "Weyr" "Darven" "Kasheen" "Meloran" "Nolavir"
+			}
 			regnal_first_names_male = {
-				Bel Mordin Chorban Ganto Ish Jaroth Jondum Kendo Maelon Marab Menos Morl Morlan 
-				Padok Schells Tazzik Telon Jetal Edorth Saemorth Fodan Owik Tirlan Jaerpan Morlan Chorban Jondum 
-				Mealon Ish Jaroth Mordin Schells Alud Solik Padok Tazzik Beelo Bel  Lonar Kendo Ganto Menos 
-				Morl Sekat Marab Telon Jiahe Haruta Jundub Sayn Fargut Chesith Jeirt Sellea Solik Sel Ijib Yalson 
-				Renko Narid Hamis Sahyar Urjon Siress Kannik Ammar Jelith Ahz Daroth Shelum
-				
+				"Bel" "Mordin" "Chorban" "Ganto" "Ish" "Jaroth" "Jondum" "Kendo" "Maelon" "Marab" "Menos" "Morl" "Morlan"
+				"Padok" "Schells" "Tazzik" "Telon" "Jetal" "Edorth" "Saemorth" "Fodan" "Owik" "Tirlan" "Jaerpan" "Alud" "Solik"
+				"Beelo" "Lonar" "Jiahe" "Haruta" "Jundub" "Sayn" "Fargut" "Chesith" "Jeirt" "Sellea" "Sel" "Ijib" "Yalson"
+				"Renko" "Narid" "Hamis" "Sahyar" "Urjon" "Siress" "Kannik" "Ammar" "Jelith" "Ahz" "Daroth" "Shelum" "Valern" "Kallo" "Wiks"
 			}
 			regnal_first_names_female = {
-				Lystheni Sekat Jitin Morstin Caenant Anirn Aetip Yotirn Cidol Dermar Daerart
-				Palon Bau Ledra Maerun Arlon Jenzin Vaykom Thein Varsinth Milon Stranaka Narra 
-				Husaru Sio Kirosa Silon Tar Sao Turwin Jarwinar Kerad Edcronus Taltz Solem Saradril Dragel Sylar Kieron
-				
+				"Lystheni" "Sekat" "Jitin" "Morstin" "Caenant" "Anirn" "Aetip" "Yotirn" "Cidol" "Dermar" "Daerart"
+				"Palon" "Bau" "Ledra" "Maerun" "Arlon" "Jenzin" "Vaykom" "Thein" "Varsinth" "Milon" "Stranaka" "Narra"
+				"Husaru" "Sio" "Kirosa" "Silon" "Tar" "Sao" "Turwin" "Jarwinar" "Kerad" "Edcronus" "Taltz" "Solem" "Saradril" "Dragel" "Sylar" "Kieron"
+				"Vamnesa" "Meloth" "Janeon" "Laeven" "Molos" "Alil" "Weyra" "Saleth" "Renassa" "Thelia" "Vesrin"
 			}
 			regnal_second_names = {
-				Anoleis Kirrahe Vorleon Rentola Linron Saleon Imness Bau Holin Tolan Heplorn Avot 
-				Solus Hanok Uwan Dalu Chalben Dezen Girlan Gaezik Olorn Oponi Eluso Tozeni Aerajii Ehei
-				Esheel Valern Tolan Wiks Vass Ochren Bau Gurji Inoste Sanak Rellan Chaerson Todrok Chinak Toson
+				"Anoleis" "Kirrahe" "Vorleon" "Rentola" "Linron" "Saleon" "Imness" "Bau" "Holin" "Tolan" "Heplorn" "Avot"
+				"Solus" "Hanok" "Uwan" "Dalu" "Chalben" "Dezen" "Girlan" "Gaezik" "Olorn" "Oponi" "Eluso" "Tozeni" "Aerajii" "Ehei"
+				"Esheel" "Valern" "Wiks" "Vass" "Ochren" "Gurji" "Inoste" "Sanak" "Rellan" "Chaerson" "Todrok" "Chinak" "Toson"
+				"Jath" "Nemor" "Kelarn" "Voren" "Sural" "Paelor" "Tirvass" "Weyr" "Darven" "Kasheen" "Meloran" "Nolavir"
 			}
 		}
-
 	}
 }

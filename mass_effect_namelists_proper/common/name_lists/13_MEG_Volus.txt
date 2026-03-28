@@ -1,190 +1,175 @@
-
 MEG_volus = {
 	randomized = no
 
 	ship_names = {
-	
-	generic = {
-		"Abenbruck" "Adarat" "Aidus" "Albewis" "Andhald" "Andus" "Ardanard" "Ardildif" "Ardus" "Arnard" "Balta" "Bereudorf" "Berta" "Blahnefeld" "Bodo" "Bramaistadt" 
-		"Brauneuwald" "Breckalthofen" "Budefels" "Burga" "Burhelde" "Denedorf" "Deneruck" "Dereuhofen" "Dietzierruck" "Disuinda" "Ecis" "Egerdis" "Eichtenstadt" "Elemmard" 
-		"Emudef" "Endadan" "Ennindswald" "Eppenberg" "Esenbach" "Etebed" "Etrundis" "Fildefeld" "Fretzo" "Frictra" "Frodgundra" "Gardise" "Gasta" "Gautbo" "Geiseheim" "Geneheim" 
-		"Geri" "Gerla" "Germaiheim" "Gesebach" "Gisamia" "Giso" "Gisuide" "Gleneheim" "Godo" "Gori" "Goro" "Gotzsto" "Gunda" "Gundebach" "Haimo" "Hanseruck" "Hari" "Heidefels" 
-		"Heleyfels" "Henedorf" "Henefels" "Heneheim" "Henehofen" "Heneufels" "Hennestein" "Heri" "Hermsebruck" "Herzenstadt" "Hilda" "Hildisa" "Hilleystein" "Hilta" "Hochestein" 
-		"Hopfenstadt" "Hornefels" "Hornestein" "Hutterbach" "Ingendorf" "Kenestadt" "Kircheberg" "Krankersruck" "Kulmaiheim" "Lenedorf" "Lenefels" "Lenestadt" "Letterfeld" 
-		"Lowaheim" "Mannebach" "Mannefeld" "Maro" "Medestadt" "Meineruck" "Meisehofen" "Merkenruck" "Mersedorf" "Muhlefels" "Muhleruck" "Muhlestadt" "Munchefels" "Munchestadt" 
-		"Munchestein" "Munzelldorf" "Nazo" "Ondenstadt" "Orgalben" "Ostenheim" "Othindis" "Peledorf" "Peneberg" "Peneruck" "Penewald" "Pfereuheim" "Pirsestadt" "Pottenbruck" "Rada" 
-		"Radedorf" "Rankuppdorf" "Raomio" "Rausedorf" "Redo" "Ribo" "Rocina" "Romaihofen" "Ronefeld" "Schatzenfels" "Schenneuheim" "Schligudstadt" "Schlusseberg" "Senebach" "Senedorf" 
-		"Senefeld" "Seneuheim" "Siga" "Spenestadt" "Ullenstadt" "Unsterstein" "Usserruck" "Vinuuara" "Walleybach" "Wando" "Weidho" "Weinefeld" "Weinefels" "Weissefeld" "Weitenheim" 
-		"Weiterwald" "Werterhofen" "Wino" "Wocco" "Wurzierfels" 
+		generic = {
+			"Barla Von" "Din Korlack" "Pitne For" "Niftu Cal" "Jahleed" "Cherk Sab" "Jak Ser" "Zada Ban"
+			"Bovis Tor" "Doz Atab" "Vem Osca" "Welm Urun" "Irune Exchange" "Vol Protector" "Mercantile Pride" "Credit's Due"
+			"Profit Margin" "First Ledger" "Second Ledger" "Third Ledger" "Golden Balance" "Open Contract" "Silent Dividend" "Pressure Bond"
+			"Clan Equity" "Broker's Fortune" "Trust Reserve" "Counterparty" "Trade Wind" "Held Asset" "Deep Vault" "Risk Horizon"
+			"Weight of Coin" "Surety" "Prime Collateral" "Lender's Grace" "Sealed Warrant" "Silver Writ" "Port of Means" "Tariff Sun"
+			"Vault Echo" "Measured Gain" "Balanced Account" "Excess Return" "Premium Line" "Witness of Irune" "Golden One" "Sky Warden"
+			"Weeping Witness" "Ammonia Dawn" "High Pressure" "Remote Factor" "Embassy Lane" "Cartel Voice" "Treasury Seal" "Clan Dividend"
+			"Vol Prime" "Oma Ker" "Maskawa" "Patavig" "Shallos" "Aventen" "Kerek" "Veles" "Binthu" "Daleon"
+			"Broker One" "Broker Two" "Broker Three" "Caravan Four" "Ledger Five" "Factor Six" "Reserve Seven" "Trust Eight"
+			"Quiet Margin" "Creditor's Hand" "Debtor's Mercy" "Temple of Profit" "Fortune's Breath" "Measured Venture" "Ample Return" "Irune Ascendant"
 		}
 		
 		mining_station = { }
 		research_station = { }
 		observation_station = { }
 
-
 		military_station_small = {}
 		military_station_medium = {}
 		military_station_large = {}
 	}
 	
-
 	fleet_names = {
-			random_names = {
-				"Trade Defense Fleet" "Irune Fleet" "Vol Protectorate Fleet" "Banking Clan Fleet" "Merchant Fleet" "Economic Zone Fleet"
-				}
-			sequential_name = "$ORD$ Vol Fleet"
+		random_names = {
+			"Trade Defense Fleet" "Irune Fleet" "Vol Protectorate Fleet" "Banking Clan Fleet" "Merchant Fleet" "Economic Zone Fleet"
+			"Exchange Security Flotilla" "Aethon Trade Fleet" "Ledger Guard" "Cherk Sab Convoy" "Vol-clan Reserve Fleet"
 		}
+		sequential_name = "$ORD$ Vol Fleet"
+	}
 
 	army_names = {
 		defense_army = {
-			random_names = {
-				}
+			random_names = {}
 			sequential_name = "$ORD$ Planetary Corps"
 		}
 
 		assault_army = {
-			random_names = {
-				}
+			random_names = {}
 			sequential_name = "$ORD$ Central Corps"
 		}
 
 		slave_army = {
-			random_names = {
-				}
+			random_names = {}
 			sequential_name = "$ORD$ Mercenary Corps"
 		}
 
 		clone_army = {
-			random_names = {
-				}
+			random_names = {}
 			sequential_name = "$ORD$ Clone Corps"
 		}
 
 		robotic_army = {
-			random_names = {
-				}
+			random_names = {}
 			sequential_name = "$ORD$ Drone Corps"
 		}
-
-
-
-		# psionic_army = {
-		# 	random_names = {
-		# 		}
-		# 	sequential_name = "$ORD$ Biotic Corps"
-		# }
-
-
-
 	}	
 
 	planet_names = {
 		generic = {
 			names = {
 				"Irune" "Oma Ker" "Zada Ban" "Binthu" "Maskawa" "Daleon" "Patavig" "Shallos" "Vol Prime" "Kerek" "Veles" "Aventen" "Credits Rest"
+				"Cherk Sab" "Jak Ser" "Bovis Tor" "Doz Atab" "Vem Osca" "Welm Urun"
 			}
 		}
 
 		pc_desert = {
 			names = {
+				"Zada Ban" "Daleon" "Patavig" "Kerek" "Ruk Tor" "Varn Oss" "Chel Mar" "Tov Kesh"
 			}
 		}
 
 		pc_arid = {
 			names = {
-				
+				"Irune" "Maskawa" "Shallos" "Vol Prime" "Aventen" "Bovis Tor" "Ulen Varr" "Ked Orun"
 			}
 		}
 
 		pc_tropical = {
-			names = { 
+			names = {
+				"Oma Ker" "Welm Urun" "Lush Credit" "Gold Current" "Bentha Vol" "Nara Kel"
 			}
 		}
 
 		pc_continental = {
-			names = { 
+			names = {
+				"Binthu" "Veles" "Credits Rest" "Jak Ser" "Orman Kell" "Velor Din" "Sar Tov"
 			}
 		}
 
 		pc_ocean = {
 			names = {
-				
+				"Doz Atab" "Vem Osca" "Shining Sea" "Witness Bay" "Tor Veyn" "Ammon Tide"
 			}
 		}
 
 		pc_tundra = {
 			names = {
+				"Pale Irune" "Cold Ledger" "Karn Vol" "Thin Pressure" "Boreal Sab"
 			}
 		}
 
 		pc_arctic = {
 			names = {
-				
+				"White Ban" "Frozen Kerek" "Ice Dividend" "Torr Vale" "Jek Urun"
 			}
 		}
 
 		pc_gaia = {
 			names = {
-				
+				"Fortune's Rest" "Golden Irune" "High Treasury" "Blessed Sab" "Perfect Exchange"
 			}
 		}
 
 		pc_nuked = {
 			names = {
-				
+				"Ruined Ledger" "Ash Ban" "Burned Kerek" "Shattered Exchange" "Dead Margin"
 			}
 		}
 
 		pc_ai = {
 			names = {
-				
+				"Exchange Node" "Ledger Core" "Tariff Array" "Market Logic"
 			}
 		}
-
 	}
 
 	character_names = {
-
 		names1 = {
 			weight = 100
-		full_names = {
-		
-		}
+			full_names = { }
 
-		first_names = {
-		
-		}
+			first_names = { }
 
-		first_names_male = {
-			Ahrnell Alask Anoon Artruk Bib Bik Boc Bolook Bril Byt Cash Cazne Cel Cesi Chabak Cham Chee Chom Connus Cotan Darap Deesra Dez Dinek Doton Elav Fassa Femi Firith Gim Glie Griff Gobi Guldus Guun Hab Haly Harra Hid Ilar Inun Jan Jart Jekk Jela Jer Jinx Jor Jundo Kailur Kaim Kandon Karal Karawn Kaul Khwir Kidd Kiph Komad Leb Lon Lonay Lupo Lur Mannes Matrik Mazer Nabat Namen Nat Nawara Nerra Newar Nico Nilim Nuro Ob Olm Onok Orn Pol Poronth Pratari Quink Ree Remmik Ress Ro Rol Saresh Saylew Sedriss Shul Silais Siolo Skawn Tae Tal Tanith Tardon Tazonthe Tol Tott Tre Tymo Urgrec Valsil Van Vhilin Viyo Vort Vuren Warat Yuleph Yuned Zelada Zhar
-		}
-
-		first_names_female = {
-			Aayla Alema Alora Anglu Ann Aola Ardana Arruna Astraal Berri Bink Borna Daesha Dia Drua Eleena Feen Finn Ghia Gida Giza Haly Hirani Isval Janice Jiljoo Jor Juda Hadiya Hera Kayi Kolovish Koyi Laranth Larrim Laseema Lena Leontyne Lubo Lunae Lyn Mala Malare Marny Mazie Memah Mission Nabrina Nalan Nima Nolaa Numa Oola Padda Palakwi Poy Ranna Rachi Ramana Rianna Rypka Saya Seddwia Seela Seku Shaeeah Shakka Shiri Sienn Sinya Suu Sumari Talik Tann Teeubo Trella Tronda Vant Vokara Xiaan Xiann Yadira Yuthura Zoriis
-		}
-
-		second_names = {
-			Afa Amersu Ani Ark Aseca Bafka Ban Bem Blankuna Blen Bondara Bondura Boon Bril Chanzor Che Cholakk Chura Cinn Daru Distombe Doneta Doole Drakas Dura Eirriss Ertay Eyan Fenn Fortuna Forrth Freetaa Freykaa Garrulan Gella Ghon Glie Golor Han Het Idrall Jab Jada Kaar Kairn Kareen Kluub Kobbeth Komad Kru Ksi Kulavinar Lawquane Lestin Lor Luroon Lys Martik Mateil Me Minx Mobok Nall Nilim Norman Olan Olgkru Passik Phan Preyssola Rackus Racor Raloch Rar Rha Roothes Sana Saren Secura Sekia Senvi Shala Shar Sinya Sitra Sivron Smoo Sorzo Sulas Surool Syndulla Taa "Tao'Ven" Tar Tarak Tarkona Teksa Thorla Tiatkin Toqema Torr Tualin Utrila Vaal Valla Vao Ven Vida Vrei Waran Ziveri	
-		}
-
-		regnal_first_names = {
+			first_names_male = {
+				"Barla" "Din" "Pitne" "Niftu" "Jahleed" "Gaffno" "Vor" "Korl" "Tarn" "Velk" "Narum" "Jorim" "Pelk" "Dovan"
+				"Reth" "Marn" "Tovik" "Kesh" "Bren" "Hask" "Voren" "Talv" "Korun" "Pell" "Neran" "Gorv" "Selk" "Doran"
+				"Kelm" "Varn" "Torv" "Jek" "Marv" "Perek" "Voln" "Rukal" "Telsh" "Bovik" "Forn" "Lenk"
 			}
 
-		regnal_first_names_male = {
-			Ahrnell Alask Anoon Artruk Bib Bik Boc Bolook Bril Byt Cash Cazne Cel Cesi Chabak Cham Chee Chom Connus Cotan Darap Deesra Dez Dinek Doton Elav Fassa Femi Firith Gim Glie Griff Gobi Guldus Guun Hab Haly Harra Hid Ilar Inun Jan Jart Jekk Jela Jer Jinx Jor Jundo Kailur Kaim Kandon Karal Karawn Kaul Khwir Kidd Kiph Komad Leb Lon Lonay Lupo Lur Mannes Matrik Mazer Nabat Namen Nat Nawara Nerra Newar Nico Nilim Nuro Ob Olm Onok Orn Pol Poronth Pratari Quink Ree Remmik Ress Ro Rol Saresh Saylew Sedriss Shul Silais Siolo Skawn Tae Tal Tanith Tardon Tazonthe Tol Tott Tre Tymo Urgrec Valsil Van Vhilin Viyo Vort Vuren Warat Yuleph Yuned Zelada Zhar 
-		}
+			first_names_female = {
+				"Vela" "Nara" "Sera" "Tova" "Brena" "Dira" "Mela" "Kira" "Pela" "Jana" "Lora" "Vassa" "Rena" "Talia"
+				"Shira" "Nessa" "Velis" "Korra" "Dema" "Presa" "Mira" "Tirra" "Yessa" "Kelda" "Nivra" "Sola" "Tesha" "Bari"
+				"Lenna" "Vora" "Sarna" "Trema" "Pavra" "Nela" "Ressa" "Dovra" "Morna" "Kelda" "Bessa" "Tarra"
+			}
 
-		regnal_first_names_female = {
-			Aayla Alema Alora Anglu Ann Aola Ardana Arruna Astraal Berri Bink Borna Daesha Dia Drua Eleena Feen Finn Ghia Gida Giza Haly Hirani Isval Janice Jiljoo Jor Juda Hadiya Hera Kayi Kolovish Koyi Laranth Larrim Laseema Lena Leontyne Lubo Lunae Lyn Mala Malare Marny Mazie Memah Mission Nabrina Nalan Nima Nolaa Numa Oola Padda Palakwi Poy Ranna Rachi Ramana Rianna Rypka Saya Seddwia Seela Seku Shaeeah Shakka Shiri Sienn Sinya Suu Sumari Talik Tann Teeubo Trella Tronda Vant Vokara Xiaan Xiann Yadira Yuthura Zoriis
-		}
+			second_names = {
+				"Von" "Korlack" "For" "Cal" "Yap" "Sab" "Ban" "Ser" "Tor" "Urun" "Osca" "Atab" "Kerek" "Veles" "Maskawa"
+				"Patavig" "Shallos" "Aventen" "Binthu" "Daleon" "Vol" "Ker" "Tov" "Kesh" "Mar" "Varr" "Orun" "Vel" "Din"
+				"Reth" "Pell" "Narum" "Bren" "Korun" "Selk" "Joran" "Farn" "Lekk" "Dovan" "Tarn" "Veyn" "Kell" "Ruk"
+			}
 
-		regnal_second_names = {
-			Afa Amersu Ani Ark Aseca Bafka Ban Bem Blankuna Blen Bondara Bondura Boon Bril Chanzor Che Cholakk Chura Cinn Daru Distombe Doneta Doole Drakas Dura Eirriss Ertay Eyan Fenn Fortuna Forrth Freetaa Freykaa Garrulan Gella Ghon Glie Golor Han Het Idrall Jab Jada Kaar Kairn Kareen Kluub Kobbeth Komad Kru Ksi Kulavinar Lawquane Lestin Lor Luroon Lys Martik Mateil Me Minx Mobok Nall Nilim Norman Olan Olgkru Passik Phan Preyssola Rackus Racor Raloch Rar Rha Roothes Sana Saren Secura Sekia Senvi Shala Shar Sinya Sitra Sivron Smoo Sorzo Sulas Surool Syndulla Taa Tao'Ven Tar Tarak Tarkona Teksa Thorla Tiatkin Toqema Torr Tualin Utrila Vaal Valla Vao Ven Vida Vrei Waran Ziveri
-		}
+			regnal_first_names = { }
 
-		}
+			regnal_first_names_male = {
+				"Barla" "Din" "Pitne" "Niftu" "Jahleed" "Gaffno" "Vor" "Korl" "Tarn" "Velk" "Narum" "Jorim" "Pelk" "Dovan"
+				"Reth" "Marn" "Tovik" "Kesh" "Bren" "Hask" "Voren" "Talv" "Korun" "Pell" "Neran" "Gorv" "Selk" "Doran"
+			}
 
-		
+			regnal_first_names_female = {
+				"Vela" "Nara" "Sera" "Tova" "Brena" "Dira" "Mela" "Kira" "Pela" "Jana" "Lora" "Vassa" "Rena" "Talia"
+				"Shira" "Nessa" "Velis" "Korra" "Dema" "Presa" "Mira" "Tirra" "Yessa" "Kelda" "Nivra" "Sola" "Tesha" "Bari"
+			}
+
+			regnal_second_names = {
+				"Von" "Korlack" "For" "Cal" "Yap" "Sab" "Ban" "Ser" "Tor" "Urun" "Osca" "Atab" "Kerek" "Veles" "Maskawa"
+				"Patavig" "Shallos" "Aventen" "Binthu" "Daleon" "Vol" "Ker" "Tov" "Kesh" "Mar" "Varr" "Orun" "Vel" "Din"
+				"Reth" "Pell" "Narum" "Bren" "Korun" "Selk" "Joran" "Farn" "Lekk" "Dovan" "Tarn" "Veyn" "Kell" "Ruk"
+			}
+		}
 	}
 }
