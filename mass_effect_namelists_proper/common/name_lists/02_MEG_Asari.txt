@@ -1,0 +1,387 @@
+﻿### Asari Names
+### Asari
+MEG_asari = {
+	ship_names = {
+		corvette = {
+			"Oseros" "Malvaes" "Lipera" "Satanna" "Eleclae" "Sebane" "Atane" "Leapnai"
+			"Secana" "Alankla" "Kafinnea" "Driria" "Celeste" "Palatinate" "Wisteria" "Ceana"
+			"Kiels" "Zenyrly" "Linarne" "Falassa" "Phoucivi" "Nirestthia" "Ameka" "Usovaka"
+			"Jeniraya" "Sasosus" "Salezisa" "Benumna" "Nasezimea" "Viixnia" "Genedraga" "Diekasha"
+			"Miyadri" "Ithyra" "Serevyn" "Talyss" "Velmora" "Ariessa" "Celyra" "Nythene"
+			"Saelira" "Vashira" "Pheris" "Illyra" "Rhenara" "Vaelira" "Nythera" "Tessara"
+			"Selyne" "Pherana" "Iriessa" "Lysaria" "Calyra" "Avenyss" "Thalara" "Rhyssia"
+			"Velessa" "Teyrane" "Noreth" "Aestira" "Mirellya" "Virelna" "Saeveth" "Ilyssra"
+			"Talyne" "Pelastra" "Rhenyra" "Arietha" "Cyralyn" "Vaelthia" "Nyris" "Shalena"
+			"Kelora" "Tiryss" "Aleris" "Voryssa" "Saelene" "Lethyra" "Myravyn" "Tessyra"
+			"Niselle" "Aeshara" "Veloria" "Pheryss" "Celesyra" "Ithessa" "Ravelya" "Teylassa"
+			"Norelya" "Vashene" "Selyth" "Cyrissa" "Ysaria" "Ariane" "Nyssara" "Valethra"
+			"Lunyra" "Elyndra" "Tirassa" "Mirethys" "Saeloria" "Averith" "Kelyra" "Rhenessa"
+			"Thesyra" "Pelaris" "Iriathra" "Sarenya" "Vireth" "Ysasara" "Lyranira" "Maelena"
+			"Saelasena" "Raetera" "Aritera" "Zaeyra" "Ulanira" "Viravara" "Miravara" "Irinara"
+			"Nysanora" "Lirayra" "Kyrarena" "Saelamira" "Iritara" "Delarena" "Ulashira" "Delavara"
+			"Velasela" "Myrashira" "Tyranara" "Kyratara" "Velatera" "Tyravara" "Celezara" "Pherazara"
+			"Teyarena" "Nysalira" "Miramira" "Nysarena" "Mirayra" "Aevara" "Raezara" "Velanira"
+			"Theralyra" "Shaerena" "Gelarissa" "Maesara" "Rheninara" "Myralyra" "Raevessa" "Raelira"
+			"Cyrazara" "Eririssa" "Kelavara" "Selayra" "Celevessa" "Theralena" "Gelavara" "Irirena"
+			"Theratera" "Naesena" "Ilitara" "Ilisara" "Kelazara" "Laerissa" "Gelasena" "Selanara"
+			"Delanara" "Irithira" "Esalena" "Naethira" "Selavara" "Ysanora" "Maenora" "Maenara"
+			"Irisena" "Maerena" "Miralira" "Laelira" "Erinara" "Laelena" "Erilira" "Shaezara"
+			"Pelalena" "Kyravessa" "Saelalira" "Esatara" "Delasela" "Ashashira" "Cyranara" "Lirasara"
+			"Zaerena" "Lyratera" "Telazara" "Ililira" "Celeyra" "Viralena" "Esamira" "Pelathira"
+			"Rhenisela" "Pheralyra" "Calalena" "Esavara" "Lyrathira" "Nysasena" "Raelyra" "Daeshira"
+			"Cyrarissa" "Rhenitera" "Virayra" "Kelatera" "Ilirena" "Liratara" "Teyashira" "Celelyra"
+			"Shaelyra" "Nysavessa" "Mirarena" "Rhenithira" "Ashasara" "Delatara" "Myravessa" "Raevara"
+			"Teyanira" "Calathira" "Vaelasara" "Celeshira" "Kyrasena" "Aezara" "Delazara" "Ililyra"
+			"Shaeyra" "Cyravessa" "Esashira" "Kelasara" "Teyayra" "Daelena" "Raerissa" "Liramira"
+			"Naenira" "Gelalira" "Miranora" "Delathira" "Aetara" "Teyatara" "Erizara" "Teyanara"
+			"Irisara" "Rhenivara" "Pheranira" "Theravara" "Kyralyra" "Gelalyra" "Shaeshira" "Liralena"
+			"Tyranora" "Lyrarena" "Ulatara" "Pheravara" "Saelazara" "Celesara" "Viranira" "Vaelanira"
+			"Gelamira" "Delasara" "Pherasela" "Gelathira" "Viravessa" "Telanora" "Laesela" "Zaelyra"
+			"Maezara" "Cyratera" "Pheralena" "Gelanora" "Zaenora" "Lirasena" "Laetara" "Theranora"
+			"Gelalena" "Kyrashira" "Lyratara" "Telasara" "Tyrazara" "Tyrayra" "Erisena" "Esasena"
+			"Erisela"
+		}
+		frigate = {
+			"Lynira" "Matoyma" "Naucihin" "Ledayma" "Azedes" "Elbrus" "Monarch" "Tenurron"
+			"Janute" "Gena" "Makeari" "Glaenthphea" "Calatellae" "Varren" "Coniava" "Alissna"
+			"Atrueri" "Nyxiir" "Viissnea" "Morrihin" "Muari" "Salezi" "Ditriari" "Noreenley"
+			"Makemi" "Hellikse" "Sais" "Sashirah" "Keska" "Kynus" "Jeyx" "Myrerthia"
+			"Emakirae" "Myraix" "Samme" "Caliara" "Nugaes" "M'Kyaci" "Geluno" "T'Raos"
+			"Kashana" "Zenrada" "D'Rotora" "Mido" "Tevessly" "Ri'Phiphea" "T'Sosava" "Luakiis"
+			"Thanis" "Isucnea" "Ditrifi" "Vethase" "Erthyny" "Vitire" "Treezu" "Maijin"
+			"Diavah" "Calena" "Imelslea" "Liburo" "Levo" "M'Cryze" "Aekaux" "Priovahin"
+			"Sedeburo" "Kaenthus" "Mereli" "Averi" "Diezira" "Myrali" "V'Tilas" "Luollnea"
+			"Elucthea" "Lere" "Isunda" "Shaucsa" "Giosne" "Zeess" "Prieseta" "Ateza"
+			"Myrizsy" "Iallise" "Imiztea" "Tirequa" "Aleria" "Nythara" "Velisra" "Teysira"
+			"Iriath" "Lyssara" "Mirethea" "Sevanya" "Tyrisse" "Valephia" "Norethia" "Elysane"
+			"Thaesira" "Kelarys" "Rinetha" "Silevra" "Aeshira" "Vorynna" "Lunessia" "Talyra"
+			"Laeloria" "Lirasela" "Selathene" "Calavara" "Naevela" "Rhenisyra" "Delarethra" "Myranetha"
+			"Velalatha" "Telarinna" "Telazeris" "Kelanavis" "Delalaria" "Gelasyra" "Tyrarinna" "Irisela"
+			"Liralythe" "Aridessa" "Viratalia" "Kyrasela" "Delavessa" "Lyranoria" "Delaloria" "Kyranetha"
+			"Gelalythe" "Kyravena" "Selalythe" "Lyravena" "Shaetena" "Nysarethra" "Myralatha" "Shaerinna"
+			"Laetalia" "Iritalia" "Kelatesha" "Arisela" "Telaressa" "Kyraphira" "Lyraressa" "Velazeris"
+			"Celelythe" "Gelaloria" "Mirasela" "Viraressa" "Teyaressa" "Ularinna" "Saelasyra" "Kyralaria"
+			"Calaressa" "Ulavena" "Celetesha" "Lyratena" "Kelavena" "Ysaloria" "Ilisyra" "Lyrazeris"
+			"Maevara" "Liraloria" "Velavela" "Esavessa" "Pelanoria" "Vaelalaria" "Rhenivena" "Aenetha"
+			"Mirazeris" "Pelalaria" "Esalythe" "Tyravena" "Arizeris" "Irizeris" "Iritesha" "Ysalythe"
+			"Esamaris" "Daerethra" "Gelavessa" "Viralatha" "Pheradessa" "Erivessa" "Shaerethra" "Vaelavara"
+			"Vaelarethra" "Arinetha" "Laethene" "Selazeris" "Aritena" "Laetesha" "Ashatalia" "Ysamelia"
+			"Aerinna" "Pheravena" "Myraressa" "Aritesha" "Miraloria" "Therathene" "Tyraressa" "Teyasela"
+			"Nysamaris" "Ysanavis" "Erimelia" "Vaelamelia" "Maesela" "Ulaphira" "Maephira" "Shaevessa"
+			"Ilirinna" "Pheranoria" "Naemaris" "Myrarinna" "Ashanavis" "Saelamaris" "Nysaloria" "Liralaria"
+			"Shaeloria" "Esathene" "Daeressa" "Celemelia" "Velathene" "Shaemaris" "Selatesha" "Velanetha"
+			"Kelatena" "Lyravela" "Ashatesha" "Teyavara" "Lyranetha" "Nysadessa" "Ilidessa" "Delamelia"
+			"Miranetha" "Naenavis" "Kelamelia" "Raelatha" "Maesyra" "Teyarinna" "Arivara" "Veladessa"
+			"Pelarethra" "Telatesha" "Saelalythe" "Tyrarethra" "Saelavena" "Teyatesha" "Vaelasyra" "Delanavis"
+			"Lyrasela" "Celesela" "Ulatena" "Maelaria" "Esalatha" "Miraphira" "Arivela" "Telalaria"
+			"Pelazeris" "Pheraphira" "Cyrathene" "Teyathene" "Pherathene" "Nysalatha" "Esatena" "Liramaris"
+			"Esavena" "Erizeris" "Daevena" "Ilitesha" "Pheratalia" "Cyrazeris" "Teyavela" "Kelarethra"
+			"Telasela" "Delalythe" "Vaelatena" "Lyralatha" "Peladessa" "Zaesyra" "Saelarinna" "Miramaris"
+		}
+		destroyer = {
+			"Nofreya" "Zenyr" "Aieste" "Moeennea" "Cheelo" "Jaedraa" "Iessaara" "Vonor"
+			"Selao" "Amizra" "Kyus" "Raeltia" "Carev" "Miryxany" "Saseezley" "Dainaphia"
+			"Vak'tyr" "Caranna" "Feelpanar" "Sadaganna" "Clairmananda" "Boalasma" "Somarnille" "Lipassima"
+			"Naclaslite" "Desperilla" "Ellimea" "Lainthia" "Moelnea" "Cheinais" "Riunha" "Testhyya"
+			"Ishyxe" "Ji'shaze" "Nas'yata" "Kas'ko" "Nor'mona" "Asixne" "Nososte" "Luosphea"
+			"Kysan" "Niavasa" "Valeesse" "Josanya" "Janinus" "Samels" "Makeran" "Teshyra"
+			"Valsheni" "Ilyrana" "Saevira" "Thalessa" "Niralea" "Vanyra" "Pelestra" "Arianthe"
+			"Lyravyn" "Kelissra" "Tashenia" "Myraleth" "Vezaria" "Shyrelis" "Valestra" "Nytheris"
+			"Saelvane" "Cyranthe" "Averane" "Telyssia" "Rhenyss" "Pheranyn" "Iriathen" "Lethessa"
+			"Velthane" "Sorynna" "Aeryssa" "Mirethane" "Pelasyn" "Tyraleth" "Vaelanis" "Norethys"
+			"Shalarae" "Virethis" "Alyssane" "Celestra" "Raveneth" "Thesyss" "Nivareth" "Ilysara"
+			"Kelithra" "Teyvessa" "Aesthene" "Pherissa" "Selenyra" "Ysariel" "Voryneth" "Lysandra"
+			"Cyraleth" "Ariyss" "Tiraveth" "Myralyn" "Saelthia" "Nysseth" "Velarane" "Rhenavys"
+			"Talythra" "Vesyra" "Orlitha" "Saelamera" "Daephera" "Saelanythra" "Arilythis" "Esamera"
+			"Ilimana" "Velaressa" "Ysanethis" "Kelavelis" "Seladelis" "Irivaryna" "Kelatevara" "Laezaria"
+			"Kyranethis" "Celeravis" "Vaelaselene" "Nysalythis" "Calanythra" "Shaephera" "Celephessa" "Maenethis"
+			"Lyradelis" "Raevaressa" "Pelamera" "Maelythis" "Gelanethis" "Ysadelis" "Pheraravis" "Laeselene"
+			"Tyraphera" "Gelazaria" "Celedelis" "Irinoreth" "Laenoreth" "Ularessa" "Theranythra" "Velamana"
+			"Shaenythra" "Delalythis" "Pheramana" "Maenythra" "Erinythra" "Daeravis" "Zaedelis" "Gelaloris"
+			"Viraphera" "Pheralythis" "Telaloria" "Aenythra" "Erisaelis" "Saelaphessa" "Aedelis" "Celeselene"
+			"Maemera" "Laethera" "Cyraselene" "Aevaryna" "Ysaressa" "Celeloris" "Shaeressa" "Lyranethis"
+			"Eriphera" "Esathera" "Lyrataris" "Teyaloria" "Myrathara" "Cyravaryna" "Daetevara" "Shaeravis"
+			"Cyralythis" "Ysavaressa" "Esanethis" "Asharineth" "Kyranythra" "Gelataris" "Rheniselene" "Delamera"
+			"Laevaryna" "Velathara" "Ulanoreth" "Teladelis" "Pherarineth" "Kelamana" "Kelanethis" "Calatevara"
+			"Liravirena" "Selataris" "Lyrazaria" "Gelavaryna" "Irivaressa" "Myrarineth" "Ysathara" "Aezaria"
+			"Raedelis" "Kyravaryna" "Cyrathara" "Kyraloris" "Delathara" "Celenythra" "Teyamana" "Kyraphessa"
+			"Tyratevara" "Maeloria" "Irivirena" "Saelasaelis" "Velavaressa" "Ysaphessa" "Lyravaressa" "Nysanethis"
+			"Maezaria" "Kelazaria" "Tyrazaria" "Miraloris" "Shaethera" "Zaesaelis" "Cyratevara" "Pelanethis"
+			"Asharavis" "Miraravis" "Vaelaressa" "Ulamera" "Raemana" "Raeloris" "Iliressa" "Myravirena"
+			"Iritaris" "Miralythis" "Ashatevara" "Laethara" "Raephera" "Pelaloria" "Arinoreth" "Kyratevara"
+			"Tyraloris" "Laephera" "Rheniloria" "Tyranoreth" "Myramana" "Esaressa" "Ashaselene" "Ilitevara"
+			"Raethera" "Celeressa" "Aeselene" "Veladelis" "Selavaressa" "Telavaressa" "Maevirena" "Shaerineth"
+			"Ysatevara" "Cyravirena" "Maevaressa" "Ulaloria" "Kelavirena" "Gelavelis" "Myravaressa" "Naevelis"
+			"Laeressa" "Selasaelis" "Shaesaelis" "Delaloris" "Nysavirena" "Theraphera" "Rhenidelis" "Nysavelis"
+			"Miranoreth" "Maemana" "Cyraloria" "Esavelis" "Ulaphera" "Naephera" "Vaelavelis" "Tyradelis"
+			"Celerineth" "Teyaselene" "Mirasaelis" "Therasaelis" "Ariselene" "Kyraloria" "Shaetevara" "Gelathara"
+			"Celevaressa" "Daemana" "Pelatevara" "Selamana" "Nysazaria" "Esaselene" "Pelamana" "Delathera"
+		}
+		cruiser = {
+			"Cybaen" "Desserima" "Delcarana" "Sorodomo" "Marcaranta" "Doslacania" "Elimerre" "Diplutasse"
+			"Errataen" "Damparan" "Vollodean" "Saeri" "Thasus" "Thanirev" "Iessaix" "Liifea"
+			"Bei" "Jalthase" "Usanzia" "Eaulnia" "Nyiss" "Ashrizea" "Veyezsy" "Gelarse"
+			"Sulfinka" "Dantiyma" "Atrula" "Arithnia" "Esayna" "Ushizus" "Kielsze" "Januava"
+			"Halanysy" "Aesthira" "Velanthe" "Nyrassia" "Teliadra" "Myritha" "Saelun" "Elarisse"
+			"Thesyraen" "Calystria" "Vorenya" "Iliarune" "Deshanya" "Vaelith" "Rhenassia" "Teylara"
+			"Celesthira" "Ariavel" "Pheralune" "Telysara" "Vaeloria" "Norelyth" "Saevenna" "Myralora"
+			"Cyrithane" "Aesthria" "Velanys" "Selenora" "Rhenitha" "Tiralyth" "Pelasara" "Ilyraveth"
+			"Nyssoria" "Vorylune" "Alythessa" "Shalavyn" "Teyrath" "Keloria" "Celesyne" "Ravetha"
+			"Vaenyra" "Thalorene" "Mirethia" "Lysaveth" "Seranyth" "Ariovessa" "Delavaelis" "Delarinora"
+			"Liraressa" "Velatariel" "Iriphoria" "Teyaanthe" "Selaressa" "Raeoria" "Laetevaris" "Aridemira"
+			"Velavenessa" "Esaseloria" "Shaerinora" "Tyravenessa" "Selalythia" "Nysamereth" "Lyravaelis" "Pelavalis"
+			"Gelaressa" "Kelaaleth" "Calathene" "Velaanthe" "Cyravaelis" "Telatevaris" "Rhenitariel" "Pheravalis"
+			"Aritariel" "Ysapheria" "Theranythessa" "Velavirania" "Pelaseloria" "Aevaelis" "Therasaelith" "Delademira"
+			"Raemereth" "Telaphoria" "Aevirania" "Eripheria" "Viranythessa" "Viraseloria" "Pherarinora" "Theraressa"
+			"Calanetha" "Kelalythia" "Liratevaris" "Ysarella" "Calarinora" "Rhenivaelis" "Lyrapheria" "Lyrademira"
+			"Miratevaris" "Tyrasaelith" "Telaelys" "Vaelaelys" "Saelanythessa" "Viratherene" "Saelapheria" "Gelanetha"
+			"Kyrapheria" "Telanythessa" "Telademira" "Aealeth" "Telasaelith" "Shaesaelith" "Arivalis" "Myramereth"
+			"Zaetariel" "Kelarella" "Shaevirania" "Therarella" "Vaelamereth" "Pheraseloria" "Velanythessa" "Viravirania"
+			"Liraanthe" "Gelatariel" "Zaeressa" "Irivalis" "Myrarella" "Ysalythia" "Miratariel" "Selatherene"
+			"Laedemira" "Theraoria" "Miraphoria" "Pelatherene" "Nysanythessa" "Laerella" "Selanythessa" "Celepheria"
+			"Kelavalis" "Rhenizorya" "Asharessa" "Laelythia"
+		}
+		battleship = {
+			"Ahlatania" "Kilitea" "Seunshi" "Cethyse" "Naslike" "Shisi" "Myxifete" "Eaanalea"
+			"Aiestzia" "Seayya" "Ceryphia" "Eshlersa" "Lyneesthia" "Telyxphea" "Eshlita" "Ishtharae"
+			"Shieseus" "Selixha" "Keliylea" "Sarekane" "Numyrse" "Rililsha" "Sash'dazea" "Myrarix"
+			"Iallilas" "Calira" "Lysixux" "Kydri" "Milla T'Asana" "Clormoro" "Borosmora T'Echeti" "Daeglarimman Tsu"
+			"Deliclarme" "Tassaranka" "Dlipaeli" "Maeolpan T'Elechi" "Benezia" "Ke'eki T'Betai" "Thaloryn" "Aesharis"
+			"Lethanira" "Selythra" "Vioressa" "Ithalen" "Teynara" "Ravaxis" "Celestria" "Mirelune"
+			"Thaelora" "Nyxalene" "Pherasia" "Ilyndra" "Velthoria" "Ariylessa" "Celestine Grace" "Infinite Reverie"
+			"Radiant Horizon" "Luminous Oath" "Seraphic Dawn" "Harmonic Crown" "Eternal Chorus" "Sovereign Grace" "Halcyon Radiance" "Resplendent Memory"
+			"Aurora Immaculate" "Timeless Covenant" "Starlit Promise" "Silent Exultation" "Lucent Dominion" "Eclipsing Splendor" "Gilded Tranquility" "Symphonic Vigil"
+			"Ascendant Serenity" "Silver Apotheosis" "Laealoria" "Pheratharia" "Pelavirania" "Teyayssoria" "Lyravenessa" "Nysatevaria"
+			"Raerelessa" "Zaerineth" "Selademirra" "Mirademirra" "Nysarelessa" "Ilivalora" "Cyratharia" "Maevaelora"
+			"Naepheria" "Miranythessa" "Ilianthis" "Pelamerelia" "Laedemirra" "Liravirania" "Maetariana" "Delatharia"
+			"Kyravenessa" "Maerineth" "Cyrapheria" "Daepheria" "Liravalora" "Lyrarelessa" "Delatariana" "Celezorya"
+			"Teyasaelith" "Maevalora" "Esatharia" "Teyamerelia" "Myravalora" "Nysaressa" "Telarineth" "Cyrarelessa"
+			"Pelavalora" "Ulaaloria" "Nysazorya" "Velalythara" "Telatevaria" "Calatheressa" "Kelaelyra" "Liratharia"
+			"Pheravalora" "Erinythessa" "Tyraaloria" "Zaevenessa" "Ysarelessa" "Aetharia" "Selavenessa" "Kelavirania"
+			"Ashayssoria" "Ulavenessa" "Rheninethis" "Raeyssoria" "Pelanythessa" "Celephorane" "Iripheria" "Ulamerelia"
+			"Lirayssoria" "Teyarelessa" "Naealoria" "Naeyssoria" "Teyatheressa" "Esavaelora" "Selayssoria" "Myrayssoria"
+			"Esavirania" "Nysavirania" "Maedemirra" "Tyravalora" "Kyratevaria" "Saelademirra" "Pelatevaria" "Kyrayssoria"
+			"Nysatheressa" "Miraphorane" "Daerelessa" "Velanethis" "Esaelyra" "Daevirania" "Ilimerelia" "Nysaelyra"
+		}
+		titan = {
+			"Ula Snakla" "Majesty Sublime" "Future Transcendent" "Eternity Immaculate" "Miracle Infinity" "Perfection Dominant" "Halcyon Promise" "Eternity Vigilance"
+			"Millennium Dawn" "Omniscient Infinite" "Awakening Symphony" "Serenity Transcendent" "Radiance Eternal" "Infinite Luminance" "Celestial Harmony" "Grace Resplendent" "Sovereign Horizon" "Luminary Covenant" "Astral Accord"
+			"Astral Covenant" "Halcyon Chorus" "Cadence of Eternity" "Gilded Aurora" "Tlrasaria of Dawn" "The Lucent Crown" "Nytovena's Covenant" "Ysaielressa Eternal" "Zenith of Ages"
+			"The Gilded Thdemira" "The Benevolent Aria" "Raenora of Dreams" "Eternal Vigil" "Chorus of Ages" "Requiem of the Deep" "Elegy of Light" "Athame's Reverie"
+    		"Empyrean Eminence" "Solace of Thessia" "Iriyphirlyra Awakened" "The Ethereal Letiramaris" "Ascendant Accord"
+		}
+		
+		science = {
+			"Elicara" "Mululina" "Illapan" "Laevamimu" "Callamaen" "Lysithus" "Rava" "Emetu" "Drisir" "Chaoraley" "Melyt" "Nyelsthea" "Seis" 
+			"Sal'lizea" "Talorata" "Isli" "Dantivo" "Lysollta" "Isasa" "Pla'sholdra" "Peloria" "Lysenne" "Ariothea" "Veliora" "Shalara" "Tessyne" 
+			"Nivora" "Eriaphis" "Talyraen" "Vaesira" "Kelirananthe" "Cybelirlavith" "Aeilyremiane" "Myroviaissa" "Daeiselitha" "Saeinethaeassa" "Cyrhiranialyra" "Selaemursthara"
+    		"Teysarhtetenai" "Athoesyrareria" "Tsevessarinna" "Ashiaselalava" "Leaclathathene" "Gelipeenvena" "Aleelythaesyra" "Mirhthisela"
+    		"Tlseetnoraelis" "Rhsaravessa" "Seleselaeyssa" "T'Irinaphira" "Sebssarneth" "Raeisithi" "Teleathaesena" "Eriassaephiris"
+    		"Ravielythiathe" "Miaeithyressa" "Leeilytheisea" "Delaethoei" "Elyivionlyra" "Calelithena" "Caeevamyssoria" "Ysailyriasela"
+    		"Vireth's Eternity" "Ariaineth" "Lyrevessina" "Gerekneth" "Iliiliththene" "Cathihthsela" "Teyalyreressa" "Deloaraexrvara"
+    		"Thelith" "Cyriphina" "Calaeseathelia" "Iliashiseleria" "Selrelnirtaris" "Ariephiosyra" "Lireleinvessa" "Iriaviovena"
+		}
+		colonizer = {
+			"Zamallaet" "Elinominol" "Fhealcantae" "Illiumithea" "Athame" "Telastra" "Nythessa" "Valoryn" "Cyralia" "Pelasia" "Ithyssa" "Saelora" "Rhenalia"
+			"Lelephessa" "Maeimaelis" "Velerenith" "Teyne" "Thanthelyra" "Kyteraysaniaa" "Saeethiashsela" "T'Velav"
+    		"Elateviranetha" "Celherath" "Esaishaeis" "Kaeimelathae" "Saeaozuneth" "Alearchvirena" "Teyipheai" "Lindevnetha"
+    		"Laeelsyra" "Iriloia" "Ceyssiphira" "Seliniphira" "M'Vashlaselene" "D'Pherah" "Tsaevalaravena" "Deliavesseayna"
+    		"Shashneth" "M'Velaria" "Theilivirinna" "Nysrassharelis" "Caeiteshalnora" "Ariimiae" "Nysoraneha" "Elyavirairaea"
+    		"Cerhateyslatha" "Nytaeph" "Cyrtera" "Velieseithera" "Tatharae" "Miripehesitha" "Iriezeth" "Liralinethoria"
+    		"Arerohlavessa" "Zaeinneimessa" "Draesirineth" "Peloalyelitha" "Ceyphanianeth" "Arissoririnora" "Celoenoanetha" "Vaeilaesmnaera"
+    		"Eriivessaria" "Saselbaniliria" "Naeanineth" "Iriizamelis" "Kelemasnavis" "T'Ysaphlanora" "Saaerthara" "V'Laelivena"
+    		"Nyselyisara" "S'Illiulyra" "Vivirah" "Laeithirnetha" "Lyropharis" "Elyzolarailyth" "Leelyesae" "Cehaetyra"
+    		"Voryivirainna" "M'Kelal" "Celythia" "Lysnivessa" "Celiaesasneth" "Nysiariseassa" "Kyrra" "Esabaenessa"
+		}
+		constructor = {
+			"Zeeezthia" "Xaesux" "Myvo" "Niryrus" "Myirania" "Arterev" "Kiises" "Diburo" "Falyxethea" "V'Crilis" "Rilesee" "Shiife" "M'Taeri" "Tesina" "Siyxe" "Murali" "Unayly" "Raci" "Kin'Sha" "Revinatea" "Seyma" "Iroraux" "Pralyt" "Nyira" "Gaqua" "Lin'Linia" "Kesthyze" "Ish'Yaa" "Kilikmey" "Lisissmia" "Ceees" "Ariun" "Selyra" "Voreth" "Telys" "Cyrisse" "Neralia" "Valmiri" "Lyseth" "Thaeris" "Iriassa"
+		}
+		transport = {
+			"Saeloria" "Pheravelle" "Tessalara" "Iriaveth" "Nymelora" "Valessia" "Cyralune" "Aethorine"
+			"Lyravessa" "Pelarene" "Rhenavelle" "Thaloria" "Ilyressa" "Velathene" "Norevessa" "Arianelle"
+			"Serenya" "Telyssara" "Myralora" "Kelyneth" "Vaelisse" "Laethara" "Pheralora" "Celesyra"
+		}
+
+	}
+	ship_class_names = {
+		corvette = {
+			"Vaelune" "Tessara" "Nythyra" "Saeloris"
+		}
+		frigate = {
+			"Kelarune" "Pheressa" "Teysara" "Ilyrane"
+		}
+		destroyer = {
+			"Rhenyra" "Aethyra" "Cyrathis" "Velorane"
+		}
+		cruiser = {
+			"Thessora" "Iliorane" "Pelassia" "Lusorya"
+		}
+		battleship = {
+			"Athamea" "Siarene" "Arianys" "Benezara"
+		}
+		titan = {
+			"Thessyra" "Aethyssia" "Lucerene" "Elysara"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Parnitha System Defence Fleet"
+			}
+		sequential_name = "Asari $ORD$ Fleet"
+	}
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "$ORD$ Huntress Garrison"
+		}
+			
+		assault_army = {
+			sequential_name = "$ORD$ Commando Squad"
+		}
+		
+		slave_army = {
+			sequential_name = "$ORD$ Volunteer Vanguard"
+		}
+		
+		clone_army = { 
+			sequential_name = "Thorian Synthesis $ROM$"
+		}
+		
+		robotic_army = {
+			sequential_name = "VI Assault Mechs $ROM$"
+		}
+		
+		robotic_defense_army = {
+			sequential_name = "VI Security Mechs $ROM$"
+		}
+		
+		psionic_army = { 
+			sequential_name = "Ascendants $ROM$"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "Banshee Project Battalion $ROM$"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "Black Widows $ROM$"
+		}
+		
+		occupation_army = {
+			sequential_name = "$ORD$ Huntress Garrison"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "VI Security Mechs $ROM$"
+		}
+		
+		primitive_army = {
+			sequential_name = "$ORD$ Tribal Phalanx"
+		}
+		
+		industrial_army = {
+			sequential_name = "$ORD$ Citizen Thema"
+		}
+
+		postatomic_army = {
+			sequential_name = "$ORD$ Republic Stratos"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Agessia" "Asteria" "Kurinth" "Lesuss" "Lusia" "Lymetis" "Nevos" "Niacal" "Phoros" "Sanves" "Selvos" "Terapso" "Teukria" "Tevura"
+				"Mona" "Tevara" "Dunia" "Dinja" "Lumea" "Melael" "Delentis" "Galuens" "Ellaon" "Tirmiden" "Nisphise" "Prazea" "Shasi" "Januri" "Mysi" 
+				"Kyaqua" "Clarma" "Tetlitia" "Secherna" "Aaryma" "Leoglan" "Tellisium" "Ymplechen" "Lasharan" "Chellican" "Dullasan" "Telaeban" "Zallmasa" "Keli" "Bormana" "Tymachira" "Daswarna" "Djillama" "Epraga" "Delimanna" "Faanyya" "Moreka" "Iera" "Raditora" "Hena" "Loni" "Saios" "Erunh" "Atruni" "Phearne" "Leran" "Heliran" "Taarvh" "Shashi" "Averan" "Moraeri" "Edani" "Liix" "Moralis" "Suariga" "Nyxedrase" "Chaara" "Miro" "Numummea" "Aesyra" "Thalara" "Virelia" "Nysella" "Teyphora" "Saelune" "Eriathis" "Velessa" "Ilyrane" "Pelastra" "Myrenda" "Cyrathea" "Norellia" "Ariessa" "Selenora" "Tyressa" "Vashira" "Lethara" "Niselle" "Ylloria"
+			}
+		}
+		pc_desert = {
+			names = {
+				"Piares" "Hanalei" "Adanessa" "Barvarnilairiel" "Andranniel" "Amonniel" "Airedhiel" "Woestyn" "Aglariel" "Earyende" "Limiraha" "Eaunse" "Eruva" "Serix" "Nekra" "Neka" "Etsuw" "Anera" "Muki" "Harea" "Arros" "Dnaz" "Elba" "Komoh" "Harena" "Areia" "Eleniel" "Cuilwen" "Caunwen" "Faelwen" "Kaleemshi" "Araha" "Suha" "Cyx" "Cess" "Herenya" "Limwen" "Viuk" "Aviuk" "Zara" "Lona" "Kuru" "Maerwen" "Tacca" "Salenthne" "Morenthse" "Mirfin" "Eshelus" "Petra"
+			}
+		}
+		pc_savannah = {
+			names = {
+				"Antea" "Savria" "Talessa" "Olyra" "Hestara" "Ilyra" "Phaea" "Seranna" "Vireth" "Nalara" "Cyris" "Aevora" "Lysene" "Teyara" "Orlena" "Myratha" "Saelith" "Varena" "Ithara" "Norelia" "Rhyssa" "Pelia" "Dasyra" "Vaelene" "Tirassa"
+			}
+		}
+		pc_tropical = {
+			names = {
+				"Zuna" "Avles" "Hutah" "Namara" "Erbra" "Nimwen" "Sanya" "Mua" "Santiel" "Orebla" "Sor" "Sko" "Medis" "Lobra" "Silima" "Caga" "Deo" "Dala" "Meeri" "Kisa" "Ajulp" "Des" "Nexer" "Vihm" "Eso" "Hujan" "Sutiel" "Xita" "Chuva" "Lluvia" "Tuarwen" "Tiriel" "Kostea" "Nedve" "Odi" "Stri" "Lifi" "Dara" "Umda" "Entogli" "Ilma" "Thai" "Limyx" "Ashari" "Ruros" "Calitis" "Diria" "Ishell" "Iara"
+			}
+		}
+		pc_arid = {
+			names = {
+				"Sthenia" "Aridia" "Minsa" "Dira" "Sosau" "Idira" "Karuk" "Nojna" "Cano" "Ietari" "Nurafi" "Merenis" "Ditriara" "Serana" "Letissh" "Iessaala" "Shiava" "Anisa" "Xa" "Melda" "Stova" "Umlo" "Poly" "Por" "Mirima" "Nariel" "Char" "Ovlo" "Nessima" "Zoti" "Nestariel" "Chaiyes" "Sashermea" "Kyarix"
+			}
+		}
+		pc_continental = {
+			names = {
+				"Illium" "Cyone" "Icini" "Doma" "Valaina" "Silima" "Avaleth" "Haza" "Minwen" "Maja" "Asha" "Sansa" "Fertra" "Chalkos" "Mandril" "Benua" "Vanya" "Celina" "Kita" "Azora" "Zema" "Azura" "Arda" "Mali" "Edrel" "Dorne" "Bumilli" "Sandronnel" "Data" "Aimei" "Namapa" "Dunya" "Reave" "Verya" "Telezira" "Esovase" "Aval" "Ula" "Ardo" "Valant" "Wual" "Sini" "Kukri" "Biru" "Sudnik" "Zila" "Luxa" "Salma" "Mav" "Tarum" "Lijah" "Shiyne" "Naroslia" "Aveto" "Lisell"
+			}
+		}
+		pc_gaia = {
+			names = {
+				"Elsa Clarmada" "Shiakivi Holiraha" "Esifte Permanae" "Iselma Samtha" "Telisse Kyeri" "Daes Yashi" "Esly Nisa" "Aselsvi" "Elflasmatia" "Illemian" "Laspaclea" "Xaesmeria" "Edisfor" "Eshekania" "Lyminatia" "En'shathea" "Teslikrae" "Esavara" "Memi" "Zemyno" "Lunara" "Arretia" "Tarapso" "Selvi" "Mai" "Edre" "Bumil" "Hamu" "Matriarch" "Luza" "Ahai" "Es'ir"
+			}
+		}
+		pc_ocean = {
+			names = {
+				"Entra" "Sequa" "Marna" "Havetti" "Eezo" "Tengeir" "Lauit" "Vyorna" "Jura" "Bashar" "Deni" "Neilt" "Iami" "Keri" "Nyxuce" "Raris" "Jesero" "Varix" "Valyrsy" "Varus" "Danau" "Asarathea" "Matore" "Irossha" "Lessare" "Talos" "Valino" "Nisra" "Nain" "Talais" "Tonda" "Lonix" "Moreshin" "Volsava" "Nosix" "Phea" "Snedu" "Vinarly" "Auga" "Netta" "Nass" "Slatea"
+			}
+		}
+		pc_tundra = {
+			names = {
+				"Zesmeni" "Tyrosh" "Kola" "Kold" "Scanza" "Froix" "Tai" "Thule" "Arctica" "Borea" "Boreal" "Hyperborea" "Niflheim" "Ulthgare" "Coniris" "Kyanis" "Shiis" "Corinthia" "Tripola" "Sparta" "Archea" "Salna" "Geada" "Zima" "Monem" "Vinter" "Methoin" "Arachova" "Larissa" "Lumia" "Lamia" "Dantisus" "Yenice" "Marathon" "Izmir" "Odel" "Dol" "Datca" "Oia" "Io" "Kinedel" "Kapsali" "Adamantis" "Kylma" "Attica"
+			}
+		}
+		pc_arctic = {
+			names = {
+				"Hyetiana" "Trategos" "Mikino" "Neos" "Bergama" "Ezine" "Ablania" "Grecca" "Antalya" "Fethiye" "Leganas" "Galaxidi" "Thermos" "Psachna" "Lehana" "Thessaloniki" "Thesselonika" "Makeda" "Maceda" "Constantinopa" "Valas" "Archea" "Folkai" "Sparti" "Jalma" "Geada" "Suina" "Kefalonia" "Zima" "Kalmata" "Kalma" "Tali" "Teli" "Atwix" "Sepsos" "Marathopoli" "Lepidus" "Lepidos" "Lividia" "Athen" "Rafina" "Ravina"
+			}
+		}
+		pc_alpine = {
+			names = {
+				"Alphea" "Kyrentha" "Thalara" "Seryn" "Aestra" "Velkira" "Nirell" "Lysoria" "Avarne" "Cyrinne" "Phera" "Taloria" "Iryss" "Nysaria" "Saelora" "Myrinne" "Kelyra" "Tessaria" "Rhyllis" "Vorethia"
+			}
+		}
+		pc_nuked = {
+			names = {
+				"Thanaxis" "Cindara" "Ashessa" "Veyrune" "Nexara" "Serephos" "Khariel" "Ruinara" "Pallessa" "Charisth" "Velorax" "Sythane"
+			}
+		}
+		pc_ai = {
+			names = {
+				"Synthera" "Vigilis" "Eidara" "Logicra" "Celesis" "Myrion" "Nexelis" "Quantara" "Selyrix" "Orisona"
+			}
+		}
+		pc_machine = {
+			names = {
+				"Mechessa" "Virex" "Automara" "Kynethea" "Luminex" "Syntara" "Valatrix" "Ilytrix" "Cyris-9" "Thess-Prime"
+			}
+		}	
+	}
+	character_names = {
+		default = {
+			weight = 100
+			first_names = {
+				"Ellia" "Benezia" "Lidanya" "Moyna" "Moyna" "Maarika" "No'neme" "Veyraze" "Moenia" "Pheiyus" "Chailha" "Kesithta" "Lymea" "Nassana" "Liara" "Tela" "Riulla" "Rilyshi" "El'yaphea" "Teunny" "Liezi" "Arizka" "Beunia" "Gelanytea" "Lidakinia" "Horite" "Suesa" "Sha'ira" "Morinth" "Be'essa" "Aria" "Samara" "Aethyta" "Lidiramey" "Kelorair" "Teilvi" "Lymucily" "El'data" "Irlia" "Ishta" "Irvos" "Ra'ana" "Raria" "Alria" "Elana" "Liria" "Falyna" "Dayna" "Irlyna" "Nilyna" "Alvos" "Belyna" "Bezia" "Liessa" "Rylyna" "Daria" "Alenia" "Da'ana" "Faria" "Favos" "Arlis" "Elria" "Arana" "Falere" "Ceyxe" "Allyna" "Ryvos" "Fa'ana" "Beria" "Irenia" "Allia" "Ryzia" "Alla" "Liessa" "Liyna" "Be'essa" "Dalia" "Ella" "Raessa" "Ralia" "Moria" "Saphyria" "Raava" "Kashthate" "Nuleldsy" "Seleseta" "Valixra" "A'nerae" "Asellis" "Vonedrane" "Rield" "Aian" "Mielsnea" "Cheinaphia" "Letiratia" "Careena" "Glari" "Eriznea" "Gieezna" "Xa'nonea" "Janithma" "Beollphia" "Diovamia" "Mirass" "Valorah" "Ar'rany" "May'mo" "Siollhin" "Nyxthao" "Noreezis" "Moisha" "Ush'rashi" "Laariux" "Sashyrny" "Numerma" "Seintea" "Revelme" "Diollya" "Aierma" "Umulmia" "Benixte" "Holisska" "Helell" "Halesephea" "Zeezh" "He'koa" "Gelorao" "Ranlita" "Nosthyh" "Varatia" "Seyarly" "Jalritea" "Silikme" "De'nania" "Laiania" "Giarmia" "Dayxeis" "Vey'neme" "Kashissu" "Shiunta" "Selollphia" "Eaansha" "Nasyr" "Helies" "Lysakida" "Zeestse" "Ushakina" "Raari" "Keslithia" "Kaliss" "Seyucny" "Geeka" "Chaeldthia" "Hiucihin" "Luucize" "Eriany" "Glaanyga" "Sasharie" "Lysayvi" "Lid'kothea" "Le'irmia" "Sheass" "Lerilia" "Im'meux" "Nasraphea" "Pelessaria" "Salezisa" "Nirestthia" "Linarne" "Testhyya" "Cheinais" "Ishyxe" "Phayxena" "Nyxifsy" "Zelestta" "Lidey" "Tarith" "Liifea" "Nyiss" "Keellka" "Ashrizea" "Ashenth" "Nietsa" "Elucthea" "Lis'liphea" "Alissha" "Numarvsha" "Nisfinzea" "Aiucithia" "Aarya" "Kinana" "Sueziux" "Ishinathea" "Saliysha" "Voneesthea" "Teisse" "Esheesmia" "Visenthlea" "Shalira" "Lymithda" "Sarra" "Lucyxthia" "Fal'irya" "Seylertia" "Lisme" "Aalya" "Esifee" "Faliyha" "Nisiysha" "Nyedralea" "Lynormea" "Pheeymea" "Limryis" "Erlyse" "Lyiss" "Kaelya" "Enine" "Chaintia" "Eshilphea" "Viartea" "Ceanylia" "Moriyshi" "Sheakizia" "Lininya" "Ceellya" "Sameyna" "Karya" "Nyara" "Nyrih" "Aleena" "Dahlia" "Shiala" "Irissa" "Rana" "Liselle" "Umi" "Jona" "Tristana" "Alestia" "Rila" "Treeya" "Aeian" "Mallene" "Batha" "Dilinaga" "Nyxeris" "Enyala" "Wasea" "Sarissa" "Vederia" "Ishara" "Tethys" "Nisira" "Janae" "Kalia" "Valenza" "Rialla" "Kian" "Kurin" "Erinya" "Ereba" "Elnora" "Hermia" "Kalinda" "Nelyna" "Deleia" "Anaya" "Lexi" "Leynomi" "Phora" "Alera" "Nythira" "Vaelessa" "Talyra" "Pherassa" "Celyne" "Iriessa" "Sarethea" "Veloria" "Myrisse" "Elyra" "Tessira" "Lyrane" "Nivessa" "Ravelya" "Selyra" "Thaenys" "Voryssa" "Arietha" "Kalysra" "Nerissa" "Luneth" "Cyrana" "Rhenyra" "Ilyssia" "Teylora" "Saelene" "Veshira" "Aesthea" "Norelya" "Mirestra" "Thalene" "Ysarra" "Pelasia" "Calythea" "Virelna" "Ariasha" "Nyssara" "Velara" "Tyrisse"
+			}
+			second_names = { 
+				"T'Loak" "T'Soni" "Vasir" "T'Lura" "Stoni" "Sheuss" "Iremi" "Axyria" "Sheya" "T'Lyria" "Veya" "Axura" "Selura" "Nyxasia" "Regos" "Dantius" "Corlisi" "Thori" "Selemi" "Nyxasia" "Axasia" "Nyxessi" "T'Selvos" "Shessi" "Thessi" "T'Sani" "Ressi" "Regos" "Banni" "Teya" "Veuss" "Stani" "B'Sayle" "Ralas" "Velvos" "T'Ersan" "Artelis" "D'Linari" "T'Daria" "Jannishi" "Heis" "Ieora" "D'Linaala" "D'Ysera" "Shiana" "Linnadhiel" "Daliqua" "Jannutora" "V'Moari" "T'Erra" "M'Crylis" "D'Veeri" "V'Moava" "Lijin" "Calido" "Mozea" "Thanorix" "T'Kevus" "Calese" "Aveos" "D'Nanis" "D'Veios" "Iallirus" "Skaro" "Leyne" "Thanoni" "Maifi" "Murala" "Januci" "T'Veius" "Edaburo" "T'Kefi" "T'Dalis" "D'Kyve" "Leius" "Ievo" "Beyma" "Pesalis" "Sesi" "Kysava" "Sederos" "Conijin" "Hetis" "T'Zeala" "T'Saqua" "T'Zejin" "T'Doburo" "M'Taus" "V'Naari" "Shiora" "Nosava" "Jannici" "Atelas" "M'Jadri" "Corliara" "Pesaeri" "Corlisus" "M'Jarev" "Minus" "M'Loyma" "Mereva" "Vaana" "Besir" "M'Tato" "Sarev" "Thaius" "Murix" "D'Lanus" "D'Veios" "M'Jaala" "Conius" "Lius" "Ateava" "Caleci" "Myrazea" "Caliala" "D'Aala" "Mainus" "M'Kyarus" "T'Scafi" "T'Lorus" "D'Kyala" "Corlisir" "D'Corina" "Heliis" "Caliara" "D'Linaqua" "T'Scasan" "D'Laeri" "D'Vedo" "Iessaus" "Vate" "Arteli" "T'Keli" "T'Raozea" "M'Dotis" "T'Sose" "T'Doza" "T'Sari" "T'Veza" "D'Linaros" "T'Sova" "Difi" "Sara" "Sesava" "Losir" "M'Lodri" "T'Neli" "Artesir" "T'Dosava" "T'Dove" "D'Alas" "T'loci" "Liro" "D'Asi" "Vanis" "T'Essan" "T'Naora" "Shila" "D'Bieara" "T'Rasi" "T'Ertis" "V'Criria" "Iallis" "Sederis" "Nuwani" "T'Goni" "Thanoptis" "Calis" "Theris" "Damali" "Louros" "T'Reve" "Sanassi" "T'Perro" "Aridana" "Henon" "T'Vessa" "D'Laros" "T'Kelora" "V'Ranis" "M'Ythena" "T'Shalis" "D'Vethra" "Corlassa" "T'Nirel" "V'Kyara" "M'Lorin" "T'Valis" "D'Retha" "Artesha" "T'Ythira" "D'Selene" "V'Mirra" "T'Navos" "M'Thera" "D'Calis" "T'Phelos" "V'Shara" "D'Ravena" "T'Lethis" "Corlyna" "T'Veyra" "M'Khalis" "D'Thera" "T'Selys" "V'Lorane"
+			}
+		}
+		notables = {
+			weight = 4
+			full_names = {
+				"Matriarch Benezia" "Liara T'Soni" "Nassana Dantius" "Dahlia Dantius" "Samara" "Morinth"
+				"Falere" "Rila" "Matriarch Aethyta" "Sha'ira" "Aria T'Loak" "Shiala"
+				"Batha" "Aleena" "Pelessaria B'Sayle" "Rana Thanoptis" "Sarissa Theris" "Jona Sederis"
+				"Aeian T'Goni" "Nisira T'Kosh" "Tela Vasir"
+			}
+		}
+	}
+}

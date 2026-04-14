@@ -1,129 +1,397 @@
-MEG_volus = {
+﻿MEG_volus = {
 	randomized = no
 
 	ship_names = {
-		generic = {
-			"Barla Von" "Din Korlack" "Pitne For" "Niftu Cal" "Jahleed" "Cherk Sab" "Jak Ser" "Zada Ban"
-			"Bovis Tor" "Doz Atab" "Vem Osca" "Welm Urun" "Irune Exchange" "Vol Protector" "Mercantile Pride" "Credit's Due"
-			"Profit Margin" "First Ledger" "Second Ledger" "Third Ledger" "Golden Balance" "Open Contract" "Silent Dividend" "Pressure Bond"
-			"Clan Equity" "Broker's Fortune" "Trust Reserve" "Counterparty" "Trade Wind" "Held Asset" "Deep Vault" "Risk Horizon"
-			"Weight of Coin" "Surety" "Prime Collateral" "Lender's Grace" "Sealed Warrant" "Silver Writ" "Port of Means" "Tariff Sun"
-			"Vault Echo" "Measured Gain" "Balanced Account" "Excess Return" "Premium Line" "Witness of Irune" "Golden One" "Sky Warden"
-			"Weeping Witness" "Ammonia Dawn" "High Pressure" "Remote Factor" "Embassy Lane" "Cartel Voice" "Treasury Seal" "Clan Dividend"
-			"Vol Prime" "Oma Ker" "Maskawa" "Patavig" "Shallos" "Aventen" "Kerek" "Veles" "Binthu" "Daleon"
-			"Broker One" "Broker Two" "Broker Three" "Caravan Four" "Ledger Five" "Factor Six" "Reserve Seven" "Trust Eight"
-			"Quiet Margin" "Creditor's Hand" "Debtor's Mercy" "Temple of Profit" "Fortune's Breath" "Measured Venture" "Ample Return" "Irune Ascendant"
+		corvette = {
+			"Irune" "Boro" "Daleon" "Maskawa" "Patavig" "Talis Fia" "Zada Ban" "Alahya"
+			"Cherk Sab" "Jak Ser" "Bovis Tor" "Doz Atab" "Vem Osca" "Welm Urun" "Oma Ker" "Lenos"
+			"Yila" "Sahime" "Usra Vao" "Kel Varr" "Tov Kesh" "Chel Mar" "Ked Orun" "Orman Kell"
+			"Velor Din" "Sar Tov" "Tor Veyn" "Jek Urun" "Nara Kel" "Bentha Vol" "Ulen Varr" "Karn Vol"
+			"Ruk Tor" "Torr Vale" "Narim Vol" "Pelen Tor" "Vassa Ker" "Reth Varr" "Kelm Dao" "Teren Sab"
+			"Brena Vol" "Marn Tor" "Jorim Wen" "Neran Cal" "Selk Olar" "Presa Non" "Mira Yap" "Talia For"
+			"Rena Ban" "Dema Vol" "Barlivifek" "Mvarntun" "Pataullni" "Dakn Vesra" "Seldilth" "Pitne Surn"
+			"Vesrosca" "Pelna Kori" "Reth Helvi" "Vorthakur" "Ruvrafor" "Nemeru" "Talvar" "Presvraker"
+			"Temra Tori" "Allyap" "Bovi Ossa" "Jananvn" "Kelmo Karne" "Mori Jasr" "Vernser" "Vaoss"
+			"Vurefor" "Vokoss" "Delre" "Boro Vena" "Nellerra" "Veldo Pevn" "Varelinyap" "Moavahim"
+			"Maelko" "Torre Ruka" "Vnennonon"
+			"Dora Darve" "Tole Torik" "Polrtun" "Nariakn" "Bentnon" "Nolr Vors" "Valkoosca" "Varnimar"
+			"Varlaser" "Trovcal" "Kvesmban" "Lumratth" "Belv Telr" "Tirovan" "Benth Marra" "Presess"
+			"Dakr Kortu" "Kolv Pavr" "Rsukemar" "Makovol" "Renavarr" "Jorra Telno" "Jorvennon" "Velldo"
+			"Belka Pitn" "Surn Pelr" "Jasr Jori" "Beslve" "Kesna Mekr" "Mori Ahime" "Sovra Nerik" "Marvsab"
+			"Rovriedr" "Tamoorun" "Dskekrban" "Sahi Truve" "Bovis Kesl" "Tare Pelk" "Lenos Tesh" "Tirvuvtole"
+			"Pell Rovra" "Doreser" "Tovak Drelk" "Torsedao" "Kerra Elnar" "Jessurun" "Belko Gaff" "Sovra Lnar"
+			"Vurskanon" "Nelvkur" "Merra Rvek" "Pelli Torv" "Vassa Darve" "Dsrelktor" "Neran Relsa" "Yassvol"
+			"Barla Velra" "Kerra Tors" "Varurna" "Tivna Mira" "Sorvwen" "Varun Pavik" "Nerik Keld" "Yesevna"
+			"Melaarilru" "Luruvarr" "Farnnon" "Ravik Marra" "Jahle Lven" "Telnira" "Rukal Tova" "Moorun"
+			"Jeloumeakn" "Boro Rkun" "Kolvfor" "Jasivna" "Kvumrvarr" "Vesrerra" "Pallcal" "Elk Elko"
+			"Vesk Pitn" "Reth Lora" "Brekor" "Shall Rovik" "Irunvarr" "Shir Atab" "Flaetyap" "Valeolar"
+			"Helvwen" "Loru Lenk" "Kolvna" "Shir Dovr" "Kurtnon" "Belzada" "Urun Lkor" "Diraareit"
+			"Eherosca" "Jorutor" "Veessa" "Koru Tivn" "Yelna Nar" "Garumar" "Tera Voln" "Karne Ossa"
+			"Kortu Torre" "Sevomar" "Vorevik" "Pitn Pavr" "Brevrorek" "Brenos" "Kreari" "Kelni Kreo"
+			"Eppavarr" "Nariosca" "Voren Vesh" "Yerrser" "Kesri Nivr" "Sahi Dakni" "Rulrlerovr" "Nolln"
+			"Nerlkutor" "Gerun Korr" "Pell Helv" "Korl Bari" "Sovrv" "Sola Kelv" "Joraolr" "Kelvracal"
+			"Serack" "Veynwen" "Savor Vak" "Truve Torna" "Kelvelen" "Bessa Lume" "Loerkelm" "Orre Vesh"
+			"Save Pere" "Voruplah" "Bervas" "Rukal Vash" "Korijorv" "Nerekmar" "Jora Rendi" "Sorvvol"
+			"Loru Pelen" "Gaf Alven" "Reocinosca" "Elkos Pera" "Lankfor" "Jroranon" "Nolv Elkar" "Dira Karne"
+			"Karn Domar" "Verim" "Rovr Irun" "Jelevdanth" "Nicibertun" "Lassaorun" "Norr Ssor" "Korttor"
+			"Tivrraren" "Be Darme" "Sola Ethar" "Gorv Yarr" "Tellsa" "Jorrni" "Morna Shir" "Gerr Neri"
+			"Dorskecal" "Veld Yarra" "Yarra Vesk" "Selva Lorun" "Xawinsab" "Ritankur" "Porsa Irit" "Tremurun"
+			"Konrtumar" "Lenourun" "Eppo Nera" "Drmavr" "Karku" "Vors Nak" "Marvkevarr" "Sahidars"
+			"Tirra Telv" "Sovr Ness" "Breelr" "Trema Rivna" "Truve Orre" "Kira Jorra" "Dore Vask" "Tuviorun"
+			"Bekell" "Merik Kaslo" "Retrren" "Kelra Veli" "Alaivra" "Morva Skor" "Lenlkovarr" "Nari Eskor"
+			"Vesra Ven" "Korl Belko" "Lenna Luvra" "Polr Delr" "Velkess" "Velis Tarne" "Luprettor" "Vesha Ssan"
+			"Dre Rulv" "Rocperolar" "Drwuesv" "Venn Borun" "Bolvoskar" "Lenkle" "Savovo" "Tuvadao"
+			"Rulv Nelvo" "Telrve" "Narum Bess" "Vele Telko" "Zadavarr" "Gorvovvare" "Moreppo" "Orren Savo"
+			"Truv Kawa" "Rasaru" "Tovi Nthu" "Sorva Tesha" "Lekkur" "Vashuosca" "Tivnurun" "Nivtab"
+			"Relneurun" "Dorve Kelra" "Joorna" "Usraban" "Selk Kwunu" "Makravarr" "Mavr Vesr" "Tarne Korra"
 		}
-		
-		mining_station = { }
-		research_station = { }
-		observation_station = { }
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}
+		frigate = {
+			"Surlloarne" "Relnainar" "Vshenkoraran" "Maorrenun" "Talv Relnaser" "Lthagelelor" "Toriinos" "Velkoenar"
+			"Tivneonun" "Kessaunor" "Inalranor" "Temravesh" "Veskaftpavik" "Trarnear" "Selmorior" "Valkossen"
+			"Haliataros" "Delreor" "Savenorreik" "Tarntelhime" "Vashoelor" "Slkeldaanor" "Neskarkeor" "Mekrlahyemr"
+			"Maelkoor" "Rushaen" "Tornaorik" "Vennkaor" "Doraaren" "Laerrardovr" "Resrnior" "Varle Kovrban"
+			"Tarrenar" "Kernik" "Hekesmor" "Selvresun" "Dorsorvear" "Bess Lennadin" "Telkruneor" "Kolavrik"
+			"Pnderaedor" "Vlaytheular" "Korunulen" "Vethlavenor" "Harvekrerra" "Spavshualen" "Kesnaular" "Veynriorra"
+			"Norvelisun" "Marraelor" "Sovrarikun" "Tivovren" "Vndeshalen" "Pearkesen" "Merrlosik" "Tovakedan"
+			"Pelnanor" "Mornahimgorv" "Pevrelkun" "Savorikan" "Alamenik" "Mernaekar" "Jeraorik"
+			"Venkoedan" "Boruedor" "Prelliinar" "Kelrariar" "Truvoviun" "Tovornorra" "Jelraessun" "Pavik Taliacal"
+			"Keldunor" "Pelko Harvcal" "Relsainar" "Kumlunular" "Chovaemr" "Jorun Vasksab" "Kesritarnior" "Tepelrun"
+			"Keslo Nolvevarr" "Nask Domartor" "Vesr Nerrafor" "Ksherevakar" "Jaheskonedra" "Sareor" "Retoraik" "Roviosik"
+			"Ke Velrvarr" "Ossan Velitun" "Shir Atabtor" "Vandoralen" "Darsh Seramar" "Dovr Tarniker" "Belkarikor" "Hesk Telkowen"
+			"Baorreik" "Ta Velntor" "Dorveovar" "Rendrelmr" "Kesm Jorimvarr" "Orlmaaran" "Porsavakar" "Yarrnikar"
+			"Terainar" "Knortuakar" "Torsevoreor" "Ben Ranban" "Keshararan" "Jeemaun" "Helvselnaik" "Kreoparien"
+			"Keikar" "Belvoavor" "Tareslalask" "Norra Wafor" "Teshular" "Tilrvedor" "Vavssular" "Rroviikan"
+			"Moelaar" "Seldo Alloshol" "Soelvor" "Naruavar" "Vesha Norrafor" "Melkkoraren" "Rifleoran" "Joraolren"
+			"Tivraanor" "Savakik" "Mavraanor" "Kesvren" "Mori Belkmar" "Bervasun" "Merk Delsamar" "Luvlveen"
+			"Delkinar" "Elkraar" "Nolvovar" "Pelloesvkesh" "Kardomarar" "Merunakar" "Tessnaoren" "Irernar"
+			"Hamearsh" "Bndelkoekar" "Dskiavorik" "Kavaruik" "Jorveekar" "Gerrerien" "Toselken" "Vanvarrik"
+			"Beln Jelrdao" "Shihaskalia" "Nskaruikor" "Telnoelan" "Vorsrear" "Sarnaevar" "Drmavrun" "Bartedor"
+			"Nelaavor" "Kaerkuor" "Savrinos" "Besrvoslno" "Jesseralen" "Voln Belnayap" "Rulkpeenar" "Dorevesh"
+			"Bint Vasksab" "Nerraular" "Kellvoor" "Trema Koriktor" "Hexnaedan" "Kolva Arcal" "Jesurruorr" "Lennaenar"
+			"Keesrraevkan" "Ness Dirakur" "Vrennaran" "Tarkoun" "Darmovaar" "Kort Morvker" "Melaakar" "Rulvvenor"
+			"Darnalen" "Geruikan" "Daarik" "Joekik" "Nndeskovar" "Foskik" "Bearmeaslovn" "Tshorrevar"
+			"Jeelkoik" "Tolarnihesk" "Tvarrvesh" "Tovikular" "Selbentor" "Darveinos"
+			"Vathecular" "Lenkavor" "Telvakar" "Venararos" "Veraor" "Tolen Rulvcal" "Llkennaren" "Rivvnunor"
+			"Raesraor" "Tirncalaelor" "Doakniik" "Dreunor" "Vessraedan" "Belrarren" "Breorsen" "Veyhaforna"
+			"Kumdemaik" "Oseruar" "Shnior" "Mavkereken" "Vsalluoren" "Padasvesh" "Temoitaun" "Dorortunen"
+			"Jorraikor" "Nirkeen" "Irrnor" "Shooruelkamo" "Jana Melanon" "Kovra Terenon" "Kerrlik" "Marrik"
+			"Rovra Polrefor" "Plelrekar" "Jasrekeslaor" "Ronnen" "Farvosikor" "Soliumaren" "Polraren" "Mamarar"
+			"Dovan Tivnacal" "Kohaskor" "Merandoor" "Bvelvalen" "Pelvun" "Meyranor" "Kasl Kovrshol" "Vanndavor"
+			"Jeessen" "Hasholen" "Ledavar" "Nesrnor" "Pol Volnker" "Bravzeoren" "Tormalvar" "Vorunik"
+			"Lumunuor" "Kehiraen" "Krevrounor" "Vamerraar" "Kveshaaros" "Stevrelenar" "Dre Veldsab" "Toekoor"
+			"Nlolvenelor" "Boleeppo" "Peahiik" "Telolik" "Snderaros" "Lumraivar" "Drenvenor" "Pevnoren"
+			"Luvraovar" "Tofarnun" "Bari Terenban" "Pelr Daleocal"
+			"Prnevnaren" "Atabaros" "Voren Boviscal" "Delirun" "Rulashotaren" "Nlessaunor" "Acntaran" "Keresrikik"
+			"Siskdonelan" "Valrarsavig" "Selnarimik" "Vaskaran" "Tels Vaskban" "Neldovanun" "Farosavar" "Tiovaik"
+			"Baenen" "Kshortunedan" "Joelorun" "Korrinos"
+		}
+
+		destroyer = {
+			"Sovlkosarne" "Relnaodar" "Vshenkoranar" "Maorrenik" "Toriokan" "Velkoikor" "Relovahelmon" "Vrkesnvek"
+			"Talverath" "Kessator" "Inalrakor" "Temravron" "Avruvebelk" "Nelamrurnavik" "Haliatdran" "Delreek"
+			"Savenorrean" "Nlkessarad" "Shaolvadarv" "Seekan" "Belsrilan" "Renigad" "Sarinarnkira" "Doraavor"
+			"Joenthek" "Resrniek" "Tarrikor" "Kernan" "Hekesmek" "Selvresvek" "Vashorad" "Vzhaythevash"
+			"Elvsaenar" "Beltnek" "Keasran" "Birnian" "Neskobovisad" "Tivovror" "Tareokan" "Merrlosan"
+			"Tovakenar" "Pelnakor" "Pevrelkik" "Savorinar" "Alamenan" "Vorsbessan" "Mernaetan" "Jeraovar"
+			"Venkoenar" "Borruovar" "Kelrariad" "Nolvezhar" "Truvoviik" "Brekosor" "Kerrainar"
+			"Vandeskoer" "Nerikorad" "Dzhakniorik" "Revorshad" "Noariik" "Sahomaik" "Nskeskazhar" "Jorunovar"
+			"Kesriinar" "Beornan" "Bearuvek" "Ossanorik" "Ksherevash" "Jaheskanek" "Elkoskovek" "Bremekorik"
+			"Llkotacvash" "Janilvenno" "Goavuntor" "Belkorad" "Extanoren" "Rukaholvek" "Darmukaik" "Orlmaanar"
+			"Yarrnikad" "Dvarvetan" "Belvirvkesla" "Bearem" "Besnepavra" "Vorenikad" "Noleraik" "Helvselnaan"
+			"Kreoparivek" "Keslinar" "Grkaffrad" "Voelvavek" "Tilrvesh" "Rroviinar" "Moelaad" "Soelvek"
+			"Narudrik" "Melkkoravor" "Rifleoren" "Joraolror" "Tivraakor" "Savakan" "Mavraakor"
+			"Jessaukari" "Anageorad" "Delkodar" "Kesmraan" "Sorvlaetor" "Tremator" "Pelloessokesl" "Kardomarad"
+			"Merunadar" "Tessnaorik" "Irernad" "Halviaru" "Bndelkoetan" "Dskiavovar" "Kavaruan" "Jorveetan"
+			"Gerrerior" "Vanvarran" "Nskaruivar" "Veikek" "Telnoetor" "Kesharvashik" "Sarnailan" "Drmavrvek"
+			"Hesvketor" "Sarlriekraevr" "Hzharvokan" "Marrassolelsh" "Knoruanar" "Jorraikor" "Dorevron" "Nirsan"
+			"Volvad" "Kellvoek" "Alaraan" "Kolvarad" "Lennaikor" "Lenklean" "Rendielvawuln" "Melaadar"
+			"Trerkbidran" "Savrokan" "Varsaor" "Sovrorvavek" "Svhirzhar" "Gerorik" "Vativnaan" "Daaran"
+			"Joekan" "Nzheskoren" "Kulumrvek" "Jonaad" "Tesrkilan" "Benkik" "Telkarnvek" "Kumrvavash"
+			"Kovrodar" "Renrkaorik" "Selbentek" "Darveokan" "Vathecrath"
+			"Telvadar" "Venardran" "Veraek" "Llkennavor" "Polrirrovori" "Raesraek" "Tirkcalaikar" "Doaknian"
+			"Dreunek" "Fornainar" "Preevrahle" "Breorsor" "Toleraik" "Mrkarniilan" "Nihslekor"
+			"Delsalenixik" "Doernnor" "Oseruad" "Shnivek" "Tvreshinar" "Vsalluorik" "Padasvron" "Dorortunor"
+			"Darnainar" "Masrkeakar" "Menterath" "Tauneorad" "Pavrrath" "Iruvravek" "Nerrkikovar" "Daskrikunakor"
+			"Tepaviik" "Heskrad" "Nerldanik" "Dsorveakor" "Selrvoror" "Pelkoanar" "Cheorasre" "Avreek"
+			"Rlkelsaokan" "Bvarlavek" "Dinerorad" "Shirvek" "Dakrakosent" "Kolorunvek" "Lernosvek" "Nesrnek"
+			"Vesrarkualnno" "Shimarvad" "Prkottenorik" "Luverian" "Lumunuek" "Kehiraor" "Geruikor" "Croswnekor"
+			"Vamerraad" "Kveshadran" "Stezhelodar" "Belraovar" "Nlolvenikar" "Moritorvead"
+			"Pevnraikar" "Joppavash" "Korrailan" "Peahian" "Telolan" "Snderdran" "Mekaik"
+			"Selalvoad" "Mshavrivar" "Prkevnavor" "Atabdran" "Ormsarath" "Torsatavelen" "Nlessator" "Tolkoror"
+			"Relsailan" "Corkhortrad" "Dorsketan" "Manaskcakar" "Pelsviakar" "Draskan" "Dacherkan"
+			"Tzhelkaorad" "Rovekan" "Veskesh" "Telsharenvek" "Kiravron" "Farosdrik" "Jshoppaikar" "Baenvek"
+			"Jelravron" "Kshortuenar" "Joelorik" "Vessmonor" "Rivnvek" "Narerraad" "Nessikad" "Dorveoren"
+			"Jasreikor" "Olntaroakar" "Renlaesh" "Dovivasneska" "Tvirvorad" "Seimiokan" "Krupvelis" "Bessaad"
+			"Nicoren" "Pekrarath" "Sndorvaekor" "Tesktan" "Jovnvek" "Mekrkesrik" "Noennorleno" "Vellrorik"
+			"Lerenan" "Krelkoakar" "Voraanar" "Krkesmoikar" "Daorad" "Kwuolveles" "Sahavomkran" "Dondvatan"
+			"Telrator" "Kesvodrik"
+		}
+
+		cruiser = {
+			"Kwunu" "Plenix" "Barla Von" "Din Korlack" "Pitne For" "Niftu Cal" "Gaffno Yap" "Han Olar"
+			"Irit Non" "Eppo Wen" "Doran" "Irune Ascendant" "Witness of Irune" "Book of Plenix" "Urla Rast" "Talis Fia Charter"
+			"Zada Ban Accord" "Usra Dao" "Cherk Sab Accord" "Doz Atab Trust" "Vem Osca Register" "Welm Urun Covenant" "Jak Ser Compact" "Talriekan"
+			"Alaenior" "Belnokosilan" "Kesrii Pell" "Truvek Torve" "Merkun Pavi" "Delra Sahimen" "Ossaesenor" "Orren Tarn"
+			"Usrvolnilan" "Radaleoran" "Lorua Rvenfor" "Pergioran" "Belr Voln" "Koalloaresh" "Avesvash" "Savekven"
+			"Dake Ekshol" "Tels Pekra" "Lealeven" "Vareo Vorenr" "Venko Binth" "Urvavesh" "Marr Darve" "Sorvek Shallon"
+			"Drlaelor" "Pell Ravi" "Kumra Orendao" "Kelvorveemar" "Rendi Belkar" "Bri Rikolar" "Floteran" "Jolenoseran"
+			"Drelk Joran" "Vesna Dova" "Deraeshar" "Bovneskenor" "Ela Rnshol" "Korlac Telnor"
+			"Chvenilan" "Shlosian" "Vicnimpeoren" "Boe Velesab" "Vashopvash" "Torlvarikar" "Temra Pelvi" "Belkor Kaslor"
+			"Dorndouris" "Vesh Neskor" "Sendarinaresh" "Tarra Vandon" "Vesre Valetun" "Deoroenor" "Mei Lvowen" "Savi Slorwen"
+			"Lenna Binths" "Kessae Daleon" "Lori Elvoyap" "Rovr Jorve" "Pei Ssoban" "Nivra Joras" "Dorassorvesh" "Kare Haban"
+			"Czhanaarovar" "Tarna Voren" "Besse Ravik" "Tova Yila" "Narunarioris" "Pearuilan" "Dovra Talvok" "Karne Velko"
+			"Varle Daleo" "Jaanven" "Tera Telkar" "Olari Pellin" "Dova Patavi" "Tae Rendao" "Lebarleshar" "Shalltorveilan"
+			"Nerra Dren" "Murmeran" "Trema Belno" "Nolr Morik" "Senriovar" "Helvii Lekk" "Iritarveneran" "Jorr Kaslo"
+			"Selvaa Kelmon" "Lumseldvesh" "Beenosoran" "Kesvo Mekran" "Varni Vandor" "Jahlea Darven" "Hesk Dorven" "Mira Darsh"
+			"Kele Dovasab" "Torna Kesharn" "Kreo Venno" "Bassior" "Dore Kelmon" "Boru Telno" "Pelkor Ravi" "Nea Rseolar"
+			"Doe Viksab" "Narelkelor" "Vesk Neskar" "Dakra Meru" "Kesna Tirva" "Relnar Ossan" "Vaslveshar" "Seli Elkosca"
+			"Shira Urun" "Teski Vennor" "Korun Drelko" "Demaa Bren" "Kolvennoovar" "Kandrothsavar" "Kovra Velkos"
+			"Nolve Pelva" "Avenoeran" "Voree Joran" "Mavr Savors" "Kararreuris" "Lasenosevor" "Rivno Merikk" "Rairvaoren"
+			"Telkoe Telno" "Merorlaven" "Meerekikar" "Eppa Ravikk" "Vevorenaresh" "Pelnarumior" "Rupvelenor" "Kesmoe Taren"
+			"Shriketh" "Kesh Merun" "Rukae Ldantor" "Vearledor" "Solavel" "Epbovisilan" "Meruoseth" "Mirkorveekan"
+			"Naraoriovar" "Pevre Varrwen" "Saa Ledao" "Jora Skorser" "Bari Maskaw" "Vorao Vandor" "Resi Orikshol" "Tivra Pellolar"
+			"Aurethlosaresh" "Mekreshian" "Pelsenuris" "Renaa Korve" "Tori Pekra" "Valvrereth" "Daolarvesh" "Meko Korvel"
+			"Vomerunvash" "Setareikar" "Torva Leno" "Polrao Kreopn" "Enlloris" "Kesanekan" "Temoo Farns" "Neaneshar"
+			"Talvoelkororen" "Nedra Harve" "Jelri Savo" "Pevna Markes" "Kemanilan" "Rask Keslor" "Kesla Rvelosca" "Seldaorsinar"
+			"Kelnororan" "Quvadiraoris" "Veisekan" "Nedi Kellolar" "Hexnaeran" "Darna Darsh" "Surni Rvetun" "Vamvrireven"
+			"Pea Lvektun" "Jore Andao"
+			"Merr Ruka" "Merna Ressa" "Avlenoseth" "Emperekan" "Yarr Veyn" "Natanenor" "Cheitavar" "Nee Jeracal"
+			"Tibereshar" "Koraleonenor" "Ferlrilan" "Korra Belnor" "Regasemeshar" "Vevelesekan" "Jorvervavesh" "Berethior"
+			"Vanvaoran" "Morikatavaresh" "Kororavar" "Sove Ssancal" "Sele Avikshol" "Rukjorvinar" "Venossanenor" "Delso Chel"
+			"Ormumeemar" "Dra Ssdin" "Nesorikior" "Laherinar" "Kovi Aksab"
+			"Sarvuris" "Nelkareshar" "Avvunovar" "Haliraovar" "Gerue Eriknon" "Soenoenor" "Nee Lviktor" "Neskaravikelor"
+			"Jasri Voser" "Deli Orvekur" "Olelveth" "Kabelvemar" "Pesholilan" "Kelmoormanoren" "Maennovash" "Rove Vardin"
+			"Rulvejorvevesh" "Farosevor" "Pera Elldin" "Pelvatorrvash" "Keanaresh" "Telr Taren" "Harumenemar"
+			"Kaslelmilan" "Rovike Bren" "Kolppoeshar" "Sai Orawen" "Nela Pelva" "Reorsevesh" "Tikolvilan" "Pelariavar"
+			"Korvehavesh" "Vesi Orfor" "Potvoren" "Belvarvash" "Tele Rafor" "Tivn Varr" "Ree Skawban" "Neri Mekran"
+			"Neukaavel" "Daorvakvash" "Phevnaurereran" "Norr Vandor" "Tovi Kesharn" "Caevntiavar" "Nesi Lkarwen" "Syedovrraoris"
+			"Marve Varren" "Toe Osdin" "Parkramaresh" "Paereikar" "Pavr Belka" "Tirvlaoren" "Iherravar" "Tee Lvikban"
+			"Vorlnoilan" "Less Tova" "Tesse Lmodao" "Avemavesh" "Eppo Pavi" "Kerorvash" "Neoruedor" "Chneuteemar"
+			"Voa Elkcal" "Marni Imeser" "Retelliemar" "Irairiaresh" "Pore Merusab" "Mava Sloban" "Vesa Vomar" "Lumre Kkyap"
+			"Kuviekan" "Tai Okosca" "Tarleevor" "Talhorilan"
+		}
+
+		battleship = {
+			"Protectorate's Due" "Weight of Worlds" "Irune's Witness" "Guardian of Lenos" "Pressure Crown" "Claim of Plenix" "Bookkeeper's Oath" "Golden Irune"
+			"Guardian of Talis Fia" "Patavig Ascendant" "Cherk Sab Triumphant" "Voice of Barla Von" "Accord of Din Korlack" "Surnaresh" "Savrlaidor" "Helvizhar"
+			"Drelvokbar" "Toriorik" "Velkoilon" "Karnegor" "Korlack Maskawator" "Talvevador" "Kessavoth" "Inalravar"
+			"Pergioren" "Temraoren" "Trarnebar" "Selmoriesh" "Bintsabar" "Orrolrarad" "Jalsanor" "Saveninar"
+			"Nlkessathar" "Nedrrunlor" "Korresbar" "Maelkokar" "Rushamar" "Tornarath" "Vennkaesh" "Doraegor"
+			"Laernaaraskrath" "Tarearrtaerna" "Nieklmawasko" "Vellesskar" "Hekesmkar" "Selvreszar" "Dorsorvedor" "Sendariaresh"
+			"Selnorik" "Jorraesh" "Dorekerikar" "Elvsaeth" "Keasrnor" "Birninor" "Neskobovisbar" "Shemornor"
+			"Tivovrlor" "Vzheshovash" "Telraesh" "Merrvoth" "Kevesntor" "Torskordor" "Pekraivranor" "Jelrurad"
+			"Belnorevor" "Tiradabar" "Rovrahirenllo" "Nolsalor" "Demaharvbar" "Malrkeshoren" "Kerrjelralor" "Dakrvaaslemoivr"
+			"Keldvoth" "Dzhaknirad" "Noelvarzar" "Tovskaedon" "Tetarentor" "Belkoorad" "Geritharavek" "Darveulvmar"
+			"Ervatzhar" "Ksherezhar" "Jaheskahyovr" "Rocctesh"
+			"Vehimebar" "Nolrorik" "Goavunvoth" "Cndorviovash" "Shnirelor" "Cnarthenevador" "Bskelraidor" "Orlmaedon"
+			"Neselvmar" "Porsazhar" "Yarrnikbar" "Nolveeth" "Lenzhosvek" "Resrsaegor" "Vorerrvor" "Mekraaresh"
+			"Kskesharrath" "Kreoparizar" "Voelvazar" "Tessvador" "Belvoesh" "Kesrievor" "Kumrauvresh" "Tilrvevor"
+			"Vaskawkar" "Vesraesh" "Tesianor" "Moelabar" "Soelvesh" "Naruelor" "Rsethinar" "Kelrazar"
+			"Pearvvor" "Mavraavar" "Keenixdor" "Maorvastor" "Anageovar" "Vadndavirthar" "Torveolranor" "Luvlvelor"
+			"Delkoren" "Aurethlosaresh" "Belrvanor" "Elkrabar" "Hershenlarieth" "Pelloessoerlv"
+			"Gafvotor" "Valvrerianor" "Tebovikbar" "Gyasketrararath" "Kavarunor" "Mornaevor" "Gerrerimar" "Vanvarrad"
+			"Kesharvashvor" "Sarnainar" "Drmavrzar" "Talelator" "Gacamioren" "Pelsenzar" "Hzharvorik" "Terrkalzhar"
+			"Kesvoeth" "Orupenor" "Vashovash" "Dirdemarad" "Ruvrpeidor" "Vraretiath" "Yelnaorad" "Veltorsevor"
+			"Alalhilon" "Nelsrabar" "Voahlelome" "Kovpolrvor" "Lennartuntor" "Sorvalahileelo" "Vrennedon" "Tarkotor"
+			"Tovravador" "Melaaresh" "Rulvegor" "Epposaesh" "Toviekar" "Soeshamar" "Dorvlerad" "Jorvevador"
+			"Helruveesh" "Dilatiesh" "Forbrenzar" "Telkarnzar" "Teralath" "Jeelkonor"
+			"Kesmsoegor" "Hskelvoren" "Norukanesh" "Keslaidor" "Telvaresh" "Serndailon" "Pelnunzar"
+			"Gradorad" "Irvritoren" "Jaenostor" "Truelndor" "Varleskzar" "Nihslesh" "Jorunvek"
+			"Delsalenixtor" "Luulvtor" "Tirvarath" "Urunevor" "Kerekeskrad" "Mrornazhar" "Doskreesh" "Dsovrarad"
+			"Luvvashonor" "Orreaskorvor" "Masrkeath" "Ossazhar" "Kelmorad" "Pavrvador" "Mersavrrad" "Shalloekar"
+			"Iruvrazar" "Nerrkikrath" "Tepavivor" "Hesvkovash"
+			"Farvosorad" "Lenkekar" "Selrvormar" "Pelkoedon" "Vasndovador" "Rengponinzhar" "Cheoranpavra" "Daerekar"
+			"Yessaesh" "Kelnoresh" "Nneskoinar" "Valrkeeshdakra" "Tarraekar" "Gnerreth" "Lernosvek" "Maezhnalorik"
+			"Naskovek" "Mlandatuath" "Mernaekrkeeppo" "Bravzerad" "Vavarrmar" "Mthalveth" "Kehiralor" "Muraeravar"
+			"Telsahiesh" "Troleikar" "Kveshaekar" "Stezheloren" "Beorutor" "Jerarirad" "Nlolvenikar"
+			"Fornraikar" "Joppazhar" "Varniktor" "Vaallaegor" "Porarlemar" "Ykhilaorik" "Delrazhar" "Snderekar"
+			"Tofarnvor" "Selelesesh" "Vesnelsmar" "Tlkarneorad" "Roviovar" "Parelraoren"
+			"Delirtor" "Blarizhar" "Tolkormar" "Relssavoth" "Draskrad" "Dacherknor" "Tzhelkaovar" "Monarukar"
+			"Pevravek" "Trovakekar" "Neldovanvor" "Peethesh" "Sevrkentrad" "Kshortueth" "Gerueruafnak" "Joelorvor"
+			"Relnavennzar" "Narerrabar" "Benessator" "Krevroaresh" "Renlaevor" "Tvirvovar" "Seimiorik"
+			"Keleskomar" "Nicovash" "Perskawaesh" "Voalahyesh" "Raellailon" "Meorazar" "Joedrdor" "Vndashior"
+			"Polrlorbar" "Belsovrbar" "Sphininthar" "Rendikar" "Kwuolvassurnak"
+		}
+
+		titan = {
+			"Kwunu Ascendant" "Heart of Irune" "Plenix Eternal" "Golden Witness"
+			"Perfect Measure" "Patron of Lenos" "Seal of the Protectorate" "Vol Sovereign"
+		}
+
+		juggernaut = {
+			"Grand Reserve" "Vault of Ages" "Pressure Citadel" "Irune Eternal"
+		}
+
+		colossus = {
+			"Last Accounting" "Final Dividend" "Absolute Claim"
+		}
+
+		science = {
+			"Market Surveyor" "Pressure Survey" "Aethon Prospector" "Ledger of Stars"
+			"Archive of Plenix" "Exchange Cartographer" "Irune Observer" "Bookkeeper's Eye"
+			"Vault Index" "Tariff Survey" "Witness Array" "Long Measure"
+		}
+
+		colonizer = {
+			"New Irune" "New Lenos" "New Talis Fia" "New Patavig"
+			"New Maskawa" "New Daleon" "Prospect of Alahya" "Settlement Charter"
+			"Outer Ledger" "Founding Charter" "Colony Writ" "Open Prospect"
+		}
+
+		constructor = {
+			"Pressure Frame" "High Scaffold" "Vault Builder" "Irune Drydock"
+			"Contract Yard" "Measured Span" "Exchange Forge" "Tariff Works"
+			"Ledger Mason" "Capital Frame" "Surety Scaffold" "Warrant Foundry"
+		}
+
+		transport = {
+			"Embassy Lift" "Clan Caravan" "Mercantile Convoy" "Pressure Caravan"
+			"Trade Caravan" "Central Lift" "Reserve Lift" "Civic Freight"
+			"Relief Convoy" "Witness Convoy" "Docket Carrier" "Expedited Means"
+		}
 	}
 	
 	fleet_names = {
 		random_names = {
-			"Trade Defense Fleet" "Irune Fleet" "Vol Protectorate Fleet" "Banking Clan Fleet" "Merchant Fleet" "Economic Zone Fleet"
-			"Exchange Security Flotilla" "Aethon Trade Fleet" "Ledger Guard" "Cherk Sab Convoy" "Vol-clan Reserve Fleet"
+			"Irune Trade Defense Flotilla" "Vol Protectorate Flotilla" "Banking Clan Reserve" "Merchant Security Fleet" "Exchange Security Flotilla"
+			"Aethon Trade Flotilla" "Treasury Guard" "Cherk Sab Convoy Guard" "Maskawa Reserve" "Patavig Escort Force"
+			"Lenos Treasury Flotilla" "Talis Fia Escort" "Alahya Prospect Fleet" "Outer Ledger Flotilla" "Pressure Zone Patrol"
+			"Contract Enforcement Flotilla" "Witness Bay Flotilla" "Usra Dao Security Wing"
 		}
-		sequential_name = "$ORD$ Vol Fleet"
+		sequential_name = "$ORD$ Trade Defense Flotilla"
 	}
 
 	army_names = {
-		defense_army = {
-			random_names = {}
-			sequential_name = "$ORD$ Planetary Corps"
-		}
-
-		assault_army = {
-			random_names = {}
-			sequential_name = "$ORD$ Central Corps"
-		}
-
-		slave_army = {
-			random_names = {}
-			sequential_name = "$ORD$ Mercenary Corps"
-		}
-
-		clone_army = {
-			random_names = {}
-			sequential_name = "$ORD$ Clone Corps"
-		}
-
-		robotic_army = {
-			random_names = {}
-			sequential_name = "$ORD$ Drone Corps"
-		}
+		defense_army = { sequential_name = "$ORD$ Pressure Corps" }
+		assault_army = { sequential_name = "$ORD$ Bombard Corps" }
+		slave_army = { sequential_name = "$ORD$ Indentured Support Corps" }
+		clone_army = { sequential_name = "$ORD$ Clone Reserve" }
+		robotic_army = { sequential_name = "$ORD$ Drone Corps" }
+		robotic_defense_army = { sequential_name = "$ORD$ Shield Drone Corps" }
+		psionic_army = { sequential_name = "$ORD$ Biotic Detachment" }
+		xenomorph_army = { sequential_name = "$ORD$ Captive Beast Group" }
+		gene_warrior_army = { sequential_name = "$ORD$ Sealed Shock Corps" }
+		occupation_army = { sequential_name = "$ORD$ Compliance Corps" }
+		robotic_occupation_army = { sequential_name = "$ORD$ Compliance Drone Corps" }
+		primitive_army = { sequential_name = "$ORD$ Militia Band" }
+		industrial_army = { sequential_name = "$ORD$ Industrial Security Corps" }
+		postatomic_army = { sequential_name = "$ORD$ Planetary Security Corps" }
 	}	
 
 	planet_names = {
 		generic = {
 			names = {
-				"Irune" "Oma Ker" "Zada Ban" "Binthu" "Maskawa" "Daleon" "Patavig" "Shallos" "Vol Prime" "Kerek" "Veles" "Aventen" "Credits Rest"
-				"Cherk Sab" "Jak Ser" "Bovis Tor" "Doz Atab" "Vem Osca" "Welm Urun"
+				"Irune" "Lenos" "Boro" "Maskawa" "Patavig" "Talis Fia" "Zada Ban" "Daleon"
+				"Alahya" "Oma Ker" "Cherk Sab" "Jak Ser" "Bovis Tor" "Doz Atab" "Vem Osca" "Welm Urun"
+				"Yila" "Sahime" "Usra Dao" "Credits Rest" "Fortune's Rest" "High Treasury" "Witness Bay" "Vol Prime"
+				"Ulen Varr" "Ked Orun" "Velor Din" "Orman Kell" "Tor Veyn" "Nara Kel" "Karn Vol" "Torr Vale"
+				"Ledger's Reach" "Silent Tariff" "Prospect Vale" "Broker's Rest" "Vigil of Plenix" "Bright Maskawa" "Deep Irune" "Witness Hollow"
+				"Measured Fortune" "Lattice of Means" "Calm Pressure" "Rupe's Lantern" "Shol's Promise" "Tun's Accord" "Merchant's Wake" "Tidal Contract"
 			}
 		}
 
 		pc_desert = {
 			names = {
 				"Zada Ban" "Daleon" "Patavig" "Kerek" "Ruk Tor" "Varn Oss" "Chel Mar" "Tov Kesh"
+				"Ked Orun" "Pale Ban" "Dry Dividend" "Irune Scar" "Dust Ledger" "Amber Contract"
+				"Quiet Margin" "Cinder Sab" "Barren Worth" "Ocher Witness"
 			}
 		}
 
 		pc_arid = {
 			names = {
 				"Irune" "Maskawa" "Shallos" "Vol Prime" "Aventen" "Bovis Tor" "Ulen Varr" "Ked Orun"
+				"Lenos" "Sahime" "Thin Venture" "Dry Exchange" "Steady Ban" "Pale Venture"
+				"Still Treasury" "Measured Dust" "Profit Shelf" "Last Oasis"
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				"Oma Ker" "Boro" "Patavig" "Velor Din" "Sar Tov" "Marn Vol" "Pelen Tor" "Ressa Ker"
+				"Talia Ban" "Ular Venn" "Golden Verge" "Broad Dividend" "Warm Witness" "Long Steppe"
+				"Amber Reach" "Riven Tallows" "Open Means" "Sunward Kerek"
 			}
 		}
 
 		pc_tropical = {
 			names = {
 				"Oma Ker" "Welm Urun" "Lush Credit" "Gold Current" "Bentha Vol" "Nara Kel"
+				"Yila" "Usra Dao" "Sahime" "Bright Current" "Jewel Pressure" "Market Tide"
+				"Verdant Sab" "Mild Dividend" "Blue Fortune" "Emerald Ledger"
 			}
 		}
 
 		pc_continental = {
 			names = {
 				"Binthu" "Veles" "Credits Rest" "Jak Ser" "Orman Kell" "Velor Din" "Sar Tov"
-			}
-		}
-
-		pc_ocean = {
-			names = {
-				"Doz Atab" "Vem Osca" "Shining Sea" "Witness Bay" "Tor Veyn" "Ammon Tide"
-			}
-		}
-
-		pc_tundra = {
-			names = {
-				"Pale Irune" "Cold Ledger" "Karn Vol" "Thin Pressure" "Boreal Sab"
-			}
-		}
-
-		pc_arctic = {
-			names = {
-				"White Ban" "Frozen Kerek" "Ice Dividend" "Torr Vale" "Jek Urun"
+				"Lenos" "Talis Fia" "Dao's Rest" "Contract Meadow" "Measured Plains" "Silent Exchange"
+				"Broker's Haven" "Far Witness" "Prosper Vale" "Accord Basin"
 			}
 		}
 
 		pc_gaia = {
 			names = {
 				"Fortune's Rest" "Golden Irune" "High Treasury" "Blessed Sab" "Perfect Exchange"
+				"Lenos Prime" "Great Witness" "Prosperous Talis" "Pure Dividend" "Halo of Plenix"
+				"Vault of Dawn" "Shining Accord" "Merciful Pressure"
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				"Doz Atab" "Vem Osca" "Shining Sea" "Witness Bay" "Tor Veyn" "Ammon Tide"
+				"Welm Urun" "Blue Ledger" "Sea of Means" "Osca Deep" "Tide of Contracts" "Cool Dividend"
+				"Azure Witness" "Distant Shoals" "Pressure Current" "Silver Reef"
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				"Pale Irune" "Cold Ledger" "Karn Vol" "Thin Pressure" "Boreal Sab"
+				"White Ker" "Frozen Witness" "Distant Treasury" "Still Ban" "Cold Measure"
+				"Grey Fortune" "North Contract" "Frost Dividend"
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				"White Ban" "Frozen Kerek" "Ice Dividend" "Torr Vale" "Jek Urun"
+				"Cold Exchange" "Glacial Ledger" "Pale Talis" "Rimed Venture" "Silent Ice"
+				"Far Pressure" "Snowbound Witness" "Frozen Margin"
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				"High Irune" "Vault Ridge" "Pressure Peak" "Tall Sab" "Stone Ledger"
+				"Cloud Ker" "Raised Means" "Watcher Peak" "Summit Accord" "Merchant's Crag"
+				"Thin Crown" "Steep Fortune" "Plenix Rise"
 			}
 		}
 
 		pc_nuked = {
 			names = {
 				"Ruined Ledger" "Ash Ban" "Burned Kerek" "Shattered Exchange" "Dead Margin"
+				"Broken Treasury" "Spent Witness" "Blackened Talis" "Fallen Venture" "Burnt Dividend"
+				"Riven Irune" "Silent Ruin" "Spent Contract"
 			}
 		}
 
 		pc_ai = {
 			names = {
 				"Exchange Node" "Ledger Core" "Tariff Array" "Market Logic"
+				"Bookkeeper Matrix" "Contract Nexus" "Broker Engine" "Dividend Relay"
+				"Vault Algorithm" "Silent Quotient"
+			}
+		}
+
+		pc_machine = {
+			names = {
+				"Vault Core" "Treasury Lattice" "Pressure Engine" "Credit Matrix"
+				"Balance Nexus" "Silent Processor" "Interest Spine" "Trade Lattice"
+				"Quiet Arbiter" "Book of Circuits"
 			}
 		}
 	}
@@ -131,45 +399,58 @@ MEG_volus = {
 	character_names = {
 		names1 = {
 			weight = 100
-			full_names = { }
-
-			first_names = { }
-
 			first_names_male = {
-				"Barla" "Din" "Pitne" "Niftu" "Jahleed" "Gaffno" "Vor" "Korl" "Tarn" "Velk" "Narum" "Jorim" "Pelk" "Dovan"
-				"Reth" "Marn" "Tovik" "Kesh" "Bren" "Hask" "Voren" "Talv" "Korun" "Pell" "Neran" "Gorv" "Selk" "Doran"
-				"Kelm" "Varn" "Torv" "Jek" "Marv" "Perek" "Voln" "Rukal" "Telsh" "Bovik" "Forn" "Lenk"
+				"Barla" "Din" "Pitne" "Niftu" "Jahleed" "Gaffno" "Han" "Doran"
+				"Voren" "Korl" "Tarn" "Velk" "Narum" "Jorim" "Pelk" "Dovan" "Reth" "Marn"
+				"Tovik" "Kesh" "Bren" "Hask" "Talv" "Korun" "Pell" "Neran" "Gorv" "Selk"
+				"Kelm" "Varn" "Torv" "Jek" "Marv" "Perek" "Voln" "Rukal" "Telsh"
+				"Bovik" "Forn" "Lenk" "Varen" "Orren" "Pavik" "Teral" "Mekor" "Nolven" "Keslar"
+				"Jorun" "Velran" "Dorek" "Talven" "Korik" "Hesk" "Nerik" "Pellor" "Rukan" "Seldor"
+				"Dakni" "Rupe" "Kumun" "Lumen" "Kwunu" "Kortun" "Varlek" "Jorvek" "Temor" "Kelrun"
+				"Naskor" "Belkor" "Rendik" "Sorvek" "Darmek" "Polren" "Gerun" "Tesk" "Malvek" "Torik"
+				"Jasrek" "Venkor" "Relnar" "Kesmon" "Tarnek" "Borun" "Helvik" "Surnak" "Veldor" "Karnek"
+				"Domar" "Kesvor" "Pelnar" "Truvek" "Lorun" "Mernak" "Rovik" "Telkor" "Vassor" "Nedran"
+				"Torren" "Varun" "Pelkor" "Drelk" "Kesrik" "Fornak" "Jorven" "Selvar" "Tolen" "Merkun"
 			}
 
 			first_names_female = {
-				"Vela" "Nara" "Sera" "Tova" "Brena" "Dira" "Mela" "Kira" "Pela" "Jana" "Lora" "Vassa" "Rena" "Talia"
-				"Shira" "Nessa" "Velis" "Korra" "Dema" "Presa" "Mira" "Tirra" "Yessa" "Kelda" "Nivra" "Sola" "Tesha" "Bari"
-				"Lenna" "Vora" "Sarna" "Trema" "Pavra" "Nela" "Ressa" "Dovra" "Morna" "Kelda" "Bessa" "Tarra"
+				"Eppo" "Irit" "Vela" "Nara" "Sera" "Tova" "Brena" "Dira" "Mela" "Kira" "Pela" "Jana"
+				"Lora" "Vassa" "Rena" "Talia" "Shira" "Nessa" "Velis" "Korra" "Dema" "Presa"
+				"Mira" "Tirra" "Yessa" "Kelda" "Nivra" "Sola" "Tesha" "Bari" "Lenna" "Vora"
+				"Sarna" "Trema" "Pavra" "Nela" "Ressa" "Dovra" "Morna" "Bessa" "Tarra" "Yelna"
+				"Pera" "Savra" "Kelva" "Jessa" "Torra" "Mavra" "Rivna" "Selra" "Vesha" "Norra"
+				"Tessa" "Pevra" "Lessa" "Darna" "Merra" "Kessa" "Velna" "Yarra" "Tivra" "Belna"
+				"Eppa" "Irita" "Lumra" "Kumra" "Dakra" "Vesra" "Pelra" "Jorra" "Nerra" "Mekra"
+				"Savena" "Kelra" "Torva" "Belra" "Veska" "Telra" "Merna" "Relsa" "Pevna" "Sovra"
+				"Varni" "Neska" "Delra" "Kovra" "Selna" "Tarni" "Morva" "Luvra" "Kesna" "Polra"
+				"Temra" "Gerra" "Varra" "Rovra" "Surna" "Brenna" "Kelni" "Vesna" "Marra" "Torna"
+				"Elsa" "Nolra" "Jelra" "Porsa" "Raska" "Velra" "Delsa" "Kerra" "Mornae" "Tivna"
 			}
 
 			second_names = {
-				"Von" "Korlack" "For" "Cal" "Yap" "Sab" "Ban" "Ser" "Tor" "Urun" "Osca" "Atab" "Kerek" "Veles" "Maskawa"
-				"Patavig" "Shallos" "Aventen" "Binthu" "Daleon" "Vol" "Ker" "Tov" "Kesh" "Mar" "Varr" "Orun" "Vel" "Din"
-				"Reth" "Pell" "Narum" "Bren" "Korun" "Selk" "Joran" "Farn" "Lekk" "Dovan" "Tarn" "Veyn" "Kell" "Ruk"
+				"Von" "Korlack" "For" "Cal" "Yap" "Olar" "Wen" "Non" "Sab" "Ban"
+				"Ser" "Tor" "Urun" "Osca" "Atab" "Kerek" "Veles" "Maskawa" "Patavig" "Shallos"
+				"Aventen" "Binthu" "Daleon" "Vol" "Ker" "Tov" "Kesh" "Mar" "Varr" "Orun"
+				"Vel" "Din" "Reth" "Pell" "Narum" "Bren" "Korun" "Selk" "Joran" "Farn"
+				"Lekk" "Dovan" "Tarn" "Veyn" "Kell" "Ruk" "Dao" "Yila" "Sahime" "Lenos"
+				"Usra" "Chel" "Oss" "Kel" "Vale" "Taren" "Pavik" "Nol" "Merik" "Savor"
+				"Beln" "Tovar" "Keshar" "Voren" "Delk" "Peren" "Rukan" "Telv" "Jass" "Morik"
+				"Tun" "Shol" "Kur" "Kreop" "Elkoss" "Varren" "Keslor" "Pelvik" "Telnor" "Darsh"
+				"Vask" "Merun" "Sorvak" "Korvel" "Neskar" "Belvor" "Tirvak" "Jorvek" "Kelmon" "Rethar"
+				"Voln" "Dren" "Kaslor" "Mekran" "Tovak" "Nelvor" "Surn" "Korvash" "Vennor" "Lask"
+				"Pellin" "Jerak" "Dorven" "Belkar" "Rulvek" "Marnik" "Kessor" "Telkar" "Vorsh" "Darven"
+				"Pelvar" "Talvok" "Nolvek" "Ressan" "Velkor" "Markesh" "Vandor" "Seldan" "Torvek" "Drelkor"
+				"Harven" "Kolvar" "Pekran" "Neskor" "Ravik" "Ossan" "Belnor" "Kelvak" "Torsen" "Vashor"
 			}
+		}
 
-			regnal_first_names = { }
-
-			regnal_first_names_male = {
-				"Barla" "Din" "Pitne" "Niftu" "Jahleed" "Gaffno" "Vor" "Korl" "Tarn" "Velk" "Narum" "Jorim" "Pelk" "Dovan"
-				"Reth" "Marn" "Tovik" "Kesh" "Bren" "Hask" "Voren" "Talv" "Korun" "Pell" "Neran" "Gorv" "Selk" "Doran"
-			}
-
-			regnal_first_names_female = {
-				"Vela" "Nara" "Sera" "Tova" "Brena" "Dira" "Mela" "Kira" "Pela" "Jana" "Lora" "Vassa" "Rena" "Talia"
-				"Shira" "Nessa" "Velis" "Korra" "Dema" "Presa" "Mira" "Tirra" "Yessa" "Kelda" "Nivra" "Sola" "Tesha" "Bari"
-			}
-
-			regnal_second_names = {
-				"Von" "Korlack" "For" "Cal" "Yap" "Sab" "Ban" "Ser" "Tor" "Urun" "Osca" "Atab" "Kerek" "Veles" "Maskawa"
-				"Patavig" "Shallos" "Aventen" "Binthu" "Daleon" "Vol" "Ker" "Tov" "Kesh" "Mar" "Varr" "Orun" "Vel" "Din"
-				"Reth" "Pell" "Narum" "Bren" "Korun" "Selk" "Joran" "Farn" "Lekk" "Dovan" "Tarn" "Veyn" "Kell" "Ruk"
+		notables = {
+			weight = 4
+			full_names = {
+				"Barla Von" "Din Korlack" "Pitne For" "Niftu Cal" "Gaffno Yap" "Han Olar" "Eppo Wen" "Irit Non"
+				"Kor Tun" "Kumun Shol" "Dakni Kur" "Lumen Kreop" "Rupe Elkoss" "Kwunu" "Jahleed" "Doran"
 			}
 		}
 	}
 }
+

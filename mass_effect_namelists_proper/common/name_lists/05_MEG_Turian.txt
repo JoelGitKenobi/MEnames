@@ -2,49 +2,231 @@ MEG_turian = {
 	randomized = no
 
 	ship_names = {
-	
-		generic = {
-			Quinculus Veraria Caesis Lupirius Juveteia Flaviter Heriius Potvus Mutiraka Indril Canril Tibetis Nartis Canlinus Galgius Posmius
-			Ignacus Furimia Seimia Hoso Caena Pottus Quascus Gorril Saloana Adjunion Vitasis Calpodonis Muticius Hilmus Decter Numso Maxiso
-			Postitis Sieus Cnaena Kaemus Murmus Protacius Regipanus Capiril Victolin Cailio Gaibius Vibiruns Dardaraka Caeion Flotion Varilin
-			Hortenso Habscus Senria Septivea Furiponia Velinion Cicesia Varetia Quaril Bellanianus Garinianus Eudonian Varrinus Lacidia Caepdas
-			Agilis Arcaria Sagitta Pulsatrix Cherub Chimaera Spatha Ascia Manuballista Gladius Deterrens Errans Fidelis Ferox Gladius Fera 
-			Corvus Malleus Vampyrus Velox Venatrix Vindicatrix Venerabilis Venenosa Taciturna Suprema Victrix Scinditrix Seraphin Serpens Ignitrix Persecutrix Strategema
-			Cymitharra Flagellum Falx Nuntius Formidabilis Raptrix Prodiga Rapperia Prudens Persistens Incomparabilis Myrmidon Indignans Hasta Eques
-			Lupa Bonaventura Adventura Pugil Pirata Remissa Caelestialis Quadriga Cometa Ordalia Cyclon Decretoria Dextra Diadema Seria Eclipsis Malleatrix Fortunata 
-			Manica Gryphus Horizon Calcar Typhon Jubilans Lanciarius Fulgur Magia Mediatrix Nympha Sirena Meteorum Ministerialis Miranda Mixta Diligens
-			Havincaw Verrikan Cyclops Centaurus Adversarius Sicarius Sica Audax Pertinax Officium Strages Naufragium Heros Venator Justitia Impeccabilis Infernalis Fidelis Unica Contundor Malitia
-			Minax Immitis Immisericors Pestis Maleficium Imperator Civis Praedator Potens Punitor Ultor Vindex Atrox Malignus Invidiosus Terminator Terror Triturator Minotauros
-			Mantichora Interdictor Intrusus Hydra Vexator Invictus Versipellis Lycanthropus Studiosus Zelus Petulans Phantasma Phoenix Stylus Secutor Incursor "Arcus Caelestis" Rapidus Redemptio 
-			Implacabilis Superbus Strictus Robustus Machaera Salvatio Sanguineus Scarabaeus Sceptrum Circe Sirena Maga Summitas Spectrum Spiritus Splendidus Admissarius Resistens 
-			Firmus Strenuus Superbus Supernova Miraculum Robustus Talentum Ingenium Fascinum Unguis Taurus Tenax "Filius Jovis" Tonitralis Indefatigabilis Efficax Pius
-			Kara Anixara Sevrum Acheron Achilles Agamemnon Amphion Aquilon Favonius Auster Aeolus Argonauta Argus Aurora Avernus Bacchus Bucephalus Calliope Calypso Castor Charybdis Circe
-			Cleopatra Constantinus Cordelia Cyrus Damocles Daedalus Darius Diomede Dryades Electra Endymion Erebus Luperca Bellona Hercules Gorgon Alcyone Hecate
-			Hector Hesperus Janus Jason Juno Juppiter Horatius Lazarus Leander Leonidas Lysander Maenas Mars Medea Medusa Menestheus Mercurius Minerva
-			Minos Neptunus Nessus Nestor Niobe Oberon "Juppiter Stator" "Juppiter Caelestis" "Juppiter Optimus Maximus" "Juppiter Terminus" Cassandra 
-			Orestes Orpheus Osiris Pandora Penelope Persephone Perseus Phoebe Pluto Poseidon "Sine Fine"
-			Proteus Pylades Serapis Styx Tantalus Telemachus Theseus Trajanus Triton Venus "Imperator Augustus" Archon Vesta Quirinus Ceres 
-			Liber Libera Diana Eradicator Vulcanus Apollo Saturnus Genius Luna Orcus Imperator Excelsior Volturnus Romulus
-			Indomitable Resolute Undaunted Concordia Spes Asclepius Lucifer Salus Athenonix Satyra Rhenus Libertas Sol
-			Vindicta Triumphalis Nemesis Ultor Vindex Victor Gloria Immortalis Judicator Praeventor Exculcator Demolitor Draco Executor Furiosus Gladiator
-			Magnificentior Orcus Impetus Injuria Domitor Vehemens Basiliscum Tempestas Imperator Pugnator Titanus Colossus Prometheus Nike Supremus Propulsator
-			Maiestas Avatar Behemoth Centurio Arx Oblivio Praenuntius Pristis Cerberus Hyperion Galatea Insidia Vindicator
-			Industria Sedulitas Gnavitas Assiduitas Conatus Procuratio Operarius Conditor Aedifex Artifex Opifex Confector Progressus Machinator Promissio Ministerium Tectum Creator Fabrica 
-			Incus Architectus Accommodator Vulcanus Obstinatio Diligens Zephyrus Aenigma Inquisitor Scylla Sanctor Aspera Eminentia Astutia Alacritas Prosperitas Perseverantia Apex Lumen Memoria Peregrinatio
-			Vagabundus Viator Legatus Emissarius Dubitatio Explorator Vagus Veritas Salve Prophetia "Sine Fine" Virtus Potentia Expansio Praecursor Prosperitas Culmen Aedis Seminarium Messis Demeter Isis Ceres Exodus
-			Fundatio Stirps Progenies Obligatio Propositus Providentia Adquiritor Agricola Aurora Puritas Communitas Fraternitas
-			"Primarch One" "Primarch Two" "Palaven Ascendant" "Spear of Menae" "Trebia Watch" "Victus Invicta" "Gavorn's Wrath" "Apex of Palaven"
-			"Hierarchy's Due" "Third Talon" "Fourth Talon" "Fifth Talon" "Iron Standard" "Cabal's Oath" "Sky of Menae" "Shield of Trebia"
+		corvette = {
+			"PFS Taetrus" "PFS Digeris" "PFS Pheiros" "PFS Gellix" "PFS Gothis" "PFS Parthia" "PFS Edessan" "PFS Baetika"
+			"PFS Magna" "PFS Nimines" "PFS Macedyn" "PFS Galatana" "PFS Rocam" "PFS Chatti" "PFS Bostra" "PFS Carthaan"
+			"PFS Thracia" "PFS Epyrus" "PFS Syglar" "PFS Quadim" "PFS Nanus" "PFS Impera" "PFS Essenus" "PFS Aephus"
+			"PFS Solium" "PFS Veridia" "PFS Lacinium" "PFS Avena" "PFS Tiberon" "PFS Caelora" "PFS Pallanis" "PFS Rhenor"
+			"PFS Hierax" "PFS Sicara" "PFS Veloran" "PFS Tarsis" "PFS Aurex" "PFS Castrum" "PFS Nicon" "PFS Pelagia"
+			"PFS Corynthe" "PFS Crispus" "PFS Nivalis" "PFS Arcturon" "PFS Talonis" "PFS Canrum" "PFS Tridend" "PFS Presrop"
+			"PFS Ontarom" "PFS Antida" "PFS Agebinium" "PFS Sybin" "PFS Maganlis" "PFS Xawin" "PFS Amaranthine" "PFS Nodacrux"
+			"PFS Trebin" "PFS Raysha" "PFS Maji" "PFS Pregel"
+			"PFS Coragoc" "PFS Pasklavax" "PFS Canurir" "PFS Aetin" "PFS Peredebin" "PFS Tibaertr" "PFS Rocid" "PFS Brkostral"
+    		"PFS Bosephax" "PFS Aepaegnan" "PFS Phrebuc" "PFS Diner" "PFS Hgrespen" "PFS Meedril" "PFS Rocctax" "PFS Nictikis"
+    		"PFS Mepadynon" "PFS Thetroc" "PFS Anages" "PFS Galiknaen" "PFS Phvaron" "PFS Vasper" "PFS Anaetrer" "PFS Gorianar"
+    		"PFS Cipespar" "PFS Avethex" "PFS Botikor" "PFS Palvenavic" "PFS Mestrid" "PFS Bositonvux" "PFS Hetenon" "PFS Spactur"
+    		"PFS Taric" "PFS Chettes" "PFS Macpaelur" "PFS Meyron" "PFS Pallor" "PFS Lacothis" "PFS Narttanes" "PFS Parerar"
+    		"PFS Casetrer" "PFS Goavun" "PFS Lastran" "PFS Aneser" "PFS Meallon" "PFS Perheirus" "PFS Diothas" "PFS Canaar"
+    		"PFS Natetikin" "PFS Gyigerar" "PFS Peprin" "PFS Ciacil" "PFS Covan" "PFS Diyrer" "PFS Latix" "PFS Lagel"
+    		"PFS Dilatic" "PFS Caracar" "PFS Geavunes" "PFS Natrinar" "PFS Maenal" "PFS Epetr" "PFS Taunes" "PFS Palri"
+    		"PFS Vanter" "PFS Bollis" "PFS Magcedex" "PFS Digssus" "PFS Mphaedinic" "PFS Cirthar" "PFS Ignixon" "PFS Petikan"
+    		"PFS Spavux" "PFS Condroc" "PFS Anthes" "PFS Vaallas" "PFS Pelikcoc" "PFS Ravicones" "PFS Niciber" "PFS Laikin"
+    		"PFS Anadorlan" "PFS Sphinin" "PFS Pergiix" "PFS Varostor" "PFS Cipssus" "PFS Parvec" "PFS Tiblavuc" "PFS Eplavin"
+    		"PFS Goxthur" "PFS Paroxix" "PFS Caentin" "PFS Cahracos" "PFS Ranuthal" "PFS Vathec" "PFS Ravalavas" "PFS Trurener"
+    		"PFS Parurenax" "PFS Peavyx" "PFS Trethaler" "PFS Laclur" "PFS Rococamon" "PFS Cilavenax" "PFS Gacamid" "PFS Ehdessar"
+    		"PFS Digrenir" "PFS Menrisor" "PFS Avvunor" "PFS Maxgnos" "PFS Parinusan" "PFS Ticalar" "PFS Phatos" "PFS Catheses"
+    		"PFS Raellar" "PFS Gytanur" "PFS Edaedrac" "PFS Edetus" "PFS Edric" "PFS Gelttel" "PFS Hepri" "PFS Mentes"
+			"PFS Coragoc" "PFS Pasklavax" "PFS Canurir" "PFS Aetin" "PFS Peredebin" "PFS Tibaertr" "PFS Rocid" "PFS Brkostral"
+    		"PFS Bosephax" "PFS Aepaegnan" "PFS Phrebuc" "PFS Diner" "PFS Hgrespen" "PFS Meedril" "PFS Rocctax" "PFS Nictikis"
+    		"PFS Mepadynon" "PFS Thetroc" "PFS Anages" "PFS Galiknaen" "PFS Phvaron" "PFS Vasper" "PFS Anaetrer" "PFS Gorianar"
+    		"PFS Cipespar" "PFS Avethex" "PFS Botikor" "PFS Palvenavic" "PFS Mestrid" "PFS Bositonvux" "PFS Hetenon" "PFS Spactur"
+    		"PFS Taric" "PFS Chettes" "PFS Macpaelur" "PFS Meyron" "PFS Pallor" "PFS Lacothis" "PFS Narttanes" "PFS Parerar"
+    		"PFS Casetrer" "PFS Goavun" "PFS Lastran" "PFS Aneser" "PFS Meallon" "PFS Perheirus" "PFS Diothas" "PFS Canaar"
+    		"PFS Natetikin" "PFS Gyigerar" "PFS Peprin" "PFS Ciacil" "PFS Covan" "PFS Diyrer" "PFS Latix" "PFS Lagel"
+    		"PFS Dilatic" "PFS Caracar" "PFS Geavunes" "PFS Natrinar" "PFS Maenal" "PFS Epetr" "PFS Taunes" "PFS Palri"
+    		"PFS Vanter" "PFS Bollis" "PFS Magcedex" "PFS Digssus" "PFS Mphaedinic" "PFS Cirthar" "PFS Ignixon" "PFS Petikan"
+    		"PFS Spavux" "PFS Condroc" "PFS Anthes" "PFS Vaallas" "PFS Pelikcoc" "PFS Ravicones" "PFS Niciber" "PFS Laikin"
+    		"PFS Anadorlan" "PFS Sphinin" "PFS Pergiix" "PFS Varostor" "PFS Cipssus" "PFS Parvec" "PFS Tiblavuc" "PFS Eplavin"
+    		"PFS Goxthur" "PFS Paroxix" "PFS Caentin" "PFS Cahracos" "PFS Ranuthal" "PFS Vathec" "PFS Ravalavas" "PFS Trurener"
+    		"PFS Parurenax" "PFS Peavyx" "PFS Trethaler" "PFS Laclur" "PFS Rococamon" "PFS Cilavenax" "PFS Gacamid" "PFS Ehdessar"
+    		"PFS Digrenir" "PFS Menrisor" "PFS Avvunor" "PFS Maxgnos" "PFS Parinusan" "PFS Ticalar" "PFS Phatos" "PFS Catheses"
+    		"PFS Raellar" "PFS Gytanur" "PFS Edaedrac" "PFS Edetus" "PFS Edric" "PFS Gelttel" "PFS Hepri" "PFS Mentes"
 		}
-		
-		mining_station = { }
-		research_station = { }
-		observation_station = { }
+		frigate = {
+			"PFS Havincaw" "PFS Torelen" "PFS Verrikan" "PFS Ravuna" "PFS Natanus" "PFS Victus" "PFS Vakarian" "PFS Arterius"
+			"PFS Aurelos" "PFS Oraka" "PFS Tiron" "PFS Actus" "PFS Haliat" "PFS Nazario" "PFS Gavorn" "PFS Kryik"
+			"PFS Sidonis" "PFS Kuril" "PFS Coronati" "PFS Pallin" "PFS Talid" "PFS Palanurus" "PFS Quarn" "PFS Davaria"
+			"PFS Kandros" "PFS Sahira" "PFS Emperus" "PFS Vyrnnus" "PFS Chellick" "PFS Fedorian" "PFS Corinthus" "PFS Haron"
+			"PFS Invectus" "PFS Vidinos" "PFS Valen" "PFS Scartos" "PFS Saneraxis" "PFS Hanus" "PFS Sylvatus" "PFS Partinax"
+			"PFS Relius" "PFS Tanus" "PFS Antivus" "PFS Tertius" "PFS Septimax" "PFS Machaera" "PFS Pagasi" "PFS Dianix"
+			"PFS Iheras" "PFS Partainis" "PFS Satorim" "PFS Ravidus" "PFS Daphnon" "PFS Nyrek" "PFS Korilius" "PFS Irvinus"
+			"PFS Siyan" "PFS Iherax" "PFS Sycoram" "PFS Septimas" "PFS Squaron" "PFS Riten" "PFS Spartarus" "PFS Quentiys"
+			"PFS Ursinus" "PFS Paramon" "PFS Borlin" "PFS Darikun" "PFS Latronus" "PFS Korlick" "PFS Patathor" "PFS Vadus"
+			"PFS Genchak" "PFS Raedun" "PFS Rubicum" "PFS Bartus" "PFS Egnadus" "PFS Primax" "PFS Castellan" "PFS Varro"
+			"PFS Tetranus" "PFS Corvinus" "PFS Palatin"
+			"PFS Capamenchan" "PFS Edarudonias" "PFS Extopwkorsin" "PFS Hgratiempas" "PFS Legvidus" "PFS Manacu" "PFS Farmararia" "PFS Vsiderydas"
+    		"PFS Ogtidria" "PFS Lupatorix" "PFS Etaapersimus" "PFS Grikinidan" "PFS Bahtalix" "PFS Lontivdoizar" "PFS Kordlegaria" "PFS Meunteden"
+    		"PFS Hucplesorius" "PFS Geriara" "PFS Hepumpes" "PFS Hnieraloris" "PFS Meyxirkkur" "PFS Edlinu" "PFS Racloronix" "PFS Mecitadid"
+    		"PFS Cheutegus" "PFS Quattaneson" "PFS Sivenaria" "PFS Avdoni" "PFS Secundnam" "PFS Samatovian" "PFS Sphastiar" "PFS Qutlegi"
+    		"PFS Iumartinos" "PFS Spratyveoron" "PFS Vuhisaivan" "PFS Aetastkinyn" "PFS Vaadirraera" "PFS Sesahira" "PFS Raocinus" "PFS Mevenaria"
+    		"PFS Butaromax" "PFS Raecavolwan" "PFS Ordavin" "PFS Aqilamoron" "PFS Ssareptatus" "PFS Conictrenus" "PFS Rirtara" "PFS Rastrelius"
+    		"PFS Ordoria" "PFS Kikosinira" "PFS Shrebvarinax" "PFS Muectatus" "PFS Prengwatinus" "PFS Eudara" "PFS Polinaera" "PFS Kkororlic"
+    		"PFS Jokaryikan" "PFS Sinfinus" "PFS Ehdsaharia" "PFS Rodacsor" "PFS Mensahoria" "PFS Scrimarchix" "PFS Ascawiras" "PFS Vebastim"
+    		"PFS Dasdidan" "PFS Navscempinus" "PFS Dapicovaus" "PFS Muraera" "PFS Boriara" "PFS Cogocor" "PFS Uledlanin" "PFS Letaciuvian"
+    		"PFS Caedorax" "PFS Imphinimax" "PFS Pagridos" "PFS Idurukulix" "PFS Higdavoria" "PFS Vadavira" "PFS Resutar" "PFS Lowater"
+    		"PFS Rapedor" "PFS Gyijunikorin" "PFS Nphatrinik" "PFS Bluhnonunus" "PFS Caiduria" "PFS Relrtanixix" "PFS Irordira" "PFS Mageratus"
+    		"PFS Ritadyneanus" "PFS Velaenik" "PFS Esanli" "PFS Cheabliar" "PFS Ascoria" "PFS Cahehdtuin" "PFS Chaettenus" "PFS Mesahara"
+    		"PFS Kasvantablid" "PFS Smarhaesis" "PFS Tovenunsik" "PFS Menitader" "PFS Erttipdailum" "PFS Hucnadklirus" "PFS Scahalciar" "PFS Lutaliar"
+    		"PFS Follundat" "PFS Captimu" "PFS Lotacius" "PFS Arnetern" "PFS Vinglarir" "PFS Amthinius" "PFS Xawtademux" "PFS Ikronprimar"
+    		"PFS Pahtalorin" "PFS Hosfodos" "PFS Corratin" "PFS Tirrcalaa" "PFS Vaateraris" "PFS Etalzarutus" "PFS Epndecaterus" "PFS Armperdinus"
+		}
+		destroyer = {
+			"PFS Vallum" "PFS Iratiana" "PFS Spaedar" "PFS Madra" "PFS Kasatum" "PFS Eluria" "PFS Anapondus" "PFS Aventen"
+			"PFS Quinculus" "PFS Veraria" "PFS Caesis" "PFS Lupirius" "PFS Indril" "PFS Canlinus" "PFS Ignacus" "PFS Seimia"
+			"PFS Caena" "PFS Protacius" "PFS Victolin" "PFS Cailio" "PFS Varrinus" "PFS Lacidia" "PFS Hortenso" "PFS Senria"
+			"PFS Velinion" "PFS Varetia" "PFS Quaril" "PFS Bellanian" "PFS Garinian" "PFS Eudonian" "PFS Caepdas" "PFS Adjunion"
+			"PFS Calpodonis" "PFS Regipanus" "PFS Flotion" "PFS Varilin" "PFS Septivea" "PFS Furiponia" "PFS Cicesia" "PFS Posmius"
+			"PFS Heriius" "PFS Potvus" "PFS Galgius" "PFS Murmus" "PFS Cnaena" "PFS Kaemus" "PFS Capiril" "PFS Vibiruns"
+			"PFS Dardaraka" "PFS Caeion"
+			"PFS Lupnirin" "PFS Iranpodaes" "PFS Pronpodein" "PFS Seponinsian" "PFS Dadapodan" "PFS Kasipindar" "PFS Inderionus" "PFS Indioniosad"
+    		"PFS Caleiginor" "PFS Caetianur" "PFS Lupoqian" "PFS Potuabin" "PFS Capeginam" "PFS Vilinbirus" "PFS Senelem" "PFS Varasenan"
+    		"PFS Potipodor" "PFS Lupliolir" "PFS Varginlulus" "PFS Vibotvias" "PFS Seputeritar" "PFS Hereniorion" "PFS Cicilian" "PFS Caupirad"
+    		"PFS Caeripoilius" "PFS Cvaranlinus" "PFS Posincel" "PFS Cinlinam" "PFS Adjipeon" "PFS Regtupirin" "PFS Potanunian" "PFS Furasenaer"
+    		"PFS Kaeposmuas" "PFS Flonprotin" "PFS Senacun" "PFS Madapininia" "PFS Belemoniner" "PFS Adjraninibis" "PFS Elonictotion" "PFS Gensurman"
+    		"PFS Euddarakion" "PFS Seniomonamel" "PFS Quicalncian" "PFS Sepaeranunum" "PFS Veledraa" "PFS Kasemia" "PFS Posurom" "PFS Caplinias"
+    		"PFS Capbirunatis" "PFS Sedarin" "PFS Vibenprotus" "PFS Muriponil" "PFS Kvarasaton" "PFS Elailmurion" "PFS Murpiriutis" "PFS Pottension"
+    		"PFS Igicesenon" "PFS Vetionan" "PFS Inarion" "PFS Ciclesine" "PFS Velnaenic" "PFS Adjepodirnon" "PFS Quiratis" "PFS Posotanin"
+    		"PFS Cnanprotaes" "PFS Induavibeson" "PFS Pusquinmel" "PFS Ignrinus" "PFS Regponinaus" "PFS Herasenidec" "PFS Elunirpodil" "PFS Darupin"
+    		"PFS Genalun" "PFS Seinmurasion" "PFS Floirilum" "PFS Vvibrilil" "PFS Eudlinias" "PFS Indavibuadus" "PFS Irairia" "PFS Calinia"
+    		"PFS Potniopduden" "PFS Hiriquinin" "PFS Sepiolgir" "PFS Fururegaram" "PFS Caladrus" "PFS Eladjuris" "PFS Madumureras" "PFS Kasmiutis"
+    		"PFS Eudeteriomas" "PFS Caldrilon" "PFS Posagilus" "PFS Ignetenam" "PFS Varuanos" "PFS Gairicaepar" "PFS Darllanus" "PFS Cacesen"
+    		"PFS Regdasin" "PFS Regepdar" "PFS Seirariranur" "PFS Genuaranior" "PFS Kasdrilenus" "PFS Poteilinic" "PFS Daraesad" "PFS Posesil"
+    		"PFS Herulinedin" "PFS Adjaciria" "PFS Proarinor" "PFS Maregipon" "PFS Belalineikia" "PFS Iraritvutun" "PFS Vardaren" "PFS Keemonia"
+    		"PFS Seperionisis" "PFS Fureginian" "PFS Veroprotaem" "PFS Potoviban" "PFS Furliocanes" "PFS Chortalpodom" "PFS Vibrtensoria" "PFS Kaedarensis"
+			"PFS Poturmus" "PFS Poseidramon" "PFS Induvaran" "PFS Kamprotjunis" "PFS Flinanus" "PFS Potitis" "PFS Madenorelon" "PFS Quitipodon"
+    		"PFS Cicirisian" "PFS Capodam" "PFS Senevenuan" "PFS Veludon" "PFS Velpirapirix" "PFS Indtiadas" "PFS Furjuni" "PFS Indaedretus"
+    		"PFS Lupluris" "PFS Gararanosmer" "PFS Calirinelin" "PFS Seniopodon" "PFS Madaerisis" "PFS Eudlotir" "PFS Regeregioren" "PFS Kasitanonder"
+    		"PFS Flonranial" "PFS Eudeivenior" "PFS Capretilus" "PFS Varavaren" "PFS Ciriritionos" "PFS Irandri" "PFS Caldonine" "PFS Madlurlan"
+    		"PFS Reglinal" "PFS Valinrili" "PFS Caetonros" "PFS Genranar" "PFS Pronponan" "PFS Posionorane" "PFS Caletiar" "PFS Adjepodiaron"
+    		"PFS Cicsipdum" "PFS Posadeikus" "PFS Muriosenuas" "PFS Proarinulus" "PFS Calomurelea" "PFS Vardadarial" "PFS Sepsmiumurir" "PFS Flopirararin"
+    		"PFS Ignemnacrmes" "PFS Velriponia" "PFS Kaseitensar" "PFS Potevibarec" "PFS Vimurdas" "PFS Floripos" "PFS Vibariniokes" "PFS Regpanud"
+    		"PFS Lupretus" "PFS Regnupion" "PFS Canposlinar" "PFS Regurineis" "PFS Kasorisenses" "PFS Kaenvaruthan" "PFS Luponic" "PFS Sepdcesepdan"
+    		"PFS Postacon" "PFS Bendaapdasen" "PFS Cnanlgenden" "PFS Heviblpal" "PFS Ignunir" "PFS Muceseilinus" "PFS Irlinion" "PFS Inderuler"
+    		"PFS Horasen" "PFS Setionllon" "PFS Eudbirunor" "PFS Sepaetam" "PFS Lurinaedaran" "PFS Quncmonimus" "PFS Veleimir" "PFS Vinacutionon"
+    		"PFS Seignacin" "PFS Adjraton" "PFS Mureten" "PFS Seinlionken" "PFS Regasem" "PFS Varuminin" "PFS Madinadin" "PFS Kalupiral"
+    		"PFS Polprilin" "PFS Secalimine" "PFS Sepirured" "PFS Veldjunon" "PFS Generinandec" "PFS Hererisen" "PFS Quynculusen" "PFS Kasrilus"
+    		"PFS Calupaernin" "PFS Calsmiarilec" "PFS Darurisotid" "PFS Caarionad" "PFS Qunmonon" "PFS Isengnecun" "PFS Darerirmum" "PFS Sertensen"
+    		"PFS Cgalilis" "PFS Irilincan" "PFS Muginrmus" "PFS Poluran" "PFS Cnagtvelin" "PFS Senanlpolir" "PFS Capeginuon" "PFS Floectaen"
+    		"PFS Elnlinus" "PFS Madonil" "PFS Eudunoric" "PFS Beliregon" "PFS Gardtionasus" "PFS Indiovibaser" "PFS Murtonine" "PFS Genioranes"
 
+		}
+		cruiser = {
+			"PFS Cipritine" "PFS Gythium" "PFS Perox" "PFS Palaven" "PFS Menae" "PFS Trebia" "PFS Apparus" "PFS Corinthe"
+			"PFS Valerius" "PFS Hieralon" "PFS Castamon" "PFS Menaeus" "PFS Trebian" "PFS Taetrian" "PFS Digeron" "PFS Pherion"
+			"PFS Gellarus" "PFS Rocavian" "PFS Galatan" "PFS Epyran" "PFS Bostran" "PFS Carthene" "PFS Quadiran" "PFS Syglaris"
+			"PFS Nimenes" "PFS Thracion" "PFS Macedra" "PFS Baetikon" "PFS Gothanes" "PFS Parthenus" "PFS Edessor" "PFS Solian"
+			"PFS Hespera" "PFS Corvani" "PFS Taurena" "PFS Primoria" "PFS Turiava" "PFS Vallonis" "PFS Iratian" "PFS Spaedra"
+			"PFS Sothenine" "PFS Vatreia" "PFS Ationpparae" "PFS Turuveniathae" "PFS Soludrie" "PFS Peruareoa" "PFS Gelrenes" "PFS Phenaureris"
+    		"PFS Aprinthora" "PFS Aeuvaenon" "PFS Epliamorisora" "PFS Bahenaron" "PFS Gyuribia" "PFS Aenoneonaeus" "PFS Paluranasine" "PFS Turoubritheon"
+    		"PFS Gatrolaronis" "PFS Mamenaciokon" "PFS Menuanesaelon" "PFS Treelara" "PFS Hesiovianoria" "PFS Goebonis" "PFS Syrintae" "PFS Solorioniana"
+    		"PFS Cipoephesoria" "PFS Rmenocavetha" "PFS Heseobrixbia" "PFS Hesaetonathia" "PFS Menoglihe" "PFS Roclonenax" "PFS Valuadraees" "PFS Heerbia"
+    		"PFS Nimationeaan" "PFS Bacedoria" "PFS Cipiaroneriae" "PFS Carelleanaris" "PFS Taesororiae" "PFS Baeaviaareon" "PFS Getisperon" "PFS Macaurae"
+    		"PFS Taelaphenes" "PFS Gelonina" "PFS Bosheiperum" "PFS Prdessikon" "PFS Ciimoran" "PFS Apaetium" "PFS Synesena" "PFS Gelcedrbia"
+    		"PFS Rocetvorisum" "PFS Galneedathe" "PFS Coruthenonium" "PFS Cipuravoon" "PFS Prietonisym" "PFS Maosoria" "PFS Carorionadra" "PFS Edurion"
+    		"PFS Tautmorine" "PFS Syhenmeneum" "PFS Taheirbia" "PFS Maerihe" "PFS Bahanaetirin" "PFS Menmesan" "PFS Trimotiontrun" "PFS Tauorea"
+    		"PFS Apbiabiorine" "PFS Corevorisenes" "PFS Aenbaesia" "PFS Patreiron" "PFS Quthonis" "PFS Galeabialaven" "PFS Pheumenane" "PFS Apracion"
+    		"PFS Spnullalavena" "PFS Threcionaeus" "PFS Vaythea" "PFS Galoloniasune" "PFS Gelazioxine" "PFS Soigeronis" "PFS Valatbia" "PFS Diavion"
+    		"PFS Solatis" "PFS Appnane" "PFS Paimenium" "PFS Bohrkopea" "PFS Syguationion" "PFS Spirinessora" "PFS Vviaelerin" "PFS Ditikperine"
+    		"PFS Turerioniath" "PFS Gaaetrium" "PFS Tribiariae" "PFS Meneranuron" "PFS Palotionethe" "PFS Aperiris" "PFS Taeghariukon" "PFS Rocperis"
+    		"PFS Aentionouva" "PFS Apenara" "PFS Trespedra" "PFS Epirurespea" "PFS Gytieon" "PFS Thriabriorera" "PFS Paldesineris" "PFS Epinmeniaon"
+    		"PFS Henpaedixera" "PFS Syanion" "PFS Quabiane" "PFS Spatroria" "PFS Trvantrobia" "PFS Bomoritheon" "PFS Epytinaetrin" "PFS Hesloran"
+    		"PFS Quaavaneum" "PFS Aenrionionan" "PFS Bagerhranea" "PFS Vamorine" "PFS Matrbia" "PFS Valtrena" "PFS Pnalavenikon" "PFS Galppaatrua"
+    		"PFS Galspora" "PFS Batisorian" "PFS Pabiagdras" "PFS Taualonearis" "PFS Cinesaven" "PFS Digouneariae" "PFS Taeenesara" "PFS Qulermenean"
+    		"PFS Copritdion" "PFS Paaetanis" "PFS Gelphonis" "PFS Boureavaureon" "PFS Syroonesoreon" "PFS Nimraciora" "PFS Pheaglaeis" "PFS Thenaon"
+    		"PFS Quahiunathin" "PFS Appurion" "PFS Thgeraeus" "PFS Pheovaniobia" "PFS Edenvenaeven" "PFS Vaocavena" "PFS Geleseris" "PFS Gogerospeeon"
+    		"PFS Aepeironaum" "PFS Appracera" "PFS Sycedaruniea" "PFS Hesuanosian" "PFS Tuglion" "PFS Geenane" "PFS Qugeadeiroran" "PFS Caaurae"
+    		"PFS Vastrena" "PFS Diaronis" "PFS Aeglalonenan" "PFS Syedora" "PFS Vacavora" "PFS Edtrion" "PFS Quassonaethe" "PFS Meition"
+    		"PFS Trabiandra" "PFS Prionaeriara" "PFS Roadicavion" "PFS Valocaglarion" "PFS Phalatae" "PFS Trcavine" "PFS Tuaetressa" "PFS Epalaveneron"
+    		"PFS Herolarine" "PFS Aepiroriara" "PFS Nimthaciohion" "PFS Gartitenean" "PFS Digleon" "PFS Gotimenalon" "PFS Gallaruvea" "PFS Galyretha"
+    		"PFS Gelnaran" "PFS Phhenine" "PFS Diparena" "PFS Macmonadinem" "PFS Cipthegeroua" "PFS Sygavorines" "PFS Socavillinaes" "PFS Rocrinthena"
+    		"PFS Taeahegerena" "PFS Spalikon" "PFS Taittionruven" "PFS Sotraeus" "PFS Gyaetrara" "PFS Coaetan" "PFS Cipdreon" "PFS Turarionianum"
+    		"PFS Calladirion" "PFS Carvenatis" "PFS Epikora" "PFS Taaedoriae" "PFS Cipalikoriara" "PFS Matissora" "PFS Aporibianera" "PFS Aetraiaphua"
+    		"PFS Appouzodra" "PFS Solbiriathene" "PFS Dligerae" "PFS Geareon" "PFS Aerebis" "PFS Nimovenaa" "PFS Priarobia" "PFS Phelateus"
+    		"PFS Gomeneririthe" "PFS Menheirinthon" "PFS Goenaron" "PFS Trlavora" "PFS Dirudrineris" "PFS Epyidiheronis" "PFS Parcedrena" "PFS Solthelixune"
+    		"PFS Phbiadenane" "PFS Tauegeon" "PFS Giothanion" "PFS Cippararis" "PFS Throcava" "PFS Edmenes" "PFS Nymeneon" "PFS Tatinicaveon"
+    		"PFS Aphenune" "PFS Appimena" "PFS Edauraeus" "PFS Memenium" "PFS Vaimenessa" "PFS Galrtonis" "PFS Dygeronaeon" "PFS Mtionenaen"
+    		"PFS Trehenkon" "PFS Caosonis" "PFS Taigerena" "PFS Solhethcas" "PFS Heygleon" "PFS Carmenoria" "PFS Cipmonaran" "PFS Heetonis"
+    		"PFS Aeprounithe" "PFS Sygeinaes" "PFS Romormenera" "PFS Hesthean" "PFS Geuriavtronis" "PFS Aeolinis" "PFS Hescedara" "PFS Perrina"
+    		"PFS Heshenlarin" "PFS Soheirikon" "PFS Batrora" "PFS Peadiros"
+		}
+		battleship = {
+			"THS Hierarchy Fist" "THS Indomitable" "THS Resolute" "THS Undaunted" "THS Invictus" "THS Victrix" "THS Triumphalis" "THS Vindicator"
+			"THS Judicator" "THS Tempestas" "THS Imperator" "THS Victor" "THS Gloria" "THS Vindicta" "THS Ultor" "THS Praeventor"
+			"THS Executor" "THS Gladiator" "THS Castellan" "THS Dominus" "THS Defiant" "THS Vigilant" "THS Unification" "THS Ascendant"
+			"THS Iron Standard" "THS Hierarchy's Due" "THS Shield of Trebia" "THS Spear of Menae" "THS Talon Ascendant" "THS Primarch's Will"
+			"THS High Aegis" "THS Praegladint" "THS Right Ascendant" "THS Iron Mandate" "THS Glordominor" "THS Custascendor" "THS Brazen Mandate" "THS Defgloror"
+    		"THS Exvigilalis" "THS Excastellor" "THS Glorventent" "THS Judvindicrix" "THS Iron Aegis" "THS Invpraeventant" "THS Castdominance" "THS Mandimperor"
+    		"THS Sentglorus" "THS Intriumphus" "THS Mandatum" "THS Trijudicus" "THS Mandominalis" "THS Praesascendor" "THS Defince" "THS Judunificatus"
+    		"THS Custpraeventum" "THS Vigjudicor" "THS Indefianance" "THS Aegis Unbroken" "THS Vicunificatant" "THS Fortgladint" "THS Vicgladior" "THS Domvindicalis"
+    		"THS Defpraeventum" "THS Judefianant" "THS Invindicalis" "THS Vigascendalis" "THS Domglorance" "THS Asctriumphent" "THS Invgladin" "THS High Standard"
+    		"THS Ultribunude" "THS Stone Standard" "THS Vicpraeventa" "THS Defvindicum" "THS Vindjudicent" "THS Judmandatalis" "THS Invdominance" "THS Inpraeventus"
+    		"THS Fortascendant" "THS Imimperus" "THS Imvigilor" "THS Custdefianor" "THS Invascendus" "THS Trivindicant" "THS Ultvigilus" "THS Invigilus"
+    		"THS Lance Imperial" "THS Judtriumphor" "THS Domcastellum" "THS Hammer Ascendant" "THS Dompraevention" "THS Defdominrix" "THS Execatrix" "THS Ascunificatum"
+    		"THS High Edict" "THS Unifgladior" "THS Defjudicent" "THS Glorcustode" "THS Burden Ascendant" "THS Custjudicalis" "THS Glorgladince" "THS Unifvigilant"
+    		"THS Ascvindicion" "THS Tripraeventent" "THS Exglorant" "THS Defascendus" "THS Mandmandation" "THS Ultimperor" "THS Vicvindicum" "THS Custunificatant"
+    		"THS Glorascendor" "THS Invdefianion" "THS Eximperalis" "THS Fortvindicalis" "THS Mandjudicance" "THS Domdefianent" "THS Castimperalis" "THS Exdefianum"
+    		"THS Vigvindicion" "THS Due Imperial" "THS Glortribuna" "THS Ultunificatant" "THS Due Resolute" "THS Inmandatant" "THS Castgladis" "THS Defimperion"
+    		"THS Vindefianum" "THS Aegcastellion" "THS Custvigilent" "THS Writ Ascendant" "THS Ultcastellor" "THS Imunificatrix" "THS Vigmandatent" "THS Domjudicant"
+    		"THS Invjudicor" "THS Ascgladim" "THS Vindglorude" "THS Domdominum" "THS Vindunificatrix" "THS Vindominant" "THS Charge Ascendant" "THS Vicimperion"
+    		"THS Tricastellium" "THS Aegunificatium" "THS Sentdefianum" "THS Vindcastellalis" "THS Judgladint" "THS Ascascendus" "THS Judpraeventent" "THS Writ Imperial"
+    		"THS Crown Ascendant" "THS Will Ascendant" "THS Invtriumphrix" "THS Imjudicalis" "THS Ultpraesidalis" "THS Imandatance" "THS Praedominor" "THS Judjudicor"
+    		"THS Ultdominor" "THS Ascjudicor" "THS Vicastellus" "THS Glormandatus" "THS Vindtriumphe" "THS Aegimperus" "THS Glorecte" "THS Castjudicant"
+    		"THS Exdominent" "THS Tritriumphus" "THS Praemandatalis" "THS Fist Ascendant" "THS Aegjudicum" "THS Vindvigilum" "THS Vigunificatum" "THS Ascimperor"
+    		"THS Mandefianor" "THS Aegvigilus" "THS Invunificatent" "THS Ascdefianum" "THS Will Imperial" "THS Rectvindicor" "THS Trigladir" "THS Domandatrix"
+    		"THS Due Ascendant" "THS Exascendus" "THS Pledge Imperial" "THS Fortjudicor" "THS Ultarix" "THS Exvindicance" "THS Ultglorance" "THS Vigloror"
+    		"THS Rectdefianor" "THS Oath Imperial" "THS Uniftriumphor" "THS Oath Ascendant" "THS Mandunificatus" "THS Rectimperor" "THS Command Ascendant" "THS Praetriumphus"
+    		"THS Vigpraevente" "THS Ascpraeventium" "THS Praepraeventant" "THS Custgladim" "THS Domunificatus" "THS Vigdominium" "THS Vicjudicium" "THS Invcastellor"
+    		"THS Fortriumphor" "THS Sentvigilor" "THS Ultsecutum" "THS Mandtriumphus" "THS Domtriumphude" "THS Will Resolute" "THS Praejudicrix" "THS Imgladin"
+    		"THS Unifpraeventus" "THS Imgloror" "THS Praecastellude" "THS Ultascende" "THS Aenvictror" "THS Imdefianent" "THS Measure Imperial" "THS Ultjudicium"
+    		"THS Banner Ascendant" "THS Fist Imperial" "THS Defcastellalis" "THS Judascendor" "THS Glorjudicus" "THS Domascendus" "THS Sentjudicant" "THS Sentunificatus"
+    		"THS Unifascendor" "THS Vindpraevention" "THS Rectgladilis" "THS Imvindicant" "THS Vicdefianor" "THS Ultictus" "THS Custimperance" "THS Vigcastellor"
+    		"THS Edict Resolute" "THS Exunificatum" "THS Custmandation" "THS Mandvindicor" "THS Sentence Imperial" "THS Aegdefianus" "THS Due Unbroken" "THS Aexecuvtion"
+    		"THS Castvindicor" "THS Inunificatium" "THS Extriumphion" "THS Invimperor" "THS Inascendor" "THS Fortmandatude" "THS Exmandatus" "THS Ultresoluta"
+    		"THS Ultvention" "THS Fortimperix" "THS Glorsecute" "THS Glorfortitant" "THS Imascendus" "THS Judominion" "THS Unifdefianent" "THS Expraeventalis"
+    		"THS Sentascendion" "THS Exgladirix" "THS Defictus" "THS Unifjudicus" "THS Exjudicant" "THS Judcastellor" "THS Pike Imperial" "THS Vigladide"
+    		"THS Sentcastellalis" "THS Sentpraeventium" "THS Will Unbroken" "THS Sentmandatent" "THS Impraeventalis" "THS Vindmandate" "THS Ultcustodent" "THS Unifcastellus"
+    		"THS Rectjudicus" "THS Domimperum" "THS Glorunificatum" "THS Custriumphor" "THS Ultdefianus" "THS Injudicum" "THS Aegmandatus" "THS Glornium"
+    		"THS Custcastellium" "THS Inimperus" "THS Defdefianor" "THS Pike Ascendant" "THS Rectpraeventus" "THS Incastella" "THS Ascmandate" "THS Trimandation"
+    		"THS Rectcastellor" "THS Vigdefianus" "THS Rectmandatum" "THS Mandcastellent" "THS Onvictror" "THS Mandgladint" "THS Fortcastellus" "THS Rectascendium"
+    		"THS Fortpraeventum" "THS Aegpraeventant" "THS Vindascendum" "THS Rectriumphent" "THS Sentimperor" "THS Fortdefianor" "THS Imcastellance" "THS Vigtriumphor"
+    		"THS Vicdominalis" "THS Claim Ascendant" "THS Defmandatium" "THS Unifmandatance" "THS Ingladir" "THS Glorpraesidrix" "THS Castpraeventent" "THS Imtriumphium"
+    		"THS Directive Ascendant" "THS Imdominant" "THS Judimperor" "THS Invmandatium" "THS Vigimperum" "THS Aegloralis" "THS Vicmandate" "THS Judgment Imperial"
+    		"THS Anvictrix" "THS Ascdominalis" "THS Sentriumphor" "THS Unvictrus"
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}
+		}
+		titan = {
+			"THS Vulture" "THS Diatryma" "THS Titan" "THS Condor" "THS Gannet" "THS Harrier" "THS Kestrel" "THS Shrike"
+			"THS Osprey" "THS Accipiter" "THS Falcon" "THS Raptor" "THS Warhawk" "THS Kite" "THS Caracara" "THS Talon"
+			"THS Sky of Menae" "THS Palaven Ascendant"
+		}
+		juggernaut = {
+			"THS Wall of Trebia" "THS Mantle of Duty" "THS Cause of Unity" "THS Iron Primarch"
+			"THS Standard Eternal" "THS First Talon" "THS Last Bastion" "THS Blackwatch"
+		}
+		colossus = {
+			"THS Final Mandate" "THS Iron Verdict" "THS Last Talon" "THS Black Sky"
+			"THS Reaper's End" "THS Hierarchy Triumphant"
+		}
+		science = {
+			"THV Ravuna" "THV Natanus" "THV Palex" "THV Meridian"
+			"THV Wayfinder" "THV Pathfinder" "THV Cartographer" "THV Longwatch"
+			"THV Horizon" "THV Surveyor" "THV Vector" "THV Beacon"
+		}
+		colonizer = {
+			"PFS New Palaven" "PFS New Trebia" "PFS New Menae" "PFS New Vallum"
+			"PFS New Taetrus" "PFS Frontier Talon" "PFS Colony Standard" "PFS Outer March"
+			"PFS Settlement One" "PFS Settlement Two" "PFS Far Castellum" "PFS First Landing"
+		}
+		constructor = {
+			"PFS Bastion" "PFS Rampart" "PFS Bulwark" "PFS Castellum"
+			"PFS Foundry" "PFS Drydock" "PFS Forge" "PFS Foundation"
+			"PFS Bridgebuilder" "PFS Breakwater" "PFS Mason" "PFS Palisade"
+		}
+		transport = {
+			"PFS First Legion" "PFS Second Legion" "PFS Third Legion" "PFS Fourth Legion"
+			"PFS Fifth Talon" "PFS Seventh Talon" "PFS Ninth Talon" "PFS Forward Cohort"
+			"PFS Vanguard Cohort" "PFS Reserve Cohort" "PFS Rapid Lift" "PFS Drop Wing"
+		}
 	}
 
 	fleet_names = {
@@ -65,11 +247,6 @@ MEG_turian = {
 		clone_army = { sequential_name = "$ORD$ Clone Army" }
 		
 		robotic_army = { sequential_name = "$ORD$ Hunter-Killer Group" }
-		
-
-		
-		# psionic_army = { sequential_name = "$ORD$ Cabals" }
-		
 	}
 
 	planet_names = {
@@ -138,64 +315,38 @@ MEG_turian = {
 				"High Menae" "Aquila Mons" "Scarpus" "Talonis" "Vigil Peak"
 			}
 		}
-
-		pc_nuked = {
-			names = {
-				"Burned Menae" "Ash Palaven" "Black Trebia" "Ruined Invictus" "Glass Impera"
-			}
-		}
-
-		pc_ai = { names = { "Strategos Node" "Palaven Logic" "Legion Matrix" "Talon Archive" } }
-		
-		pc_machine = { names = { "Hierarchy Forge" "Menae Lattice" "Trebia Core" "Steel Palaven" } }
 	}
-
-
-	### CHARACTERS
-
 	character_names = {
-	
-		names1 = {
-			weight = 40
+		names = {
+			weight = 100
 			first_names_male = {
-				Adrien Tarquin Garrus Saren Desolas Timus Septimus Etarn Tonn Elanos Lorik Illo Preitior Nihlus Lantar Irix Venari Joram Chisilix 
-				Rolan Sato Lilihierax Mehrkuri Chisilix Venari Garkko Grizz Ogrinn Tactus Enterus Ellis Neno Idus Razun Iustinix Extan Kihilix Daherax 
-				Serus Alsadrus Uvalum Titrinus Janus Lahere Sanus Ulrixen Hanae Teheris Derius Meln Vertin Huck Hexnar Sanex Gradius Ternitus Vamire Faros 
-				Elgus Jaxum Salur Ferrus Minador Quart Hunner Astrae Tobestick Marnek Joppa Delwian Ledius Eratian
-				Pratur Actin Sareko Cheros Tusi Lorir Teras Fedorian Adrastus Septien Corian Vetrus Castorix
+				"Adrien" "Tarquin" "Garrus" "Saren" "Desolas" "Timus" "Septimus" "Etarn" "Tonn" "Elanos" "Lorik" "Illo" "Preitior" "Nihlus" "Lantar" "Irix" "Venari" "Joram" "Chisilix"
+				"Rolan" "Sato" "Lilihierax" "Mehrkuri" "Chisilix" "Venari" "Garkko" "Grizz" "Ogrinn" "Tactus" "Enterus" "Ellis" "Neno" "Idus" "Razun" "Iustinix" "Extan" "Kihilix" "Daherax"
+				"Serus" "Alsadrus" "Uvalum" "Titrinus" "Janus" "Lahere" "Sanus" "Ulrixen" "Hanae" "Teheris" "Derius" "Meln" "Vertin" "Huck" "Hexnar" "Sanex" "Gradius" "Ternitus" "Vamire" "Faros"
+				"Elgus" "Jaxum" "Salur" "Ferrus" "Minador" "Quart" "Hunner" "Astrae" "Tobestick" "Marnek" "Joppa" "Delwian" "Ledius" "Eratian"
+				"Pratur" "Actin" "Sareko" "Cheros" "Tusi" "Lorir" "Teras" "Fedorian" "Adrastus" "Septien" "Corian" "Vetrus" "Castorix"
 			}
 			first_names_female = {
-				Nyreen Pavan Shastina Abrudas Vetra Octa Anela Arayna Dinara Orinia Lilira Naxus Reta Himar Lana Vitola Dixali Solana
-				Nyvan Nytina Nydas Nyra Nyta Pareen Patina Padas Para Pata Shasreen Shasvan Shasdas Shasra Shasta Abrureen Abruvan Abrutina Abrura Abruta
-				Ocreen Ocvan Octina Ocdas Ocra Maxivia Aventa Corissa Valyra Tiranne Melita Castana
+				"Nyreen" "Pavan" "Shastina" "Abrudas" "Vetra" "Octa" "Anela" "Arayna" "Dinara" "Orinia" "Lilira" "Naxus" "Reta" "Himar" "Lana" "Vitola" "Dixali" "Solana"
+				"Nyvan" "Nytina" "Nydas" "Nyra" "Nyta" "Pareen" "Patina" "Padas" "Para" "Pata" "Shasreen" "Shasvan" "Shasdas" "Shasra" "Shasta" "Abrureen" "Abruvan" "Abrutina" "Abrura" "Abruta"
+				"Ocreen" "Ocvan" "Octina" "Ocdas" "Ocra" "Maxivia" "Aventa" "Corissa" "Valyra" "Tiranne" "Melita" "Castana"
 			}
 			second_names = {
-				Victus Vakarian Arterius Aurelos Oraka Tiron Actus Haliat "Qui'in" Nazario Gavorn Kryik Sidonis Kuril Coronati Pallin Talid Palanurus Quarn 
-				Davaria Kandros Sahira Emperus Vyrnnus Chellick Fedorian Corinthus Haron Invectus Jacobus Vidinos Valterus Raxirian Valen Scartos Saneraxis Hanus 
-				Sylvatus Partinax Relius Yahirix Tanus Antivus Lilix Tertius Septimax Machaera Pagasi Dianix Iheras Partainis Satorim Ravidus Daphnon Gaudium Nyrek 
-				Dellk Korilius Irvinus Siyan Iherax Sycoram Septimas Squaron Riten Spartarus Quentiys Ursinus Paramon Borlin Darikun Latronus Korlick Lux Patathor 
-				Vadus Genchak Ixiri Raedun Rubicum Arborandum Bartus Egnadus
-				Pratur Actin Sareko Cheros Tusi Lorir Teras Primax Castellan Varro Tetranus Corvinus Palatin
-			}
-			regnal_first_names_male = {
-				Adrien Tarquin Garrus Saren Desolas Timus Septimus Etarn Tonn Elanos Lorik Illo Preitior Nihlus Lantar Irix Venari Joram Chisilix 
-				Rolan Sato Lilihierax Mehrkuri Chisilix Venari Garkko Grizz Ogrinn Tactus Enterus Ellis Neno Idus Razun Iustinix Extan Kihilix Daherax 
-				Serus Alsadrus Uvalum Titrinus Janus Lahere Sanus Ulrixen Hanae Teheris Derius Meln Vertin Huck Hexnar Sanex Gradius Ternitus Vamire Faros 
-				Elgus Jaxum Salur Ferrus Minador Quart Hunner Astrae Tobestick Marnek Joppa Delwian Ledius Eratian Fedorian Adrastus Septien Corian Vetrus
-			}
-			regnal_first_names_female = {
-				Nyreen Pavan Shastina Abrudas Vetra Octa Anela Arayna Dinara Orinia Lilira Naxus Reta Himar Lana Vitola Dixali Solana
-				Nyvan Nytina Nydas Nyra Nyta Pareen Patina Padas Para Pata Shasreen Shasvan Shasdas Shasra Shasta Abrureen Abruvan Abrutina Abrura Abruta
-				Ocreen Ocvan Octina Ocdas Ocra Maxivia Aventa Corissa Valyra Tiranne Melita
-			}
-			regnal_second_names = {
-				Victus Vakarian Arterius Aurelos Oraka Tiron Actus Haliat "Qui'in" Nazario Gavorn Kryik Sidonis Kuril Coronati Pallin Talid Palanurus Quarn 
-				Davaria Kandros Sahira Emperus Vyrnnus Chellick Fedorian Corinthus Haron Invectus Jacobus Vidinos Valterus Raxirian Valen Scartos Saneraxis Hanus 
-				Sylvatus Partinax Relius Yahirix Tanus Antivus Lilix Tertius Septimax Machaera Pagasi Dianix Iheras Partainis Satorim Ravidus Daphnon Gaudium Nyrek 
-				Dellk Korilius Irvinus Siyan Iherax Sycoram Septimas Squaron Riten Spartarus Quentiys Ursinus Paramon Borlin Darikun Latronus Korlick Lux Patathor 
-				Vadus Genchak Ixiri Raedun Rubicum Arborandum Bartus Egnadus Primax Castellan Varro Tetranus Corvinus Palatin
+				"Victus" "Vakarian" "Arterius" "Aurelos" "Oraka" "Tiron" "Actus" "Haliat" "Qui'in" "Nazario" "Gavorn" "Kryik" "Sidonis" "Kuril" "Coronati" "Pallin" "Talid" "Palanurus" "Quarn"
+				"Davaria" "Kandros" "Sahira" "Emperus" "Vyrnnus" "Chellick" "Fedorian" "Corinthus" "Haron" "Invectus" "Jacobus" "Vidinos" "Valterus" "Raxirian" "Valen" "Scartos" "Saneraxis" "Hanus"
+				"Sylvatus" "Partinax" "Relius" "Yahirix" "Tanus" "Antivus" "Lilix" "Tertius" "Septimax" "Machaera" "Pagasi" "Dianix" "Iheras" "Partainis" "Satorim" "Ravidus" "Daphnon" "Gaudium" "Nyrek"
+				"Dellk" "Korilius" "Irvinus" "Siyan" "Iherax" "Sycoram" "Septimas" "Squaron" "Riten" "Spartarus" "Quentiys" "Ursinus" "Paramon" "Borlin" "Darikun" "Latronus" "Korlick" "Lux" "Patathor"
+				"Vadus" "Genchak" "Ixiri" "Raedun" "Rubicum" "Arborandum" "Bartus" "Egnadus"
+				"Pratur" "Actin" "Sareko" "Cheros" "Tusi" "Lorir" "Teras" "Primax" "Castellan" "Varro" "Tetranus" "Corvinus" "Palatin"
 			}
 		}
-
+		notables = {
+			weight = 4
+			full_names = {
+				"Garrus Vakarian" "Saren Arterius" "Desolas Arterius" "Nihlus Kryik" "Septimus Oraka" "Nyreen Kandros"
+				"Adrien Victus" "Tarquin Victus" "Lorik Qui'in" "Illo Nazario" "Castis Vakarian" "Tonn Actus"
+				"Joram Talid" "General Corinthus"
+			}
+		}
 	}
 }

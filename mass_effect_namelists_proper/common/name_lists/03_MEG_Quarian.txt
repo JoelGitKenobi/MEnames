@@ -20,28 +20,40 @@ MEG_quarian = {
 			"Minil" "Yureh" "Javo" "Nefirn" "Caewan" "Fidin" "Yaaworp" "Merah" "Gadin" "Caavum" "Leegro" "Maleya" 
 			"Zuzay" "Yaarah" "Sholeya" "Rowal" "Hechol" "Haayya" "Gurah" "Canbay" "Fukor" "Zaalazi" "Darla" 
 			"Marvag" "Olvekei" "Bereloth" "Dwar Gan" "Shoron" "Jaeral" "Tirvider" "Smarfand" "Ergoradr" "Laermat" "Slorvo"
-		   "Zeca" "Yurah" "Shadir" "Zaemorn" "Luwa" "Tochol" "Laaca" "Jizay" "Wefirn" "Hirark" "Shirah" "Caanna" 
-		   "Woreh" "Reekor" "Shaazay" "Sazay" "Geegro" "Haareh" "Gora" "Wofis" "Reenna" "Siron" "Seepan" "Zeeram" "Ylmaran" 
-		   "Dlarimbo" "Sorvokan" "Tlarbe" "Droorbi" "Lytorim" "Jorvoledr"
-		   "Gyrovell" "Plaerid" "Forbadr" "Felermian" "Waatru" "Quirmet" "Lyyrmit" "Wermikar" "Durfaredr" "Larkirm" "Uroaldr" "Myrvort" "Qeemitera" "Drapart"
-		   "Kaardral" "Cheiclart" "Pleert Pleert" "Aerkatra" "Erishatla" "Norvatredt"
-		   "Rewan" "Maaram" "Gimorn" "Xaadin" "Voma" "Weleya" "Nuwib" "Zaador" "Heehala" "Tatalir" "Raebra" 
-		   "Xaezay" "Shurah" "Malarm" "Velarm" "Heereh" "Jigro" "Misost" "Jaewa" "Sisost" "Xemorn" "Toyya" "Shadir" "Zaemorn" "Luwa" "Tochol" "Laaca" "Jizay" "Wefirn" 
-		   "Yazay" "Jaafirn" "Vaafis" "Higro" "Gaetalir" "Seraka" "Rowal" "Hechol" "Haayya" "Gurah" "Canbay" "Fukor" "Zaalazi" "Dilinaga" "Duhasek" "Farka"
-		   "Muuruturut" "Lycarmasia" "Drorkamat" "Lipyralia" "Elcama" "Yqusmin" "Zeerkinot" "Keelimarth" "Murmiteen"
-		   "Idenna" "Keelah Si'yah" "Novarra" "Perroth" "Qam" "Palesi" "Iktomi" "Yorona" "Nedas" "Keelah Varren"
+			"Zeca" "Yurah" "Shadir" "Zaemorn" "Luwa" "Tochol" "Laaca" "Jizay" "Wefirn" "Hirark" "Shirah" "Caanna" 
+			"Woreh" "Reekor" "Shaazay" "Sazay" "Geegro" "Haareh" "Gora" "Wofis" "Reenna" "Siron" "Seepan" "Zeeram" "Ylmaran" 
+			"Dlarimbo" "Sorvokan" "Tlarbe" "Droorbi" "Lytorim" "Jorvoledr"
+			"Gyrovell" "Plaerid" "Forbadr" "Felermian" "Waatru" "Quirmet" "Lyyrmit" "Wermikar" "Durfaredr" "Larkirm" "Uroaldr" "Myrvort" "Qeemitera" "Drapart"
+			"Kaardral" "Cheiclart" "Pleert Pleert" "Aerkatra" "Erishatla" "Norvatredt"
+			"Rewan" "Maaram" "Gimorn" "Xaadin" "Voma" "Weleya" "Nuwib" "Zaador" "Heehala" "Tatalir" "Raebra" 
+			"Xaezay" "Shurah" "Malarm" "Velarm" "Heereh" "Jigro" "Misost" "Jaewa" "Sisost" "Xemorn" "Toyya" "Shadir" "Zaemorn" "Luwa" "Tochol" "Laaca" "Jizay" "Wefirn" 
+			"Yazay" "Jaafirn" "Vaafis" "Higro" "Gaetalir" "Seraka" "Rowal" "Hechol" "Haayya" "Gurah" "Canbay" "Fukor" "Zaalazi" "Dilinaga" "Duhasek" "Farka"
+			"Muuruturut" "Lycarmasia" "Drorkamat" "Lipyralia" "Elcama" "Yqusmin" "Zeerkinot" "Keelimarth" "Murmiteen"
+			"Idenna" "Keelah Si'yah" "Novarra" "Perroth" "Qam" "Palesi" "Iktomi" "Yorona" "Nedas" "Keelah Varren"
 		}
-		
-		mining_station = { }
-		research_station = { }
-		observation_station = { }
-
-
-		military_station_small = { }
-		military_station_medium = { }
-		military_station_large = { }	
 	}
-	
+
+	ship_class_names = {
+		corvette = {
+			"Yezai" "Heejori" "Segral" "Mivora"
+		}
+		frigate = {
+			"Alarim" "Tonbar" "Ulnara" "Nalorim"
+		}
+		destroyer = {
+			"Helasha" "Teslevar" "Niqunara" "Moreth"
+		}
+		cruiser = {
+			"Rayyal" "Novarim" "Idennar" "Qamora"
+		}
+		battleship = {
+			"Rannal" "Haestara" "Adassa" "Uriyal"
+		}
+		titan = {
+			"Keelah" "Tikkora" "Ekuna" "Farosha"
+		}
+	}
+
 	fleet_names = {
 		random_names = {
 			"Heavy Fleet" "Patrol Fleet" "Civilian Fleet" "Mining Fleet" "Special Projects Fleet" "Migrant Fleet" "Rayya Flotilla" "Alarei Flotilla"
@@ -53,7 +65,6 @@ MEG_quarian = {
 		sequential_name = "$ORD$ Flotilla"
 	}
 
-	###ARMIES
 	army_names = {
 	
 	defense_army = { sequential_name = "$ORD$ Defensive Cast" }
@@ -155,15 +166,10 @@ MEG_quarian = {
 		
 		pc_machine = { names = { "Raan Matrix" "Xen Lattice" "Memory of Rannoch" "Synthetic Ulnay" } }
 	}
-
-	### CHARACTERS
 	
 	character_names = {
 		default = {
-			# A complete name
-			full_names = {}
-		
-			# Always combined with a second name
+			weight = 100
 			first_names_male = {
 				"Femm'Fumas" "Kotor'Yumin" "Zaal'Gama" "Far'Caamma" "Yun'Xaelan" "Leem'Silun" "Nunn'Juzh" "Zun'Cedor" "Wam'Saazh"
 				"Coh'Zeezh" "Gaas'Fam" "Zaamm'Caera" "Saeh'Semun" "Maeto'Xolun" "Woto'Cumor" "Feto'Tagar" "Gus'Mumor" "Cem'Zolas" 
@@ -188,76 +194,40 @@ MEG_quarian = {
 				"Cila'Gamos" "Yala'Teme" "Shemmu'Tallo" "Zenna'Furam" "Wala'Rerrel" "Shofi'Leemm" "Maaha'Sime" "Nola'Yusal"
 				"Tali'Zorah" "Shala'Raan" "Daro'Xen" "Lia'Vael" "Shio'Leth" "Qetsi'Olam" "Yara'Vel" "Nema'Shira"
 			}
-			
-			# Always combined with a first name
 			second_names = {
-			"Alarei" "Helash" "Honorata" "Moreh" "Nalotir" "Neema" "Niqunus" "Ostral" "Qwib Qwib" "Rayya" "Selani" "Shellen"
-			"Tesleya" "Tonbay" "Ulnay" "Tuwib" "Yezay" "Gajol" "Jodoruk" "Heejol" "Xedarum" "Haanbay" "Xaanna" "Girah" "Segro" "Sijol" "Mivo"
-			"Nodolor" "Zoram" "Xaelazi" "Vuzorn" "Waawal" "Gaavo" "Xomorn" "Yowal" "Ridir" "Coraka"
-			"Suji" "Ceeram" "Feworp" "Taakor" "Taalari" "Yazay" "Jaafirn" "Vaafis" "Higro" "Gaetalir" "Seraka"
-			"Foyya" "Shaeron" "Sefirn" "Shizay" "Suwib" "Shaalarm" "Hawib" "Fonna" "Vedor" "Zaama" "Tidin"
-			"Cunil" "Yaaraka" "Shonna" "Jaaraka" "Sichol" "Haavo" "Cowa" "Teehala" "Meeyya" "Veedoruk" "Giron"
-			"Wozal" "Fiwan" "Weevum" "Zeevo" "Saejol" "Saedin" "Leelazi" "Fewib" "Reenna" "Sogro" "Haewal"
-			"Regro" "Sogro" "Gewa" "Faara" "Xudolor" "Natalir" "Weeca" "Mesost" "Laavo" "Logro" "Mochol"
-			"Taevum" "Zaarah" "Xaaca" "Usela" "Cadash" "Dasegar" "Dilinaga" "Duhasek" "Farka"
-			"Gaathla" "Halla" "Iblin" "Jirko" "Maagro" "Malurn" "Shaidor" "Shani" 
-			"Sombrei" "Sunrunner" "Tinketta" "Torva" "Vanagandr" "Vandertrask" "Vestira" 
-			"Woreh" "Reekor" "Shaazay" "Sazay" "Geegro" "Haareh" "Gora" "Wofis" "Reenna" "Siron" "Seepan" "Zeeram" 
-			"Minil" "Yureh" "Javo" "Nefirn" "Caewan" "Fidin" "Yaaworp" "Merah" "Gadin" "Caavum" "Leegro" "Maleya" 
-			"Zuzay" "Yaarah" "Sholeya" "Rowal" "Hechol" "Haayya" "Gurah" "Canbay" "Fukor" "Zaalazi" "Darla" 
-			"Marvag" "Olvekei" "Bereloth" "Dwar Gan" "Shoron" "Jaeral" "Tirvider" "Smarfand" "Ergoradr" "Laermat" "Slorvo"
-		   "Zeca" "Yurah" "Shadir" "Zaemorn" "Luwa" "Tochol" "Laaca" "Jizay" "Wefirn" "Hirark" "Shirah" "Caanna" 
-		   "Woreh" "Reekor" "Shaazay" "Sazay" "Geegro" "Haareh" "Gora" "Wofis" "Reenna" "Siron" "Seepan" "Zeeram" "Ylmaran" 
-		   "Dlarimbo" "Sorvokan" "Tlarbe" "Droorbi" "Lytorim" "Jorvoledr"
-		   "Gyrovell" "Plaerid" "Forbadr" "Felermian" "Waatru" "Quirmet" "Lyyrmit" "Wermikar" "Durfaredr" "Larkirm" "Uroaldr" "Myrvort" "Qeemitera" "Drapart"
-		   "Kaardral" "Cheiclart" "Pleert Pleert" "Aerkatra" "Erishatla" "Norvatredt"
-		   "Rewan" "Maaram" "Gimorn" "Xaadin" "Voma" "Weleya" "Nuwib" "Zaador" "Heehala" "Tatalir" "Raebra" 
-		   "Xaezay" "Shurah" "Malarm" "Velarm" "Heereh" "Jigro" "Misost" "Jaewa" "Sisost" "Xemorn" "Toyya" "Shadir" "Zaemorn" "Luwa" "Tochol" "Laaca" "Jizay" "Wefirn" 
-		   "Yazay" "Jaafirn" "Vaafis" "Higro" "Gaetalir" "Seraka" "Rowal" "Hechol" "Haayya" "Gurah" "Canbay" "Fukor" "Zaalazi" "Dilinaga" "Duhasek" "Farka"
-		   "Muuruturut" "Lycarmasia" "Drorkamat" "Lipyralia" "Elcama" "Yqusmin" "Zeerkinot" "Keelimarth" "Murmiteen"
-		   "Idenna" "Keelah Si'yah" "Novarra" "Perroth" "Qam" "Palesi" "Iktomi" "Yorona" "Nedas" "Keelah Varren"
+				"vas Alarei" "vas Helash" "vas Honorata" "vas Moreh" "vas Nalotir" "vas Neema" "vas Niqunus" "vas Ostral" "vas Qwib Qwib" "vas Rayya" "vas Selani" "vas Shellen"
+				"vas Tesleya" "vas Tonbay" "vas Ulnay" "vas Tuwib" "vas Yezay" "vas Gajol" "vas Jodoruk" "vas Heejol" "vas Xedarum" "vas Haanbay" "vas Xaanna" "vas Girah" "vas Segro" "vas Sijol" "vas Mivo"
+				"vas Nodolor" "vas Zoram" "vas Xaelazi" "vas Vuzorn" "vas Waawal" "vas Gaavo" "vas Xomorn" "vas Yowal" "vas Ridir" "vas Coraka"
+				"vas Suji" "vas Ceeram" "vas Feworp" "vas Taakor" "vas Taalari" "vas Yazay" "vas Jaafirn" "vas Vaafis" "vas Higro" "vas Gaetalir" "vas Seraka"
+				"vas Foyya" "vas Shaeron" "vas Sefirn" "vas Shizay" "vas Suwib" "vas Shaalarm" "vas Hawib" "vas Fonna" "vas Vedor" "vas Zaama" "vas Tidin"
+				"vas Cunil" "vas Yaaraka" "vas Shonna" "vas Jaaraka" "vas Sichol" "vas Haavo" "vas Cowa" "vas Teehala" "vas Meeyya" "vas Veedoruk" "vas Giron"
+				"vas Wozal" "vas Fiwan" "vas Weevum" "vas Zeevo" "vas Saejol" "vas Saedin" "vas Leelazi" "vas Fewib" "vas Reenna" "vas Sogro" "vas Haewal"
+				"vas Regro" "vas Sogro" "vas Gewa" "vas Faara" "vas Xudolor" "vas Natalir" "vas Weeca" "vas Mesost" "vas Laavo" "vas Logro" "vas Mochol"
+				"vas Taevum" "vas Zaarah" "vas Xaaca" "vas Usela" "vas Cadash" "vas Dasegar" "vas Dilinaga" "vas Duhasek" "vas Farka"
+				"vas Gaathla" "vas Halla" "vas Iblin" "vas Jirko" "vas Maagro" "vas Malurn" "vas Shaidor" "vas Shani" 
+				"vas Sombrei" "vas Sunrunner" "vas Tinketta" "vas Torva" "vas Vanagandr" "vas Vandertrask" "vas Vestira" 
+				"vas Woreh" "vas Reekor" "vas Shaazay" "vas Sazay" "vas Geegro" "vas Haareh" "vas Gora" "vas Wofis" "vas Reenna" "vas Siron" "vas Seepan" "vas Zeeram" 
+				"vas Minil" "vas Yureh" "vas Javo" "vas Nefirn" "vas Caewan" "vas Fidin" "vas Yaaworp" "vas Merah" "vas Gadin" "vas Caavum" "vas Leegro" "vas Maleya" 
+				"vas Zuzay" "vas Yaarah" "vas Sholeya" "vas Rowal" "vas Hechol" "vas Haayya" "vas Gurah" "vas Canbay" "vas Fukor" "vas Zaalazi" "vas Darla" 
+				"vas Marvag" "vas Olvekei" "vas Bereloth" "vas Dwar Gan" "vas Shoron" "vas Jaeral" "vas Tirvider" "vas Smarfand" "vas Ergoradr" "vas Laermat" "vas Slorvo"
+				"vas Zeca" "vas Yurah" "vas Shadir" "vas Zaemorn" "vas Luwa" "vas Tochol" "vas Laaca" "vas Jizay" "vas Wefirn" "vas Hirark" "vas Shirah" "vas Caanna" 
+				"vas Woreh" "vas Reekor" "vas Shaazay" "vas Sazay" "vas Geegro" "vas Haareh" "vas Gora" "vas Wofis" "vas Reenna" "vas Siron" "vas Seepan" "vas Zeeram" "vas Ylmaran" 
+				"vas Dlarimbo" "vas Sorvokan" "vas Tlarbe" "vas Droorbi" "vas Lytorim" "vas Jorvoledr"
+				"vas Gyrovell" "vas Plaerid" "vas Forbadr" "vas Felermian" "vas Waatru" "vas Quirmet" "vas Lyyrmit" "vas Wermikar" "vas Durfaredr" "vas Larkirm" "vas Uroaldr" "vas Myrvort" "vas Qeemitera" "vas Drapart"
+				"vas Kaardral" "vas Cheiclart" "vas Pleert Pleert" "vas Aerkatra" "vas Erishatla" "vas Norvatredt"
+				"vas Rewan" "vas Maaram" "vas Gimorn" "vas Xaadin" "vas Voma" "vas Weleya" "vas Nuwib" "vas Zaador" "vas Heehala" "vas Tatalir" "vas Raebra" 
+				"vas Xaezay" "vas Shurah" "vas Malarm" "vas Velarm" "vas Heereh" "vas Jigro" "vas Misost" "vas Jaewa" "vas Sisost" "vas Xemorn" "vas Toyya" "vas Shadir" "vas Zaemorn" "vas Luwa" "vas Tochol" "vas Laaca" "vas Jizay" "vas Wefirn" 
+				"vas Yazay" "vas Jaafirn" "vas Vaafis" "vas Higro" "vas Gaetalir" "vas Seraka" "vas Rowal" "vas Hechol" "vas Haayya" "vas Gurah" "vas Canbay" "vas Fukor" "vas Zaalazi" "vas Dilinaga" "vas Duhasek" "vas Farka"
+				"vas Muuruturut" "vas Lycarmasia" "vas Drorkamat" "vas Lipyralia" "vas Elcama" "vas Yqusmin" "vas Zeerkinot" "vas Keelimarth" "vas Murmiteen"
+				"vas Idenna" "vas Keelah Si'yah" "vas Novarra" "vas Perroth" "vas Qam" "vas Palesi" "vas Iktomi" "vas Yorona" "vas Nedas" "vas Keelah Varren" "vas Qwib Qwib"
 			}
-			regnal_first_names_male = {
-				"Femm'Fumas" "Kotor'Yumin" "Zaal'Gama" "Far'Caamma" "Yun'Xaelan" "Leem'Silun" "Nunn'Juzh" "Zun'Cedor" "Wam'Saazh"
-				"Coh'Zeezh" "Gaas'Fam" "Zaamm'Caera" "Saeh'Semun" "Maeto'Xolun" "Woto'Cumor" "Feto'Tagar" "Gus'Mumor" "Cem'Zolas" 
-				"Gaer'Yorul" "Sos'Jum" "Heel'Haaras" "Gef'Zimma" "Maas'Mezh" "Zaen'Sil" "Jil'Haer" "Meef'Nas" "Haes'Gurul" "Jolo'Xaenar"
-				"Hal'Vaalon" "Fusin'Zumis" "Waaf'Visul" "Jof'Laenar" "Meto'Cofal" "Lon'Lorol" "Gaas'Shaelin" "Mal'Maenn" "Cos'Saemin" 
-				"Vaasin'Sheerol" "Mef'Yiris" "Raenn'Garis" "Setor'Nemor" "Cam'Zil" "Zen'Reenn" "Num'Nogar" "Fenn'Seeram" "Fer'Jass" 
-				"Cun'Geeras" "Val'Faemin" "Culo'Cesal" "Wuf'Guzu" "Vaann'Hara" "Run'Wuzh" "Zetor'Zeen" "Futor'Tunn" "Nof'Zulon" 
-				"Fil'Medda" "Faesin'Saaman" "Kaelo'Sinn" "Ros'Zeelas" "Cusin'Taelin" "Raato'Veelan" "Wan'Vinis" "Ralo'Ness" 
-				"Vel'Fanis" "Faef'Yizh" "Cih'Shulan" "Vaato'Shaenar" "Laetor'Heesa" "Veenn'Laelan" "Jimm'Naerul" "Caam'Raanna" 
-				"Zaan'Humos" "Vaal'Zaenn" "Hen'Zemas" "Jisin'Fisal" "Ril'Jimm" "Hen'Reefor" "Yomm'Tuman" "Yeeto'Ralon" "Lusin'Homor"
-				"Han'Gerrel" "Kal'Reegar" "Rael'Zorah" "Veetor'Nara" "Lemm'Shal" "Koris'Zaal" "Naar'Veen" "Tor'Kelan"
-			}
-			regnal_first_names_female = {
-				"Laemu'Zarul" "Yehu'Shosal" "Yaanu'Wus" "Helo'Ceefor" "Nenni'Taalon" "Shofi'Nasal" "Zaefu'Vofor" "Cafi'Geefal" "Canu'Yonna" 
-				"Saaha'Humas" "Wasu'Waafal" "Yaare'Zudda" "Firi'Wuras" "Nona'Maam" "Jaamma'Saemin" "Yaene'Yulon" "Zeme'Leedal" "Sufo'Sesul" 
-				"Naana'Hador" "Yaeha'Jal" "Musa'Waamin" "Waaso'Xaeman" "Homma'Shaelon" "Mamme'Jun" "Feela'Yerrel" "Nemme'Yora" "Sahu'Mael" 
-				"Hola'Zaesa" "Seri'Gumm" "Haasa'Veesar" "Laeni'Numis" "Shaafu'Monis" "Lamma'Waasa" "Weena'Veesar" "Shero'Xaame" "Leere'Wofin" 
-				"Wiro'Vurul" "Jaemma'Yaefin" "Sheena'Xenna" "Canna'Shilon" "Weela'Rime" "Fimu'Weeram" "Runi'Maezh" "Risa'Saemin" "Shaenu'Shul" 
-				"Lume'Maasar" "Homma'Hom" "Yaehu'Wilas" "Jara'Forrel" "Feenna'Hullo" "Shesa'Leezh" "Yaafu'Milun" "Caele'Lara" "Maehu'Nizu" 
-				"Jume'Meesar" "Nonnu'Xill" "Funna'Gamas" "Naane'Tumor" "Saahi'Vulon" "Meri'Vaallo" "Saammo'Gunis" "Nenno'Yaeram" "Miha'Wenar" 
-				"Yaeli'Renis" "Hufi'Shar" "Hammi'Faema" "Shaaho'Naalan" "Fala'Lorul" "Maemma'Ziram" "Sheso'Maenis" "Mela'Zaelon" "Senu'Gaerol" 
-				"Cila'Gamos" "Yala'Teme" "Shemmu'Tallo" "Zenna'Furam" "Wala'Rerrel" "Shofi'Leemm" "Maaha'Sime" "Nola'Yusal"
-				"Tali'Zorah" "Shala'Raan" "Daro'Xen" "Lia'Vael" "Shio'Leth" "Qetsi'Olam" "Yara'Vel" "Nema'Shira"
-			}
-			regnal_second_names = {
-				"Zaalazi" "Fukor" "Canbay" "Gurah" "Haayya" "Hechol" "Rowal" "Sholeya" "Yaarah" "Zuzay"
-				"Maleya" "Leegro" "Caavum" "Gadin" "Merah" "Yaaworp" "Fidin" "Caewan" "Nefirn" "Javo"
-				"Yureh" "Minil" "Zeeram" "Seepan" "Siron" "Reenna" "Wofis" "Gora" "Haareh" "Geegro" 
-				"Sazay" "Shaazay" "Reekor" "Woreh" "Caanna" "Shirah" "Hirark" "Wefirn" "Jizay" "Laaca"
-				"Tochol" "Luwa" "Zaemorn" "Shadir" "Yurah" "Zeca" "Toyya" "Xemorn" "Sisost" "Jaewa"
-				"Misost" "Jigro" "Heereh" "Velarm" "Malarm" "Shurah" "Xaezay" "Raebra" "Tatalir" "Heehala"
-				"Zaador" "Nuwib" "Weleya" "Voma" "Xaadin" "Gimorn" "Maaram" "Rewan" "Mivo" "Sijol" "Segro"
-				"Girah" "Haanbay" "Xaanna" "Xedarum" "Heejol" "Gajol" "Jodoruk" "Yezay" "Tuwib"
-				"Saajol" "Haaca" "Vaadolor" "Gaedor" "Tidir" "Neram" "Fura" "Ceekor" "Mujol" "Halazi" "Faagro"
-				"Minil" "Nodolor" "Zoram" "Xaelazi" "Vuzorn" "Waawal" "Gaavo" "Xomorn" "Yowal" "Ridir" "Coraka"
-				"Suji" "Ceeram" "Feworp" "Taakor" "Taalari" "Yazay" "Jaafirn" "Vaafis" "Higro" "Gaetalir" "Seraka"
-				"Foyya" "Shaeron" "Sefirn" "Shizay" "Suwib" "Shaalarm" "Hawib" "Fonna" "Vedor" "Zaama" "Tidin"
-				"Cunil" "Yaaraka" "Shonna" "Jaaraka" "Sichol" "Haavo" "Cowa" "Teehala" "Meeyya" "Veedoruk" "Giron"
-				"Wozal" "Fiwan" "Weevum" "Zeevo" "Saejol" "Saedin" "Leelazi" "Fewib" "Reenna" "Sogro" "Haewal"
-				"Regro" "Sogro" "Gewa" "Faara" "Xudolor" "Natalir" "Weeca" "Mesost" "Laavo" "Logro" "Mochol"
-				"Taevum" "Zaarah" "Xaaca" "Idenna" "Keelah Si'yah" "Novarra" "Perroth" "Qam" "Palesi" "Iktomi"
+		}
+		notables = {
+			weight = 4
+			full_names = {
+				"Tali'Zorah nar Rayya" "Shala'Raan vas Tonbay" "Daro'Xen vas Moreh" "Han'Gerrel vas Neema"
+				"Zaal'Koris vas Qwib Qwib" "Kal'Reegar" "Rael'Zorah" "Veetor'Nara"
+				"Lia'Vael nar Ulnay" "Shio'Leth vas Novarra" "Qetsi'Olam vas Keelah Si'yah" "Lemm'Shal nar Tesleya"
 			}
 		}
 	}

@@ -2,7 +2,6 @@ MEG_alliance = {
 	randomized = no
 
 	ship_names = {
-		generic = { }
 		corvette = {
 			"SSV Danube" "SSV Baikal" "SSV Niagara" "SSV Volga" "SSV Rhine" "SSV Yukon" "SSV Mekong" "SSV Orinoco"
 			"SSV Ganges" "SSV Indus" "SSV Tigris" "SSV Euphrates" "SSV Lena" "SSV Congo" "SSV Seine" "SSV Thames"
@@ -205,13 +204,6 @@ MEG_alliance = {
 			"AT-05 Ram" "AT-17 Bull" "AT-33 Bison" "AT-44 Grizzly" "AT-57 Tusk" "AT-72 Direwolf"
 		}
 
-		mining_station = { }
-		research_station = { }
-		observation_station = { }
-
-		military_station_small = { }
-		military_station_medium = { }
-		military_station_large = { }
 	}
 
 	ship_class_names = {
@@ -379,7 +371,6 @@ MEG_alliance = {
 	character_names = {
 		names1 = {
 			weight = 100
-			full_names = { }
 
 			first_names = {
 				"Alex" "Avery" "Bailey" "Bellamy" "Blake" "Brennan" "Briar" "Brooklyn" "Cameron" "Campbell" "Casey" "Charlie"
@@ -482,11 +473,10 @@ MEG_alliance = {
 			weight = 4
 			full_names_male = {
 				"David Anderson" "Steven Hackett" "Kaidan Alenko" "Jeff Moreau" "James Vega" "Richard Jenkins"
-				"Nathaniel Kahoku" "Paul Grissom" "Alec Ryder" "Donnel Udina" "Jon Grissom" "Nitesh Singh"
+				"Nathaniel Kahoku" "Paul Grissom" "Jon Grissom" "Charles Pressly" "Alec Ryder" "Nitesh Singh"
 			}
 			full_names_female = {
-				"Ashley Williams" "Karen Chakwas" "Samantha Traynor" "Anita Goyle" "Hannah Shepard" "Rebecca Petrovsky"
-				"Khalisah al-Jilani" "Gianna Parasini" "Ines Llosa" "Karin Chakwas" "Nirali Bhatia"
+				"Ashley Williams" "Karin Chakwas" "Samantha Traynor" "Hannah Shepard" "Rebecca Petrovsky" "Kahlee Sanders"
 			}
 		}
 	}

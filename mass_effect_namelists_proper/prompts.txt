@@ -1,0 +1,185 @@
+Naming conventions prompt template:
+Let's create conventions for a new namelist in stellaris for the X empire. The conventions need to be strict and follow clear definitions.
+The definitions should either use language and sound patterns from the empires lore culture, or examples of existing names. Usage of existing naming conventions is prefered, but where none such exist, we will need to extrapolate.
+A naming convention can't be: "grand words, mythological references, or historical figures". It needs to be more specific and follow a clear pattern.
+An example of a clear pattern is: "Use different combinations of the following syllables: 'ka', 'ra', 'ta', 'ma', 'la' for corvettes, and add a number at the end to indicate the ship's production order (e.g., 'Kara-1', 'Rata-2')." or "Known earth cities" "Historical battles" etc.
+We need one naming convention per category, presented in a listed order. We are allowed to use sequential numbering in most names and for categories where there is a lot of entities to name (e.g ships and fleets).
+There are sometimes real conventions that exist withinthe lore of mass effect, these should be used where possible but scaled and fitted to the actual categories requred.
+Create strict naming conventions for the following categories in Stellaris:
+-Military vessel names, one naming convention per ship size, corvette, frigate, destroyer, cruiser, battleship, Titan, juggernaut, colossus 
+-Ship class/design names, one convention for each unique ship size+role combination. Series are allowed if they are thematically consistent. the unique ship class/design names are:
+    -Corvette — Screen
+    -Corvette — Brawler
+    -Corvette — Gunship
+    -Corvette — Artillery
+    -Destroyer — Screen
+    -Destroyer — Brawler
+    -Destroyer — Gunship
+    -Destroyer — Artillery
+    -Cruiser — Gunship
+    -Cruiser — Artillery
+    -Cruiser — Torpedo
+    -Cruiser — Energy Torpedo
+    -Cruiser — Carrier
+    -Battleship — Gunship
+    -Battleship — Artillery
+    -Battleship — Carrier
+    -Titan — Gunship
+    -Titan — Artillery
+    -Frigate — Torpedo
+    -Frigate — Energy Torpedo-Fleet_names 
+-Army names
+-Military Fleet names. 
+-Civilian Vessel names, one naming convention for each ship type:
+    -Science
+    -Constructor
+    -Troop Transport
+-Planets, a convention for generic planet name and one convention for each world climate:
+    -Arid
+    -Desert
+    -Savannah
+    -Ocean
+    -Continental (comparable to mass effect garden worlds)
+    -Jungle
+    -Alpine
+    -Tundra
+    -Arctic
+-Character names 
+
+Hanar:
+Military vessel names
+Generic: FaceName-CC
+Use a FaceName list and a 2-digit production number 01–99.
+Example: Belje-07
+
+Ship class/design names
+
+Hull codes:
+CV Corvette
+FR Frigate
+DD Destroyer
+CR Cruiser
+BB Battleship
+TT Titan
+
+Role codes:
+Screen → VEIL
+Brawler → GRASP
+Gunship → PULSE
+Artillery → RAY
+Torpedo → DART
+Energy Torpedo → SPARK
+Carrier → SHOAL
+
+Required combinations:
+Corvette — Screen: CV-VEIL-SS
+Corvette — Brawler: CV-GRASP-SS
+Corvette — Gunship: CV-PULSE-SS
+Corvette — Artillery: CV-RAY-SS
+Destroyer — Screen: DD-VEIL-SS
+Destroyer — Brawler: DD-GRASP-SS
+Destroyer — Gunship: DD-PULSE-SS
+Destroyer — Artillery: DD-RAY-SS
+Cruiser — Gunship: CR-PULSE-SS
+Cruiser — Artillery: CR-RAY-SS
+Cruiser — Torpedo: CR-DART-SS
+Cruiser — Energy Torpedo: CR-SPARK-SS
+Cruiser — Carrier: CR-SHOAL-SS
+Battleship — Gunship: BB-PULSE-SS
+Battleship — Artillery: BB-RAY-SS
+Battleship — Carrier: BB-SHOAL-SS
+Titan — Gunship: TT-PULSE-SS
+Titan — Artillery: TT-RAY-SS
+Frigate — Torpedo: FR-DART-SS
+Frigate — Energy Torpedo: FR-SPARK-SS
+
+Fleet names
+Sequential format: $ORD$ Confluence
+Example: 1st Confluence
+
+Army names
+General format: $ORD$ <UnitTag>
+
+Recommended UnitTags by army type:
+Defense Army → Reef Ward
+Assault Army → Compact Detachment
+Slave Army → Bonded Cohort
+Clone Army → Pattern Clone
+Psionic Army → Luminous Adepts
+Xenomorph Army → Lurking Helpers
+Gene Warrior Army → Bright-Pattern Augments
+
+Military fleet names
+Use the same fleet naming convention as fleet_names:
+Sequential: $ORD$ Confluence
+
+Civilian vessel names
+Science: SV-NNN <ResearchTag>
+NNN = 001–999
+ResearchTag ∈ {Lexicon, Archive, Cipher, Survey, Glossary}
+Example: SV-014 Lexicon
+
+Constructor: CV-NNN <BuildTag>
+NNN = 001–999
+BuildTag ∈ {Lattice, Scaffold, Mooring, Drydock, Frame}
+Example: CV-102 Lattice
+
+Troop Transport: TT-NN <MarineTag>
+NN = 01–99
+MarineTag ∈ {Whitecap, Shoal, Undercurrent, Tide, Current}
+Example: TT-07 Whitecap
+
+Planets
+General format for all planets: Descriptor Feature
+Descriptor is shared across all climates.
+Descriptor ∈ {Living, Rough, Shining, Whitecap, First, Still, Fitful, Deep, High, Praying, Silent, Wandering, Distant, Murky, Hungry, Hidden, Lost, Sad, Bright, Fading, Dying, First, Second, Old}
+
+Generic:
+Feature ∈ {Twig, Bush, Mouth, Face, Heart, Hand, Foot, Eye, Tentacle, Vein, Bone, Blood, Breath}
+
+Arid:
+Feature ∈ {Basin, Wind, Stone, Plateau, Dust}
+
+Desert:
+Feature ∈ {Dune, Salt, Glass, Sun, Waste}
+
+Savannah:
+Feature ∈ {Grass, Plain, Herd, Horizon, Steppe}
+
+Ocean:
+Feature ∈ {Tide, Current, Shoal, Reef, Undercurrent}
+
+Continental:
+Feature ∈ {Whitecap, Shore, Rain, Grove, Harbor}
+
+Jungle:
+Feature ∈ {Canopy, Monsoon, Bloom, Vine, Lagoon}
+
+Alpine:
+Feature ∈ {Ridge, Peak, Pass, Crag, Cloud}
+
+Tundra:
+Feature ∈ {Mire, Frost, Moss, Grayland, Drift}
+
+Arctic:
+Feature ∈ {Ice, Shelf, Aurora, Glacier, Pack}
+
+Character names
+General format: FaceName (SoulFull)
+FaceName uses the FaceName generator.
+SoulFull uses the full SoulName generator.
+
+FaceName generator:
+Prefix P ∈ {Del, Zym, Yss, Kho, Opo, Kah, Bel, Vas, Nya}
+Optional connector C ∈ {a, e, i, o, an, yn}
+Suffix S ∈ {dis, ynder, lai, old, es, je, an, is}
+Rule: FaceName = P + (C) + S
+
+SoulName generator:
+Verb V ∈ {Regards, Illuminates, Interprets, Catalogues, Measures}
+Object O ∈ {Works, Gift, Speech, Silence, Currents}
+Referent R ∈ {Enkindlers, Language, Kahje, Shallows}
+Mood M ∈ {in Despair, in Patience, in Wonder}
+Rule: SoulFull = V + " the " + O + " of the " + R + " " + M
+
+Example: Zymandis (Regards the Works of the Enkindlers in Despair)

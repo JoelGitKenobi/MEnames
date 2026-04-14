@@ -1,0 +1,16 @@
+version="4.*"
+tags={
+	"Buildings"
+	"Economy"
+	"Diplomacy"
+	"Events"
+	"Leaders"
+	"Total Conversion"
+	"Overhaul"
+	"Technologies"
+	"Gameplay"
+}
+name="Mass Effect A New Destiny"
+supported_version="v4.3.1"
+path="C:/Program Files (x86)/Steam/steamapps/workshop/content/281990/3539922386"
+remote_file_id="3539922386"

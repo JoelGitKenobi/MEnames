@@ -1,0 +1,379 @@
+MEG_elcor = {
+	randomized = no
+
+	ship_names = {
+		corvette = {
+			"JFV 178-001" "JFV 178-002" "JFV 178-003" "JFV 178-004" "JFV 178-005" "JFV 178-006"
+			"JFV 178-007" "JFV 178-008" "JFV 178-009" "JFV 178-010" "JFV 178-011" "JFV 178-012"
+			"JFV 178-013" "JFV 178-014" "JFV 178-015" "JFV 178-016" "JFV 178-017" "JFV 178-018"
+			"JFV 178-019" "JFV 178-020" "JFV 178-021" "JFV 178-022" "JFV 178-023" "JFV 178-024"
+			"JFV 179-001" "JFV 179-002" "JFV 179-003" "JFV 179-004" "JFV 179-005" "JFV 179-006"
+			"JFV 179-007" "JFV 179-008" "JFV 179-009" "JFV 179-010" "JFV 179-011" "JFV 179-012"
+			"JFV 179-013" "JFV 179-014" "JFV 179-015" "JFV 179-016" "JFV 179-017" "JFV 179-018"
+			"JFV 179-019" "JFV 179-020" "JFV 179-021" "JFV 179-022" "JFV 179-023" "JFV 179-024"
+			"JFV 180-001" "JFV 180-002" "JFV 180-003" "JFV 180-004" "JFV 180-005" "JFV 180-006"
+			"JFV 180-007" "JFV 180-008" "JFV 180-009" "JFV 180-010" "JFV 180-011" "JFV 180-012"
+			"JFV 180-013" "JFV 180-014" "JFV 180-015" "JFV 180-016" "JFV 180-017" "JFV 180-018"
+			"JFV 180-019" "JFV 180-020" "JFV 180-021" "JFV 180-022" "JFV 180-023" "JFV 180-024"
+			"JFV 181-001" "JFV 181-002" "JFV 181-003" "JFV 181-004" "JFV 181-005" "JFV 181-006"
+			"JFV 181-007" "JFV 181-008" "JFV 181-009" "JFV 181-010" "JFV 181-011" "JFV 181-012"
+			"JFV 181-013" "JFV 181-014" "JFV 181-015" "JFV 181-016" "JFV 181-017" "JFV 181-018"
+			"JFV 181-019" "JFV 181-020" "JFV 181-021" "JFV 181-022" "JFV 181-023" "JFV 181-024"
+			"JFV 182-001" "JFV 182-002" "JFV 182-003" "JFV 182-004" "JFV 182-005" "JFV 182-006"
+			"JFV 182-007" "JFV 182-008" "JFV 182-009" "JFV 182-010" "JFV 182-011" "JFV 182-012"
+			"JFV 182-013" "JFV 182-014" "JFV 182-015" "JFV 182-016" "JFV 182-017" "JFV 182-018"
+			"JFV 182-019" "JFV 182-020" "JFV 182-021" "JFV 182-022" "JFV 182-023" "JFV 182-024"
+			"JFV 183-001" "JFV 183-002" "JFV 183-003" "JFV 183-004" "JFV 183-005" "JFV 183-006"
+			"JFV 183-007" "JFV 183-008" "JFV 183-009" "JFV 183-010" "JFV 183-011" "JFV 183-012"
+			"JFV 183-013" "JFV 183-014" "JFV 183-015" "JFV 183-016" "JFV 183-017" "JFV 183-018"
+			"JFV 183-019" "JFV 183-020" "JFV 183-021" "JFV 183-022" "JFV 183-023" "JFV 183-024"
+			"JFV 184-001" "JFV 184-002" "JFV 184-003" "JFV 184-004" "JFV 184-005" "JFV 184-006"
+			"JFV 184-007" "JFV 184-008" "JFV 184-009" "JFV 184-010" "JFV 184-011" "JFV 184-012"
+			"JFV 184-013" "JFV 184-014" "JFV 184-015" "JFV 184-016" "JFV 184-017" "JFV 184-018"
+			"JFV 184-019" "JFV 184-020" "JFV 184-021" "JFV 184-022" "JFV 184-023" "JFV 184-024"
+			"JFV 185-001" "JFV 185-002" "JFV 185-003" "JFV 185-004" "JFV 185-005" "JFV 185-006"
+			"JFV 185-007" "JFV 185-008" "JFV 185-009" "JFV 185-010" "JFV 185-011" "JFV 185-012"
+			"JFV 185-013" "JFV 185-014" "JFV 185-015" "JFV 185-016" "JFV 185-017" "JFV 185-018"
+			"JFV 185-019" "JFV 185-020" "JFV 185-021" "JFV 185-022" "JFV 185-023" "JFV 185-024"
+			"JFV 186-001" "JFV 186-002" "JFV 186-003" "JFV 186-004" "JFV 186-005" "JFV 186-006"
+			"JFV 186-007" "JFV 186-008" "JFV 186-009" "JFV 186-010" "JFV 186-011" "JFV 186-012"
+			"JFV 186-013" "JFV 186-014" "JFV 186-015" "JFV 186-016" "JFV 186-017" "JFV 186-018"
+			"JFV 186-019" "JFV 186-020" "JFV 186-021" "JFV 186-022" "JFV 186-023" "JFV 186-024"
+			"JFV 187-001" "JFV 187-002" "JFV 187-003" "JFV 187-004" "JFV 187-005" "JFV 187-006"
+			"JFV 187-007" "JFV 187-008" "JFV 187-009" "JFV 187-010" "JFV 187-011" "JFV 187-012"
+			"JFV 187-013" "JFV 187-014" "JFV 187-015" "JFV 187-016" "JFV 187-017" "JFV 187-018"
+			"JFV 187-019" "JFV 187-020" "JFV 187-021" "JFV 187-022" "JFV 187-023" "JFV 187-024"
+			"JFV 188-001" "JFV 188-002" "JFV 188-003" "JFV 188-004" "JFV 188-005" "JFV 188-006"
+			"JFV 188-007" "JFV 188-008" "JFV 188-009" "JFV 188-010" "JFV 188-011" "JFV 188-012"
+			"JFV 188-013" "JFV 188-014" "JFV 188-015" "JFV 188-016" "JFV 188-017" "JFV 188-018"
+			"JFV 188-019" "JFV 188-020" "JFV 188-021" "JFV 188-022" "JFV 188-023" "JFV 188-024"
+			"JFV 189-001" "JFV 189-002" "JFV 189-003" "JFV 189-004" "JFV 189-005" "JFV 189-006"
+			"JFV 189-007" "JFV 189-008" "JFV 189-009" "JFV 189-010" "JFV 189-011" "JFV 189-012"
+			"JFV 189-013" "JFV 189-014" "JFV 189-015" "JFV 189-016" "JFV 189-017" "JFV 189-018"
+			"JFV 189-019" "JFV 189-020" "JFV 189-021" "JFV 189-022" "JFV 189-023" "JFV 189-024"
+			"JFV 190-001" "JFV 190-002" "JFV 190-003" "JFV 190-004" "JFV 190-005" "JFV 190-006"
+			"JFV 190-007" "JFV 190-008" "JFV 190-009" "JFV 190-010" "JFV 190-011" "JFV 190-012"
+			"JFV 190-013" "JFV 190-014" "JFV 190-015" "JFV 190-016" "JFV 190-017" "JFV 190-018"
+			"JFV 190-019" "JFV 190-020" "JFV 190-021" "JFV 190-022" "JFV 190-023" "JFV 190-024"
+		}
+
+		frigate = {
+			"JFV Droriuntavilusium" "JFV Aldorim Escarpment" "JFV Beloran Steps" "JFV Cethari Headwaters" "JFV Daramor Ridge"
+			"JFV Elthorin Shelf" "JFV Falthoran Rise" "JFV Gelmoran Vale" "JFV Haradeth Climb" "JFV Ithoranal Reach"
+			"JFV Jalvoren Crown" "JFV Kaltheris Pass" "JFV Letharim Fold" "JFV Marenvor Heights" "JFV Nalthor Basin"
+			"JFV Oraven Spine" "JFV Pelorath Terrace" "JFV Qelthoran Ascent" "JFV Rethavon Barrier" "JFV Selmoran March"
+			"JFV Talveris Cataract" "JFV Ulthoran Spur" "JFV Valdoren Shelf" "JFV Wetharim Rise" "JFV Xaltheron Reach"
+			"JFV Yeldoran Ridge" "JFV Zethari Escarpment" "JFV Armathor Heights" "JFV Belmaveth Steps" "JFV Corathen Shelf"
+			"JFV Detharion Pass" "JFV Elvaris Reach" "JFV Faltheron Climb" "JFV Gorathis Crown" "JFV Helvaron Fold"
+			"JFV Itharion March" "JFV Jorathen Spur" "JFV Kelmorith Barrier" "JFV Lorathen Terrace" "JFV Mavethor Ridge"
+			"JFV Nerathis Ascent" "JFV Orathen Headwaters" "JFV Pelvaron Basin" "JFV Quelmaris Heights" "JFV Ravethan Shelf"
+			"JFV Selvaris Rise" "JFV Torathen Vale" "JFV Uldorim Crown" "JFV Velmaron Pass" "JFV Worathis Reach"
+			"JFV Xetharim Ridge" "JFV Yorathen Escarpment" "JFV Zalmaris Fold" "JFV Arvelon Spine" "JFV Braleth Heights"
+			"JFV Corythar Shelf" "JFV Dalmorik Rise" "JFV Eshvaron Reach" "JFV Ferythar Ridge" "JFV Galmorath March"
+			"JFV Halvaron Steps" "JFV Ixorath Barrier" "JFV Jetharim Pass" "JFV Koravel Heights" "JFV Lorythar Terrace"
+			"JFV Mavoreth Vale" "JFV Nelvaron Climb" "JFV Orythar Basin" "JFV Peralvon Shelf" "JFV Quorathen Rise"
+			"JFV Ralvaris Reach" "JFV Setharion Ridge" "JFV Tavoreth Fold" "JFV Ulmorath Escarpment" "JFV Varythar Crown"
+			"JFV Welvaron Pass" "JFV Xorathis Steps" "JFV Yelvaron Shelf" "JFV Zorathen Ascent" "JFV Ardoveth Ridge"
+			"JFV Belmorath March" "JFV Cethalvor Heights" "JFV Doravel Spine" "JFV Elythoran Reach" "JFV Falmorath Terrace"
+			"JFV Goravelon Rise" "JFV Hetharim Pass" "JFV Ildorath Barrier" "JFV Joravelon Shelf" "JFV Kelvarath Climb"
+			"JFV Lethorim Crown" "JFV Morythar Basin" "JFV Nolvarath Reach" "JFV Orimareth Ridge" "JFV Praxalvor Fold"
+			"JFV Quelvarath Heights" "JFV Rethorim Shelf" "JFV Sorythar Rise" "JFV Thalveron Escarpment" "JFV Urotharis Pass"
+			"JFV Velnorath Reach" "JFV Werythar Steps" "JFV Xalvorath Basin" "JFV Yoravelon Crown" "JFV Zethorim Ridge"
+		}
+
+		destroyer = {
+			"JFV Hiwuraango" "JFV Harta" "JFV Orotan" "JFV Calyn" "JFV Kojet"
+			"JFV Terojum" "JFV Hanibar" "JFV Dendalia" "JFV Jinnarn" "JFV Koyok"
+			"JFV Ranthos" "JFV Petzac" "JFV Amuroshaldo" "JFV Amuutharuuno" "JFV Caarl"
+			"JFV Crysto" "JFV Dennol" "JFV Desund" "JFV Dhoosin" "JFV Dord"
+			"JFV Emarl" "JFV Ethuunaruuno" "JFV Figlan" "JFV Fixtwo" "JFV Fwunbarro"
+			"JFV Ghelsinon" "JFV Giza" "JFV Jonai" "JFV Kasxcy" "JFV Lokkor"
+			"JFV Orotan" "JFV Petalaz" "JFV Pradok" "JFV Quizic" "JFV Tolitith"
+			"JFV Xoorik" "JFV Xooril" "JFV Yefilo" "JFV Zeeyat" "JFV Zoftan" "JFV Zoren"
+			"JFV Aruunor" "JFV Avaruun" "JFV Belthuun" "JFV Cethor" "JFV Choluun"
+			"JFV Corixal" "JFV Daluun" "JFV Doruun" "JFV Draxxil" "JFV Eroshan"
+			"JFV Falxorin" "JFV Faruun" "JFV Goruun" "JFV Halxorin" "JFV Hethuun"
+			"JFV Ildorun" "JFV Ivuunor" "JFV Jorath" "JFV Kaathor" "JFV Kalxuun"
+			"JFV Karodyn" "JFV Kethuun" "JFV Korathin" "JFV Lethoran" "JFV Loruun"
+			"JFV Lumorik" "JFV Malthuun" "JFV Mavrison" "JFV Menoruun" "JFV Nauxorin"
+			"JFV Nethuun" "JFV Norath" "JFV Oruun" "JFV Osharun" "JFV Praxorin"
+			"JFV Qoruun" "JFV Rethoran" "JFV Rhovuun" "JFV Saarith" "JFV Sethuun"
+			"JFV Talxorin" "JFV Tavruun" "JFV Tholoran" "JFV Uruun" "JFV Varoth"
+			"JFV Vauxorin" "JFV Velruun" "JFV Vrraxis" "JFV Worathun" "JFV Xaavun"
+			"JFV Xoruun" "JFV Yathorin" "JFV Yoruun" "JFV Zaarith" "JFV Zoruun" "JFV Zyrath"
+		}
+
+		cruiser = {
+			"JFV Moireturanum" "JFV Toruun Thordaa" "JFV Chirrano Xultonnos" "JFV Dozinn Likuunis" "JFV Rorix Teranis"
+			"JFV Relto Lextan" "JFV Yaetan Harwun" "JFV Kyr Nosoric" "JFV Ravanor Nuumyn" "JFV Jandrum Naurowauro"
+			"JFV Malxoltin Hamno" "JFV Vornyl Gabbleblotchits" "JFV Goft Dugn" "JFV Xuumo-kalashasi" "JFV Olxima-Sinren"
+			"JFV Fiav'aarei" "JFV Amuroshaldo" "JFV Amuutharuuno" "JFV Ethuunaruuno" "JFV Vrriisol"
+			"JFV Moruundar" "JFV Ekaan" "JFV Earcnan" "JFV Aodh" "JFV Belon"
+			"JFV Aruunor Vethalis" "JFV Belthuun Mavoris" "JFV Cethor Nauxorin" "JFV Doruun Halvaris" "JFV Eroshan Teraluun"
+			"JFV Falxorin Detharis" "JFV Goruun Varethon" "JFV Hethuun Calvaris" "JFV Ildorun Mauxor" "JFV Jorath Velthuun"
+			"JFV Kaathor Neralis" "JFV Korathin Vauxoran" "JFV Lethoran Marveth" "JFV Lumorik Talvarun" "JFV Malthuun Orivoran"
+			"JFV Menoruun Kaltheris" "JFV Nauxorin Delvarun" "JFV Norath Vellorin" "JFV Osharun Thelvaris" "JFV Praxorin Malverun"
+			"JFV Qoruun Tetharis" "JFV Rethoran Doruunal" "JFV Saarith Halveron" "JFV Sethuun Voralis" "JFV Talxorin Narveth"
+			"JFV Tholoran Joravun" "JFV Varoth Ceralis" "JFV Vauxorin Merathun" "JFV Vrraxis Navorun" "JFV Yathorin Kelvaris"
+		}
+
+		battleship = {
+			"JFV Denaususnomun" "JFV Oribosanti" "JFV Wonnumetenro" "JFV Or-Gyclyn" "JFV Ralmonisuuk" "JFV Raxuu"
+			"JFV Zauraamonuu" "JFV Orimetenroun" "JFV Toitenamonaarnxuu" "JFV Dromonatarum" "JFV Deuranalynmun" "JFV Naunumamonmuun"
+    		"JFV Drorsusnomunenum" "JFV Demununomero" "JFV Veushaomonulon" "JFV Or-Maranonum" "JFV Wonoraimonunom" "JFV Riorosukewauthenti"
+    		"JFV Woumuunivaamirum" "JFV Naosukunuvunom" "JFV Wuutaruimunasukxuu" "JFV Raranuliseten" "JFV Lounomouturmuu" "JFV Or-Nuthonum"
+    		"JFV Or-Onulumuuk" "JFV Nosukalynum" "JFV Rarukimonum" "JFV Orounegouthonaxuu" "JFV Ormunuinomisi" "JFV Vovilaranuuk"
+    		"JFV Ralosunumun" "JFV Oriuranumuun" "JFV Ralsnomunero" "JFV Vasanomiruuk" "JFV Lozuuniturum" "JFV Wosuunumira"
+    		"JFV Or-Denumum" "JFV Kousanivonuuk" "JFV Namonumonenti" "JFV Vauothoumirumunun" "JFV Xauturolurianenum" "JFV Volisoushaonum"
+    		"JFV Nuumoumirulynsenti" "JFV Or-Ronumioro" "JFV Woclyumunanti" "JFV Moiromun" "JFV Romununumeten" "JFV Nooluuwauumunmun"
+    		"JFV Raisuukenti" "JFV Woulynuikuumonum" "JFV Tousoturusuuk" "JFV Zaranoalynum" "JFV Voudorulyniokuun" "JFV Ralmnomununom"
+    		"JFV Drousanosuuosum" "JFV Niorogycugusukan" "JFV Thulisonomum" "JFV Or-Zalynaati" "JFV Deuturaclyoturnuuk" "JFV Woumirogiosanomun"
+    		"JFV Uluusorianoonimun" "JFV Deunaasesonum" "JFV Nizuunaatarxuu" "JFV Deogomunasuuonium" "JFV Tauwaeusozuunum" "JFV Ortavilusiumun"
+    		"JFV Lonomuosuu" "JFV Raurukataruulosun" "JFV Riranuurukuu" "JFV Nourukuusukelkun" "JFV Moushiranogisuuk" "JFV Lomonubosuu"
+    		"JFV Moiisuuk" "JFV Laubosomuniloro" "JFV Lanumounorun" "JFV Deturuusukiros" "JFV Nuutareunomiros" "JFV Nuzuunusuuro"
+    		"JFV Thuonalosmonun" "JFV Rotenonorisium" "JFV Uuruosuinumeti" "JFV Xavilalismonun" "JFV Riuogonomenorenum" "JFV Ronomuulynunom"
+    		"JFV Sumunuoturiros" "JFV Or-Rirukuouun" "JFV Ulusanitureten" "JFV Nadorutarosanti" "JFV Oruranum" "JFV Moumoumonxuu"
+    		"JFV Ra-Nutenuuxuu" "JFV Wovilaavonanum" "JFV Ruranoviluun" "JFV Losuutenunom" "JFV Wouususankonium" "JFV Luuoramonaro"
+    		"JFV Onusuulumetenro" "JFV Nuunumumuosukrun" "JFV Or-Drosuuouvil" "JFV Droetenro" "JFV Shiovuuvilesanrxuu" "JFV Nuunononomnero"
+    		"JFV Zalyneshasuuk" "JFV Tomonobosuu" "JFV Zamonavilosanti" "JFV Risuunumuun" "JFV Or-Rarauutenro" "JFV Luusukovnunom"
+    		"JFV Loutaruulumneti" "JFV Xauonumuulisuuk" "JFV Ul-Ravilousnomun" "JFV Maeudorilunom" "JFV Drxuura" "JFV Vo-Nulosuu"
+    		"JFV Rionomoruuniormun" "JFV Nioulaasukonmuun" "JFV Onuthonuubosxuu" "JFV Or-Demonaclyn" "JFV Taonumobosum" "JFV Delumenomuu"
+    		"JFV Ralntiten" "JFV Oragaganti" "JFV Voushaurauunetenro" "JFV Youlisuusuknomun" "JFV Kouranataranomnxuu" "JFV Kalumasuuorum"
+    		"JFV Drounumenomnuu" "JFV Liomirothamunrenti" "JFV Na-Nutaruunum" "JFV Roolisugycmisi" "JFV Zaoturouranelumauu" "JFV Drookemuubosun"
+    		"JFV Runomivilanum" "JFV Ranumuranun" "JFV Toulinumogovuu" "JFV Moitenro" "JFV Nouvenumaro" "JFV Niumonosuuviluuk"
+    		"JFV Deolagimonigunom" "JFV Ruilaanuisuinoruun" "JFV Suagycarianosanti" "JFV Ornomoazuunenti" "JFV Roumunuithamiraum" "JFV Orlosenumaro"
+    		"JFV Or-Wonumoun" "JFV Naunalatunmun" "JFV Rinoroumonuun" "JFV Orivosukuurishmxuu" "JFV Nauclyumunxuu" "JFV Vounumolevonorum"
+    		"JFV Denanum" "JFV Raosanti" "JFV Denametenroro" "JFV Or-Womonxuu" "JFV Suovonurusnomun" "JFV Orailusanthuu"
+    		"JFV Losukelumxuu" "JFV Maunomaalnuuk" "JFV Oribetenronum" "JFV Nuathewauutarunom" "JFV Kouvuurauu" "JFV Ra-Valosaxuu"
+    		"JFV Zawauusuuxuu" "JFV Or-Runoreten" "JFV Tolynuimonuu" "JFV Riomirumenemunkun" "JFV Lougycuonomuruu" "JFV Moxuu"
+    		"JFV Ra-Narauuon" "JFV Wuunilamonkoro" "JFV Loumonurosanonum" "JFV Xaunarauoloosanti" "JFV Raclynum" "JFV Orgsnomunenum"
+    		"JFV Numuninomosanti" "JFV Nouuroaraurun" "JFV Na-Nuvileten" "JFV Oruclyudoroskoro" "JFV Moumunuruiraumanti" "JFV Ra-Rulynauu"
+    		"JFV Ra-Demunaanum" "JFV Orvonasukun" "JFV Onunumuunomisi" "JFV Droranamonero" "JFV Nuaturalkanti" "JFV Ranomunenti"
+    		"JFV Riulynosoumeshati" "JFV Deumuunxmonun" "JFV Nuwauaranuun" "JFV Orsanoomunuun" "JFV Suolosarukarsanum" "JFV Moirlyn"
+    		"JFV Or-Tarauuorum" "JFV Nauusouruilnunom" "JFV Rasnomunonum" "JFV Kaumunotermum" "JFV Wononisuukun" "JFV Orilyn"
+    		"JFV Denuu" "JFV Or-Thumunonti" "JFV Derauoorukanti" "JFV Kourukuturnemun" "JFV Vamunulisonium" "JFV Rataruuvonaro"
+    		"JFV Nuotariothiuvisuuk" "JFV Noturovonum" "JFV Ra-Kozuunoro" "JFV Lavilaamunanti" "JFV Orilusiumnomun" "JFV Thuurionulosetenro"
+    		"JFV Denaenro" "JFV Rauonumasuamuuk" "JFV Zamununumetenro" "JFV Tatenesukavil" "JFV Mausanaturiruunun" "JFV Wontiro"
+    		"JFV Ruinerianuurauonum" "JFV Yonumamunum" "JFV Densuuk" "JFV Suutaruotheti" "JFV Rauviliowauensanum" "JFV Maomunonomulionuun"
+    		"JFV Oriisuukum" "JFV Maulynutaroulrxuu" "JFV Rirauutenomun" "JFV Louthurouvonanti" "JFV Drotarunomonun" "JFV Zaurulumonornero"
+    		"JFV Lonumomonulon" "JFV Denomonomisi" "JFV Ritenomunum" "JFV Surukoovonuu" "JFV Vo-Nolynara" "JFV Kotenoosanenum"
+    		"JFV Kowauoalumuun" "JFV Or-Kanomaro" "JFV Ruodoretenuunmenum" "JFV Nunomutarunom" "JFV Rilynusuuten" "JFV Worukuusanero"
+    		"JFV Mamonasanuu" "JFV Roumiosuu" "JFV Ululumuomonavil" "JFV Wonnaxuunum" "JFV Nosanowauu" "JFV Raonorodorkxuu"
+    		"JFV Riugycovumaranrun" "JFV Or-Xawauu" "JFV Youogyculuusum" "JFV Drourauorukirxuu" "JFV Raxynuu" "JFV Ruonionuumunumero"
+    		"JFV Ralnroum" "JFV Laurukolosxnomun" "JFV Or-Mozuunoro" "JFV Niulisukuwausaxuu" "JFV Ortenazuunulon" "JFV Mauinamunuimaoro"
+    		"JFV Na-Kowauu" "JFV Roumosaninmuu" "JFV Ul-Nuzuunuoros" "JFV Orulumunomrxuu" "JFV Tanomidoruu" "JFV Robosalisxuu"
+    		"JFV Rusukodorenum" "JFV Vo-Sunoraxuu" "JFV Or-Nulumaamonun" "JFV Delisesuunum" "JFV Deusaninumusraro" "JFV Neuruoshauluu"
+    		"JFV Raulokelosmanti" "JFV Deuunumolenormiro" "JFV Orenumiolosuuten" "JFV Or-Ragyconum" "JFV Toomaasumnomun" "JFV Laosoviluumanum"
+    		"JFV Runumuilumum" "JFV Xalynuisuunti" "JFV Maturoomuneti" "JFV Latenivonuun" "JFV Or-Lonomaimonun" "JFV Raomunanum"
+    		"JFV Vo-Rumonoro" "JFV Nuudoroturuinmonun" "JFV Rausunuun" "JFV Ul-Niclyro" "JFV Louzuunalynkunom" "JFV Deosuuovarolenum"
+    		"JFV Suuruonoranum" "JFV Nuoalasuurananim" "JFV Riunumuitenarira" "JFV Riuimerianasukaro" "JFV Loolynuturoorankum" "JFV Mourauuthoti"
+    		"JFV Na-Worianira" "JFV Rimononomoro" "JFV Woudoravilavonmxuu" "JFV Orgyuukaro" "JFV Nuumuurusnunom" "JFV Rauravilsmonun"
+    		"JFV Na-Riranosanti" "JFV Orolumuimonsuu" "JFV Maolynanaravil" "JFV Zavonenumero" "JFV Orgsusnomun" "JFV Lounumasuushnomun"
+    		"JFV Suoominumatenuu" "JFV Nalyniotarnomun" "JFV Woaxuuvil" "JFV Xaounomosanmorum" "JFV Taunorionomulynun" "JFV Vo-Denumausnomun"
+    		"JFV Niourornum" "JFV Or-Ralosuosanti" "JFV Raumonioruosuuluu" "JFV Nuobosuurukaaneten" "JFV Vathonoarananti" "JFV Thuulaclyuororum"
+    		"JFV Koulumuunuunoraum" "JFV Rarianuubosetenro" "JFV Or-Nushauun" "JFV Shiokoturaavilthuu" "JFV Vauthaturuthnuuk" "JFV Raluu"
+    		"JFV Orunomuonorun" "JFV Vavilethonxuu" "JFV Konorootarnomun" "JFV Ra-Niranum" "JFV Nutenarauonum" "JFV Vouisukakrnomun"
+    		"JFV Naumutenuosukthun" "JFV Kaunumusamthenti" "JFV Rouvilinathaisanum" "JFV Rolynolynero" "JFV Deomuuthonuimiruu" "JFV Momonobositen"
+    		"JFV Noouravililumrunom" "JFV Uluoririoraunum" "JFV Ruukuuoturero" "JFV Ninoriotenanti" "JFV Deshaoutaranum" "JFV Rathonadoruun"
+    		"JFV Thunorouvilanti" "JFV Or-Nadorioro" "JFV Or-Naclyum" "JFV Nuclyuomiruuk" "JFV Ruasemonaanumsero" "JFV Niurananumeti"
+    		"JFV Vaushaiguosuuosoro" "JFV Kaosooloolisisuuk" "JFV Niuviluoclyururo" "JFV Orguuonium" "JFV Shiosesanoguu" "JFV Zabosaisananti"
+    		"JFV Suturetenero" "JFV Moturolynmonun" "JFV Ruamonomuusukira" "JFV Kaolumuivonomun" "JFV Rasuulosanti" "JFV Or-Vodoretenro"
+    		"JFV Denumunom" "JFV Rorauulisisi" "JFV Touthonumalosoonum" "JFV Yovilouthonanti" "JFV Onuugarun" "JFV Derianamunira"
+		}
+
+		titan = {
+			"JFV Wonnumetenro" "JFV Ralmonisuuk" "JFV Denaususnomun" "JFV Oribosanti"
+		}
+
+		juggernaut = {
+			"JFV Or-Gyclyn" "JFV Raxuu" "JFV Ralmonisuuk"
+		}
+
+		colossus = {
+			"JFV Ralmonisuuk" "JFV Denaususnomun" "JFV Or-Gyclyn"
+		}
+
+		science = {
+			"MSV Davrona" "MSV Belon" "MSV Earcnan" "MSV Ekaan" "MSV Moruundar" "MSV Vrriisol"
+			"MSV Aodh" "MSV Juxxak" "MSV Zeeyat" "MSV Dozinn Likuunis" "MSV Rorix Teranis" "MSV Calyn"
+			"MSV Petozi" "MSV Xeltan" "MSV Yorrik" "MSV Yaetan Harwun" "MSV Relto Lextan" "MSV Kyr Nosoric"
+			"MSV Chirrano Xultonnos" "MSV Amuutharuuno" "MSV Xuumo-kalashasi" "MSV Fiav'aarei"
+			"MSV Aruunor" "MSV Belthuun" "MSV Cethor" "MSV Doruun" "MSV Eroshan" "MSV Falxorin"
+			"MSV Goruun" "MSV Halxorin" "MSV Ildorun" "MSV Kaathor" "MSV Korathin" "MSV Lethoran"
+			"MSV Lumorik" "MSV Mavrison" "MSV Menoruun" "MSV Nauxorin" "MSV Norath" "MSV Praxorin"
+			"MSV Rethoran" "MSV Talxorin" "MSV Tholoran" "MSV Vauxorin" "MSV Vrraxis" "MSV Yathorin"
+		}
+		colonizer = {
+			"MSV Dekuuna" "MSV Oltan" "MSV Seruun" "MSV Malvuon" "MSV Ekuna" "MSV Sangel"
+			"MSV Thunawanuro" "MSV White Waters" "MSV New Nos Astra" "MSV Nasurn" "MSV Belon" "MSV Earcnan"
+			"MSV Ekaan" "MSV Juxxak" "MSV Aodh" "MSV Moruundar" "MSV Vrriisol" "MSV Zeeyat"
+			"MSV Aruunor" "MSV Belthuun" "MSV Doruun" "MSV Eroshan" "MSV Lethoran" "MSV Yathorin"
+		}
+
+		constructor = {
+			"MSV Davrona" "MSV Seruun" "MSV Malvuon" "MSV Ekuna" "MSV Oltan" "MSV Sangel"
+			"MSV Thunawanuro" "MSV Belon" "MSV Earcnan" "MSV Ekaan" "MSV Juxxak"
+			"MSV Aodh" "MSV Calyn" "MSV Rorix Teranis" "MSV Yaetan Harwun" "MSV Moruundar"
+			"MSV Vrriisol" "MSV Zeeyat" "MSV Xuumo-kalashasi" "MSV Amuroshaldo"
+			"MSV Aruunor" "MSV Dethor" "MSV Eruun" "MSV Falnuro" "MSV Gorath" "MSV Hethuun"
+			"MSV Ithor" "MSV Korath" "MSV Lethuun" "MSV Menor" "MSV Nauxor" "MSV Osharun"
+			"MSV Rethuun" "MSV Serath" "MSV Tholoran" "MSV Vauxorin"
+		}
+
+		transport = {
+			"JFV Orison" "JFV Taarishan" "JFV Moireturanum" "JFV Hiwuraango" "JFV Toruun Thordaa"
+			"JFV Calyn" "JFV Orotan" "JFV Harta" "JFV Chirrano Xultonnos" "JFV Dozinn Likuunis"
+			"JFV Rorix Teranis" "JFV Yaetan Harwun" "JFV Kyr Nosoric" "JFV Relto Lextan"
+			"JFV Aruunor" "JFV Belthuun" "JFV Doruun" "JFV Eroshan" "JFV Falxorin" "JFV Goruun"
+			"JFV Halxorin" "JFV Kaathor" "JFV Lethoran" "JFV Menoruun" "JFV Nauxorin" "JFV Talxorin"
+		}
+
+	}
+
+	ship_class_names = {
+		generic = {
+			"Orison" "Taarishan" "Davrona" "Moireturanum" "Ralmonisuuk"
+			"Oribosanti" "Wonnumetenro" "Denaususnomun" "Raxuu" "Droriuntavilusium"
+			"Aldorim" "Beloran" "Cethari" "Daramor" "Elthorin"
+			"Falthoran" "Gelmoran" "Haradeth" "Ithoranal" "Jalvoren"
+			"Kaltheris" "Letharim" "Marenvor" "Nalthor" "Oraven"
+			"Pelorath" "Qelthoran" "Rethavon" "Selmoran" "Talveris"
+			"Ulthoran" "Valdoren" "Wetharim" "Xaltheron" "Yeldoran"
+			"Zethari" "Armathor" "Belmaveth" "Corathen" "Detharion"
+			"Elvaris" "Faltheron" "Gorathis" "Helvaron" "Itharion"
+			"Jorathen" "Kelmorith" "Lorathen" "Mavethor" "Nerathis"
+			"Pelvaron" "Quelmaris" "Ravethan" "Selvaris" "Torathen"
+			"Uldorim" "Velmaron" "Worathis" "Xetharim" "Yorathen"
+			"Zalmaris" "Arvelon" "Braleth" "Corythar" "Dalmorik"
+			"Eshvaron" "Ferythar" "Galmorath" "Halvaron" "Ixorath"
+			"Jetharim" "Koravel" "Lorythar" "Mavoreth" "Nelvaron"
+			"Orythar" "Peralvon" "Quorathen" "Setharion" "Tavoreth"
+			"Ulmorath" "Varythar" "Welvaron" "Xorathis" "Yelvaron"
+			"Zorathen" "Aruunor" "Belthuun" "Cethor" "Doruun"
+			"Eroshan" "Falxorin" "Halxorin" "Lethoran" "Nauxorin"
+			"Talxorin" "Tholoran" "Vauxorin" "Vrraxis" "Yathorin"
+		}
+	}
+
+	fleet_names = {
+		sequential_name = "$ORD$ Judicial Flotilla"
+	}
+
+	army_names = {
+		defense_army = { sequential_name = "$ORD$ Right Fist Detachment" }
+		assault_army = { sequential_name = "$ORD$ Right Fist Cohort" }
+		slave_army = { sequential_name = "$ORD$ Right Fist Cohort" }
+		clone_army = { sequential_name = "$ORD$ Right Fist Cohort" }
+		robotic_army = { sequential_name = "$ORD$ Right Fist Battery" }
+		robotic_defense_army = { sequential_name = "$ORD$ Right Fist Battery" }
+		psionic_army = { sequential_name = "$ORD$ Right Fist Cohort" }
+		xenomorph_army = { sequential_name = "$ORD$ Right Fist Cohort" }
+		gene_warrior_army = { sequential_name = "$ORD$ Right Fist Battery" }
+		occupation_army = { sequential_name = "$ORD$ Right Fist Detachment" }
+		robotic_occupation_army = { sequential_name = "$ORD$ Right Fist Battery" }
+		primitive_army = { sequential_name = "$ORD$ Right Fist Detachment" }
+		industrial_army = { sequential_name = "$ORD$ Right Fist Detachment" }
+		postatomic_army = { sequential_name = "$ORD$ Right Fist Detachment" }
+	}
+
+	planet_names = {
+		generic = {
+			names = {
+				"Dekuuna" "Ekuna" "Oltan" "Sangel" "Thunawanuro" "Seruun" "Malvuon"
+				"Aldorim" "Beloran" "Cethari" "Daramor" "Elthorin" "Falthoran" "Gelmoran" "Haradeth"
+				"Ithoranal" "Jalvoren" "Kaltheris" "Letharim" "Marenvor" "Nalthor" "Oraven" "Pelorath"
+				"Qelthoran" "Rethavon" "Selmoran" "Talveris" "Ulthoran" "Valdoren" "Wetharim" "Xaltheron"
+				"Yeldoran" "Zethari" "Armathor" "Belmaveth" "Corathen" "Detharion" "Elvaris" "Faltheron"
+				"Gorathis" "Helvaron" "Itharion" "Jorathen" "Kelmorith" "Lorathen" "Mavethor" "Nerathis"
+				"Orathen" "Pelvaron" "Quelmaris" "Ravethan" "Selvaris" "Torathen" "Uldorim" "Velmaron"
+				"Worathis" "Xetharim" "Yorathen" "Zalmaris" "Arvelon" "Braleth" "Corythar" "Dalmorik"
+				"Eshvaron" "Ferythar" "Galmorath" "Halvaron" "Ixorath" "Jetharim" "Koravel" "Lorythar"
+				"Mavoreth" "Nelvaron" "Orythar" "Peralvon" "Quorathen" "Ralvaris" "Setharion" "Tavoreth"
+				"Ulmorath" "Varythar" "Welvaron" "Xorathis" "Yelvaron" "Zorathen" "Ardoveth" "Belmorath"
+				"Cethalvor" "Doravel" "Elythoran" "Falmorath" "Goravelon" "Hetharim" "Ildorath" "Joravelon"
+				"Kelvarath" "Lethorim" "Morythar" "Nolvarath" "Orimareth" "Praxalvor" "Quelvarath" "Rethorim"
+				"Sorythar" "Thalveron" "Urotharis" "Velnorath" "Werythar" "Xalvorath" "Yoravelon" "Zethorim"
+			}
+		}
+	}
+
+	character_names = {
+		default = {
+			weight = 100
+			full_names = {
+				"Aruunor" "Avaroon" "Belthuun" "Cethor" "Corixal" "Corythun" "Dathoris" "Dethalis" "Dethor"
+				"Doruun" "Draxxil" "Eroshan" "Ethuran" "Falvaris" "Falxorin" "Faruun" "Goruun" "Halveron" "Halxorin"
+				"Ildorun" "Ishorun" "Ivuunor" "Jorath" "Jorvath" "Kaathor" "Kalveris" "Karodyn" "Kethuun" "Korathin"
+				"Lethoran" "Loruuth" "Lumorik" "Malthuun" "Marveth" "Menoruun" "Merath" "Nalvarun" "Nauxorin" "Navorun"
+				"Neralis" "Nethuun" "Norath" "Oloruun" "Orathun" "Osharun" "Peloris" "Praxorin" "Qaruun" "Qoruun"
+				"Raxorin" "Rethoran" "Rhovuun" "Saarith" "Selvarun" "Sethuun" "Talxorin" "Tavruun" "Teraluun" "Tholoran"
+				"Toralith" "Uvaroon" "Valruun" "Vareth" "Varoth" "Vauxorin" "Velruun" "Vrraxis" "Worathun" "Xaavun"
+				"Xalvarun" "Xethor" "Xoruun" "Yathorin" "Yoralis" "Yoruun" "Zaarith" "Zoruun" "Zyrath" "Belvarun"
+				"Cerythor" "Dorvath" "Eshorun" "Gorathen" "Kelthor" "Lorveth" "Mavethor" "Nolvaris" "Qethor" "Rethuun"
+				"Soraluun" "Thervuun" "Ulvaris" "Varuun" "Xoralis" "Yethuun" "Zalveth" "Aldoran" "Altheris" "Alveth"
+				"Almoran" "Alvaris" "Althalon" "Alketh" "Alvel" "Alrath" "Alloran" "Alvorel" "Almath" "Alsorin"
+				"Aldeth" "Almaron" "Althex" "Alvoris" "Alnareth" "Ardoran" "Artheris" "Arveth" "Armoran" "Arvaris"
+				"Arthalon" "Arketh" "Arvel" "Arrath" "Arloran" "Arvorel" "Armath" "Arsorin" "Ardeth" "Armaron"
+				"Arthex" "Arvoris" "Arnareth" "Beldoran" "Beltheris" "Belveth" "Belmoran" "Belvaris" "Belthalon"
+				"Belketh" "Belvel" "Belrath" "Belloran" "Belvorel" "Belmath" "Belsorin" "Beldeth" "Belmaron" "Belthex"
+				"Belvoris" "Belnareth" "Caldoran" "Caltheris" "Calveth" "Calmoran" "Calvaris" "Calthalon" "Calketh"
+				"Calvel" "Calrath" "Calloran" "Calvorel" "Calmath" "Calsorin" "Caldeth" "Calmaron" "Calthex"
+				"Calvoris" "Calnareth" "Cerdoran" "Certheris" "Cerveth" "Cermoran" "Cervaris" "Certhalon" "Cerketh"
+				"Cervel" "Cerrath" "Cerloran" "Cervorel" "Cermath" "Cersorin" "Cerdeth" "Cermaron" "Certhex"
+				"Cervoris" "Cernareth" "Cordoran" "Cortheris" "Corveth" "Cormoran" "Corvaris" "Corthalon" "Corketh"
+				"Corvel" "Corrath" "Corloran" "Corvorel" "Cormath" "Corsorin" "Cordeth" "Cormaron" "Corthex"
+				"Corvoris" "Cornareth" "Deldoran" "Deltheris" "Delveth" "Delmoran" "Delvaris" "Delthalon" "Delketh"
+				"Delvel" "Delrath" "Delloran" "Delvorel" "Delmath" "Delsorin" "Deldeth" "Delmaron" "Delthex"
+				"Delvoris" "Delnareth" "Dordoran" "Dortheris" "Dorveth" "Dormoran" "Dorvaris" "Dorthalon" "Dorketh"
+				"Dorvel" "Dorrath" "Dorloran" "Dorvorel" "Dormath" "Dorsorin" "Dordeth" "Dormaron" "Dorthex"
+				"Dorvoris" "Dornareth" "Eldoran" "Eltheris" "Elveth" "Elmoran" "Elvaris" "Elthalon" "Elketh"
+				"Elvel" "Elrath" "Elloran" "Elvorel" "Elmath" "Elsorin" "Eldeth" "Elmaron" "Elthex"
+				"Elvoris" "Elnareth" "Faldoran" "Faltheris" "Falveth" "Falmoran" "Falvaris" "Falthalon" "Falketh"
+				"Falvel" "Falrath" "Falloran" "Falvorel" "Falmath" "Falsorin" "Faldeth" "Falmaron" "Falthex"
+				"Falvoris" "Falnareth"
+				"Aldoran Melvaris" "Artheris Dovareth" "Belveth Marathen" "Calmoran Theloran" "Cervaris Dethavon"
+				"Corathon Rethalis" "Deldoran Melvaris" "Dorveth Dovareth" "Elmaron Marathen" "Faltheris Theloran"
+				"Galveth Dethavon" "Halmoran Rethalis" "Ithvaris Melvaris" "Jalrath Dovareth" "Korloran Marathen"
+				"Lorvorel Theloran" "Malmath Dethavon" "Nalvoris Rethalis" "Ordeth Melvaris" "Pelnareth Dovareth"
+				"Qarveth Marathen" "Relsorin Theloran" "Selmaron Dethavon" "Talvorel Rethalis" "Torvaris Melvaris"
+				"Valrath Dovareth" "Xaldeth Marathen" "Yormaron Theloran" "Zalveth Dethavon" "Aldoran Rethalis"
+				"Artheris Melvaris" "Belveth Dovareth" "Calmoran Marathen" "Cervaris Theloran" "Corathon Dethavon"
+				"Deldoran Rethalis" "Dorveth Melvaris" "Elmaron Dovareth" "Faltheris Marathen" "Galveth Theloran"
+				"Halmoran Dethavon" "Ithvaris Rethalis" "Jalrath Melvaris" "Korloran Dovareth" "Lorvorel Marathen"
+				"Malmath Theloran" "Nalvoris Dethavon" "Ordeth Rethalis" "Pelnareth Melvaris" "Qarveth Dovareth"
+				"Relsorin Marathen" "Selmaron Theloran" "Talvorel Dethavon" "Torvaris Rethalis" "Valrath Melvaris"
+				"Xaldeth Dovareth" "Yormaron Marathen" "Zalveth Theloran" "Aldoran Dethavon" "Artheris Rethalis"
+				"Belveth Melvaris" "Calmoran Dovareth" "Cervaris Marathen" "Corathon Theloran" "Deldoran Dethavon"
+				"Dorveth Rethalis" "Elmaron Melvaris" "Faltheris Dovareth" "Galveth Marathen" "Halmoran Theloran"
+				"Ithvaris Dethavon" "Jalrath Rethalis" "Korloran Melvaris" "Lorvorel Dovareth" "Malmath Marathen"
+				"Nalvoris Theloran" "Ordeth Dethavon" "Pelnareth Rethalis" "Qarveth Melvaris" "Relsorin Dovareth"
+				"Selmaron Marathen" "Talvorel Theloran" "Torvaris Dethavon" "Valrath Rethalis" "Xaldeth Melvaris"
+				"Yormaron Dovareth" "Zalveth Marathen" "Aldoran Theloran" "Artheris Dethavon" "Belveth Rethalis"
+				"Calmoran Melvaris" "Cervaris Dovareth" "Corathon Marathen" "Deldoran Theloran" "Dorveth Dethavon"
+				"Elmaron Rethalis" "Faltheris Melvaris" "Galveth Dovareth" "Halmoran Marathen" "Ithvaris Theloran"
+				"Jalrath Dethavon" "Korloran Rethalis" "Lorvorel Melvaris" "Malmath Dovareth" "Nalvoris Marathen"
+				"Ordeth Theloran" "Pelnareth Dethavon" "Qarveth Rethalis" "Relsorin Melvaris" "Selmaron Dovareth"
+				"Aruu'neth" "Belthi-suun" "Coryn-vel"
+				"Dhori'aal" "Ethuu-kavor" "Falxir-uun" "Gora'shath" "Koruun-thel" "Vauxi-rhen"
+				"Alruu-ven" "Balther'uun" "Cori-thal" "Detha'vor" "Eroshi-vel" "Goruu'nal"
+				"Halxi-rath" "Ildo'run" "Jora-thuun" "Kora-veth" "Letho-ran" "Maluu'ver"
+				"Nauxi-thor" "Ora-shuun" "Praxo-vel" "Retho'var" "Sethu-rhen" "Tholo-keth"
+				"Varra-thuun" "Xoru-vel" "Yatho'ris" "Zaari-kor"
+			}
+		}
+
+		notables = {
+			weight = 4
+			full_names = {
+				"Amuroshaldo" "Amuutharuuno" "Caarl" "Calyn" "Crysto" "Dendalia" "Dennol" "Desund" "Dhoosin" "Dord"
+				"Emarl" "Ethuunaruuno" "Figlan" "Fixtwo" "Fwunbarro" "Ghelsinon" "Giza" "Hanibar" "Harrot" "Harta"
+				"Hiwuraango" "Jinnarn" "Jonai" "Juxxak" "Kasxcy" "Kojet" "Koyok" "Lokkor" "Orotan" "Petozi"
+				"Petalaz" "Petzac" "Pradok" "Quizic" "Ranthos" "Terojum" "Tolitith" "Xeltan" "Xoorik" "Xooril"
+				"Yefilo" "Yorrik" "Zeeyat" "Zoftan" "Zoren" "Aodh" "Belon" "Earcnan" "Ekaan" "Moruundar"
+				"Vrriisol" "Chirrano Xultonnos" "Dozinn Likuunis" "Jandrum Naurowauro" "Kyr Nosoric" "Malxoltin Hamno"
+				"Ravanor Nuumyn" "Relto Lextan" "Rorix Teranis" "Toruun Thordaa" "Yaetan Harwun" "Goft Dugn"
+				"Fiav'aarei" "Olxima-Sinren" "Xuumo-kalashasi"
+			}
+		}
+	}
+}

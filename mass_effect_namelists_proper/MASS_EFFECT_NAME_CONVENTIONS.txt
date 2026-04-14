@@ -1,0 +1,385 @@
+Hanar:
+Naming generation for list
+Generate naming conventions for all categories, using the template prompt. (chatgpt)
+Generate names and edit lists (codex)
+Naming conventions prompt template:
+Let's create conventions for a new namelist in stellaris for the X empire. The conventions need to be strict and follow clear definitions.
+The definitions should either use language and sound patterns from the empires lore culture, or examples of existing names. Usage of existing naming conventions is prefered, but where none such exist, we will need to extrapolate.
+A naming convention can't be: "grand words, mythological references, or historical figures". It needs to be more specific and follow a clear pattern.
+An example of a clear pattern is: "Use different combinations of the following syllables: 'ka', 'ra', 'ta', 'ma', 'la' for corvettes, and add a number at the end to indicate the ship's production order (e.g., 'Kara-1', 'Rata-2')." or "Known earth cities" "Historical battles" etc.
+We need one naming convention per category, presented in a listed order. We are allowed to use sequential numbering in most names and for categories where there is a lot of entities to name (e.g ships and fleets).
+There are sometimes real conventions that exist withinthe lore of mass effect, these should be used where possible but scaled and fitted to the actual categories requred.
+Create strict naming conventions for the following categories in Stellaris:
+-Military vessel names, one naming convention per ship size, corvette, frigate, destroyer, cruiser, battleship, Titan, juggernaut, colossus
+-Ship class/design names, one convention for each unique ship size+role combination. Series are allowed if they are thematically consistent. the unique ship class/design names are:
+    -Corvette â€” Screen
+    -Corvette â€” Brawler
+    -Corvette â€” Gunship
+    -Corvette â€” Artillery
+    -Destroyer â€” Screen
+    -Destroyer â€” Brawler
+    -Destroyer â€” Gunship
+    -Destroyer â€” Artillery
+    -Cruiser â€” Gunship
+    -Cruiser â€” Artillery
+    -Cruiser â€” Torpedo
+    -Cruiser â€” Energy Torpedo
+    -Cruiser â€” Carrier
+    -Battleship â€” Gunship
+    -Battleship â€” Artillery
+    -Battleship â€” Carrier
+    -Titan â€” Gunship
+    -Titan â€” Artillery
+    -Frigate â€” Torpedo
+    -Frigate â€” Energy Torpedo-Fleet_names
+-Army names
+-Military Fleet names.
+-Civilian Vessel names, one naming convention for each ship type:
+    -Science
+    -Constructor
+    -Troop Transport
+-Planets, a convention for generic planet name and one convention for each world climate:
+    -Arid
+    -Desert
+    -Savannah
+    -Ocean
+    -Continental (comparable to mass effect garden worlds)
+    -Jungle
+    -Alpine
+    -Tundra
+    -Arctic
+-Character names
+
+Hanar:
+Military vessel names
+Generic: FaceName-CC
+Use a FaceName list and a 2-digit production number 01â€“99.
+Example: Belje-07
+
+Ship class/design names
+
+Hull codes:
+CV Corvette
+FR Frigate
+DD Destroyer
+CR Cruiser
+BB Battleship
+TT Titan
+
+Role codes:
+Screen â†’ VEIL
+Brawler â†’ GRASP
+Gunship â†’ PULSE
+Artillery â†’ RAY
+Torpedo â†’ DART
+Energy Torpedo â†’ SPARK
+Carrier â†’ SHOAL
+
+Required combinations:
+Corvette â€” Screen: CV-VEIL-SS
+Corvette â€” Brawler: CV-GRASP-SS
+Corvette â€” Gunship: CV-PULSE-SS
+Corvette â€” Artillery: CV-RAY-SS
+Destroyer â€” Screen: DD-VEIL-SS
+Destroyer â€” Brawler: DD-GRASP-SS
+Destroyer â€” Gunship: DD-PULSE-SS
+Destroyer â€” Artillery: DD-RAY-SS
+Cruiser â€” Gunship: CR-PULSE-SS
+Cruiser â€” Artillery: CR-RAY-SS
+Cruiser â€” Torpedo: CR-DART-SS
+Cruiser â€” Energy Torpedo: CR-SPARK-SS
+Cruiser â€” Carrier: CR-SHOAL-SS
+Battleship â€” Gunship: BB-PULSE-SS
+Battleship â€” Artillery: BB-RAY-SS
+Battleship â€” Carrier: BB-SHOAL-SS
+Titan â€” Gunship: TT-PULSE-SS
+Titan â€” Artillery: TT-RAY-SS
+Frigate â€” Torpedo: FR-DART-SS
+Frigate â€” Energy Torpedo: FR-SPARK-SS
+
+Fleet names
+Sequential format: $ORD$ Confluence
+Example: 1st Confluence
+
+Army names
+General format: $ORD$ <UnitTag>
+
+Recommended UnitTags by army type:
+Defense Army â†’ Reef Ward
+Assault Army â†’ Compact Detachment
+Slave Army â†’ Bonded Cohort
+Clone Army â†’ Pattern Clone
+Psionic Army â†’ Luminous Adepts
+Xenomorph Army â†’ Lurking Helpers
+Gene Warrior Army â†’ Bright-Pattern Augments
+
+Military fleet names
+Use the same fleet naming convention as fleet_names:
+Sequential: $ORD$ Confluence
+
+Civilian vessel names
+Science: SV-NNN <ResearchTag>
+NNN = 001â€“999
+ResearchTag âˆˆ {Lexicon, Archive, Cipher, Survey, Glossary}
+Example: SV-014 Lexicon
+
+Constructor: CV-NNN <BuildTag>
+NNN = 001â€“999
+BuildTag âˆˆ {Lattice, Scaffold, Mooring, Drydock, Frame}
+Example: CV-102 Lattice
+
+Troop Transport: TT-NN <MarineTag>
+NN = 01â€“99
+MarineTag âˆˆ {Whitecap, Shoal, Undercurrent, Tide, Current}
+Example: TT-07 Whitecap
+
+Planets
+General format for all planets: Descriptor Feature
+Descriptor is shared across all climates.
+Descriptor âˆˆ {Living, Rough, Shining, Whitecap, First, Still, Fitful, Deep, High, Praying, Silent, Wandering, Distant, Murky, Hungry, Hidden, Lost, Sad, Bright, Fading, Dying, First, Second, Old}
+
+Generic:
+Feature âˆˆ {Twig, Bush, Mouth, Face, Heart, Hand, Foot, Eye, Tentacle, Vein, Bone, Blood, Breath}
+Or: (a few names), Facenames, Ex: Kahje, Blasto, etc
+
+Arid:
+Feature âˆˆ {Basin, Wind, Stone, Plateau, Dust}
+
+Desert:
+Feature âˆˆ {Dune, Salt, Glass, Sun, Waste}
+
+Savannah:
+Feature âˆˆ {Grass, Plain, Herd, Horizon, Steppe}
+
+Ocean:
+Feature âˆˆ {Tide, Current, Shoal, Reef, Undercurrent}
+
+Continental:
+Feature âˆˆ {Whitecap, Shore, Rain, Grove, Harbor}
+
+Jungle:
+Feature âˆˆ {Canopy, Monsoon, Bloom, Vine, Lagoon}
+
+Alpine:
+Feature âˆˆ {Ridge, Peak, Pass, Crag, Cloud}
+
+Tundra:
+Feature âˆˆ {Mire, Frost, Moss, Grayland, Drift}
+
+Arctic:
+Feature âˆˆ {Ice, Shelf, Aurora, Glacier, Pack}
+
+Character names
+General format: FaceName (SoulFull)
+FaceName uses the FaceName generator.
+SoulFull uses the full SoulName generator.
+
+FaceName generator:
+Prefix P âˆˆ {Del, Zym, Yss, Kho, Opo, Kah, Bel, Vas, Nya}
+Optional connector C âˆˆ {a, e, i, o, an, yn}
+Suffix S âˆˆ {dis, ynder, lai, old, es, je, an, is}
+Rule: FaceName = P + (C) + S
+
+SoulName generator:
+Verb V âˆˆ {Regards, Illuminates, Interprets, Catalogues, Measures}
+Object O âˆˆ {Works, Gift, Speech, Silence, Currents}
+Referent R âˆˆ {Enkindlers, Language, Kahje, Shallows}
+Mood M âˆˆ {in Despair, in Patience, in Wonder}
+Rule: SoulFull = V + " the " + O + " of the " + R + " " + M
+
+Example: Zymandis (Regards the Works of the Enkindlers in Despair)Naming generation for list
+Generate naming conventions for all categories, using the template prompt. (chatgpt)
+Generate names and edit lists (codex)
+
+--------------------------------------------------------------------------------------------
+
+Elcor
+Military vessel names
+
+General rule:
+Elcor naming must be source-pool driven, not stem-and-tail driven.
+Do not invent elcor names by recombining tiny syllable sets.
+Build conventions from attested full-name shapes, attested toponyms, attested ship and class names, and attested legendary figures.
+Only corvettes use a serial-only system.
+
+Attested source pools for extrapolation
+
+Single personal names:
+{Calyn, Harrot, Petozi, Xeltan, Yorrik, Dendalia, Dennol, Desund, Dhoosin, Dord, Emarl, Figlan, Fwunbarro, Ghelsinon, Giza, Hanibar, Harta, Jinnarn, Kojet, Koyok, Lokkor, Orotan, Petalaz, Petzac, Pradok, Quizic, Ranthos, Terojum, Tolitith, Xoorik, Xooril, Yefilo, Zeeyat, Zoftan, Zoren, Aodh, Ekaan, Juxxak, Moruundar, Vrriisol}
+
+Compound names:
+{Chirrano Xultonnos, Dozinn Likuunis, Jandrum Naurowauro, Kyr Nosoric, Malxoltin Hamno, Ravanor Nuumyn, Relto Lextan, Rorix Teranis, Toruun Thordaa, Yaetan Harwun, Vornyl Gabbleblotchits}
+
+Marked or exceptional forms:
+{Fiav'aarei, Olxima-Sinren, Xuumo-kalashasi, Or-Gyclyn, The Just Ralmonisuuk, The Wise Raxuu, Xulat "Rump Roast" Loyns}
+
+Toponyms and settlements:
+{Dekuuna, Ekuna, Oltan, Sangel, Thunawanuro, Seruun, Malvuon}
+
+Attested ship and class names:
+{Orison, Taarishan, Moireturanum, Davrona}
+
+Legendary or fable figures:
+{Denaususnomun, Oribosanti, Wonnumetenro, Or-Gyclyn, Ralmonisuuk, Raxuu}
+
+Corvette
+Format: JFV YYY-NNN
+JFV = Judicial Fighting Vessel
+YYY = last 3 digits of the construction year
+NNN = 001-999 production order within that year
+Rule: corvettes do not receive proper names. This is the only elcor military hull that is purely serial.
+Examples: JFV 178-011, JFV 186-004.
+
+Frigate
+Format: JFV <DekuunaGeographicName>
+DekuunaGeographicName = curated list of rivers and mountains on Dekuuna
+Rule: frigates are named after rivers and mountains on Dekuuna. Do not use personal names, legends, or class names here.
+Implementation note: if the geography list is incomplete, this category needs more source collection first. Do not fill it with synthetic syllable names.
+Example: JFV Droriuntavilusium.
+
+Destroyer
+Format: JFV <HistoricServiceName>
+HistoricServiceName pool = attested elcor soldiers, sailors, admirals, tacticians, explorers, and public servants with a service profile
+Recommended short-name pool = {Hiwuraango, Harta, Orotan, Calyn, Kojet, Terojum}
+Rule: destroyers use shorter honor names than cruisers. Prefer single names over compound names.
+Examples: JFV Hiwuraango, JFV Harta, JFV Orotan.
+
+Cruiser
+Format: JFV <HistoricServiceName>
+HistoricServiceName pool = same category as destroyers, but compound names are allowed and preferred when available
+Rule: cruisers are named for famed elcor soldiers and sailors of the past. Use full attested names when the honoree is normally referenced that way.
+Examples: JFV Moireturanum, JFV Toruun Thordaa, JFV Chirrano Xultonnos.
+
+Battleship
+Format: JFV <FableOrLegendName>
+FableOrLegendName pool = {Denaususnomun, Oribosanti, Wonnumetenro, Or-Gyclyn, Ralmonisuuk, Raxuu}
+Rule: battleships use elcor fable and legend figures, following the dreadnought convention from the Judicial Armada article.
+Examples: JFV Denaususnomun, JFV Oribosanti.
+
+Titan
+Format: JFV <FableOrLegendName>
+FableOrLegendName pool = same as battleship
+Rule: titans use the same fable and legend pool as battleships. Reserve the most revered or oldest-sounding entries for the largest hulls.
+Examples: JFV Wonnumetenro, JFV Ralmonisuuk.
+
+Juggernaut
+Format: JFV <FableOrLegendName>
+FableOrLegendName pool = same as battleship
+Rule: juggernauts do not need a separate naming grammar. Reuse the battleship and titan mythic pool instead of inventing a new format.
+Examples: JFV Or-Gyclyn, JFV Raxuu.
+
+Colossus
+Format: JFV <FableOrLegendName>
+FableOrLegendName pool = same as battleship
+Rule: colossi use the same fable and legend pool as other elcor capital hulls. No extra serial or role code.
+Examples: JFV Ralmonisuuk, JFV Denaususnomun.
+
+Ship class / design names
+
+General rule:
+Elcor class designations should look like named ship classes, not machine catalog strings.
+Attested examples are class-name style entries such as Orison Class and Taarishan-Class.
+
+Shared format for all ship size and role combinations:
+<ClassName>-class
+Alternative style allowed: <ClassName> Class
+
+ClassName pool:
+Start with attested names {Orison, Taarishan}.
+Expand using curated historical ship names or attested elcor proper names that already feel like vessel classes.
+
+Rule:
+Do not encode hull size, role, doctrine, mark number, or software package into the class name.
+If Stellaris requires one design name per size-role slot, assign different names from one shared class-name pool rather than inventing separate naming grammars for every slot.
+Do not use formats like GMB-CV-ANCHOR-Mk10 for elcor.
+
+Examples:
+Orison-class
+Taarishan-class
+
+Fleet names
+
+Format: $ORD$ Judicial Flotilla
+Rule: use one sequential convention for both fleet_names and military fleet names. The state naval arm is the Judicial Armada, so the default fleet label should reference that institution directly.
+Example: 3rd Judicial Flotilla.
+
+Army names
+
+Format: $ORD$ Right Fist Detachment
+Rule: army naming should reference the Right Fist of the Courts rather than generic weapon-platform language.
+If differentiated army-type labels are needed, keep "Right Fist" fixed and vary only the last noun: Detachment, Cohort, Battery.
+Example: 5th Right Fist Detachment.
+
+Military fleet names
+
+Use the same convention as fleet names.
+Format: $ORD$ Judicial Flotilla
+Example: 2nd Judicial Flotilla.
+
+Civilian vessel names
+
+Science
+Format: MSV <ProperShipName>
+ProperShipName pool = civilian ship names and neutral elcor proper names suitable for ships
+Attested anchor = Davrona
+Rule: civilian science ships use a proper ship name with MSV prefix. No serial suffixes.
+Example: MSV Davrona.
+
+Constructor
+Format: MSV <ProperShipName>
+ProperShipName pool = same category as science ships, with preference for trade, settlement, or historical-vessel names
+Rule: constructor ships use the same civilian naming grammar as science vessels. Do not invent a separate synthetic world-name generator just for builders.
+Example: MSV Davrona.
+
+Troop Transport
+Format: JFV <ProperTransportName>
+ProperTransportName pool = named military vessel pool, with preference for transport, carrier, and mobilization-associated names
+Rule: elcor troop transport is a military specialty, so use JFV rather than MSV. If a separate transport-name pool does not exist yet, share the cruiser and carrier proper-name pool instead of creating a serial format.
+Example: JFV Moireturanum.
+
+Planets
+
+Use one generic convention only.
+
+Format: full toponym from a curated elcor place-name pool
+Toponym pool = {Dekuuna, Ekuna, Oltan, Sangel, Thunawanuro, Seruun, Malvuon}
+Rule: do not derive planet names from personal-name stems. New planet names must be added as whole place names, modeled on attested elcor worlds, moons, and settlements.
+No climate subclasses.
+Examples: Dekuuna, Oltan, Seruun, Malvuon.
+
+Character names
+
+Allowed formats:
+1. SingleName
+2. SingleName SingleName
+3. MarkedName with apostrophe or hyphen
+4. Rare title or nickname forms for exceptional figures only
+
+SingleName pool:
+{Calyn, Harrot, Petozi, Xeltan, Yorrik, Dendalia, Dennol, Desund, Dhoosin, Dord, Emarl, Figlan, Fwunbarro, Ghelsinon, Giza, Hanibar, Harta, Jinnarn, Kojet, Koyok, Lokkor, Orotan, Petalaz, Petzac, Pradok, Quizic, Ranthos, Terojum, Tolitith, Xoorik, Xooril, Yefilo, Zeeyat, Zoftan, Zoren, Aodh, Ekaan, Juxxak, Moruundar, Vrriisol}
+
+Two-part name pool:
+{Chirrano Xultonnos, Dozinn Likuunis, Jandrum Naurowauro, Kyr Nosoric, Malxoltin Hamno, Ravanor Nuumyn, Relto Lextan, Rorix Teranis, Toruun Thordaa, Yaetan Harwun, Vornyl Gabbleblotchits}
+
+Marked-name pool:
+{Fiav'aarei, Olxima-Sinren, Xuumo-kalashasi, Or-Gyclyn}
+
+Rare title or nickname pool:
+{The Just Ralmonisuuk, The Wise Raxuu, Xulat "Rump Roast" Loyns, Mister Cotton Ninimuffin}
+
+Rule:
+Single names are the default and should be the majority.
+Two-part names are common enough to support a secondary pool.
+Hyphenated, apostrophized, titled, or nickname forms should be rare special entries, not the default.
+Do not reduce elcor names to first-name/last-name syllable generators.
+
+Implementation note:
+Because elcor use many single-part names, Stellaris should primarily use full_names for characters.
+Use separate first and second name pools only for the two-part convention.
+
+Examples:
+Calyn
+Harta
+Dozinn Likuunis
+Olxima-Sinren
+The Just Ralmonisuuk

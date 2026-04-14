@@ -1,0 +1,904 @@
+MEG_hanar = {
+	randomized = no
+
+	ship_names = {
+		corvette = {
+			"Deladis-01" "Delaynder-02" "Delalai-03" "Delaold-04"
+			"Delaes-05" "Delaje-06" "Delaan-07" "Delais-08"
+			"Deledis-09" "Deleynder-10" "Delelai-11" "Deleold-12"
+			"Delees-13" "Deleje-14" "Delean-15" "Deleis-16"
+			"Delidis-17" "Deliynder-18" "Delilai-19" "Deliold-20"
+			"Delies-21" "Delije-22" "Delian-23" "Deliis-24"
+			"Delodis-25" "Deloynder-26" "Delolai-27" "Deloold-28"
+			"Deloes-29" "Deloje-30" "Deloan-31" "Delois-32"
+			"Delandis-33" "Delanynder-34" "Delanlai-35" "Delanold-36"
+			"Delanes-37" "Delanje-38" "Delanan-39" "Delanis-40"
+			"Delyndis-41" "Delynynder-42" "Delynlai-43" "Delynold-44"
+			"Delynes-45" "Delynje-46" "Delynan-47" "Delynis-48"
+			"Zymadis-49" "Zymaynder-50" "Zymalai-51" "Zymaold-52"
+			"Zymaes-53" "Zymaje-54" "Zymaan-55" "Zymais-56"
+			"Zymedis-57" "Zymeynder-58" "Zymelai-59" "Zymeold-60"
+			"Zymees-61" "Zymeje-62" "Zymean-63" "Zymeis-64"
+			"Zymidis-65" "Zymiynder-66" "Zymilai-67" "Zymiold-68"
+			"Zymies-69" "Zymije-70" "Zymian-71" "Zymiis-72"
+			"Zymodis-73" "Zymoynder-74" "Zymolai-75" "Zymoold-76"
+			"Zymoes-77" "Zymoje-78" "Zymoan-79" "Zymois-80"
+			"Zymandis-81" "Zymanynder-82" "Zymanlai-83" "Zymanold-84"
+			"Zymanes-85" "Zymanje-86" "Zymanan-87" "Zymanis-88"
+			"Zymyndis-89" "Zymynynder-90" "Zymynlai-91" "Zymynold-92"
+			"Zymynes-93" "Zymynje-94" "Zymynan-95" "Zymynis-96"
+			"Yssadis-97" "Yssaynder-98" "Yssalai-99" "Yssaold-01"
+			"Yssaes-02" "Yssaje-03" "Yssaan-04" "Yssais-05"
+			"Yssedis-06" "Ysseynder-07" "Ysselai-08" "Ysseold-09"
+			"Yssees-10" "Ysseje-11" "Yssean-12" "Ysseis-13"
+			"Yssidis-14" "Yssiynder-15" "Yssilai-16" "Yssiold-17"
+			"Yssies-18" "Yssije-19" "Yssian-20" "Yssiis-21"
+			"Yssodis-22" "Yssoynder-23" "Yssolai-24" "Yssoold-25"
+			"Yssoes-26" "Yssoje-27" "Yssoan-28" "Yssois-29"
+			"Yssandis-30" "Yssanynder-31" "Yssanlai-32" "Yssanold-33"
+			"Yssanes-34" "Yssanje-35" "Yssanan-36" "Yssanis-37"
+			"Yssyndis-38" "Yssynynder-39" "Yssynlai-40" "Yssynold-41"
+			"Yssynes-42" "Yssynje-43" "Yssynan-44" "Yssynis-45"
+			"Khoadis-46" "Khoaynder-47" "Khoalai-48" "Khoaold-49"
+			"Khoaes-50" "Khoaje-51" "Khoaan-52" "Khoais-53"
+			"Khoedis-54" "Khoeynder-55" "Khoelai-56" "Khoeold-57"
+			"Khoees-58" "Khoeje-59" "Khoean-60" "Khoeis-61"
+			"Khoidis-62" "Khoiynder-63" "Khoilai-64" "Khoiold-65"
+			"Khoies-66" "Khoije-67" "Khoian-68" "Khoiis-69"
+			"Khoodis-70" "Khooynder-71" "Khoolai-72" "Khooold-73"
+			"Khooes-74" "Khooje-75" "Khooan-76" "Khoois-77"
+			"Khoandis-78" "Khoanynder-79" "Khoanlai-80" "Khoanold-81"
+			"Khoanes-82" "Khoanje-83" "Khoanan-84" "Khoanis-85"
+			"Khoyndis-86" "Khoynynder-87" "Khoynlai-88" "Khoynold-89"
+			"Khoynes-90" "Khoynje-91" "Khoynan-92" "Khoynis-93"
+			"Opoadis-94" "Opoaynder-95" "Opoalai-96" "Opoaold-97"
+			"Opoaes-98" "Opoaje-99" "Opoaan-01" "Opoais-02"
+			"Opoedis-03" "Opoeynder-04" "Opoelai-05" "Opoeold-06"
+			"Opoees-07" "Opoeje-08" "Opoean-09" "Opoeis-10"
+			"Opoidis-11" "Opoiynder-12" "Opoilai-13" "Opoiold-14"
+			"Opoies-15" "Opoije-16" "Opoian-17" "Opoiis-18"
+			"Opoodis-19" "Opooynder-20" "Opoolai-21" "Opooold-22"
+			"Opooes-23" "Opooje-24" "Opooan-25" "Opoois-26"
+			"Opoandis-27" "Opoanynder-28" "Opoanlai-29" "Opoanold-30"
+			"Opoanes-31" "Opoanje-32" "Opoanan-33" "Opoanis-34"
+			"Opoyndis-35" "Opoynynder-36" "Opoynlai-37" "Opoynold-38"
+			"Opoynes-39" "Opoynje-40" "Opoynan-41" "Opoynis-42"
+			"Kahadis-43" "Kahaynder-44" "Kahalai-45" "Kahaold-46"
+			"Kahaes-47" "Kahaje-48" "Kahaan-49" "Kahais-50"
+			"Kahedis-51" "Kaheynder-52" "Kahelai-53" "Kaheold-54"
+			"Kahees-55" "Kaheje-56" "Kahean-57" "Kaheis-58"
+			"Kahidis-59" "Kahiynder-60" "Kahilai-61" "Kahiold-62"
+			"Kahies-63" "Kahije-64" "Kahian-65" "Kahiis-66"
+			"Kahodis-67" "Kahoynder-68" "Kaholai-69" "Kahoold-70"
+			"Kahoes-71" "Kahoje-72" "Kahoan-73" "Kahois-74"
+			"Kahandis-75" "Kahanynder-76" "Kahanlai-77" "Kahanold-78"
+			"Kahanes-79" "Kahanje-80" "Kahanan-81" "Kahanis-82"
+			"Kahyndis-83" "Kahynynder-84" "Kahynlai-85" "Kahynold-86"
+			"Kahynes-87" "Kahynje-88" "Kahynan-89" "Kahynis-90"
+			"Beladis-91"
+		}
+
+		frigate = {
+			"Belaynder-92" "Belalai-93" "Belaold-94" "Belaes-95"
+			"Belaje-96" "Belaan-97" "Belais-98" "Beledis-99"
+			"Beleynder-01" "Belelai-02" "Beleold-03" "Belees-04"
+			"Beleje-05" "Belean-06" "Beleis-07" "Belidis-08"
+			"Beliynder-09" "Belilai-10" "Beliold-11" "Belies-12"
+			"Belije-13" "Belian-14" "Beliis-15" "Belodis-16"
+			"Beloynder-17" "Belolai-18" "Beloold-19" "Beloes-20"
+			"Beloje-21" "Beloan-22" "Belois-23" "Belandis-24"
+			"Belanynder-25" "Belanlai-26" "Belanold-27" "Belanes-28"
+			"Belanje-29" "Belanan-30" "Belanis-31" "Belyndis-32"
+			"Belynynder-33" "Belynlai-34" "Belynold-35" "Belynes-36"
+			"Belynje-37" "Belynan-38" "Belynis-39" "Vasadis-40"
+			"Vasaynder-41" "Vasalai-42" "Vasaold-43" "Vasaes-44"
+			"Vasaje-45" "Vasaan-46" "Vasais-47" "Vasedis-48"
+			"Vaseynder-49" "Vaselai-50" "Vaseold-51" "Vasees-52"
+			"Vaseje-53" "Vasean-54" "Vaseis-55" "Vasidis-56"
+			"Vasiynder-57" "Vasilai-58" "Vasiold-59" "Vasies-60"
+			"Vasije-61" "Vasian-62" "Vasiis-63" "Vasodis-64"
+			"Vasoynder-65" "Vasolai-66" "Vasoold-67" "Vasoes-68"
+			"Vasoje-69" "Vasoan-70" "Vasois-71" "Vasandis-72"
+			"Vasanynder-73" "Vasanlai-74" "Vasanold-75" "Vasanes-76"
+			"Vasanje-77" "Vasanan-78" "Vasanis-79" "Vasyndis-80"
+			"Vasynynder-81" "Vasynlai-82" "Vasynold-83" "Vasynes-84"
+			"Vasynje-85" "Vasynan-86" "Vasynis-87" "Nyaadis-88"
+			"Nyaaynder-89" "Nyaalai-90" "Nyaaold-91" "Nyaaes-92"
+			"Nyaaje-93" "Nyaaan-94" "Nyaais-95" "Nyaedis-96"
+			"Nyaeynder-97" "Nyaelai-98" "Nyaeold-99" "Nyaees-01"
+			"Nyaeje-02" "Nyaean-03" "Nyaeis-04" "Nyaidis-05"
+			"Nyaiynder-06" "Nyailai-07" "Nyaiold-08" "Nyaies-09"
+			"Nyaije-10" "Nyaian-11" "Nyaiis-12" "Nyaodis-13"
+			"Nyaoynder-14" "Nyaolai-15" "Nyaoold-16" "Nyaoes-17"
+			"Nyaoje-18" "Nyaoan-19" "Nyaois-20" "Nyaandis-21"
+			"Nyaanynder-22" "Nyaanlai-23" "Nyaanold-24" "Nyaanes-25"
+			"Nyaanje-26" "Nyaanan-27" "Nyaanis-28" "Nyayndis-29"
+			"Nyaynynder-30" "Nyaynlai-31" "Nyaynold-32" "Nyaynes-33"
+			"Nyaynje-34" "Nyaynan-35" "Nyaynis-36" "Deladis-18"
+			"Delaynder-19" "Delalai-20" "Delaold-21" "Delaes-22"
+			"Delaje-23" "Delaan-24" "Delais-25" "Deledis-26"
+			"Deleynder-27" "Delelai-28" "Deleold-29" "Delees-30"
+			"Deleje-31" "Delean-32" "Deleis-33" "Delidis-34"
+			"Deliynder-35" "Delilai-36" "Deliold-37" "Delies-38"
+			"Delije-39" "Delian-40" "Deliis-41" "Delodis-42"
+			"Deloynder-43" "Delolai-44" "Deloold-45" "Deloes-46"
+			"Deloje-47" "Deloan-48" "Delois-49" "Delandis-50"
+			"Delanynder-51" "Delanlai-52" "Delanold-53" "Delanes-54"
+			"Delanje-55" "Delanan-56" "Delanis-57" "Delyndis-58"
+			"Delynynder-59" "Delynlai-60" "Delynold-61" "Delynes-62"
+			"Delynje-63" "Delynan-64" "Delynis-65" "Zymadis-66"
+			"Zymaynder-67" "Zymalai-68" "Zymaold-69" "Zymaes-70"
+			"Zymaje-71" "Zymaan-72" "Zymais-73" "Zymedis-74"
+			"Zymeynder-75" "Zymelai-76" "Zymeold-77" "Zymees-78"
+			"Zymeje-79" "Zymean-80" "Zymeis-81" "Zymidis-82"
+			"Zymiynder-83" "Zymilai-84" "Zymiold-85" "Zymies-86"
+			"Zymije-87" "Zymian-88" "Zymiis-89" "Zymodis-90"
+			"Zymoynder-91" "Zymolai-92" "Zymoold-93" "Zymoes-94"
+			"Zymoje-95" "Zymoan-96" "Zymois-97" "Zymandis-98"
+			"Zymanynder-99" "Zymanlai-01" "Zymanold-02" "Zymanes-03"
+			"Zymanje-04" "Zymanan-05" "Zymanis-06" "Zymyndis-07"
+			"Zymynynder-08" "Zymynlai-09" "Zymynold-10" "Zymynes-11"
+			"Zymynje-12" "Zymynan-13" "Zymynis-14" "Yssadis-15"
+			"Yssaynder-16" "Yssalai-17" "Yssaold-18" "Yssaes-19"
+			"Yssaje-20" "Yssaan-21" "Yssais-22" "Yssedis-23"
+			"Ysseynder-24" "Ysselai-25" "Ysseold-26" "Yssees-27"
+			"Ysseje-28" "Yssean-29" "Ysseis-30" "Yssidis-31"
+			"Yssiynder-32" "Yssilai-33" "Yssiold-34" "Yssies-35"
+			"Yssije-36" "Yssian-37" "Yssiis-38" "Yssodis-39"
+			"Yssoynder-40" "Yssolai-41" "Yssoold-42" "Yssoes-43"
+			"Yssoje-44" "Yssoan-45" "Yssois-46" "Yssandis-47"
+			"Yssanynder-48" "Yssanlai-49" "Yssanold-50" "Yssanes-51"
+			"Yssanje-52" "Yssanan-53" "Yssanis-54" "Yssyndis-55"
+		}
+
+		destroyer = {
+			"Yssynynder-56" "Yssynlai-57" "Yssynold-58" "Yssynes-59"
+			"Yssynje-60" "Yssynan-61" "Yssynis-62" "Khoadis-63"
+			"Khoaynder-64" "Khoalai-65" "Khoaold-66" "Khoaes-67"
+			"Khoaje-68" "Khoaan-69" "Khoais-70" "Khoedis-71"
+			"Khoeynder-72" "Khoelai-73" "Khoeold-74" "Khoees-75"
+			"Khoeje-76" "Khoean-77" "Khoeis-78" "Khoidis-79"
+			"Khoiynder-80" "Khoilai-81" "Khoiold-82" "Khoies-83"
+			"Khoije-84" "Khoian-85" "Khoiis-86" "Khoodis-87"
+			"Khooynder-88" "Khoolai-89" "Khooold-90" "Khooes-91"
+			"Khooje-92" "Khooan-93" "Khoois-94" "Khoandis-95"
+			"Khoanynder-96" "Khoanlai-97" "Khoanold-98" "Khoanes-99"
+			"Khoanje-01" "Khoanan-02" "Khoanis-03" "Khoyndis-04"
+			"Khoynynder-05" "Khoynlai-06" "Khoynold-07" "Khoynes-08"
+			"Khoynje-09" "Khoynan-10" "Khoynis-11" "Opoadis-12"
+			"Opoaynder-13" "Opoalai-14" "Opoaold-15" "Opoaes-16"
+			"Opoaje-17" "Opoaan-18" "Opoais-19" "Opoedis-20"
+			"Opoeynder-21" "Opoelai-22" "Opoeold-23" "Opoees-24"
+			"Opoeje-25" "Opoean-26" "Opoeis-27" "Opoidis-28"
+			"Opoiynder-29" "Opoilai-30" "Opoiold-31" "Opoies-32"
+			"Opoije-33" "Opoian-34" "Opoiis-35" "Opoodis-36"
+			"Opooynder-37" "Opoolai-38" "Opooold-39" "Opooes-40"
+			"Opooje-41" "Opooan-42" "Opoois-43" "Opoandis-44"
+			"Opoanynder-45" "Opoanlai-46" "Opoanold-47" "Opoanes-48"
+			"Opoanje-49" "Opoanan-50" "Opoanis-51" "Opoyndis-52"
+			"Opoynynder-53" "Opoynlai-54" "Opoynold-55" "Opoynes-56"
+			"Opoynje-57" "Opoynan-58" "Opoynis-59" "Kahadis-60"
+			"Kahaynder-61" "Kahalai-62" "Kahaold-63" "Kahaes-64"
+			"Kahaje-65" "Kahaan-66" "Kahais-67" "Kahedis-68"
+			"Kaheynder-69" "Kahelai-70" "Kaheold-71" "Kahees-72"
+			"Kaheje-73" "Kahean-74" "Kaheis-75" "Kahidis-76"
+			"Kahiynder-77" "Kahilai-78" "Kahiold-79" "Kahies-80"
+			"Kahije-81" "Kahian-82" "Kahiis-83" "Kahodis-84"
+			"Kahoynder-85" "Kaholai-86" "Kahoold-87" "Kahoes-88"
+			"Kahoje-89" "Kahoan-90" "Kahois-91" "Kahandis-92"
+			"Kahanynder-93" "Kahanlai-94" "Kahanold-95" "Kahanes-96"
+			"Kahanje-97" "Kahanan-98" "Kahanis-99" "Kahyndis-01"
+			"Kahynynder-02" "Kahynlai-03" "Kahynold-04" "Kahynes-05"
+			"Kahynje-06" "Kahynan-07" "Kahynis-08" "Beladis-09"
+			"Belaynder-10" "Belalai-11" "Belaold-12" "Belaes-13"
+			"Belaje-14" "Belaan-15" "Belais-16" "Beledis-17"
+			"Beleynder-18" "Belelai-19" "Beleold-20" "Belees-21"
+			"Beleje-22" "Belean-23" "Beleis-24" "Belidis-25"
+			"Beliynder-26" "Belilai-27" "Beliold-28" "Belies-29"
+			"Belije-30" "Belian-31" "Beliis-32" "Belodis-33"
+			"Beloynder-34" "Belolai-35" "Beloold-36" "Beloes-37"
+			"Beloje-38" "Beloan-39" "Belois-40" "Belandis-41"
+			"Belanynder-42" "Belanlai-43" "Belanold-44" "Belanes-45"
+			"Belanje-46" "Belanan-47" "Belanis-48" "Belyndis-49"
+			"Belynynder-50" "Belynlai-51" "Belynold-52" "Belynes-53"
+			"Belynje-54" "Belynan-55" "Belynis-56" "Vasadis-57"
+			"Vasaynder-58" "Vasalai-59" "Vasaold-60" "Vasaes-61"
+			"Vasaje-62" "Vasaan-63" "Vasais-64" "Vasedis-65"
+			"Vaseynder-66" "Vaselai-67" "Vaseold-68" "Vasees-69"
+			"Vaseje-70" "Vasean-71" "Vaseis-72" "Vasidis-73"
+			"Vasiynder-74" "Vasilai-75" "Vasiold-76" "Vasies-77"
+			"Vasije-78" "Vasian-79" "Vasiis-80" "Vasodis-81"
+			"Vasoynder-82" "Vasolai-83" "Vasoold-84" "Vasoes-85"
+			"Vasoje-86" "Vasoan-87" "Vasois-88" "Vasandis-89"
+			"Vasanynder-90" "Vasanlai-91" "Vasanold-92" "Vasanes-93"
+			"Vasanje-94" "Vasanan-95" "Vasanis-96" "Vasyndis-97"
+			"Vasynynder-98" "Vasynlai-99" "Vasynold-01" "Vasynes-02"
+			"Vasynje-03" "Vasynan-04" "Vasynis-05" "Nyaadis-06"
+			"Nyaaynder-07" "Nyaalai-08" "Nyaaold-09" "Nyaaes-10"
+			"Nyaaje-11" "Nyaaan-12" "Nyaais-13" "Nyaedis-14"
+			"Nyaeynder-15" "Nyaelai-16" "Nyaeold-17" "Nyaees-18"
+			"Nyaeje-19" "Nyaean-20" "Nyaeis-21" "Nyaidis-22"
+			"Nyaiynder-23" "Nyailai-24" "Nyaiold-25" "Nyaies-26"
+			"Nyaije-27" "Nyaian-28" "Nyaiis-29" "Nyaodis-30"
+			"Nyaoynder-31" "Nyaolai-32" "Nyaoold-33" "Nyaoes-34"
+			"Nyaoje-35" "Nyaoan-36" "Nyaois-37" "Nyaandis-38"
+			"Nyaanynder-39" "Nyaanlai-40" "Nyaanold-41" "Nyaanes-42"
+			"Nyaanje-43" "Nyaanan-44" "Nyaanis-45" "Nyayndis-46"
+			"Nyaynynder-47" "Nyaynlai-48" "Nyaynold-49" "Nyaynes-50"
+			"Nyaynje-51" "Nyaynan-52" "Nyaynis-53" "Deladis-35"
+		}
+
+		cruiser = {
+			"Delaynder-36" "Delalai-37" "Delaold-38" "Delaes-39"
+			"Delaje-40" "Delaan-41" "Delais-42" "Deledis-43"
+			"Deleynder-44" "Delelai-45" "Deleold-46" "Delees-47"
+			"Deleje-48" "Delean-49" "Deleis-50" "Delidis-51"
+			"Deliynder-52" "Delilai-53" "Deliold-54" "Delies-55"
+			"Delije-56" "Delian-57" "Deliis-58" "Delodis-59"
+			"Deloynder-60" "Delolai-61" "Deloold-62" "Deloes-63"
+			"Deloje-64" "Deloan-65" "Delois-66" "Delandis-67"
+			"Delanynder-68" "Delanlai-69" "Delanold-70" "Delanes-71"
+			"Delanje-72" "Delanan-73" "Delanis-74" "Delyndis-75"
+			"Delynynder-76" "Delynlai-77" "Delynold-78" "Delynes-79"
+			"Delynje-80" "Delynan-81" "Delynis-82" "Zymadis-83"
+			"Zymaynder-84" "Zymalai-85" "Zymaold-86" "Zymaes-87"
+			"Zymaje-88" "Zymaan-89" "Zymais-90" "Zymedis-91"
+			"Zymeynder-92" "Zymelai-93" "Zymeold-94" "Zymees-95"
+			"Zymeje-96" "Zymean-97" "Zymeis-98" "Zymidis-99"
+			"Zymiynder-01" "Zymilai-02" "Zymiold-03" "Zymies-04"
+			"Zymije-05" "Zymian-06" "Zymiis-07" "Zymodis-08"
+			"Zymoynder-09" "Zymolai-10" "Zymoold-11" "Zymoes-12"
+			"Zymoje-13" "Zymoan-14" "Zymois-15" "Zymandis-16"
+			"Zymanynder-17" "Zymanlai-18" "Zymanold-19" "Zymanes-20"
+			"Zymanje-21" "Zymanan-22" "Zymanis-23" "Zymyndis-24"
+			"Zymynynder-25" "Zymynlai-26" "Zymynold-27" "Zymynes-28"
+			"Zymynje-29" "Zymynan-30" "Zymynis-31" "Yssadis-32"
+			"Yssaynder-33" "Yssalai-34" "Yssaold-35" "Yssaes-36"
+			"Yssaje-37" "Yssaan-38" "Yssais-39" "Yssedis-40"
+			"Ysseynder-41" "Ysselai-42" "Ysseold-43" "Yssees-44"
+			"Ysseje-45" "Yssean-46" "Ysseis-47" "Yssidis-48"
+			"Yssiynder-49" "Yssilai-50" "Yssiold-51" "Yssies-52"
+			"Yssije-53" "Yssian-54" "Yssiis-55" "Yssodis-56"
+			"Yssoynder-57" "Yssolai-58" "Yssoold-59" "Yssoes-60"
+			"Yssoje-61" "Yssoan-62" "Yssois-63" "Yssandis-64"
+			"Yssanynder-65" "Yssanlai-66" "Yssanold-67" "Yssanes-68"
+			"Yssanje-69" "Yssanan-70" "Yssanis-71" "Yssyndis-72"
+			"Yssynynder-73" "Yssynlai-74" "Yssynold-75" "Yssynes-76"
+			"Yssynje-77" "Yssynan-78" "Yssynis-79" "Khoadis-80"
+			"Khoaynder-81" "Khoalai-82" "Khoaold-83" "Khoaes-84"
+			"Khoaje-85" "Khoaan-86" "Khoais-87" "Khoedis-88"
+			"Khoeynder-89" "Khoelai-90" "Khoeold-91" "Khoees-92"
+			"Khoeje-93" "Khoean-94" "Khoeis-95" "Khoidis-96"
+			"Khoiynder-97" "Khoilai-98" "Khoiold-99" "Khoies-01"
+			"Khoije-02" "Khoian-03" "Khoiis-04" "Khoodis-05"
+			"Khooynder-06" "Khoolai-07" "Khooold-08" "Khooes-09"
+		}
+
+		battleship = {
+			"Khooje-10" "Khooan-11" "Khoois-12" "Khoandis-13"
+			"Khoanynder-14" "Khoanlai-15" "Khoanold-16" "Khoanes-17"
+			"Khoanje-18" "Khoanan-19" "Khoanis-20" "Khoyndis-21"
+			"Khoynynder-22" "Khoynlai-23" "Khoynold-24" "Khoynes-25"
+			"Khoynje-26" "Khoynan-27" "Khoynis-28" "Opoadis-29"
+			"Opoaynder-30" "Opoalai-31" "Opoaold-32" "Opoaes-33"
+			"Opoaje-34" "Opoaan-35" "Opoais-36" "Opoedis-37"
+			"Opoeynder-38" "Opoelai-39" "Opoeold-40" "Opoees-41"
+			"Opoeje-42" "Opoean-43" "Opoeis-44" "Opoidis-45"
+			"Opoiynder-46" "Opoilai-47" "Opoiold-48" "Opoies-49"
+			"Opoije-50" "Opoian-51" "Opoiis-52" "Opoodis-53"
+			"Opooynder-54" "Opoolai-55" "Opooold-56" "Opooes-57"
+			"Opooje-58" "Opooan-59" "Opoois-60" "Opoandis-61"
+			"Opoanynder-62" "Opoanlai-63" "Opoanold-64" "Opoanes-65"
+			"Opoanje-66" "Opoanan-67" "Opoanis-68" "Opoyndis-69"
+			"Opoynynder-70" "Opoynlai-71" "Opoynold-72" "Opoynes-73"
+			"Opoynje-74" "Opoynan-75" "Opoynis-76" "Kahadis-77"
+			"Kahaynder-78" "Kahalai-79" "Kahaold-80" "Kahaes-81"
+			"Kahaje-82" "Kahaan-83" "Kahais-84" "Kahedis-85"
+			"Kaheynder-86" "Kahelai-87" "Kaheold-88" "Kahees-89"
+			"Kaheje-90" "Kahean-91" "Kaheis-92" "Kahidis-93"
+			"Kahiynder-94" "Kahilai-95" "Kahiold-96" "Kahies-97"
+			"Kahije-98" "Kahian-99" "Kahiis-01" "Kahodis-02"
+			"Kahoynder-03" "Kaholai-04" "Kahoold-05" "Kahoes-06"
+			"Kahoje-07" "Kahoan-08" "Kahois-09" "Kahandis-10"
+			"Kahanynder-11" "Kahanlai-12" "Kahanold-13" "Kahanes-14"
+			"Kahanje-15" "Kahanan-16" "Kahanis-17" "Kahyndis-18"
+			"Kahynynder-19" "Kahynlai-20" "Kahynold-21" "Kahynes-22"
+			"Kahynje-23" "Kahynan-24" "Kahynis-25" "Beladis-26"
+			"Belaynder-27" "Belalai-28" "Belaold-29" "Belaes-30"
+			"Belaje-31" "Belaan-32" "Belais-33" "Beledis-34"
+			"Beleynder-35" "Belelai-36" "Beleold-37" "Belees-38"
+			"Beleje-39" "Belean-40" "Beleis-41" "Belidis-42"
+			"Beliynder-43" "Belilai-44" "Beliold-45" "Belies-46"
+			"Belije-47" "Belian-48" "Beliis-49" "Belodis-50"
+			"Beloynder-51" "Belolai-52" "Beloold-53" "Beloes-54"
+			"Beloje-55" "Beloan-56" "Belois-57" "Belandis-58"
+			"Belanynder-59" "Belanlai-60" "Belanold-61" "Belanes-62"
+			"Belanje-63" "Belanan-64" "Belanis-65" "Belyndis-66"
+			"Belynynder-67" "Belynlai-68" "Belynold-69" "Belynes-70"
+		}
+
+		titan = {
+			"Belynje-71" "Belynan-72" "Belynis-73" "Vasadis-74"
+			"Vasaynder-75" "Vasalai-76" "Vasaold-77" "Vasaes-78"
+			"Vasaje-79" "Vasaan-80" "Vasais-81" "Vasedis-82"
+			"Vaseynder-83" "Vaselai-84" "Vaseold-85" "Vasees-86"
+			"Vaseje-87" "Vasean-88" "Vaseis-89" "Vasidis-90"
+			"Vasiynder-91" "Vasilai-92" "Vasiold-93" "Vasies-94"
+			"Vasije-95" "Vasian-96" "Vasiis-97" "Vasodis-98"
+			"Vasoynder-99" "Vasolai-01" "Vasoold-02" "Vasoes-03"
+			"Vasoje-04" "Vasoan-05" "Vasois-06" "Vasandis-07"
+			"Vasanynder-08" "Vasanlai-09" "Vasanold-10" "Vasanes-11"
+			"Vasanje-12" "Vasanan-13" "Vasanis-14" "Vasyndis-15"
+			"Vasynynder-16" "Vasynlai-17" "Vasynold-18" "Vasynes-19"
+			"Vasynje-20" "Vasynan-21" "Vasynis-22" "Nyaadis-23"
+			"Nyaaynder-24" "Nyaalai-25" "Nyaaold-26" "Nyaaes-27"
+			"Nyaaje-28" "Nyaaan-29" "Nyaais-30" "Nyaedis-31"
+		}
+
+		science = {
+			"SV-001 Lexicon" "SV-002 Archive" "SV-003 Cipher" "SV-004 Survey"
+			"SV-005 Glossary" "SV-006 Index" "SV-007 Register" "SV-008 Concordance"
+			"SV-009 Lexicon" "SV-010 Archive" "SV-011 Cipher" "SV-012 Survey"
+			"SV-013 Glossary" "SV-014 Index" "SV-015 Register" "SV-016 Concordance"
+			"SV-017 Lexicon" "SV-018 Archive" "SV-019 Cipher" "SV-020 Survey"
+			"SV-021 Glossary" "SV-022 Index" "SV-023 Register" "SV-024 Concordance"
+		}
+		colonizer = {
+			"CV-201 Shoal" "CV-202 Whitecap" "CV-203 Nursery" "CV-204 Pearl"
+			"CV-205 Tidepool" "CV-206 Kelpway" "CV-207 Mooncurrent" "CV-208 Lantern Reef"
+			"CV-209 Shoal" "CV-210 Whitecap" "CV-211 Nursery" "CV-212 Pearl"
+			"CV-213 Tidepool" "CV-214 Kelpway" "CV-215 Mooncurrent" "CV-216 Lantern Reef"
+			"CV-217 Shoal" "CV-218 Whitecap" "CV-219 Nursery" "CV-220 Pearl"
+			"CV-221 Tidepool" "CV-222 Kelpway" "CV-223 Mooncurrent" "CV-224 Lantern Reef"
+		}
+
+		constructor = {
+			"CV-101 Lattice" "CV-102 Scaffold" "CV-103 Mooring" "CV-104 Drydock"
+			"CV-105 Frame" "CV-106 Anchor" "CV-107 Pylon" "CV-108 Span"
+			"CV-109 Lattice" "CV-110 Scaffold" "CV-111 Mooring" "CV-112 Drydock"
+			"CV-113 Frame" "CV-114 Anchor" "CV-115 Pylon" "CV-116 Span"
+			"CV-117 Lattice" "CV-118 Scaffold" "CV-119 Mooring" "CV-120 Drydock"
+			"CV-121 Frame" "CV-122 Anchor" "CV-123 Pylon" "CV-124 Span"
+		}
+
+		transport = {
+			"TT-01 Whitecap" "TT-02 Shoal" "TT-03 Undercurrent" "TT-04 Tide"
+			"TT-05 Current" "TT-06 Drift" "TT-07 Foam" "TT-08 Surge"
+			"TT-09 Whitecap" "TT-10 Shoal" "TT-11 Undercurrent" "TT-12 Tide"
+			"TT-13 Current" "TT-14 Drift" "TT-15 Foam" "TT-16 Surge"
+			"TT-17 Whitecap" "TT-18 Shoal" "TT-19 Undercurrent" "TT-20 Tide"
+			"TT-21 Current" "TT-22 Drift" "TT-23 Foam" "TT-24 Surge"
+		}
+
+	}
+
+	ship_class_names = {
+		corvette = {
+			"CV-VEIL-01" "CV-VEIL-02" "CV-VEIL-03" "CV-VEIL-04"
+			"CV-VEIL-05" "CV-VEIL-06" "CV-VEIL-07" "CV-VEIL-08"
+			"CV-GRASP-01" "CV-GRASP-02" "CV-GRASP-03" "CV-GRASP-04"
+			"CV-GRASP-05" "CV-GRASP-06" "CV-GRASP-07" "CV-GRASP-08"
+			"CV-PULSE-01" "CV-PULSE-02" "CV-PULSE-03" "CV-PULSE-04"
+			"CV-PULSE-05" "CV-PULSE-06" "CV-PULSE-07" "CV-PULSE-08"
+			"CV-RAY-01" "CV-RAY-02" "CV-RAY-03" "CV-RAY-04"
+			"CV-RAY-05" "CV-RAY-06" "CV-RAY-07" "CV-RAY-08"
+		}
+		frigate = {
+			"FR-DART-01" "FR-DART-02" "FR-DART-03" "FR-DART-04"
+			"FR-DART-05" "FR-DART-06" "FR-DART-07" "FR-DART-08"
+			"FR-SPARK-01" "FR-SPARK-02" "FR-SPARK-03" "FR-SPARK-04"
+			"FR-SPARK-05" "FR-SPARK-06" "FR-SPARK-07" "FR-SPARK-08"
+		}
+		destroyer = {
+			"DD-VEIL-01" "DD-VEIL-02" "DD-VEIL-03" "DD-VEIL-04"
+			"DD-VEIL-05" "DD-VEIL-06" "DD-VEIL-07" "DD-VEIL-08"
+			"DD-GRASP-01" "DD-GRASP-02" "DD-GRASP-03" "DD-GRASP-04"
+			"DD-GRASP-05" "DD-GRASP-06" "DD-GRASP-07" "DD-GRASP-08"
+			"DD-PULSE-01" "DD-PULSE-02" "DD-PULSE-03" "DD-PULSE-04"
+			"DD-PULSE-05" "DD-PULSE-06" "DD-PULSE-07" "DD-PULSE-08"
+			"DD-RAY-01" "DD-RAY-02" "DD-RAY-03" "DD-RAY-04"
+			"DD-RAY-05" "DD-RAY-06" "DD-RAY-07" "DD-RAY-08"
+		}
+		cruiser = {
+			"CR-PULSE-01" "CR-PULSE-02" "CR-PULSE-03" "CR-PULSE-04"
+			"CR-PULSE-05" "CR-PULSE-06" "CR-PULSE-07" "CR-PULSE-08"
+			"CR-RAY-01" "CR-RAY-02" "CR-RAY-03" "CR-RAY-04"
+			"CR-RAY-05" "CR-RAY-06" "CR-RAY-07" "CR-RAY-08"
+			"CR-DART-01" "CR-DART-02" "CR-DART-03" "CR-DART-04"
+			"CR-DART-05" "CR-DART-06" "CR-DART-07" "CR-DART-08"
+			"CR-SPARK-01" "CR-SPARK-02" "CR-SPARK-03" "CR-SPARK-04"
+			"CR-SPARK-05" "CR-SPARK-06" "CR-SPARK-07" "CR-SPARK-08"
+			"CR-SHOAL-01" "CR-SHOAL-02" "CR-SHOAL-03" "CR-SHOAL-04"
+			"CR-SHOAL-05" "CR-SHOAL-06" "CR-SHOAL-07" "CR-SHOAL-08"
+		}
+		battleship = {
+			"BB-PULSE-01" "BB-PULSE-02" "BB-PULSE-03" "BB-PULSE-04"
+			"BB-PULSE-05" "BB-PULSE-06" "BB-PULSE-07" "BB-PULSE-08"
+			"BB-RAY-01" "BB-RAY-02" "BB-RAY-03" "BB-RAY-04"
+			"BB-RAY-05" "BB-RAY-06" "BB-RAY-07" "BB-RAY-08"
+			"BB-SHOAL-01" "BB-SHOAL-02" "BB-SHOAL-03" "BB-SHOAL-04"
+			"BB-SHOAL-05" "BB-SHOAL-06" "BB-SHOAL-07" "BB-SHOAL-08"
+		}
+		titan = {
+			"TT-PULSE-01" "TT-PULSE-02" "TT-PULSE-03" "TT-PULSE-04"
+			"TT-PULSE-05" "TT-PULSE-06" "TT-RAY-01" "TT-RAY-02"
+			"TT-RAY-03" "TT-RAY-04" "TT-RAY-05" "TT-RAY-06"
+		}
+	}
+
+	fleet_names = {
+		sequential_name = "$ORD$ Confluence"
+	}
+
+	army_names = {
+		defense_army = {
+			sequential_name = "$ORD$ Reef Ward"
+		}
+
+		assault_army = {
+			sequential_name = "$ORD$ Compact Detachment"
+		}
+
+		slave_army = {
+			sequential_name = "$ORD$ Bonded Cohort"
+		}
+
+		clone_army = {
+			sequential_name = "$ORD$ Pattern Clone"
+		}
+
+		robotic_army = {
+			sequential_name = "$ORD$ Helper Drone"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "$ORD$ Reef Drone"
+		}
+
+		psionic_army = {
+			sequential_name = "$ORD$ Luminous Adepts"
+		}
+
+		xenomorph_army = {
+			sequential_name = "$ORD$ Lurking Helpers"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "$ORD$ Bright-Pattern Augments"
+		}
+
+		occupation_army = {
+			sequential_name = "$ORD$ Compact Detachment"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "$ORD$ Helper Drone"
+		}
+
+		primitive_army = {
+			sequential_name = "$ORD$ Reef Ward"
+		}
+
+		industrial_army = {
+			sequential_name = "$ORD$ Reef Ward"
+		}
+
+		postatomic_army = {
+			sequential_name = "$ORD$ Compact Detachment"
+		}
+	}
+
+	planet_names = {
+		generic = {
+			names = {
+				"Kahje" "Belje" "Zymandis" "Blasto" "Delanynder"
+				"Living Face" "Rough Heart" "Shining Eye" "Whitecap Tentacle" "First Breath"
+				"Still Face" "Fitful Heart" "Deep Eye" "High Tentacle" "Praying Breath"
+				"Silent Face" "Wandering Heart" "Distant Eye" "Murky Tentacle" "Hungry Breath"
+				"Hidden Face" "Lost Heart" "Sad Eye" "Bright Tentacle" "Old Hand"
+			}
+		}
+
+		pc_arid = {
+			names = {
+				"Living Basin" "Rough Wind" "Shining Stone" "Whitecap Plateau" "First Dust"
+				"Still Basin" "Fitful Wind" "Deep Stone" "High Plateau" "Praying Dust"
+				"Silent Basin" "Wandering Wind" "Distant Stone" "Murky Plateau" "Hungry Dust"
+				"Hidden Basin" "Lost Wind" "Sad Stone" "Bright Plateau" "Old Dust"
+			}
+		}
+
+		pc_desert = {
+			names = {
+				"Living Dune" "Rough Salt" "Shining Glass" "Whitecap Sun" "First Waste"
+				"Still Dune" "Fitful Salt" "Deep Glass" "High Sun" "Praying Waste"
+				"Silent Dune" "Wandering Salt" "Distant Glass" "Murky Sun" "Hungry Waste"
+				"Hidden Dune" "Lost Salt" "Sad Glass" "Bright Sun" "Old Waste"
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				"Living Grass" "Rough Plain" "Shining Herd" "Whitecap Horizon" "First Steppe"
+				"Still Grass" "Fitful Plain" "Deep Herd" "High Horizon" "Praying Steppe"
+				"Silent Grass" "Wandering Plain" "Distant Herd" "Murky Horizon" "Hungry Steppe"
+				"Hidden Grass" "Lost Plain" "Sad Herd" "Bright Horizon" "Old Steppe"
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				"Living Tide" "Rough Current" "Shining Shoal" "Whitecap Reef" "First Undercurrent"
+				"Still Tide" "Fitful Current" "Deep Shoal" "High Reef" "Praying Undercurrent"
+				"Silent Tide" "Wandering Current" "Distant Shoal" "Murky Reef" "Hungry Undercurrent"
+				"Hidden Tide" "Lost Current" "Sad Shoal" "Bright Reef" "Old Undercurrent"
+				"Belan Current" "Kahje Reef"
+			}
+		}
+
+		pc_continental = {
+			names = {
+				"Living Whitecap" "Rough Shore" "Shining Rain" "First Grove" "Still Harbor"
+				"Fitful Whitecap" "Deep Shore" "High Rain" "Praying Grove" "Silent Harbor"
+				"Wandering Whitecap" "Distant Shore" "Murky Rain" "Hungry Grove" "Hidden Harbor"
+				"Lost Whitecap" "Sad Shore" "Bright Rain" "Old Grove" "Belan Harbor"
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				"Living Canopy" "Rough Monsoon" "Shining Bloom" "Whitecap Vine" "First Lagoon"
+				"Still Canopy" "Fitful Monsoon" "Deep Bloom" "High Vine" "Praying Lagoon"
+				"Silent Canopy" "Wandering Monsoon" "Distant Bloom" "Murky Vine" "Hungry Lagoon"
+				"Hidden Canopy" "Lost Monsoon" "Sad Bloom" "Bright Vine" "Old Lagoon"
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				"Living Ridge" "Rough Peak" "Shining Pass" "Whitecap Crag" "First Cloud"
+				"Still Ridge" "Fitful Peak" "Deep Pass" "High Crag" "Praying Cloud"
+				"Silent Ridge" "Wandering Peak" "Distant Pass" "Murky Crag" "Hungry Cloud"
+				"Hidden Ridge" "Lost Peak" "Sad Pass" "Bright Crag" "Old Cloud"
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				"Living Mire" "Rough Frost" "Shining Moss" "Whitecap Grayland" "First Drift"
+				"Still Mire" "Fitful Frost" "Deep Moss" "High Grayland" "Praying Drift"
+				"Silent Mire" "Wandering Frost" "Distant Moss" "Murky Grayland" "Hungry Drift"
+				"Hidden Mire" "Lost Frost" "Sad Moss" "Bright Grayland" "Old Drift"
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				"Living Ice" "Rough Shelf" "Shining Aurora" "Whitecap Glacier" "First Pack"
+				"Still Ice" "Fitful Shelf" "Deep Aurora" "High Glacier" "Praying Pack"
+				"Silent Ice" "Wandering Shelf" "Distant Aurora" "Murky Glacier" "Hungry Pack"
+				"Hidden Ice" "Lost Shelf" "Sad Aurora" "Bright Glacier" "Old Pack"
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				"Bright Heart" "Shining Breath" "Whitecap Eye" "First Face" "Living Tentacle" "Still Heart"
+				"Deep Breath" "High Eye" "Praying Face" "Silent Tentacle" "Wandering Heart" "Distant Breath"
+			}
+		}
+
+		pc_nuked = {
+			names = {
+				"Dying Reef" "Fading Current" "Sad Shoal" "Lost Harbor" "Murky Glass" "Hungry Waste"
+				"Broken Tide" "Silent Ash" "Hidden Cinder" "Old Ruin" "Dark Reef" "Glass Current"
+			}
+		}
+
+		pc_ai = {
+			names = {
+				"Current Lexicon" "Archive of Kahje" "Cipher Shoal" "Survey Reef" "Glossary Current" "Lexicon of Belan"
+				"Archive of Blasto" "Cipher Reef" "Survey Current" "Glossary Shoal" "Lexicon Node" "Archive Tide"
+			}
+		}
+
+		pc_machine = {
+			names = {
+				"Lattice Current" "Scaffold Reef" "Mooring Shoal" "Drydock Tide" "Frame Undercurrent" "Lattice Harbor"
+				"Scaffold Current" "Mooring Reef" "Drydock Shoal" "Frame Tide" "Lattice Whitecap" "Scaffold Lagoon"
+			}
+		}
+	}
+
+	character_names = {
+		names1 = {
+			weight = 100
+
+			first_names = {
+				"Deladis" "Delaynder" "Delalai" "Delaold" "Delaes" "Delaje"
+				"Delaan" "Delais" "Deledis" "Deleynder" "Delelai" "Deleold"
+				"Delees" "Deleje" "Delean" "Deleis" "Delidis" "Deliynder"
+				"Delilai" "Deliold" "Delies" "Delije" "Delian" "Deliis"
+				"Delodis" "Deloynder" "Delolai" "Deloold" "Deloes" "Deloje"
+				"Deloan" "Delois" "Delandis" "Delanynder" "Delanlai" "Delanold"
+				"Delanes" "Delanje" "Delanan" "Delanis" "Delyndis" "Delynynder"
+				"Delynlai" "Delynold" "Delynes" "Delynje" "Delynan" "Delynis"
+				"Zymadis" "Zymaynder" "Zymalai" "Zymaold" "Zymaes" "Zymaje"
+				"Zymaan" "Zymais" "Zymedis" "Zymeynder" "Zymelai" "Zymeold"
+				"Zymees" "Zymeje" "Zymean" "Zymeis" "Zymidis" "Zymiynder"
+				"Zymilai" "Zymiold" "Zymies" "Zymije" "Zymian" "Zymiis"
+				"Zymodis" "Zymoynder" "Zymolai" "Zymoold" "Zymoes" "Zymoje"
+				"Zymoan" "Zymois" "Zymandis" "Zymanynder" "Zymanlai" "Zymanold"
+				"Zymanes" "Zymanje" "Zymanan" "Zymanis" "Zymyndis" "Zymynynder"
+				"Zymynlai" "Zymynold" "Zymynes" "Zymynje" "Zymynan" "Zymynis"
+				"Yssadis" "Yssaynder" "Yssalai" "Yssaold" "Yssaes" "Yssaje"
+				"Yssaan" "Yssais" "Yssedis" "Ysseynder" "Ysselai" "Ysseold"
+				"Yssees" "Ysseje" "Yssean" "Ysseis" "Yssidis" "Yssiynder"
+				"Yssilai" "Yssiold" "Yssies" "Yssije" "Yssian" "Yssiis"
+				"Yssodis" "Yssoynder" "Yssolai" "Yssoold" "Yssoes" "Yssoje"
+				"Yssoan" "Yssois" "Yssandis" "Yssanynder" "Yssanlai" "Yssanold"
+				"Yssanes" "Yssanje" "Yssanan" "Yssanis" "Yssyndis" "Yssynynder"
+				"Yssynlai" "Yssynold" "Yssynes" "Yssynje" "Yssynan" "Yssynis"
+				"Khoadis" "Khoaynder" "Khoalai" "Khoaold" "Khoaes" "Khoaje"
+				"Khoaan" "Khoais" "Khoedis" "Khoeynder" "Khoelai" "Khoeold"
+				"Khoees" "Khoeje" "Khoean" "Khoeis" "Khoidis" "Khoiynder"
+				"Khoilai" "Khoiold" "Khoies" "Khoije" "Khoian" "Khoiis"
+				"Khoodis" "Khooynder" "Khoolai" "Khooold" "Khooes" "Khooje"
+				"Khooan" "Khoois" "Khoandis" "Khoanynder" "Khoanlai" "Khoanold"
+				"Khoanes" "Khoanje" "Khoanan" "Khoanis" "Khoyndis" "Khoynynder"
+				"Khoynlai" "Khoynold" "Khoynes" "Khoynje" "Khoynan" "Khoynis"
+				"Opoadis" "Opoaynder" "Opoalai" "Opoaold" "Opoaes" "Opoaje"
+				"Opoaan" "Opoais" "Opoedis" "Opoeynder" "Opoelai" "Opoeold"
+				"Opoees" "Opoeje" "Opoean" "Opoeis" "Opoidis" "Opoiynder"
+				"Opoilai" "Opoiold" "Opoies" "Opoije" "Opoian" "Opoiis"
+				"Opoodis" "Opooynder" "Opoolai" "Opooold" "Opooes" "Opooje"
+				"Opooan" "Opoois" "Opoandis" "Opoanynder" "Opoanlai" "Opoanold"
+				"Opoanes" "Opoanje" "Opoanan" "Opoanis" "Opoyndis" "Opoynynder"
+				"Opoynlai" "Opoynold" "Opoynes" "Opoynje" "Opoynan" "Opoynis"
+				"Kahadis" "Kahaynder" "Kahalai" "Kahaold" "Kahaes" "Kahaje"
+				"Kahaan" "Kahais" "Kahedis" "Kaheynder" "Kahelai" "Kaheold"
+				"Kahees" "Kaheje" "Kahean" "Kaheis" "Kahidis" "Kahiynder"
+				"Kahilai" "Kahiold" "Kahies" "Kahije" "Kahian" "Kahiis"
+				"Kahodis" "Kahoynder" "Kaholai" "Kahoold" "Kahoes" "Kahoje"
+				"Kahoan" "Kahois" "Kahandis" "Kahanynder" "Kahanlai" "Kahanold"
+				"Kahanes" "Kahanje" "Kahanan" "Kahanis" "Kahyndis" "Kahynynder"
+				"Kahynlai" "Kahynold" "Kahynes" "Kahynje" "Kahynan" "Kahynis"
+				"Beladis" "Belaynder" "Belalai" "Belaold" "Belaes" "Belaje"
+				"Belaan" "Belais" "Beledis" "Beleynder" "Belelai" "Beleold"
+				"Belees" "Beleje" "Belean" "Beleis" "Belidis" "Beliynder"
+				"Belilai" "Beliold" "Belies" "Belije" "Belian" "Beliis"
+				"Belodis" "Beloynder" "Belolai" "Beloold" "Beloes" "Beloje"
+				"Beloan" "Belois" "Belandis" "Belanynder" "Belanlai" "Belanold"
+				"Belanes" "Belanje" "Belanan" "Belanis" "Belyndis" "Belynynder"
+				"Belynlai" "Belynold" "Belynes" "Belynje" "Belynan" "Belynis"
+				"Vasadis" "Vasaynder" "Vasalai" "Vasaold" "Vasaes" "Vasaje"
+				"Vasaan" "Vasais" "Vasedis" "Vaseynder" "Vaselai" "Vaseold"
+				"Vasees" "Vaseje" "Vasean" "Vaseis" "Vasidis" "Vasiynder"
+				"Vasilai" "Vasiold" "Vasies" "Vasije" "Vasian" "Vasiis"
+				"Vasodis" "Vasoynder" "Vasolai" "Vasoold" "Vasoes" "Vasoje"
+				"Vasoan" "Vasois" "Vasandis" "Vasanynder" "Vasanlai" "Vasanold"
+				"Vasanes" "Vasanje" "Vasanan" "Vasanis" "Vasyndis" "Vasynynder"
+				"Vasynlai" "Vasynold" "Vasynes" "Vasynje" "Vasynan" "Vasynis"
+				"Nyaadis" "Nyaaynder" "Nyaalai" "Nyaaold" "Nyaaes" "Nyaaje"
+				"Nyaaan" "Nyaais" "Nyaedis" "Nyaeynder" "Nyaelai" "Nyaeold"
+				"Nyaees" "Nyaeje" "Nyaean" "Nyaeis" "Nyaidis" "Nyaiynder"
+				"Nyailai" "Nyaiold" "Nyaies" "Nyaije" "Nyaian" "Nyaiis"
+				"Nyaodis" "Nyaoynder" "Nyaolai" "Nyaoold" "Nyaoes" "Nyaoje"
+				"Nyaoan" "Nyaois" "Nyaandis" "Nyaanynder" "Nyaanlai" "Nyaanold"
+				"Nyaanes" "Nyaanje" "Nyaanan" "Nyaanis" "Nyayndis" "Nyaynynder"
+				"Nyaynlai" "Nyaynold" "Nyaynes" "Nyaynje" "Nyaynan" "Nyaynis"
+				"Blasto" "Kholai" "Ysses" "Kahje" "Belje" "Vasdis"
+				"Nyadis"
+			}
+
+			second_names = {
+				"(Studies the Long Fathomless Silence under the Final Current)"
+				"(Takes Measure of the Patient Glass Silence kept by the Lantern Cleansing Waters)"
+				"(Observes the Open Pilgrimage kept by the Tides in Despair)"
+				"(Buries the Merciful Shaped Stillness between the Pilgrim Waters and the Vigilant Waters with Surrender)"
+				"(Accepts the Graven Shaped Stillness of the Lantern Night Waters)"
+				"(Passes beneath the Lost Hush of the Enkindlers)"
+				"(Observes the Still Promise kept by the Final Current in Soft Lament)"
+				"(Consecrates the Still Old Question within the Broken Reef)"
+				"(Holds Fast to the Soft Ritual beyond the Outer Shoals in Silence)"
+				"(Mourns the First Buried Promise within the Sacred Silence)"
+				"(Offers the Echo of the Enkindlers)"
+				"(Shelters the Glass Hollow Mercy heard in the Sacred Night Waters with Ash)"
+				"(Weighs the Patient Pilgrimage among the Hollow Choir in Patient Witness)"
+				"(Translates the Watchful Tide heard in the Inner Sea)"
+				"(Surveys the Lost Answer of the Broken Waters)"
+				"(Receives the Hollow Last Tide heard in the Merciful Calling Shoals)"
+				"(Questions the Veiled Truth heard in the Watching Tide)"
+				"(Answers the Promise spoken by the Reefs)"
+				"(Attends the Deep Mercy beyond the Glass Sacred Waters)"
+				"(Accepts the Reverent Prayer of the Ancient Shallows)"
+				"(Mirrors the Pilgrim Lament heard in the Merciful Deep Chorus in Soft Lament)"
+				"(Consecrates the Cold Hushed Silence of the Long Silence and the Final Current)"
+				"(Conveys the Fathom Song of the Unspoken Deep)"
+				"(Raises the Answer carried by the Sleeping Current)"
+				"(Adorns the Deep Prayer of the Silent Sacred Silence)"
+				"(Mourns the Merciful Burden of the Luminous Deep)"
+				"(Meditates upon the Ancient Hidden Final Silence drawn from the Open Sea)"
+				"(Keeps the Gift among the Merciful Low Horizon)"
+				"(Receives Word of the Final Answer of the Depths)"
+				"(Illuminates the Watching Song passed to the Unspoken Deep with Vigil)"
+				"(Dreams of the Open Ashen Prayer beneath the Witnessing Current)"
+				"(Contemplates the Hush heard in the Old Light)"
+				"(Honors the Deep Remembrance of the Patient Deep)"
+				"(Invokes the Lost Hidden Living Silence of the Pilgrims with Sacred Dread)"
+				"(Kneels before the Fathomless Tide before the Hushed Current in Tender Grief)"
+				"(Echoes the Broken Prayer spoken by the Silent Reef with Clarity)"
+				"(Invokes the Last Open Memory entrusted to the Buried Remembrance Reef through Watchful Silence)"
+				"(Follows the Cold Breath heard in the Merciful Witnesses)"
+				"(Watches the Distant Promise between the Open Sea and the Deep Chorus with Faith)"
+				"(Observes the Drowning Light of the Singers in Pilgrim Grace)"
+				"(Measures the Glass Soft Lament within the Enkindlers in Open Devotion)"
+				"(Holds Fast to the Bright Watchful Final Silence under the Far Reef with Sacred Dread)"
+				"(Keeps the Tidal Witness under the Elder Broken Reef)"
+				"(Tastes the Final Answer between the Reefs and the Tides)"
+				"(Records the Shadow of the First Silence)"
+				"(Consecrates the Night Prayer heard in the Last Horizon)"
+				"(Names the Cleansing Silence beneath the Deep Chorus)"
+				"(Reads the Cold Pilgrim Memory between the Last Horizon and the Merciful Shallows with Endurance)"
+				"(Mirrors the Elder Watching Song drawn from the Far Reef)"
+				"(Carries the Tender Lantern Song of the Hushed Current)"
+				"(Preserves the Warning of the Hushed Current with Despair)"
+				"(Accepts the Living Silence of the Ancient Shallows)"
+				"(Reads the Merciful Burden spoken by the Language in Solemn Wonder)"
+				"(Guards the Unspoken Living Silence of the Open Sea)"
+				"(Receives the Luminous Shelter remembered by the Enkindlers)"
+				"(Keeps the Long Mercy kept by the Trembling Tide)"
+				"(Searches the Long Open Memory of the Broken Witnessing Current in Mercy)"
+				"(Raises the Low Hymn sheltered by the Enkindlers)"
+				"(Passes beneath the Ritual of the Ancient Shallows without Witness)"
+				"(Attends the Last Tide remembered by the Final Current in Sacred Longing)"
+				"(Conveys the Patient Tidal Ashen Prayer carried by the Low Horizon in Ash)"
+				"(Witnesses the Silence between the Luminous Deep and the Pilgrim Choir)"
+				"(Receives the Distant Broken Prayer of the Final Hollow Choir through Tidal Grief)"
+				"(Echoes the Light carried by the Shallows with Distance)"
+				"(Records the Bright Warning within the Living Waters in Last Patience)"
+				"(Embraces the Pilgrimage passed to the Lantern Reef through Solemn Wonder)"
+				"(Questions the Lost Answer returned by the Final Tides)"
+				"(Seeks Passage through the Sacred Long Vigil between the Listening Sea and the Drowned Sky)"
+				"(Returns to the Glass Low Hymn remembered by the Pilgrim Waters with Deep Patience)"
+				"(Traces the Breath of the Far Reef in Merciful Silence)"
+				"(Hears the Luminous Cleansing Silence of the Trembling Shoals)"
+				"(Inherits the Shadow carried by the Pilgrim Waters)"
+				"(Watches the Inner Horizon between the Lantern Glass Tide and the Lantern Deep Waters in Renewal)"
+				"(Raises the Tidal Witness of the Broken Shallows in Pilgrim Grace)"
+				"(Witnesses the Ashen Shaped Stillness of the Singers)"
+				"(Seeks Passage through the Patient Tidal Memory within the Hollow Unspoken Deep)"
+				"(Listens to the Hushed Pilgrimage beneath the gaze of the Crowned Tide in Mercy)"
+				"(Learns from the Silent Trembling Witness beneath the Remembrance Reef)"
+				"(Bears the Still Currents under the Ancient Final Current)"
+				"(Bears the Bright Warning of the Elder Tide and the Old Light through Inner Silence)"
+				"(Offers Witness to the Light within the Glass Waters in Last Patience)"
+				"(Questions the Open Question beneath the Long Silence)"
+				"(Surrenders to the Hushed Pilgrimage of the Vigilant Waters in Long Reverence)"
+				"(Recounts the Living Silence of the Night Waters in Tidal Calm)"
+				"(Deciphers the Remembrance beneath the Final Current)"
+				"(Returns to the Answer drawn from the Unspoken Deep)"
+				"(Offers the Quiet Warning under the Merciful Sacred Waters in Dread)"
+				"(Invokes the Ashen Last Tide between the Shallows and the Trembling Tide)"
+				"(Seeks Passage through the Bright Warning before the Ancestor Choir in Longing)"
+				"(Adorns the Living Mercy of the Hollow Choir in Bright Sorrow)"
+				"(Discerns the Veiled Salt Speech spoken by the Luminous Deep with Tender Grief)"
+				"(Shelters the Lament kept by the Broken Waters amid Vigil)"
+				"(Records the Open Merciful Burden of the Kahje in Grace)"
+				"(Preserves the Still Distant Promise between the Pilgrim Waters and the Elder Tide in Last Patience)"
+				"(Tethers the Broken Song kept by the Low Horizon)"
+				"(Illuminates the Buried Hush between the Enkindlers and the Ancient Depths in Endurance)"
+				"(Bears the Last Tide of the Ancient Shallows in Gentle Dread)"
+				"(Witnesses the Sacred Witness under the Pilgrim Deep Chorus)"
+				"(Inherits the Tender Fathomless Dream among the Glass Waters in Renewal)"
+				"(Receives Word of the Prayer returned by the Deep Chorus with Lament)"
+				"(Offers the Low Answer between the Sleeping Current and the Enkindlers in Devotion)"
+				"(Seeks Passage through the Sacred Drift beneath the gaze of the Pilgrims in Silence)"
+				"(Carries the Ancient Tidal Memory of the Deep Waters in Cold Hope)"
+				"(Measures the Pilgrimage of the Open Silence and the Hollow Choir without Reverence)"
+				"(Echoes the Cleansing Merciful Burden of the Broken Merciful Shallows)"
+				"(Watches the Still Horizon before the Inner Sea)"
+				"(Attends the Lament among the Calling Shoals)"
+				"(Surrenders to the Inner Currents beneath the gaze of the Lantern Reef in Distant Faith)"
+				"(Chronicles the Ashen Long Lost Answer within the Low Horizon)"
+				"(Reads the Witness returned by the Witness Reef)"
+				"(Sanctifies the Distant Promise heard in the Witnessing Low Horizon in Tender Grief)"
+				"(Honors the Final Answer kept by the Low Watching Tide in Buried Faith)"
+				"(Answers the Merciful Distant Promise beyond the Ancient Hushed Current)"
+				"(Translates the Unspoken Hollow Mercy beneath the gaze of the Broken Waters)"
+				"(Watches the Long Lost Answer of the Hollow Choir)"
+				"(Inherits the Patient Ashen Prayer beneath the Hollow Sacred Silence)"
+				"(Invokes the Fathomless Dream of the Lantern Reef)"
+				"(Observes the Pilgrim Memory of the Outer Water)"
+				"(Interprets the Luminous Works beyond the Night Waters in Hunger)"
+				"(Kneels before the Deep Lament between the Living Reverent Tides and the Unspoken Deep)"
+				"(Recalls the Open Calling carried by the Forgotten Reef)"
+				"(Regards the Lost Answer of the Final Current)"
+				"(Studies the Lost Answer of the Lantern Tides in Distant Faith)"
+				"(Catalogues the Witnessing Tide before the Open Sea)"
+				"(Reveres the Glass Silence beneath the gaze of the Hollow Living Waters)"
+				"(Meditates upon the Inner Tide among the Pilgrim Patient Deep through Long Reverence)"
+				"(Keeps the Veiled Hidden Mercy carried by the Kahje in Hushed Wonder)"
+				"(Guards the Dream beneath the gaze of the Listening Living Waters with Salt Mourning)"
+				"(Honors the Lost Last Tide beneath the Luminous Deep)"
+				"(Navigates the Tidal Merciful Pilgrim Memory of the Sleeping Current)"
+				"(Frames the Remembrance of the Reverent Tides)"
+				"(Conveys the Open Memory of the Reverent Tides)"
+				"(Fathoms the Still Cleansing Silence drawn from the Witness Reef in Solemn Wonder)"
+				"(Follows the Ancient Watchful Quiet Warning of the Tidal Choir)"
+				"(Answers the Low Hymn entrusted to the Outer Shoals)"
+				"(Navigates the Hollow Mercy beyond the Ancestor Reef through Long Reverence)"
+				"(Deciphers the Promise beneath the Glass Tide)"
+				"(Reveres the Last Tide kept by the Enkindlers)"
+				"(Guards the Fathomless Dream within the Crowned Tide in Patient Witness)"
+				"(Adorns the Watchful Inner Tide carried by the Open Sea in Surrender)"
+				"(Records the Salt Sacred Witness carried by the Broken Waters with Gentle Dread)"
+				"(Hears the Deep Breath of the Sacred Silence)"
+				"(Searches the Final Silence carried by the Long Silence through Patience)"
+				"(Intercedes for the Quiet Warning passed to the Distant Tidal Choir)"
+				"(Follows the Lantern Echo kept by the Long Silence in Open Devotion)"
+				"(Traces the Night Prayer of the Long Silence)"
+				"(Names the Echo carried by the Unspoken Deep)"
+				"(Observes the Bright Warning sheltered by the Hollow Pilgrim Choir in Last Patience)"
+				"(Frames the Last Unspoken Witness of the Witnesses)"
+				"(Illuminates the Cleansing Silence beyond the Final Current)"
+				"(Hears the Living Silence kept by the Lantern Reef through Cold Hope)"
+				"(Honors the Inner Merciful Burden before the Fathomless Choir)"
+				"(Consecrates the Shaped Shelter between the Pilgrim Choir and the Crowned Tide)"
+				"(Recalls the Long Vigil carried by the Hollow Vigilant Waters)"
+				"(Traces the Low Hymn of the Calling Shoals)"
+				"(Records the Distant Promise of the Remembrance Reef)"
+				"(Takes Measure of the Living Deep Prayer kept by the Lantern Tides)"
+				"(Dreams of the Quiet Distant Promise beneath the Sacred Waters in Distance)"
+				"(Discerns the Prayer before the Crowned Tide with Reverence)"
+				"(Reveres the Low Answer kept by the Language in Surrender)"
+				"(Follows the Ancient Calling of the Fathomless Choir and the Sacred Remembrance Reef)"
+				"(Echoes the Last Echo spoken by the Ancestor Choir in Sacred Dread)"
+				"(Stewards the Ancient Calling of the Sacred Silence)"
+				"(Takes Measure of the Last Merciful Burden of the Crowned Tide)"
+				"(Traces the Salt Pilgrimage among the Hushed Current)"
+				"(Remembers the Lost Answer of the Vigilant Waters in Vigil)"
+				"(Learns from the Broken Low Hymn of the Ancient Shallows)"
+				"(Hears the Quiet Warning between the Hollow Deep and the Deep Waters in Long Reverence)"
+				"(Stewards the Burden beneath the Outer Water)"
+				"(Listens to the Inner Shadow remembered by the Listening Last Horizon)"
+				"(Tends the Burden of the Far Reef)"
+				"(Weighs the Open Pilgrim Memory between the Lantern Pilgrim Choir and the Enkindlers with Vigil)"
+				"(Offers Witness to the Pilgrimage spoken by the Hushed Current in Measured Sorrow)"
+				"(Tends the Hollow Mercy of the Trembling Shoals)"
+				"(Reads the Question of the Cleansing Tide in Merciful Silence)"
+				"(Inherits the Broken Merciful Burden spoken by the Witnessing Sleeping Current)"
+				"(Honors the Deep Glass Remembrance of the Veiled Shallows in Solemn Wonder)"
+				"(Reads the Reverent Broken Salt Mercy of the Ancestor Choir)"
+				"(Discerns the Shaped Mercy of the Cleansing Tide with Listening)"
+				"(Observes the Hushed Song drawn from the Glass Shallows)"
+				"(Discerns the Last Veiled Truth of the Pilgrim Watching Dark in Last Patience)"
+				"(Sanctifies the Salt Mercy under the First Current)"
+				"(Contemplates the Salt Living Light beneath the Hollow Choir)"
+				"(Returns to the Works of the Broken Waters)"
+				"(Tastes the Hush of the Open Elder Tide)"
+				"(Preserves the Veiled Final Silence of the Language)"
+				"(Intercedes for the Luminous Inner Horizon of the Fathomless Choir in Listening)"
+				"(Embraces the Watchful Glass Silence of the Broken Singers)"
+				"(Recounts the Distant Song carried by the Deep Waters in Final Witness)"
+				"(Consecrates the Shaped First Question between the Buried Shoals and the Watching Tide)"
+				"(Holds Fast to the Quiet Open Memory passed to the Outer Shoals in Reverence)"
+				"(Frames the Final Silence beneath the Trembling Tide in Wonder)"
+				"(Tends to the Pilgrim Hollow Mercy under the Final Witnessing Current without Distance)"
+				"(Offers Witness to the Cleansing Still Glass Silence of the Merciful Shallows in Measured Sorrow)"
+				"(Weighs the Distant Low Answer carried by the Ancient Calling Shoals in Witness)"
+				"(Conveys the Ancient Soft Lament spoken by the Forgotten Reef)"
+				"(Witnesses the Witnessing Tide among the Low Lantern Reef)"
+				"(Interprets the Pilgrim Memory before the Listening Sea in Open Devotion)"
+				"(Passes beneath the Final Low Answer between the Veiled Crowned Tide and the Listening Broken Reef in Tender Grief)"
+				"(Chronicles the Fathomless Dream carried by the Unspoken Deep)"
+			}
+		}
+		notables = {
+			weight = 4
+			full_names = {
+				"Blasto" "Delanynder" "Kholai" "Ysses" "Zymandis"
+			}
+		}
+	}
+}

@@ -16,21 +16,154 @@ MEG_salarian = {
 			"Current One" "Current Two" "Current Three" "Observation One" "Observation Two" "Vector One" "Vector Two" "Survey Three" "Analysis Four"
 			"Rapid Inference" "Silent Calculus" "Thin Horizon" "Bright Enzyme" "Glass Current" "Wet Logic" "Quick Trial" "Open Secret"
 			"Spectral Wake" "Transit Memory" "Vigilant Thesis" "Ablative Proof" "Delta Spiral" "Signal Marsh" "Apex Estuary" "Shaded Delta"
+			"Saelun" "Tevorn" "Kelvass" "Marolin" "Jesarn" "Vaetol" "Nerix" "Torwen" "Galis" "Pelor"
+			"Rethan" "Sivarn" "Joreth" "Kaevik" "Melnor" "Orlann" "Tirgol" "Weran" "Zalith" "Haelon"
+			"Irven" "Dorex" "Lethan" "Corvass" "Fejol" "Nesari" "Velorn" "Taerik" "Ulen" "Borveth"
+			"Selonn" "Jezarn" "Kalori" "Navor" "Ressik" "Torass" "Weylin" "Darvok" "Helari" "Ossirn"
+			"Maevol" "Cerian" "Lurass" "Pavern" "Risal" "Venlor" "Taless" "Yorvin" "Jeloran" "Firnass"
+			"Gaelor" "Heskan" "Irelon" "Jassik" "Keloran" "Lomirn" "Merass" "Nelvok" "Orsali" "Pernix"
+			"Queron" "Raless" "Senvik" "Tervan" "Ulrenn" "Varoli" "Welass" "Xevorn" "Yelari" "Zorven"
+			"Aesirn" "Baelor" "Cenori" "Dovass" "Elarin" "Fenvor" "Gessik" "Harven" "Ithori" "Jalvok"
+			"Kessan" "Lorvik" "Marel" "Norass" "Olevan" "Parnok" "Qelari" "Rovann" "Selnor" "Tassik"
+			"Uverin" "Varnol" "Wesari" "Xalenn" "Yorek" "Zevass" "Cipher Current" "Silent Vector" "Measured Delta" "Rapid Marsh"
+			"Dry Estuary" "Proof of Rain" "Thin Salient" "Hidden Wetwork" "Marsh Thesis" "Lattice Inference" "Quiet Predicate" "Delta Ledger"
+			"Reflex Archive" "Tidal Formula" "Prime Salient" "Brackish Signal" "Swift Axiom" "Green Inference" "Shrouded Survey" "Marsh Cipher"
+			"Clear Transit" "Night Vector" "Inferential Wake" "Coastal Proof" "Bright Ledger" "Open Lattice" "Silent Enzyme" "Wetwork Spiral"
+			"Waeovtoreth" "Orvavok" "Jaethalev" "Haralvelul" "Ireomven" "Velvelur" "Fenrethoth" "Falselel" "Malaxen" "Silent Cascade" "Wesulune" "Ralirir"
+    		"Arirethas" "Waevalan" "Xalronan" "Galrethin" "Paeinarn" "Eliur" "Belrenass" "Berirorn" "Dreselvar" "Nalrolvaloth" "Kelev" "Velvarak"
+    		"Selos" "Wesel" "Kelethel" "Renrenvakar" "Paeiavel" "Formal Facet" "Ulrokur" "Asher" "Belomar" "Filtered Array" "Renthalon" "Yorvel"
+    		"Maeeon" "Uleanul" "Selulan" "Malinik" "Jaeovael" "Dreretheon" "Tidal Framework" "Eliireon" "Ereener" "Yelix" "Peltalvek" "Ulroltarik"
+    		"Peliarokarn" "Larroltarval" "Cervelev" "Tuned Measure" "Korervel" "Zorael" "Terse Instance" "Maeaxune" "Maeelol" "Orvalur" "Dreolael" "Muted Tide"
+    		"Olotenil" "Sarolosorn" "Merarn" "Yorovil" "Jaeralval" "Ashen Datum" "Erevarune" "Faliaeth" "Yorilek" "Solar Vault" "Crisp Horizon" "Maltalenur"
+    		"Selrakok" "Halthalis" "Terse Synthesis" "Valinvar" "Zaevakan" "Korrolur" "Darolak" "Aelsorune" "Laetarven" "Tevvorael" "Olourass" "Elivak"
+    		"Yorselal" "Zoraloth" "Tuned Transit" "Qelune" "Jaealselass" "Yorokial" "Finite Canal" "Ulrarn" "Ereosul" "Wesiroth" "Pelal" "Cervarosarn"
+    		"Avoelevar" "Sarix" "Velselon" "Ulromvekul" "Wesomer" "Meroseleth" "Halonok" "Delsarrenvek" "Ulrivos" "Swift Gradient" "Goranur" "Belokvorur"
+    		"Firvalak" "Nalralal" "Pale Signal" "Galrenev" "Qelovir" "Valisek" "Torevvelass" "Galial" "Kelal" "Merrokal" "Velvarikven" "Firorn"
+    		"Sarrenen" "Soror" "Dreaxis" "Beltalon" "Laean" "Ereervak" "Jortorul" "Nalvakselul" "Darovas" "Galolor" "Firralorn" "Valrolvor"
+    		"Vorareth" "Baeonsaril" "Stark Secret" "Xevtenum" "Remote Ledger" "Darrenen" "Yorinvekil" "Swift Datum" "Aertalok" "Falinevak" "Delenass" "Taliltenir"
+    		"Vorvakis" "Jorethrenan" "Arivakoth" "Toranvor" "Sparse Undertow" "Xalvakil" "Nalvaril" "Wary Mire" "Korsorok" "Zoris" "Renirelarn" "Harolak"
+    		"Corronak" "Iretalas" "Haloven" "Aelev" "Cerrolvek" "Darass" "Layered Enzyme" "Ulearael" "Cerrokak" "Ereirvel" "Harileth" "Exact Proof"
+    		"Ereek" "Brisk Vector" "Beletharn" "Pelavon" "Corselivek" "Eliinvak" "Silent Surveyor" "Coastal Facet" "Sorum" "Silent Trace" "Nalik" "Elirinass"
+    		"Hareris" "Orvelul" "Aerune" "Cerraleth" "Qelelar" "Focused Gradient" "Ireonvar" "Brackish Mire" "Swift Cascade" "Cerethas" "Fenselol" "Discrete Array"
+    		"Zorvekrakval" "Varavev" "Yorelum" "Nerolrinar" "Maeinaxvel" "Rational Model" "Discrete Transit" "Zaeralir" "Berelur" "Yorvarik" "Yelsororn" "Fenrinavvel"
+    		"Meriaoran" "Patient Vector" "Yoromol" "Waeteninar" "Darrikev" "Ashrenar" "Falenok" "Keltalorn" "Halulielis" "Ariselek" "Austere Relay" "Bervalum"
+    		"Raltorvor" "Nalen" "Falthalvar" "Belial" "Xevum" "Xevronsarvek" "Thin Spiral" "Ereoloran" "Orvrokar" "Xevval" "Eliev" "Voroth"
+    		"Aelavivir" "Merielaren" "Ulevakeon" "Lorometh" "Darsarrolok" "Ralenan" "Torarn" "Laeix" "Nervarisev" "Baerakorn" "Korvektarik" "Tarretharn"
+    		"Baevelir" "Belurtarel" "Arienomil" "Mervalvel" "Dry Model" "Weson" "Talokon" "Pelthaliaal" "Laeisarix" "Galsaril" "Sorvekeon" "Laromek"
+    		"Xevavur" "Waevar" "Belas" "Malelrakal" "Olorikek" "Falel" "Luminous Registry" "Ulravsorval" "Soranune" "Open Archive" "Nerrokix" "Valural"
+    		"Faltarak" "Avoenass" "Reactive Framework" "Wesurol" "Kelaxvor" "Sable Measure" "Xevisan" "Cerineth" "Velarn" "Avoanael" "Talvalas" "Dreonan"
+    		"Variaas" "Velovvel" "Ulevek" "Ariaviaune" "Talsarar" "Talrontoroth" "Zero Undertow" "Larenune" "Drevarol" "Lorosin" "Nalavos" "Baevakvorik"
+    		"Selieler" "Velokis" "Renerisan" "Yorirum" "Fleet Proof" "Sarevrinon" "Zaeseler" "Helarik" "Ralael" "Oloethvarur" "Qelomos" "Crisp Surveyor"
+    		"Ralrikis" "Corvakum" "Velsarev" "Berrikass" "Ashen Drift" "Helen" "Malaxeon" "Ulrelik" "Vorevovas" "Elivararn" "Nalelev" "Clear Pattern"
+    		"Kelthalix" "Baeselronek" "Avorethevvar" "Ralaler" "Fenalum" "Firralas" "Coranan" "Haruroneon" "Laeass" "Baeolune" "Shallow Datum" "Filtered Current"
+    		"Westhalok" "Clear Lattice" "Talvak" "Paerolune" "Outer Formula" "Ulrinerael" "Galanos" "Harikovos" "Ithalil" "Soriaisar" "Daraner" "Helaleth"
+    		"Open Conduit" "Brisk Index" "Voronial" "Kelurvel" "Vorenis" "Xevvakir" "Ralorn" "Thin Tide" "Larrikven" "Lorrenarn" "Renivethul" "Measured Archive"
+    		"Paevek" "Irevakorval" "Waeivtenev" "Coded Thread" "Talrinik" "Selaxrokune" "Ithoth" "Sarertaren" "Xalulvor" "Thin Kernel" "Yeleth" "Xevivvak"
+    		"Steady Channel" "Yorelulial" "Jaetarvelar" "Berenralur" "Olorenenune" "Deltarven" "Uleoran" "Delrenur" "Steady Formula" "Pelum" "Cerival" "Galselos"
+    		"Firthalvek" "Larrolune" "Lorthalvek" "Yorokik" "Avovelor" "Xaltalan" "Halrokune" "Voranerum" "Sareth" "Darevos" "Hartarisum" "Tarethan"
+    		"Velivoth" "Coded Shelf" "Ralix" "Laeosel" "Pelvalum" "Nalak" "Corurur" "Eliavvar" "Xevrokas" "Brisk Proxy" "Rensarralol" "Galselven"
+    		"Zoror" "Ithtalrokael" "Tarune" "Korvorol" "Torvekor" "Pale Span" "Varisos" "Pelev" "Gortoris" "Avoomar" "Hararrinvel" "Acute Vector"
+    		"Maevakix" "Orvronor" "Taravir" "Falinek" "Avoovune" "Measured Transit" "Malielor" "Fenevvarer" "Ireomavak" "Ariir" "Coded Transit" "Aerial"
+    		"Eresaris" "Xalos" "Tidal Estuary" "Varolir" "Shallow Harbor" "Zortalarn" "Yorisev" "Valum" "Xevielvar" "Belven" "Kaeorik" "Wesvek"
+    		"Renener" "Zero Measure" "Velenum" "Jorrethvekal" "Tuned Cipher" "Zaevararn" "Glass Vault" "Koranur" "Linear Kernel" "Deep Enzyme" "Xalulek" "Selisor"
+    		"Drearor" "Shallow Channel" "Jaerinar" "Veiled Canal" "Delrakvor" "Phased Kernel" "Falvel" "Varikinur" "Delavev" "Valvelan" "Qeliloth" "Xeviketh"
+    		"Berriker" "Avovekorn" "Aerethul" "Rational Enzyme" "Qelilvel" "Aerirek" "Layered Secret" "Belvelevoth" "Scarlet Relay" "Oloielronael" "Acute Node" "Reactive Survey"
+    		"Kaerethum" "Paeosronune" "Solar Shoal" "Distant Cipher" "Gortorosal" "Helrakvek" "Valsorune" "Jaeortorev" "Cerosomok" "Varik" "Prime Mandate" "Oloaxven"
+    		"Ireselarn" "Ashisarn" "Malivisvek" "Zorolel" "Formal Cascade" "Galtareth" "Hartorvor" "Zoraxvar" "Tarrakvak" "Helolev" "Talelol" "Goraxvalal"
+    		"Nalev" "Waevoraxon" "Renralul" "Halantenvar" "Yorokorn" "Lorenune" "Acute Vault" "Lorokarven" "Delsarvek" "Elirenvor" "Muted Survey" "Tevikik"
+    		"Nalis" "Neriais" "Velivil" "Muted Pulse" "Taltaronvek" "Cerivvar" "Ithrikon" "Harvalos" "Zoranven" "Larolven" "Xevronik" "Helurivvak"
+    		"Yoranronael" "Meroris" "Dreomass" "Kaevakik" "Yelan" "Nalelielvak" "Haltarvel" "Galvalsarev" "Wesiran" "Kaerokul" "Wesalileth" "Lucent Theory"
+    		"Zoriaum" "Velivokeon" "Gorvakis" "Xaltorvel" "Velrinen" "Firol" "Korrolen" "Clear Basin" "Ulrune" "Sorvaketh" "Exact Ledger" "Harvelareth"
+    		"Erethalial" "Tevirisar" "Ulerokil" "Velulin" "Ashvoran" "Talvorvek" "Tevalorn" "Maeovev" "Dartorek" "Firik" "Larralor" "Coranok"
+    		"Tevrolan" "Terse Delta" "Selivin" "Taraxanan" "Gorol" "Valielorn" "Halivvaron" "Sable Survey" "Corselikor" "Hartenirin" "Subtle Marsh" "Firvalas"
+    		"Laealul" "Fireon" "Fleet Enzyme" "Larurum" "Avoul" "Avoralel" "Laeomos" "Varivek" "Baeraliaas" "Yorvelronos" "Xalik" "Outer Axiom"
+    		"Pale Shoal" "Sarosok" "Ashaxsarek" "Clear Mandate" "Tevethiaol" "Laearir" "Baevalon" "Waetaras" "Aeranis" "Goral" "Falanum" "Reactive Node"
+    		"Helronen" "Xalelis" "Korsorur" "Dry Mire" "Avoolix" "Maetenul" "Varenix" "Pelralsoron" "Talrokvar" "Darvelul" "Selil" "Harisix"
+    		"Dreoth" "Ithisum" "Tarsaron" "Ablative Enzyme" "Cerelrakel" "Firev" "Falselvor" "Jaeavokal" "Voromur" "Helrolvak" "Helvelev" "Ithaxvel"
+    		"Wary Wake" "Lorerulos" "Valrokevvak" "Grey Archive" "Falosolael" "Darvekvareth" "Sarosas" "Varenar" "Elitentalir" "Ireerin" "Mertaros" "Oloavos"
+    		"Meranor" "Torul" "Pelovvak" "Uleenvor" "Selovil" "Open Measure" "Haraxak" "Naliaol" "Kelavrakarn" "Aertarthalos" "Gorrethas" "Uleorum"
+    		"Gorael" "Vorronoth" "Koranum" "Kaeanorn" "Xalin" "Tarass" "Oloovvarin" "Zaeomvar" "Shaded Registry" "Vorokoth" "Helaran" "Zaeonrethvel"
+    		"Baerolvor" "Jaetalevis" "Yorulven" "Ithevarn" "Coastal Inference" "Sorevul" "Paeomethik" "Finite Shoal" "Olovalielol" "Patient Formula" "Vorilul" "Yorer"
+    		"Merirel" "Firikvor" "Aelelisok" "Torrokos" "Galethavorn" "Maethalar" "Falosur" "Tarorass" "Cold Doctrine" "Halrolum" "Belelial" "Laeulven"
+    		"Zaeronan" "Ulevekur" "Halivtarix" "Jorovor" "Malelir" "Wary Paradox" "Dreis" "Ithev" "Helon" "Berelon" "Halin" "Tevielin"
+    		"Dresortalan" "Valrinak" "Yorselin" "Talavvak" "Laeonok" "Wesveksarir" "Ulrvorenen" "Remote Theory" "Renaron" "Zaevarael" "Fenoneon" "Avoaxven"
+    		"Sparse Boundary" "Binary Shelf" "Qelvorvak" "Jaeinos" "Zorthaleth" "Distant Paradox" "Cerulval" "Jaeethul" "Cerronorn" "Fenval" "Firoril" "Sarselor"
+    		"Qelurarn" "Gorethrokir" "Xevrethik" "Laevekrikarn" "Maeokok" "Talevven" "Fentarer" "Phased Array" "Brackish Transit" "Lorralol" "Yelirvakur" "Galaxon"
+    		"Toroth" "Night Gradient" "Fenervar" "Corvalil" "Wesokalvor" "Xevomael" "Jorosek" "Elienel" "Deep Current" "Paeselon" "Xalikael" "Torerin"
+    		"Subtle Theory" "Tevivtalok" "Erevartalol" "Daris" "Lorel" "Maeix" "Baeanval" "Dreelar" "Ariralix" "Galrolovarn" "Yorralar" "Sarroner"
+    		"Westorol" "Maerethir" "Selvartorvek" "Velvakel" "Tarvor" "Renthalvor" "Orviail" "Loraxial" "Nalrakor" "Berrethar" "Yoravvakir" "Paeol"
+    		"Yelsorvel" "Darok" "Corirer" "Ariokon" "Harrenas" "Sparse Pattern" "Baerenrethel" "Korerur" "Larev" "Uleosil" "Taroravak" "Ralthalial"
+    		"Distant Channel" "Silent Pulse" "Malurok" "Wesael" "Nerrokul" "Xevtenok" "Yelovvar" "Dreon" "Lucid Archive" "Drerethik" "Sarovos" "Ashantenven"
+    		"Kororielvar" "Fentorak" "Coralis" "Ashen Enzyme" "Grey Shoal" "Ereuleon" "Halvakvel" "Local Instance" "Merrenal" "Galiralor" "Aritorelel" "Ireerronial"
+    		"Olotarune" "Baesorvoris" "Kelvor" "Larinrinik" "Valvoror" "Nalralen" "Firirtenok" "Merarerik" "Varronul" "Corarvorin" "Certarin" "Torvelevval"
+    		"Belin" "Xevel" "Gorirtaral" "Ithvelal" "Malevanarn" "Patient Survey" "Tevoth" "Paetorune" "Rentalial" "Laeisokon" "Wesanarn" "Seltorvak"
+    		"Still Marsh" "Renvalass" "Ariansarak" "Lartoranir" "Renokis" "Laeomonass" "Talulev" "Delenev" "Spectral Thesis" "Gororor" "Helirel" "Zorvalol"
+    		"Korrolonvar" "Larvekoth" "Qeleleon" "Binary Tide" "Uleosvelvak" "Aririnarn" "Varoras" "Xalokal" "Velok" "Baeolivorn" "Delosval" "Talvel"
+    		"Halrikrenas" "Delseleon" "Lucid Circuit" "Aeliaosor" "Oloaveon" "Tevrolis" "Prime Model" "Deltaral" "Seleror" "Tarerok" "Galentorur" "Larvalal"
+    		"Formal Model" "Ulromak" "Sarum" "Lucid Synthesis" "Olouren" "Zorvalarial" "Gorven" "Torvorielum" "Fentarul" "Xalanass" "Ereonerin" "Zaeralak"
+    		"Orvtalrokis" "Ashen Transit" "Arivakvarvel" "Orvvalial" "Paeulal" "Jorieleth" "Belir" "Yoruromak" "Avorikur" "Waeralrolan" "Ulrrethorn" "Ithan"
+    		"Jaeoth" "Zaeurarn" "Firroleth" "Filtered Transit" "Talonis" "Ulreth" "Measured Thread" "Selokal" "Zorrinvelok" "Neromin" "Velvelass" "Kaerolass"
+    		"Taromisix" "Aerraker" "Dreralaxev" "Uleok" "Fenisavok" "Sarelinarn" "Wesomas" "Subtle Horizon" "Rational Canal" "Coronvalev" "Sorsorial" "Yorvor"
+    		"Deep Mire" "Larulol" "Bervalek" "Tevrokil" "Dreivval" "Laerolak" "Muted Span" "Yelulel" "Ashikon" "Eliokan" "Belrikval" "Cervalrikis"
+    		"Nervaren" "Galvek" "Tevurven" "Jaeisal" "Orvethor" "Brackish Rationale" "Falar" "Lucent Proof" "Merselor" "Firok" "Firtalrenvek" "Irevorosir"
+    		"Belvelovan" "Gorveketh" "Ariielanol" "Acute Weather" "Still Cadence" "Waeune" "Ulrthalass" "Yorokanek" "Maeurvel" "Exact Node" "Uleokven" "Tarvorvar"
+    		"Maerinor" "Gorikum" "Tariven" "Ariin" "Orvsarek" "Aririnikarn" "Grey Vault" "Ashselvak" "Ariolum" "Sarulis" "Firorev" "Corethvar"
+    		"Varaxeth" "Firanial" "Coraver" "Halthalavix" "Uleass" "Quiet Framework" "Coastal Predicate" "Tevsarev" "Daraxeth" "Helrakass" "Yelsoril" "Ulrthalur"
+    		"Nalronevol" "Coded Thesis" "Teviran" "Meroroman" "Ariselass" "Uleireth" "Sarinir" "Torselal" "Sarikor" "Tevulol" "Ulrum" "Acute Channel"
+    		"Velrenial" "Ereune" "Valirrinoth" "Zaeavol" "Remote Model" "Galrinur" "Ulrvar" "Erevarix" "Kaevoren" "Ulrveleth" "Spectral Drift" "Talel"
+    		"Sable Conduit" "Maltaltalil" "Brisk Estuary" "Waerethune" "Terse Index" "Orvan" "Kelralan" "Belis" "Sorronok" "Remote Signal" "Nalrinos" "Ashrokorn"
+    		"Loren" "Varerur" "Night Trace" "Paethalorn" "Remote Canal" "Xalaxileth" "Kelomas" "Ithovven" "Pelsararn" "Measured Synthesis" "Jorielil" "Orvronomvel"
+    		"Paearum" "Paeraloth" "Linear Instance" "Nalinvor" "Delrinak" "Dreeror" "Vorurik" "Sarael" "Elirethomval" "Sarielisarn" "Falosak" "Talvorvak"
+    		"Kaeiloseth" "Kaearn" "Merarin" "Xalvorval" "Local Mire" "Xalsoros" "Baeorer" "Harvekek" "Nalrokeon" "Talilik" "Ulrur" "Berrethune"
+    		"Jorokir" "Malrokar" "Orvtaleon" "Ithanas" "Fenael" "Tarsarok" "Falralol" "Zero Signal" "Beril" "Yelavok" "Laeak" "Zaeurik"
+    		"Tactical Model" "Avothalval" "Hartarevok" "Taren" "Sorrikix" "Baerokvar" "Galal" "Toravronorn" "Jorsorsorur" "Falinvel" "Renethas" "Maeanol"
+    		"Qelelol" "Irevalass" "Avoaron" "Jaeeon" "Olovelir" "Nalrikar" "Rapid Doctrine" "Selvalor" "Wesulethas" "Tevaxoth" "Focused Archive" "Jorolael"
+    		"Olorokin" "Ariiroth" "Baeaxel" "Halvarok" "Xevisir" "Velvalass" "Arivor" "Subtle Harbor" "Beraxvak" "Tortoral" "Varelok" "Maeavas"
+    		"Halavev" "Jaerokan" "Olotenok" "Drevorosvor" "Deltorev" "Gortenur" "Velosael" "Falsorvor" "Linear Cadence" "Coraner" "Yorvoros" "Cervar"
+    		"Goreth" "Yelrakovok" "Still Channel" "Steady Mire" "Dreivum" "Ulrrinik" "Austere Pattern" "Kelvalronvor" "Firur" "Baetalor" "Merenronin" "Ariisune"
+    		"Renselilass" "Tororval" "Orvel" "Arithalir" "Tariail" "Uleokalix" "Halavoth" "Velsorrokvor" "Fenoleth" "Saromen" "Delsorenarn" "Renik"
+    		"Ralselur" "Ireal" "Veiled Cascade" "Ashon" "Oloivveker" "Beler" "Halilenvek" "Rational Equation" "Deleth" "Valolul" "Luminous Shoal" "Tevelum"
+    		"Talonvar" "Toror" "Qelor" "Kaeirval" "Pelovrenael" "Yelanelvek" "Xevethvar" "Kelonon" "Jaeroleth" "Merolvor" "Ashrolvel" "Orvthalok"
+    		"Eliavak" "Toren" "Delralevev" "Mertarsarek" "Cortarevval" "Finite Framework" "Zorosarn" "Voririk" "Aelomos" "Qelralethir" "Kaevar" "Nalariaev"
+    		"Belrenvar" "Ashikinar" "Kortalik" "Helrolis" "Waevalomel" "Cervarin" "Ereovak" "Yorrolok" "Varvekarn" "Mervakol" "Korever" "Jorisvalon"
+    		"Selsarirael" "Valvorsorur" "Zaeor" "Waeik" "Lucent Beacon" "Laeor" "Larvorolok" "Waetenevarn" "Shaded Mandate" "Nalener" "Sorretholal" "Helerok"
+    		"Gorrinix" "Sarselak" "Deep Axiom" "Drevalos" "Laeosan" "Harokos" "Seltorinan" "Laeanvar" "Xevoktarix" "Yorisan" "Yorevune" "Jaeass"
+    		"Lucid Array" "Ulrolvarar" "Zaeronaxoth" "Elionon" "Yorisorn" "Weseval" "Xalenass" "Qeleon" "Halavuleth" "Merevur" "Valethtorarn" "Measured Surveyor"
+    		"Jaeune" "Formal Spiral" "Waeronethel" "Firrinul" "Taroman" "Reniksorix" "Sorethvel" "Helovvak" "Qelseltenix" "Iretarol" "Coded Boundary" "Corrinielarn"
+    		"Silent Current" "Belvarval" "Ereven" "Ashtorix" "Firsorrikval" "Haron" "Jororn" "Ariosin" "Ralavosan" "Lucent Signal" "Velrikvor" "Saralvar"
+    		"Ithak" "Yorselas" "Malrokal" "Ashilonven" "Toronsarial" "Ereisval" "Pelveler" "Austere Equation" "Sarsarrikass" "Aelelulis" "Paetenelarn" "Ralvaral"
+    		"Maeavval" "Selrolvak" "Tartorvarorn" "Jorolivas" "Zaetalvor" "Jorinoth" "Thin Current" "Kelronon" "Sortorir" "Swift Enzyme" "Eliikul" "Zaerolael"
+    		"Waeenovas" "Variaon" "Delanosvor" "Dry Cipher" "Aerrinis" "Discrete Drift" "Xalul" "Maeonial" "Clear Shelf" "Naltarin" "Tarulrethis" "Waerokass"
+    		"Vorvakinon" "Cerovavorn" "Helronael" "Halralev" "Nalil" "Nerinik" "Lucent Shoal" "Quiet Canal" "Tidal Wetwork" "Maltorarn" "Maeaxtororn" "Koronak"
+    		"Berael" "Clear Harbor" "Jortalinarn" "Dreonon" "Pelarune" "Lorielev" "Yorantaler" "Jorosen" "Yelial" "Sartalroler" "Ashisum" "Veltarin"
+    		"Zoromin" "Torvekinir" "Saraxik" "Cerek" "Olorokum" "Crisp Thesis" "Vigilant Conduit" "Paeoreth" "Subtle Thread" "Jorrethvar" "Ashen Instance" "Jorol"
+    		"Olorethen" "Merisur" "Vorrokass" "Brackish Proof" "Falulvel" "Aelvektenvel" "Wesur" "Kaevalis" "Ulrinir" "Wesrinan" "Darronorn" "Galin"
+    		"Valin" "Belvekarn" "Malvelass" "Aerass" "Delronir" "Ulrrethiaix" "Darilek" "Rational Beacon" "Nerraken" "Aeletheth" "Kaetenas" "Maeon"
+    		"Aerrokin" "Sarrikos" "Varer" "Joravael" "Wesiver" "Varinas" "Coastal Conduit" "Ulesorvar" "Sarilorn" "Elielvar" "Muted Measure" "Galtenir"
+    		"Zero Archive" "Patient Pattern" "Jaethalvel" "Dreosalek" "Neras" "Yelevur" "Outer Instance" "Kelrikial" "Paeok" "Torsarven" "Weseon" "Avosarosune"
+    		"Orvonel" "Ulreval" "Maerenos" "Ulrtenix" "Sable Trace" "Kaeelrenvek" "Dreovik" "Jorak" "Zaeul" "Delirok" "Yelon" "Thin Shoal"
+    		"Veiled Equation" "Fenvariaum" "Paetalarn" "Avotalal" "Oloolol" "Drethaleon" "Formal Basin" "Waevelar" "Galisielek" "Clear Theory" "Ereomos" "Renokal"
+    		"Gorovtaroth" "Weserix" "Kaevekis" "Merikal" "Uleethis" "Pelenven" "Bereon" "Meroth" "Merurtoris" "Eretoris" "Zorur" "Ereivenal"
+    		"Xalavoth" "Arc Formula" "Gorenar" "Baeurisik" "Delial" "Valosial" "Dareon" "Ithrakan" "Sarostaros" "Zorroner" "Dreorvor" "Laeael"
+    		"Maeether" "Merralvar" "Zorrolarn" "Tevev" "Elievilass" "Harselarn" "Galerrolon" "Asholis" "Galirar" "Veiled Secret" "Ashen Framework" "Tarelix"
+    		"Filtered Datum" "Luminous Instance" "Lucid Shoal" "Falinass" "Aerronven" "Baevorulel" "Valelvel" "Focused Cascade" "Goranven" "Xevaxvel" "Valrokar" "Halrinarn"
+    		"Xevosil" "Ashirar" "Lortorielis" "Uleerrethven" "Merarix" "Varomul" "Korurok" "Selaltoror" "Orvar" "Scarlet Drift" "Acute Paradox" "Firikseleth"
+    		"Saravil" "Uletentarar" "Dry Proof" "Veiled Framework" "Tartorolel" "Dreonrenix" "Kaetalor" "Finite Theory" "Sarvekielik" "Maeum" "Jorrenol" "Ralselvor"
+    		"Eresartenin" "Orvevial" "Galvelor" "Corvakev" "Aelineon" "Wesenal" "Tevevol" "Orverir" "Valsorrinar" "Galev" "Tactical Relay" "Ulruleon"
+    		"Sparse Survey" "Aelronavok" "Ashrenum" "Jorthalvek" "Jorokinass" "Oloerar" "Certhalul" "Quiet Drift" "Zorrolelorn" "Ashinos" "Goroseleon" "Mervekaxer"
+    		"Valovvor" "Malalis" "Waeolon" "Yelretharn" "Still Circuit" "Elisoris" "Uleis" "Korralorn" "Jorerak" "Waetalum" "Avosarum" "Pelrethven"
+    		"Scarlet Lattice" "Talrinararn" "Selok" "Velrenas" "Waeas" "Bervorak" "Soraninos" "Vorikik" "Jorelarael" "Sarevroneon" "Taliruroth" "Deep Inference"
+    		"Ralvalon" "Koran" "Loros" "Halinar" "Delvaketh" "Ralass" "Avoisosven" "Haliver" "Jorrokos" "Zaevelul" "Tactical Axiom" "Ithrakum"
 		}
-		
-		mining_station = { }
-		research_station = { }
-		observation_station = { }
-
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}
 	}
 
 	fleet_names = {
 		random_names = {
 			"First Fleet" "Second Fleet" "Third Fleet" "STG Fleet" "Sur'Kesh Defense Fleet" "Mannovai Fleet" "Special Tasks Group"
 			"Aegohr Survey Fleet" "Valern Task Force" "Kirrahe Recon Fleet" "Outer Marsh Patrol" "Rapid Response Flotilla"
+			"Nasurn Screening Fleet" "Jaeto Expeditionary Fleet" "Halegeuse Defense Patrol" "Senoquol Recon Group" "Erinle Marsh Patrol"
+			"Belan Observation Fleet" "Saiden Deterrence Fleet" "Olor Littoral Patrol" "Vomien Rapid Flotilla" "Special Analysis Group"
+			"Sur'Kesh Littoral Fleet" "Mannovai Forward Screen"
 		}
 		sequential_name = "$ORD$ Salarian Fleet"
 	}
@@ -39,7 +172,6 @@ MEG_salarian = {
 		defense_army = { sequential_name = "$ORD$ Planetary Guard" }
 
 		assault_army = {
-			random_names = {}
 			sequential_name = "$ORD$ Expeditionary Force"
 		}
 		
@@ -56,78 +188,15 @@ MEG_salarian = {
 		generic = {
 			names = {
 				"Sur'Kesh" "Mannovai" "Rannadril" "Gorot II" "Nasurn" "Aegohr" "Senoquol" "Halegeuse" "Jaeto" "Erinle" "Belan" "Dagnes" "Saiden" "Olor" "Vomien"
+				"Torvul" "Saeresh" "Jelann" "Morlis" "Urdalen" "Verash" "Gelorin" "Tassuro" "Wenass" "Caset"
+				"Linovar" "Jevanis" "Tirgol" "Suralon" "Weylar" "Ithoran" "Valorum" "Neshara" "Aldrune" "Kirravel"
+				"Meloran" "Taesul" "Renovar" "Ulvessa" "Paelor" "Wethran" "Nolavir" "Mareth" "Uvelis" "Rilune"
+				"Theris Delta" "Sualor" "Kasheen" "Yorven" "Talen Drift" "Heskir" "Norweth" "Pale Sural" "White Valern" "Kesh Frost"
+				"Irvok" "Tirn Ice" "Sorveth" "Ulnor" "High Erinle" "Zorath Rim" "Vaelis Peak" "Gorim Rise" "Keloran" "Westrin"
+				"Avesh" "Lerovai" "Nethor" "Salvek" "Toranis" "Veyrul" "Joralen" "Meroveth" "Pelass" "Urdorin"
+				"Kelvane" "Soreli" "Wethis" "Jalovar" "Nirasse" "Tovek" "Gorali" "Renvai" "Ulmarsh" "Taeloris"
 			}
 		}
-		
-		pc_desert = {
-			names = {
-				"Nasurn" "Dagnes" "Halegeuse" "Torvul" "Saeresh" "Jelann" "Morlis" "Urdalen"
-			}
-		}
-		
-		pc_arid = {
-			names = {
-				"Aegohr" "Belan" "Saiden" "Jaeto" "Verash" "Gelorin" "Tassuro" "Wenass"
-			}
-		}
-		
-		pc_savannah = {
-			names = {
-				"Rannadril" "Olor" "Vomien" "Caset" "Linovar" "Jevanis" "Tirgol" "Suralon"
-			}
-		}
-				
-		pc_tropical = {
-			names = {
-				"Sur'Kesh" "Mannovai" "Erinle" "Senoquol" "Weylar" "Ithoran" "Valorum" "Neshara"
-			}
-		}
-		
-		pc_continental = {
-			names = {
-				"Gorot II" "Aldrune" "Kirravel" "Meloran" "Taesul" "Renovar" "Ulvessa" "Paelor"
-			}
-		}
-		
-		pc_gaia = {
-			names = {
-				"New Sur'Kesh" "Aevora" "Keshan Prime" "Veshalon" "Salora" "Elyndra"
-			}
-		}
-		
-		pc_ocean = {
-			names = {
-				"Wethran" "Nolavir" "Mareth" "Uvelis" "Rilune" "Theris Delta" "Sualor" "Kasheen"
-			}
-		}
-		
-		pc_tundra = {
-			names = {
-				"Cold Jaeto" "Yorven" "Talen Drift" "Heskir" "Norweth" "Pale Sural"
-			}
-		}
-		
-		pc_arctic = {
-			names = {
-				"White Valern" "Kesh Frost" "Irvok" "Tirn Ice" "Sorveth" "Ulnor"
-			}
-		}
-		
-		pc_alpine = {
-			names = {
-				"High Erinle" "Zorath Rim" "Vaelis Peak" "Gorim Rise" "Keloran" "Westrin"
-			}
-		}
-
-		pc_nuked = {
-			names = {
-				"Burned Nasurn" "Glass Mannovai" "Dead Olor" "Black Sur'Kesh" "Ashen Rannadril"
-			}
-		}
-
-		pc_ai = { names = { "Logic Habitat" "Inference Node" "Wetwork Array" "Salient Archive" } }
-		
-		pc_machine = { names = { "Synthetic Delta" "Marsh Matrix" "Observer Lattice" "Kesh Process" } }
 	}
 
 	### CHARACTERS
@@ -142,6 +211,13 @@ MEG_salarian = {
 				"Renko" "Narid" "Hamis" "Sahyar" "Urjon" "Siress" "Kannik" "Ammar" "Jelith" "Ahz" "Daroth" "Shelum"
 				"Mileb" "Saseoss" "Strinen" "Tezzen" "Gaerrot" "Valern" "Kallo" "Wiks" "Esheel" "Todrok" "Chaerson" "Gurji"
 				"Rellan" "Sanak" "Vass" "Inoste" "Jath" "Helor" "Tirvass" "Rasil" "Kelarn" "Voren" "Talor" "Weyr"
+				"Tevar" "Saelor" "Kelvorn" "Narvik" "Pelor" "Garen" "Vesik" "Toran" "Jesor" "Leran"
+				"Maevik" "Coren" "Selvik" "Darven" "Nelor" "Parik" "Rethor" "Salen" "Tervik" "Ulren"
+				"Varok" "Welor" "Xeran" "Yevis" "Zoren" "Ammek" "Belor" "Caevin" "Dorel" "Ervik"
+				"Fenor" "Galen" "Helorn" "Irvek" "Jorel" "Kesan" "Lomik" "Meron" "Nerik" "Orven"
+				"Perok" "Qevin" "Rasel" "Sorek" "Talen" "Uren" "Varek" "Wessik" "Xelor" "Yorik"
+				"Zavek" "Aldor" "Beraln" "Cevor" "Dannik" "Eldar" "Faelor" "Gorren" "Hesik" "Ilven"
+				"Jalor" "Korvik" "Levon" "Marvek" "Nolan" "Orrik" "Pavon" "Relor" "Senar" "Torvek"
 			}
 			first_names_female = {
 				"Lystheni" "Sekat" "Jitin" "Morstin" "Caenant" "Anirn" "Aetip" "Yotirn" "Cidol" "Dermar" "Daerart"
@@ -149,30 +225,30 @@ MEG_salarian = {
 				"Husaru" "Sio" "Kirosa" "Silon" "Tar" "Sao" "Turwin" "Jarwinar" "Kerad" "Edcronus" "Taltz" "Solem" "Saradril" "Dragel" "Sylar" "Kieron"
 				"Vamnesa" "Meloth" "Janeon" "Laeven" "Molos" "Alil" "Weyra" "Saleth" "Renassa" "Thelia" "Vesrin" "Taelor"
 				"Jorassa" "Mireth" "Sarell" "Nolira" "Kelith" "Darvess" "Tirena" "Vorani" "Lureth" "Mareth"
+				"Saelin" "Tevara" "Kelassa" "Nerali" "Pelira" "Gareth" "Vesra" "Toreni" "Jesali" "Lerassa"
+				"Maevra" "Corali" "Selene" "Darisa" "Nelira" "Paressa" "Rethia" "Salora" "Tervani" "Ulresa"
+				"Varena" "Welira" "Xerani" "Yevessa" "Zorali" "Ammira" "Belassa" "Caevi" "Dorelia" "Ervani"
+				"Fenira" "Galessa" "Helira" "Irvessa" "Joreli" "Kesara" "Lomira" "Merali" "Nerassa" "Orvena"
+				"Perisa" "Qevira" "Raseli" "Sorelia" "Talena" "Uressa" "Vareli" "Wessara" "Xelira" "Yorena"
+				"Zaveya" "Aldera" "Berali" "Cevora" "Dannira" "Eldessa" "Faelira" "Gorani" "Hesara" "Ilvara"
 			}
 			second_names = {
 				"Anoleis" "Kirrahe" "Vorleon" "Rentola" "Linron" "Saleon" "Imness" "Bau" "Holin" "Tolan" "Heplorn" "Avot"
 				"Solus" "Hanok" "Uwan" "Dalu" "Chalben" "Dezen" "Girlan" "Gaezik" "Olorn" "Oponi" "Eluso" "Tozeni" "Aerajii" "Ehei"
 				"Esheel" "Valern" "Wiks" "Vass" "Ochren" "Gurji" "Inoste" "Sanak" "Rellan" "Chaerson" "Todrok" "Chinak" "Toson"
 				"Jath" "Nemor" "Kelarn" "Voren" "Sural" "Paelor" "Tirvass" "Weyr" "Darven" "Kasheen" "Meloran" "Nolavir"
+				"Tevarn" "Saelor" "Kelvass" "Narvik" "Pelor" "Garen" "Vesik" "Toran" "Jesor" "Leran"
+				"Maevik" "Coren" "Selvik" "Darven" "Nelor" "Parik" "Rethor" "Salen" "Tervik" "Ulren"
+				"Varok" "Welor" "Xeran" "Yevis" "Zoren" "Ammek" "Belor" "Caevin" "Dorel" "Ervik"
+				"Fenor" "Galen" "Helorn" "Irvek" "Jorel" "Kesan" "Lomik" "Meron" "Nerik" "Orven"
+				"Perok" "Qevin" "Rasel" "Sorek" "Talen" "Uren" "Varek" "Wessik" "Xelor" "Yorik"
 			}
-			regnal_first_names_male = {
-				"Bel" "Mordin" "Chorban" "Ganto" "Ish" "Jaroth" "Jondum" "Kendo" "Maelon" "Marab" "Menos" "Morl" "Morlan"
-				"Padok" "Schells" "Tazzik" "Telon" "Jetal" "Edorth" "Saemorth" "Fodan" "Owik" "Tirlan" "Jaerpan" "Alud" "Solik"
-				"Beelo" "Lonar" "Jiahe" "Haruta" "Jundub" "Sayn" "Fargut" "Chesith" "Jeirt" "Sellea" "Sel" "Ijib" "Yalson"
-				"Renko" "Narid" "Hamis" "Sahyar" "Urjon" "Siress" "Kannik" "Ammar" "Jelith" "Ahz" "Daroth" "Shelum" "Valern" "Kallo" "Wiks"
-			}
-			regnal_first_names_female = {
-				"Lystheni" "Sekat" "Jitin" "Morstin" "Caenant" "Anirn" "Aetip" "Yotirn" "Cidol" "Dermar" "Daerart"
-				"Palon" "Bau" "Ledra" "Maerun" "Arlon" "Jenzin" "Vaykom" "Thein" "Varsinth" "Milon" "Stranaka" "Narra"
-				"Husaru" "Sio" "Kirosa" "Silon" "Tar" "Sao" "Turwin" "Jarwinar" "Kerad" "Edcronus" "Taltz" "Solem" "Saradril" "Dragel" "Sylar" "Kieron"
-				"Vamnesa" "Meloth" "Janeon" "Laeven" "Molos" "Alil" "Weyra" "Saleth" "Renassa" "Thelia" "Vesrin"
-			}
-			regnal_second_names = {
-				"Anoleis" "Kirrahe" "Vorleon" "Rentola" "Linron" "Saleon" "Imness" "Bau" "Holin" "Tolan" "Heplorn" "Avot"
-				"Solus" "Hanok" "Uwan" "Dalu" "Chalben" "Dezen" "Girlan" "Gaezik" "Olorn" "Oponi" "Eluso" "Tozeni" "Aerajii" "Ehei"
-				"Esheel" "Valern" "Wiks" "Vass" "Ochren" "Gurji" "Inoste" "Sanak" "Rellan" "Chaerson" "Todrok" "Chinak" "Toson"
-				"Jath" "Nemor" "Kelarn" "Voren" "Sural" "Paelor" "Tirvass" "Weyr" "Darven" "Kasheen" "Meloran" "Nolavir"
+		}
+		notables = {
+			weight = 4
+			full_names = {
+				"Bel Anoleis" "Mordin Solus" "Maelon Heplorn" "Kallo Jath" "Padok Wiks" "Solik Vass"
+				"Captain Kirrahe" "Chorban" "Morlan" "Jaroth" "Ish" "Tazzik"
 			}
 		}
 	}

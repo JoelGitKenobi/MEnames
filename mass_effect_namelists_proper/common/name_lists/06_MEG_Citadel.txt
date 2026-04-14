@@ -1,0 +1,375 @@
+MEG_citadel = {
+	randomized = no
+
+	ship_names = {
+		corvette = {
+			"Saelovar" "Vaelune" "Teryssa" "Irassel" "Cyrathen" "Pheralys" "Thalenys" "Ariovyn" "Lysarune" "Veshalyn"
+			"Tiravelle" "Calystrix" "Norevyn" "Ilythara" "Selyvora" "Pelaryth" "Shaelorin" "Viretessa" "Rhenalyx" "Kelanthis"
+			"Aevorith" "Myralune" "Yserraen" "Thesalyx" "Liraveth" "Celestrax" "Naeloria" "Delarune" "Pheravyn" "Ulasyth"
+			"Raevalyn" "Vyraleth" "Asterene" "Nymoriel" "Saelorix" "Iravelle" "Velathys" "Cyranthis" "Lethavyn" "Tessanor"
+			"Yelolar" "Ereeral" "Cervekvelos" "Avoisis" "Cold Axiom" "Paevak" "Loravol" "Renalvalvor" "Jorovrikvar" "Scarlet Canal" "Ashsarvak" "Paeielivan"
+			"Elisorvor" "Velivvak" "Kelevven" "Xevtenaxarn" "Discrete Shelf" "Halvakoth" "Tarivor" "Halaltalorn" "Selsorrakvak" "Aeltalthalul" "Bersorinan" "Rational Measure"
+			"Voron" "Toron" "Tarovosil" "Dry Secret" "Aervekaxvel" "Uleenval" "Larek" "Merulel" "Ralvoron" "Jorsarrokan" "Ralthalik" "Aerek"
+			"Nalenen" "Waevelas" "Tidal Span" "Ralel" "Yorvaker" "Loralas" "Yorrethol" "Open Framework" "Olorinvak" "Heltenas" "Halor" "Merenralol"
+			"Galoth" "Zoron" "Coastal Marsh" "Cold Model" "Goreon" "Nalarn" "Aelvelorn" "Zaeivan" "Ulrrokass" "Harix" "Sorrakin" "Firvekarek"
+			"Malsarok" "Eliilol" "Vorielev" "Zorethir" "Oloael" "Aririkix" "Ralelev" "Waeoleon" "Halrokek" "Nalrinon" "Uleovrethval" "Yorielos"
+			"Ralak" "Torronvakvor" "Talvorev" "Nalureth" "Rapid Index" "Loralek" "Fenvalas" "Laeonial" "Austere Secret" "Firvarvek" "Talielis" "Sorovix"
+			"Maliaur" "Zero Wetwork" "Helvorev" "Pelarul" "Belosass" "Peloril" "Talanum" "Arieth" "Drevel" "Belinomorn" "Darirol" "Elivorum"
+			"Helinel" "Berronune" "Halrokum" "Vorel" "Vorvekik" "Elieral" "Baeaxirak" "Subtle Undertow" "Jaeorev" "Torikvak" "Aelevrikur" "Coraxvelel"
+			"Tarisal" "Vorvalulix" "Westhalarn" "Larorvor" "Aerielivvor" "Ceravorel" "Hidden Estuary" "Aerrenev" "Darraleon" "Faliven" "Zorororn" "Elirether"
+			"Zorovak" "Kaeirorn" "Ablative Doctrine" "Velsarak" "Valorael" "Yoriltarval" "Binary Spiral" "Delinar" "Yelerval" "Ithokrokoth" "Belilor" "Dartalronir"
+			"Corek" "Kelielor" "Yoriveth" "Erevor" "Lucid Facet" "Corveloker" "Uleos" "Kaeereth" "Yelosoth" "Brisk Measure" "Xevethokok" "Waevarval"
+			"Ulrolvelas" "Kelenal" "Halonul" "Dry Registry" "Uleinaros" "Steady Node" "Yoranum" "Varronen" "Coralvak" "Exact Filter" "Civic Framework" "Cerenvek"
+			"Helralix" "Harivel" "Halikak" "Xalonelol" "Seltarvek" "Certarrethev" "Tevil" "Cerivivev" "Terse Wake" "Xevovvor" "Varilik" "Delulin"
+			"Elivoroth" "Waeoros" "Gorrenralol" "Measured Vector" "Grey Index" "Selokrokune" "Ithavvorvel" "Zero Kernel" "Yoril" "Renroneon" "Swift Tide" "Xevrinass"
+			"Filtered Model" "Zaeovvel" "Jaerolel" "Laeraketh" "Pelval" "Laerinvek" "Deep Vault" "Ulruriveon" "Avoan" "Ithvelronal" "Sarilalol" "Dreivak"
+			"Grey Boundary" "Grey Doctrine" "Cerval" "Elirikin" "Zaeeth" "Uleokvarune" "Glass Node" "Orvavak"
+			"Letounllur" "Aedinor" "Magfindbir" "Raydiat" "Geces" "Vadsciaval" "Gerproden" "Cipner"
+    		"Qupalav" "Derlac" "Anaswac" "Sskoles" "Iduhvan" "Sahoc" "Goxinulad" "Garnnen"
+    		"Mutonur" "Vvaleros" "Hctanan" "Lirinar" "Feden" "Phettelis" "Litgdan" "Vuropgtiin"
+    		"Spaakiten" "Vinvelacur" "Caeblpoker" "Potlurlad" "Actalec" "Gaelgin" "Walcipulur" "Froellil"
+    		"Dilkun" "Prereil" "Aquemun" "Caaporlas" "Laifar" "Uverarin" "Mphesahar" "Vvlotar"
+    		"Tririux" "Irtellas" "Eterix" "Gonon" "Sapdudor" "Hirphor" "Lintedos" "Reggrir"
+    		"Cirempin" "Vuhtacis" "Queptastan" "Irvrir" "Tuciper" "Edlvon" "Dindtos" "Taler"
+    		"Luptoviber" "Vebracarin" "Vamdri" "Mecalal" "Glatern" "Entaeran" "Gotledir" "Lithon"
+    		"Chenmas" "Vviadrer" "Borcular" "Letimon" "Geanoreris" "Leritis" "Seprin" "Ralzunis"
+    		"Degelrir" "Igiaraser" "Gesuryx" "Ervanponad" "Rdraptar" "Poaruc" "Irvolaner" "Relakin"
+    		"Sururvol" "Whdihdloin" "Muclorax" "Sqeraxyx" "Navltur" "Lakix" "Pravin" "Iroirac"
+    		"Kaldbeitil" "Junfiner" "Kassen" "Inledron" "Kiyrekal" "Rosvax" "Irrikur" "Gskeltten"
+    		"Muedrix" "Tiheron" "Kurndecor" "Urntix" "Ciaxur" "Naluen" "Etaxrar" "Nodcrur"
+    		"Havewtnial" "Tracin" "Laarsex" "Gemenen" "Pahasran" "Firex" "Oginibyx" "Adictec"
+    		"Tacusanal" "Caastoc" "Nertetikix" "Dienis" "Inbastin" "Repatren" "Enridor" "Ticlarun"
+			"Jelevr" "Vokos Wuesv" "Tel Nt" "Sev Dr" "Jeraurun" "Tamvroofor" "Cherk Arnek" "Kollo"
+    		"Ru Kell" "Cheell" "Jo Vors" "Vo Anon" "Bekel Pele" "Ven Ress" "Tels Vesha" "Pe Ab"
+    		"Berva Domar" "Yarr Vare" "Durskemar" "Korru"
+
+		}
+
+		frigate = {
+		    "Cilinanus" "Janyigadun" "Iriktikictos" "Mansaheran" "Agesiqumus" "Halegptinir" "Chonumus" "Cauganian"
+    		"Edanax" "Choglairid" "Hieshara" "Perlopnar" "Cnaternaris" "Ravrunaten" "Orlacinus" "Retbutis"
+    		"Dotodaradian" "Hexelem" "Newnlorgara" "Droliara" "Gavictuctus" "Arnunumas" "Quaciurppian" "Lulurax"
+    		"Igplesir" "Insensinus" "Setriomen" "Koromorsara" "Enntereran" "Racizo" "Maehrkuvian" "Horrcalor"
+    		"Edodonictus" "Esaeri" "Ultirkinus" "Raodlotin" "Coctenus" "Vebiempan" "Varlrixian" "Fuponi"
+    		"Hgrotanirin" "Dreginir" "Lurmarira" "Lagbabalbrus" "Gorethaera" "Bresvilatis" "Chobolanuria" "Cadonix"
+    		"Kalara" "Fleparis" "Geurasir" "Getarimax" "Rohavaera" "Ehdpersin" "Metedria" "Benellanin"
+    		"Lorharolgix" "Ganasax" "Quivenaria" "Inbesor" "Lasastius" "Accutlveomax" "Catriduvar" "Prapersan"
+    		"Orapodis" "Cgaelileron" "Hosqetugebar" "Kinuron" "Inrderior" "Avtalvunian" "Pepversotin" "Tothutus"
+    		"Sednamar" "Secravunmik" "Mugturenus" "Icejurian" "Tetugihoban" "Domlanax" "Elnrensian" "Fuikhinoria"
+    		"Oraria" "Cahyfan" "Idunenus" "Ertmarira" "Cvropibanian" "Reipanir" "Rodurtaun" "Furhavara"
+    		"Sovenlienos" "Dvarridon" "Reledra" "Solnaadomid" "Cicaria" "Inertid" "Posriararia" "Rodpinthinax"
+    		"Cadavaera" "Smadaramik" "Vadiratus" "Vununiril" "Kaslidin" "Loniotkrokin" "Carkulur" "Erlumian"
+    		"Catimun" "Msideedrin" "Tirlinedior" "Maxakpasaera" "Arcierius" "Fothtalix" "Nthilurian" "Gyirili"
+    		"Ramarira" "Vercalil" "Darburia" "Fararax" "Ursaemes" "Gripimutetax" "Dphianeron" "Ihotonsinan"
+    		"Hiimusun" "Dinmaroria" "Mugasinmun" "Cazarionus" "Lataocriol" "Dohistrenon" "Vadretrar" "Gysahara"
+    		"Ulranrties" "Murvenaria" "Traellaris" "Trunerix" "Seadasic" "Vadpruinen" "Meurotur" "Muinrmion"
+    		"Meenllius" "Meusesimior" "Tiradous" "Manlotis" "Inular" "Restivar" "Cairraerax" "Armupotes"
+    		"Scuneson" "Skmenchar" "Ihcteran" "Qtonmonon" "Tevorin" "Sepgiora" "Asawir" "Vakegis"
+    		"Aursruabin" "Samovi" "Redendes" "Maepoidus" "Meroriraris" "Bregimentir" "Ranaraa" "Caisahar"
+    		"Kastablin" "Daakenus" "Ertperon" "Gykargendvax" "Ksrilara" "Vebdidmux" "Senmuran" "Litutatvicin"
+    		"Jopkorpak" "Rodcsaris" "Benataria" "Imilmosmer" "Iginik" "Neineron" "Surtikun" "Conatis"
+    		"Kutruxonisar" "Sebirunus" "Meavdawirius" "Asnangpunnen" "Uvaumor" "Poepderan" "Kokunus" "Gyderyd"
+    		"Perjuran" "Uvakrsinuk" "Raegepdvaka" "Perppapoder" "Sestardun" "Qusdincolior" "Seviniror" "Cinosax"
+    		"Fitalian" "Deebucer" "Ularia" "Foeranun" "Jokuraera" "Hacova" "Asteralo" "Xamaroria"
+    		"Lileenimus" "Chegnuperon" "Tilvatus" "Refoder" "Irucorin" "Lonaudan" "Colalopwin" "Racensos"
+    		"Nyacireran" "Edlentas" "Delctadrius" "Halautiys" "Rodeofunitil" "Sktotara" "Firuitocorid" "Husorin"
+    		"Fousoleron" "Savanpadir" "Patbirunoris" "Jutidmusir" "Adrcalan" "Abcruvaera" "Ageckwiluon" "Mrrehrkius"
+    		"Coponin" "Nihaeprorlin" "Dumsarinin" "Tipretuan" "Chidvlilkoc" "Onteren" "Epteruan" "Vatiarivar"
+    		"Qutovonkin" "Antninaris" "Sandavara" "Kaspindus" "Iraxecatus" "Kaetikes" "Botpurroon" "Prehucker"
+    		"Searririan" "Untratus" "Rasineikis" "Actrimara" "Botludinus" "Vendicaris" "Varslinic" "Cakinorin"
+    		"Oslesin" "Ckoroldvecan" "Euvenor" "Pohavaria" "Mxasonimax" "Valdasimax" "Racsipdel" "Rytenian"
+    		"Letiuvis" "Floslidud" "Reorasik" "Feographeran" "Razaecid" "Aurnason" "Iraurminus" "Lildebegom"
+    		"Exarpenus" "Prurelior" "Forhnociax" "Heidininus" "Ikrimetyveyn" "Hirazurin" "Poptiviar" "Adineron"
+    		"Hiehyfus" "Egnhorin" "Judpetdlor" "Ledorgvid" "Hetxenonen" "Valadonara" "Rebilyan" "Erudoniron"
+    		"Cnalorion" "Essxubucatus" "Exuanheatad" "Vegilorian" "Keseedrimax" "Dvinheror" "Vigliolnan" "Peraria"
+    		"Poudaran" "Vigulin" "Valvenaera" "Raynonludin" "Urctusus" "Tetaner" "Hosmorora" "Gerodax"
+    		"Ratensior" "Spheyxosus" "Eushara" "Lenkesendus" "Indvenara" "Cnahfigdamus" "Resmiutavian" "Hgesutas"
+    		"Fiecsorum" "Nendtararian" "Lassandninax" "Patodirnara" "Raronian" "Abrvenaria" "Racoizin" "Kotherilinax"
+    		"Esenux" "Curonar" "Sepldonin" "Murorsi" "Adrdorast" "Lateunciara" "Titdasys" "Meagilivar"
+    		"Vyriximuctol" "Baratuslis" "Kascartic" "Qurenadira" "Cvahavaria" "Prpanenus" "Undignelenix" "Theroris"
+    		"Adiftis" "Domonaria" "Coiruron" "Nazudukor" "Ikrtepdsaan" "Gorvenaria" "Osporonius" "Vimarira"
+    		"Sinaranlius" "Briakwtamus" "Vamrvatus" "Kehrponorin" "Sanstininus" "Agaria" "Preriomor" "Tehdreri"
+    		"Uraviinplur" "Irntenorias" "Syilinicidan" "Vigshara" "Ilelinenus" "Asocad"
+			"Cohorevar" "Rvekvenor" "Nemeunun" "Dskakniovar" "Tnremalen" "Lutoriken" "Allyarntuor" "Tunaor"
+    		"Yvrerrsaran" "Battik" "Grneruvesh" "Esumrvaen" "Osskekjori" "Gejessar" "Gendornineri" "Landinedor"
+    		"Tovunor" "Rukelmen" "Rocvracawruv" "Reuvrafun"
+		}
+
+		destroyer = {
+			"Avenerix" "Caelthys" "Norellis" "Vaestrin" "Tiravale" "Pheriona" "Lunareth" "Saelovarix" "Kelunis" "Ariovex"
+			"Virellan" "Cyranor" "Myralunor" "Teyvorn" "Shaelaris" "Rhenovar" "Ilyssan" "Pelorix" "Nymareth" "Aesthor"
+			"Valystrix" "Selarune" "Delythan" "Ysavor" "Maelrion" "Theraven" "Elaraxis" "Nysalore" "Raethoris" "Lyravon"
+			"Caelarys" "Pherithon" "Avenissa" "Kelathor" "Viraneth" "Sorellia" "Ulareth" "Celenor" "Mirethon" "Tessarix"
+			"Saelithon" "Ariovarax" "Lethyron" "Nyxalor" "Velathon" "Raevannis" "Pelasor" "Cyraneth" "Thalorix" "Iriavor"
+			"Eudsidraa" "Lupsatanus" "Eudionia" "Seillanal" "Eudrdarar" "Kaebiraritua" "Sepllanrur" "Irunlininer"
+    		"Iglinul" "Gadjunimus" "Ignluritac" "Eutinriusen" "Furdariirin" "Adjtacir" "Iraanadioxur" "Kavarepnlir"
+    		"Murovaritil" "Qulilin" "Floaturitis" "Cicoctin" "Floctimir" "Caegiparia" "Adjsatum" "Varlgilinil"
+    		"Prooregin" "Darodiorar" "Gentacemun" "Senoranaelum" "Adjcaunam" "Kasuaturedum" "Viblotar" "Lupunar"
+    		"Cicpirtacin" "Potjunis" "Calrotan" "Fldarakatis" "Gaavibaemuc" "Muruqendes" "Ireganlin" "Vaupirion"
+    		"Vibsmiuranis" "Cregaeda" "Hedarmiar" "Seretitionid" "Qfurencun" "Murncurias" "Pofurtvenus" "Gasignacam"
+    		"Selinnrin" "Seipodilun" "Sevibnrin" "Mulinix" "Heelinus" "Regratun" "Veruignacias" "Cadjunanus"
+    		"Igntione" "Lupepdasar" "Potllanine" "Elupdor" "Quvarsatad" "Beelinen" "Indjotios" "Cicumalion"
+    		"Belsaturilin" "Fulinis" "Elinon" "Garmurpirin" "Furrinion" "Ignculusian" "Capvaran" "Eluquinritis"
+    		"Karilin" "Dcardarix" "Poslotir" "Cavibilia" "Senlinucusin" "Cacallinul" "Irapdar" "Luadjpirin"
+    		"Eudtactionon" "Beloginithia" "Elellinia" "Eudprotpodon" "Cnaapodetal" "Cinrional" "Vhortlinin" "Senunian"
+    		"Vposaril" "Cadarak" "Herluvarec" "Beudonar" "Iralin" "Kassenatu" "Irposatana" "Vidarilen"
+    		"Hlineriid" "Cirakon" "Vernition" "Dargnacal" "Adjolinom" "Pcalosmion" "Heilpomonum" "Horculpodor"
+    		"Hproterii" "Icaenrya" "Mapirion" "Velsmulus" "Seidarakos" "Kanlinus" "Ponlinu" "Kastaciux"
+    		"Posnlinris" "Ignmuriis" "Capnacu" "Pocaesmis" "Cnriontionos" "Poilinan" "Kalpodenus" "Podarakin"
+    		"Selpoden" "Vrrelinir" "Sencensox" "Vibutonar" "Momurrmor" "Ignnacux" "Popiridran" "Senjunidun"
+    		"Regolionan" "Henranus" "Adjvilan" "Caltacal" "Vibjunilpun" "Vejuniratian" "Lulinvarer" "Kagalsatumal"
+    		"Horgintenum" "Vanlinion" "Mocalrmux" "Cnailiniomid" "Vemlinir" "Varjunsmiun" "Flolinea" "Mudariar"
+    		"Quilpodosos" "Belfurlanion" "Eluosmonia" "Ignotenios" "Lopseniris" "Iraopanon" "Cardaral" "Indsiria"
+    		"Vllelinion" "Celposedonun" "Calniopiris" "Genlulinan" "Fupodonin" "Cicnaculus" "Caindrinin" "Caateginus"
+    		"Kapdrilin" "Igailinus" "Irager" "Cranlinenus" "Iraemun" "Sepgnacuaron" "Helinum" "Ciccesin"
+    		"Qanrilin" "Inlanirar" "Mapodoirdan" "Kasnlirarion" "Capyrin" "Dsenardaron" "Eupodosanar" "Kaadjemun"
+    		"Eucapdonius" "Eugielinuon" "Kalinix" "Hurpodtenur" "Malinatis" "Kaslinic" "Cabirtion" "Hordadartua"
+    		"Proraremun" "Rerdaretin" "Proinaimusum" "Madcarar" "Elumgintvun" "Epodudon" "Hopodolina" "Fltilinion"
+    		"Garepdmonrur" "Veudonion" "Cnretiilin" "Vellinimus" "Mulpodnoros" "Gatvarinil" "Kainacapirun" "Cappanuus"
+			"Korellik" "Hunterdrik" "Nihlvek" "Ehehivek" "Vollacek" "Jrvoraodar" "Pthevnaokan" "Mshelaodar"
+    		"Vthorevivash" "Mezhrienar" "Tonevek" "Bolloren" "Vevshaikor" "Karkmeaktor" "Karollor" "Mekvandan"
+    		"Gacskamiikor" "Tvemoodar" "Rovveshvek" "Ethaelvello"			
+		}
+
+		cruiser = {
+			"Asteraen" "Calyphor" "Venerael" "Saelurion" "Ariovalis" "Pheraenor" "Myrathene" "Lethoriel"
+			"Cyravorn" "Velathenor" "Nyralith" "Tessarion" "Maelurex" "Shalaron" "Rhenalore" "Ilyssion"
+			"Pelavorn" "Thaenoris" "Celorant" "Avenoriel" "Lyrathene" "Saelivor" "Pheralor" "Caelithon"
+			"Mirevalis" "Nysaenor" "Delorath" "Vaelurion" "Kelarex" "Asterion" "Theravalis" "Ysandrel"
+			"Raeluris" "Cyraleon" "Virelith" "Ulathene" "Letharion" "Maeloris" "Selenovar" "Iriavorn"
+			"Pedasurion" "Norelith" "Teyralon" "Aevoriel" "Rhenavorn" "Celythor" "Myrasurion" "Pherandrel"
+			"Peraxesanis" "Edeabussa" "Rocnion" "Solebruris" "Baenvanion" "Vaeraron" "Digagloethe" "Meaetium"
+    		"Gehenae" "Perigliothe" "Taenvianium" "Tuocavoria" "Solgerirtessa" "Heintion" "Traelaveris" "Aeethenava"
+    		"Quaovianalon" "Thruceaxane" "Ciplian" "Gelielonaee" "Travaeus" "Nemeneia" "Appenesenaeus" "Rocssikoon"
+    		"Spapaedyranae" "Quanvorolos" "Roctruon" "Aenines" "Cortriane" "Turmenetrim" "Pheetonie" "Galtinireus"
+    		"Phebine" "Ederoran" "Geythiea" "Diimbia" "Goraceris" "Maciorononion" "Heenion" "Carlicinean"
+    		"Phetikthiuum" "Turvenalon" "Printonaenis" "Taedironis" "Palmoneus" "Trenmonunalon" "Taiavion" "Treaxoriea"
+    		"Appliloruon" "Rothena" "Digiogenonis" "Cictinenis" "Taecavalerune" "Gotmonikon" "Manelavae" "Taepheron"
+    		"Vaherena" "Quaeronarivea" "Solriuleryr" "Tevenetrine" "Idviaessordra" "Rocdesseon" "Dietrivea" "Gaedrbia"
+    		"Cirocegenesae" "Epcedoria" "Pretrenes" "Aealatbia" "Bosavine" "Taleria" "Tahailavea" "Vaebune"
+    		"Riocavoria" "Meaneroron" "Rocuneisora" "Treimava" "Paheipritonis" "Rotancavion" "Aviaephusikon" "Digutioneoa"
+    		"Aethaalatath" "Aeacioon" "Taorenaris" "Barebion" "Corglonis" "Aeebithe" "Banespadivea" "Tuetbia"
+    		"Banthine" "Vaepyretin" "Edracine" "Collessomeon" "Taeothenleus" "Cornikon" "Appmenian" "Pririalatavea"
+    		"Sygiazaenea" "Baelladirenes" "Vvenallia" "Ronaeunis" "Baatine" "Procavane" "Catruciirivea" "Qubiapolataon"
+    		"Gelvenian" "Epiithenakon" "Gamenon" "Betikonaven" "Dissatine" "Epenahanera" "Carutionuaon" "Cipnaon"
+    		"Heleadbia" "Athepheon" "Syekonoria" "Cissora" "Melaruriae" "Caadethaeon" "Aepllonilon" "Phmenes"
+    		"Rohenikon" "Tuthitrabia" "Aeomenanoria" "Citnurenathe" "Assephusora" "Cosperlleron" "Roturethenava" "Nimspenea"
+    		"Vaellion" "Gereraonbia" "Taeuronurum" "Menlatalaveaa" "Aeriuspus" "Turrioniaa" "Hinspea" "Predrotharena"
+    		"Gyenora" "Gelygurara" "Qucedrephoria" "Trmorian" "Qupaeassava" "Vaetrine" "Prikonaen" "Qularoneon"
+    		"Mepereris" "Aeimenes" "Dihenatadra" "Edavoriae" "Cithoria" "Bustrenes" "Priintea" "Galuveniabia"
+    		"Phephniven" "Gotavae" "Quhraavea" "Parbiathiuron" "Taphetrue" "Paltrin" "Aeleravena" "Phemonenes"
+    		"Epimenitian" "Valrebaeus" "Cianesine" "Taneseon" "Vaeirossa" "Tuolibia" "Panalavenivea" "Soracilon"
+    		"Talarora" "Genbiarulon" "Quaitaninian" "Gynaerocekon" "Citrimorae" "Turnean" "Edeetionouthe" "Tapaehussoria"
+    		"Tuphbianium" "Syaetikon" "Vtionleriris" "Tllaetrua" "Caaetenes" "Phehukokon" "Gecipribhanem" "Tupyrivea"
+    		"Aaephan" "Edsororia" "Epygine" "Bodidbia" "Epaedaven" "Baavenion" "Ditoncathbia" "Edathron"
+    		"Gtionelliva" "Hetinivea" "Taarthine" "Hesovenosena" "Phaeroris" "Taerith" "Tumorine" "Goixion"
+    		"Gaespeth" "Maebonis" "Soostreris" "Trsorian" "Thebikon" "Baemoririlin" "Phririae" "Aeporinthenee"
+    		"Vavorviae" "Gyessoreon" "Goyglora" "Roviperheon" "Aptikine" "Healatan" "Galvanateia" "Soavenanis"
+    		"Edalation" "Geauros" "Pappathivea" "Maecehdora" "Thimororia" "Aehansoobia" "Taperum" "Soarikon"
+    		"Treudane" "Cipcedrena" "Comenthiura" "Vaviallonis" "Valdraeriaan" "Aepymeronae"
+			"Sakraevor" "Dtharaesadenor" "Cthaarionaeran" "Diothasoran" "Malve Shallos" "Rue Ellidin" "Syendorovar" "Rulorlenor"
+    		"Vurovanilan" "Serallinoris" "Breeleikar" "Moarnikven" "Elelkosvesh" "Jossuris" "Tuvsvekan" "Hasreran"
+    		"Esokekan" "Mali Valeosca" "Nolollavar" "Krertuelor"
+		}
+
+		battleship = {
+			"Asterion Halo" "Lucent Conviction" "Radiant Suzerain" "Silken Aegis" "Vaelorian Grace" "Calystral Dawn" "Nyxaran Vigil" "Pheravian Crown" "Elysian Mantle" "Luminous Paragon"
+			"Serene Dominion" "Empyreal Oath" "Aureate Memory" "Resplendent Envoy" "Celestial Mandate" "Silver Magistrix" "Harmonic Scepter" "Auralith Prime"
+			"Vesper Diadem" "Thessian Reverie"
+			"Maxgnosinar" "Rasarvenlor" "Spacturikar" "Kvrosesh" "Leelnlor" "Julkdomieth" "Edurekar" "Vokkellor"
+    		"Tvessaelor" "Ornrenvador" "Retrrenaresh" "Vahleedmar" "Chattiegor" "Sthanior" "Lorniftuesh" "Cheskrosianor"
+    		"Moalvennor" "Azhventvoth" "Alaividor" "Tiiranor"
+			"Cyruissastalia" "Minethene" "Pehesymersyra" "Maeiareanilia" "Mirstielvara" "Itealiteitha" "Vaeysanine" "Zaeietheroayna"
+    		"Aeenethanssara" "Kyreathathane" "Loapnrassthene" "Ashiessaeha" "Rhenilyimene" "D'Sonitha" "Gelelliasira" "Gelyetheanavis"
+    		"Miroashydemira" "Talalorvela" "Delalythaemeri" "Zaeevessassyra" "T'Driririnna" "Kelthervoneira" "Alasela" "Elyzervoszeris"
+    		"Irliuninilyra" "Vasaelelia" "Laanith" "Irialeimessa" "T'Aeshalathene" "Cariaselene" "T'Pelazeris" "Kyrimenlethri"
+    		"Cybenehiairis" "Aesaysyvesyra" "Zaaraeis" "Tyrianoraianae" "Aveiressaisela" "Arthera" "Lyseivesselia" "Seloalialythae"
+    		"Aleiphiratalia" "Moerivelis" "Velphelis" "Aeriah" "Seaethena" "Saeiraesa" "Oseleliteissa" "Vaeaviraizeris"
+    		"Ariranaeresela" "Aeiaphaeosara" "Naesyr" "Ysalaneth" "Lalesnytavelis" "Vaeperetryna" "Iliaephiraera" "Voryiphireia"
+    		"Asheaviraithi" "Irilythi" "Celaenathis" "Aeonyronii" "Aesyrhalena" "Cealsyra" "Tyrelyraevsyra" "Miyheriris"
+    		"Nysiassaeleris" "T'Saelyilia" "Nyaelasyra" "Celraphira" "Aetrohlhalaa" "Thsiris" "Shaalaraphira" "Naeiarisazeris"
+    		"Secelith" "Caeiatharana" "Perevivalvela" "Ithushaennia" "Erielaeia" "Velezathnetha" "Virithaeis" "Taythethra"
+    		"Teyiyivela" "Vaeestessa" "Liriashaera" "Ysailyeera" "Laphorphessa" "Raarethene" "Itheannaeyrae" "Maechia"
+    		"Esaiseliana" "Saiinaezeris" "Myrriaris" "Saraysilythe" "Seesyraris" "Vathnnathene" "Veysalortesha" "Aeisiaphira"
+    		"Maeheelaraeis" "M'Thalalyi" "Molezpezeitha" "Phaeria" "Tyrathiarira" "Visyrazeris" "Tlollidemira" "Ialeilyriavara"
+    		"D'Raeva" "Lyialythe" "V'Maephrinna" "Nylavneth" "Vaeilyruityss" "Mirianeasena" "Raeiazaemeth" "Eriinethuinora"
+    		"Irieneasheth" "Cetsselaryria" "Selephiesith" "R'Talyrvela" "M'Talyrvessa" "Nailitasuneth" "Maeerisas" "Aephiralyra"
+    		"Daeilyierethe" "Selitheamelia" "Telyasela" "Eseipanaelis" "Delieyilthneth" "Cyrelly" "Raveavaextaris" "Sebtrensyra"
+    		"Daeelyinoreth" "K'Lyraria" "Kyros" "Shesyra" "Elavaelyrasha" "Nyilitapethene" "Peevarisitha" "Ithraphtalia"
+    		"Aenah" "N'Alerilavessa" "Vaaleirisizia" "Kylae" "Ysasethene" "Laeilythimaris" "Viryailoris" "Pephezeris"
+    		"Shsamerzeris" "Satbaevarasha" "Thkanlorsyra" "Naerivena" "Kiranarisalyra" "Peselyssiaa" "Saeercheris" "Aerostesha"
+    		"Nytoranllivela" "Ravaevytherith" "Teyemirisilyth" "Siaelayilyra" "Aeasusava" "Ysaanas" "Calaesaselene" "Celmariyaine"
+    		"Penessela" "Elyaviraei" "Iriishaene" "Lypnaorvessa" "Arssilyra" "Naeeshiezerith" "Ashaethareania" "Calialyrunaith"
+    		"Cyrioshanoreth" "Sehaerassina" "Velieshith" "Osesavith" "Faereldessa" "T'Nysine" "Ariinnesalythe" "Celiseinmera"
+    		"Lyriviraieneth" "Zaiazeris" "T'Gelasvela" "Zaeysovara" "Gemeryadeloria" "Miyrendemira" "Ithayrreine" "Satenzeris"
+    		"Ariayilira" "Sonhesyra" "Talinethaeha" "Keleshaerinna" "Thepnazoairis" "Iliiviraivessa" "Osetirlariris" "Cialaeseranthe"
+    		"Peleillianlira" "Keliphoritha" "Loniriaelis" "Terekzerivela" "Aesetheineth" "Calliteplyra" "Yshaeshiressa" "Saasialyra"
+
+		}
+
+		titan = {
+			"Destiny Ascension" "Radiant Convocation" "Empyreal Witness" "Serene Imperium" "Lucent Apotheosis" "Eminent Horizon"
+    		"Concord of Serpents" "Presidium Ascendant" "Convocation Meridian" "Warden of Zakera" "Conclave of Kithoi" "Bachjret Ascendant"
+			"Tayseri Exemplar" "Embassy Harmonic" "Meridian Arbiter" "Serpent Diadem" "Council Meridian" "Arc of Consensus"
+			"Custodian Zenith" "Silversun Mandate" "Widow Concord" "Wings of Fortune"
+		}
+
+		colossus = {
+			"Judgment of Stars" "Final Illumination" "Celestial Verdict"
+		}
+
+		science = {
+			"Aevessa" "Cyrabelle" "Lethari" "Nymessa" "Peloriax" "Shaelune" "Tiravex" "Vaelorinel" "Quiet Meridian" "Luminous Surveyor"
+			"Signal Crown" "Ward Navigator" "Serene Vector" "Transit Lattice" "Relay Seeker" "Measured Aperture" "Civic Spectrum" "Aster Probe" "Lucent Drift" "Keystone Inquiry"
+		}
+		colonizer = {
+			"Presidium Venture" "Zakera Horizon" "Kithoi Foundry" "Tayseri Lantern" "Bachjret Passage" "Aroch Beacon"
+			"Embassy Venture" "Ward Pioneer" "Serpent Settlement" "Transit Homestead" "Forum Landing" "Arcadia Warden"
+			"Meridian Charter" "Silver Reach" "Customs Wayfarer" "Spire Landing" "Civic Threshold" "Relay Newhold"
+		}
+
+		constructor = {
+			"Keloriax" "Myravex" "Saelorin" "Virella" "Teyrion" "Nysalara" "Cyradene" "Avenora" "Pheralyn" "Rhenovarix"
+			"Framewright" "Civic Mason" "Orbital Lattice" "Station Binder" "Hull Artisan" "Spanmaker" "Keelwright" "Arc Builder" "Aster Foundry" "Lumen Crane"
+		}
+
+		transport = {
+			"Avenara" "Selythor" "Iriavel" "Norethis" "Cyravelle" "Ward Shuttle" "Embassy Courier" "Relay Skipper" "Serpent Connector" "Keel Transit"
+			"Presidium Ferry" "Forum Runner" "Spire Caravan" "Dock Lantern" "Arc Messenger" "Customs Lift" "Silver Causeway" "Market Passage" "Tower Conveyance" "Spectre Dispatch"
+		}
+	}
+
+	ship_class_names = {
+		corvette = {
+			"Patrol" "Interceptor" "Picket" "Screen" "Pursuit"
+		}
+
+		frigate = {
+			"Kinetic" "Stealth" "Hullbreaker" "Energetic"
+		}
+
+		destroyer = {
+			"Escort" "Guardian" "Warden" "Bulwark" "Response"
+		}
+
+		cruiser = {
+			"Line" "Missile" "Security" "Intervention" "Defense"
+		}
+
+		battleship = {
+			"Battlecruiser" "Carrier" "Attack"
+		}
+
+		titan = {
+			"Command" "Spectre Dreadnought" "Turian Dreadnought"
+		}
+
+		
+
+		colossus = {
+			"Strategic Platform" "Citadel Siege"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Council Response Fleet" "Council Patrol Fleet" "Council Watch Fleet" "Spectre Recon Fleet" "Widow Relay Patrol" "Citadel Customs Patrol" "Council Escort Fleet"
+		}
+		sequential_name = "$ORD$ Citadel Defense Fleet"
+	}
+
+	army_names = {
+		defense_army = { sequential_name = "$ORD$ C-Sec Tactical Unit" }
+		assault_army = { sequential_name = "$ORD$ Expeditionary Detachment" }
+		slave_army = { sequential_name = "$ORD$ Penal Labor Unit" }
+		clone_army = { sequential_name = "$ORD$ Citadel Clone Unit" }
+		robotic_army = { sequential_name = "$ORD$ Security Mech Group" }
+		robotic_defense_army = { sequential_name = "$ORD$ Defense Mech Group" }
+		psionic_army = { sequential_name = "$ORD$ Spectre Support Unit" }
+		xenomorph_army = { sequential_name = "$ORD$ Emergency Containment Unit" }
+		gene_warrior_army = { sequential_name = "$ORD$ Citadel Marine Unit" }
+		occupation_army = { sequential_name = "$ORD$ Ward Stabilization Unit" }
+		robotic_occupation_army = { sequential_name = "$ORD$ Occupation Mech Group" }
+		primitive_army = { sequential_name = "$ORD$ Civic Guard" }
+		industrial_army = { sequential_name = "$ORD$ Infrastructure Guard" }
+		postatomic_army = { sequential_name = "$ORD$ Defense Response Unit" }
+	}
+
+	planet_names = {
+		generic = {
+			names = {
+				"Presidium Ring" "Presidium Vista" "Presidium Heights" "Presidium Terrace" "Presidium Causeway"
+				"Zakera Market" "Zakera Exchange" "Zakera Transit" "Zakera Terrace" "Zakera Promenade"
+				"Kithoi Plaza" "Kithoi Commons" "Kithoi Exchange" "Kithoi Heights" "Kithoi Walk"
+				"Tayseri Junction" "Tayseri Crossing" "Tayseri Forum" "Tayseri Market" "Tayseri Station"
+				"Bachjret Commons" "Bachjret Plaza" "Bachjret Terrace" "Bachjret Transit" "Bachjret Arcade"
+				"Aroch Terrace" "Aroch Forum" "Aroch Station" "Aroch Exchange" "Aroch Promenade"
+				"Shalta Arcade" "Shalta Market" "Shalta Promenade" "Shalta Terrace" "Shalta Walk"
+				"Embassy Row" "Embassy Terrace" "Embassy Forum" "Embassy Junction" "Embassy Walk"
+				"Tower Plaza" "Tower Crescent" "Tower Junction" "Tower Forum" "Tower Arcade"
+				"Silversun Strip" "Silver Coast" "Tiberius Towers" "Flux District" "Dark Star Plaza"
+				"Keel Docks" "Huerta Plaza" "Gaeron Gardens" "Auxua Arcade" "Edroki Court"
+				"Larathos Walk" "Mid-Ward Exchange" "Factory Ward" "Docklight District" "Serpent Overlook"
+				"Widow Station" "Widow Gate" "Serpent Gate" "Transit Hub" "Meridian Walk"
+				"Forum Line" "Arcade Nine" "Crescent Exchange" "Harbor Terrace" "Central Promenade"
+			}
+		}
+	}
+
+	character_names = {
+		default = {
+			weight = 100
+
+			first_names_male = {
+				"Chorban" "Kendo" "Telon" "Edorth" "Schells" "Esheel" "Todrok" "Rellan"
+				"Vass" "Inoste" "Jath" "Kelarn" "Voren" "Talor" "Weyr" "Tevar" "Saelor" "Kelvorn"
+				"Narvik" "Pelor" "Garen" "Vesik" "Toran" "Jesor" "Leran" "Maevik" "Coren" "Selvik"
+				"Darven" "Nelor" "Parik" "Rethor" "Salen" "Tervik" "Ulren" "Varok" "Welor" "Xeran"
+				"Yevis" "Zoren" "Ammek" "Belor" "Caevin" "Dorel" "Ervik" "Fenor" "Galen" "Helorn"
+				"Etarn" "Tonn" "Elanos" "Irix" "Joram" "Rolan"
+				"Razun" "Iustinix" "Extan" "Serus" "Titrinus" "Janus" "Ulrixen" "Teheris" "Derius" "Vertin"
+				"Hexnar" "Gradius" "Ternitus" "Faros" "Elgus" "Jaxum" "Salur" "Ferrus" "Marnek" "Pratur"
+				"Actin" "Sareko" "Cheros" "Tusi" "Lorir" "Teras" "Fedorian" "Adrastus" "Septien" "Corian"
+				"Corvin" "Maleran" "Tavros" "Jelvik" "Nerys" "Phaedor"
+			}
+
+			first_names_female = {
+				"Iriaven" "Averaen" "Celyth" "Vaelorin" "Nymarae"
+				"Tessorin" "Saelune" "Myravor" "Pheralen" "Cyraveth" "Iralune" "Rhenavor" "Kelanore" "Thalenis" "Asterian"
+				"Lyravelle" "Naevora" "Delarien" "Ulathis" "Virelune" "Teyravel" "Calyndra" "Pelasorin" "Shaelarae" "Vaelisse"
+				"Ariovelle" "Norevessa" "Myralith" "Selenor" "Darevyn" "Jesanor" "Toralune" "Pelaveth" "Relyssa" "Avenor"
+				"Vesalyth" "Maelorae" "Tyralyn" "Coraveth" "Lethoris" "Nysariel" "Kelavorn" "Virethis" "Ulaveth" "Rhenoris"
+				"Cyralune" "Taeloria" "Seravyn" "Pheranor" "Mireveth" "Joravelle" "Saelanis" "Neralune" "Teralis" "Vassoria"
+				"Caelavor" "Lyrathis" "Elyndor" "Pelasune" "Thessanor" "Velorene" "Naevaris" "Ilyraen" "Daralyth" "Avenelle"
+				"Myravorn" "Shaeluneh" "Sparia" "Valorae" "Tevaris" "Melanthis" "Celesvor" "Ysanelle" "Rhevoria" "Velysande"
+			}
+
+			second_names = {
+				"Eshelor" "Inostev" "Sanak" "Rellavos" "Todrass" "Chinak" "Toson" "Nemor"
+				"Kelaris" "Voranis" "Sural" "Paelor" "Tirvass" "Weyran" "Darveth" "Kasheen" "Meloran" "Nolavir"
+				"Tevarn" "Saelros" "Kelvass" "Narveth" "Peloris" "Garovin" "Vesoran" "Torveth" "Jesaran" "Leravin"
+				"Maevarn" "Coravis" "Seloran" "Neloris" "Paravos" "Rethanis" "Saleron" "Tervanis" "Ulrevos" "Varanis"
+				"Weloran" "Xeranis" "Yevoran" "Caevoris" "Dorevax" "Ervaris" "Fenaris" "Galeron" "Helovar" "Irvek"
+				"Nazario" "Kuril" "Coronati" "Talid" "Quarn" "Davaria"
+				"Kandros" "Sahira" "Fedoran" "Corinthus" "Haron" "Valterus" "Valen" "Scartos" "Saneraxis"
+				"Hanus" "Partinax" "Relius" "Yahirix" "Tertius" "Septimax" "Machaera" "Dianix" "Iheras" "Satorim"
+				"Ravidus" "Daphnon" "Nyrek" "Korilius" "Irvinus" "Siyan" "Iherax" "Sycoram" "Septimas" "Quentiys"
+				"Ursinus" "Paramon" "Darikun" "Latronus" "Korlick" "Patathor" "Vadus" "Genchak" "Ixiri" "Raedun"
+				"Rubicum" "Bartus" "Egnadus" "Castellan" "Varro" "Tetranus" "Corvinus" "Palatin"
+				"Dantor" "Regovar" "Axurel" "Corvenis" "Thoravel" "Selemor" "Nyxavor" "Shessan" "Thessavar" "Ressavar"
+				"Teyanor" "Artanor" "Shianor" "Lijavar" "Thanver" "Pesaran" "Sedoran" "Conareth" "Helivar" "Calior"
+				"Iessar" "Artavor" "Sarovar" "Losivar" "Vanovar" "Shilovar" "Iallor" "Sederan" "Thanor" "Calivar"
+				"Therovar" "Damorin" "Louren" "Sanavor" "Aridel" "Henovar"
+			}
+		}
+
+		notables = {
+			weight = 4
+			full_names = {
+				"Tevos" "Sparatus" "Valern" "Donnel Udina" "Armando-Owen Bailey" "Venari Pallin"
+				"Decian Chellick" "Jondum Bau" "Nihlus Kryik" "Saren Arterius" "Septimus Oraka" "Orinia"
+				"Anita Goyle" "Khalisah al-Jilani" "Emily Wong"
+			}
+		}
+	}
+}

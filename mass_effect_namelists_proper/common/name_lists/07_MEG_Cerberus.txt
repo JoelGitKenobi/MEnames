@@ -1,0 +1,107 @@
+MEG_cerberus = {
+	randomized = no
+
+	ship_names = {
+		generic = {
+			"CSV Elbrus" "CSV Phoenix" "CSV Mindoir" "CSV Akuze" "CSV Shanxi" "CSV Elysium" "CSV Concord" "CSV Lexington"
+			"CSV Phncorde" "CSV Elbriras" "CSV Elycordis V" "CSV Sharosetanos" "CSV Probereon Prime" "CSV Heriondoror II"
+			"CSV Profalaus" "CSV Helionlixas Vigil" "CSV Lexrosnaxon" "CSV Aslasanus" "CSV Helthoneios" "CSV Certorabronos"
+			"CSV Therdraselan Prime" "CSV Calxonios" "CSV Elbronus" "CSV Areusos" "CSV Orvareusor Vigil" "CSV Elythonethan"
+			"CSV Shanir" "CSV Aetorios" "CSV Mincronos II" "CSV Therxontoritanon" "CSV Akxios" "CSV Conlontelaix Vigil"
+			"CSV Promethos" "CSV Alethzaroionian" "CSV Helcronus Prime" "CSV Shanncorde" "CSV Pysaneusphoneon" "CSV Conerosos"
+			"CSV Helelmedaos" "CSV Tarelrionis II" "CSV Phothaltrion" "CSV Corsiumphonaon" "CSV Contririonor" "CSV Aeselus"
+			"CSV Praenoreusia" "CSV Telreonocronan" "CSV Conselor" "CSV Delberys Sentinel" "CSV Akundoir" "CSV Phodrasaneus"
+			"CSV Phorionar" "CSV Phoeuses" "CSV Elyteriphonon" "CSV Praeusmonlixeon" "CSV Lexluxeon Sentinel" "CSV Mindynoluxon Aegis"
+			"CSV Morthalionrosaus" "CSV Photoros" "CSV Nexdorer" "CSV Atnorelion Vanguard" "CSV Merkonion Vigil" "CSV Mertricordii"
+			"CSV Elbranxi" "CSV Lyuslixus" "CSV Helcordoi" "CSV Trimorgonus" "CSV Lexraxlasiphonian" "CSV Delfalion"
+			"CSV Nexrosbere" "CSV Atphorimethozareia II" "CSV Elasmether Sentinel" "CSV Lexmonios Aegis" "CSV Chronaxoberon" "CSV Faltermedios V"
+			"CSV Teldorus" "CSV Prophonan" "CSV Phaexistrios" "CSV Phogton" "CSV Pyionois" "CSV Akutona"
+			"CSV Alixaratyros II" "CSV Elyzeor" "CSV Elbrsiumer" "CSV Elynxi" "CSV Valtorion Vanguard" "CSV Marexnethus"
+			"CSV Cortorus" "CSV Lextrios" "CSV Phonethtoros Prime" "CSV Phezarkonaus" "CSV Asphoran Prime" "CSV Akysiumus"
+			"CSV Marcordcronor Ascendant" "CSV Lexbertorlonan" "CSV Helmedcorden" "CSV Nexgormonis" "CSV Phoraxrosotrios" "CSV Phogoneon"
+			"CSV Conelicroneorn" "CSV Phohexeis Resolute" "CSV Elbrenixion" "CSV Elvexos" "CSV Procordian" "CSV Conxin"
+			"CSV Conetha" "CSV Minordos" "CSV Althonaxlasaus" "CSV Tririonlixois" "CSV Lexmethes" "CSV Lexisiumion"
+			"CSV Shausion" "CSV Exphorar" "CSV Akusium" "CSV Rexzareberys" "CSV Phaephoneron" "CSV Nycroncordix"
+			"CSV Atxistyroion" "CSV Lexsanreonix" "CSV Rexthalxision" "CSV Falxontelin" "CSV Exroscroneusas" "CSV Trilixae"
+			"CSV Lexzorae" "CSV Santelityros V" "CSV Aehios" "CSV Concenixai" "CSV Pycordnoreon" "CSV Aenaxaion"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Phantom Cell" "Nemesis Group" "Acheron Wing" "Lazarus Division"
+		}
+		sequential_name = "Cerberus $ORD$ Strike Group"
+	}
+
+	army_names = {
+		defense_army = { sequential_name = "$ORD$ Security Cohort" }
+		assault_army = { sequential_name = "$ORD$ Assault Cell" }
+		slave_army = { sequential_name = "$ORD$ Penal Detail" }
+		clone_army = { sequential_name = "$ORD$ Lazarus Cohort" }
+		robotic_army = { sequential_name = "Atlas Detachment $ROM$" }
+		robotic_defense_army = { sequential_name = "Guardian Detachment $ROM$" }
+		psionic_army = { sequential_name = "$ORD$ Ascendant Cell" }
+		xenomorph_army = { sequential_name = "$ORD$ Husk Pack" }
+		gene_warrior_army = { sequential_name = "$ORD$ Phantom Cadre" }
+		occupation_army = { sequential_name = "$ORD$ Pacification Cohort" }
+		robotic_occupation_army = { sequential_name = "Atlas Occupation Unit $ROM$" }
+		primitive_army = { sequential_name = "$ORD$ Expeditionary Militia" }
+		industrial_army = { sequential_name = "$ORD$ Labor Security Detail" }
+		postatomic_army = { sequential_name = "$ORD$ Blacksite Garrison" }
+	}
+
+	planet_names = {
+		generic = {
+			names = {
+				"Aite" "Avernus" "Gellix" "Cronus Verge" "Nepheron" "Nexora" "Pragia" "Sanctum" "Trident"
+				"Cord-Hislop Aerospace" "CDR Holdings" "Terra Nova Commonwealth Bank"
+				"Haribon Military Industries" "Milky Way Foundation" "New Dawn Pharmaceuticals"
+				"Adexon A-8" "Anpyron" "Eugosteloia Gamma" "Antinos" "Kalosthontomon Outpost" "Ontaie"
+				"Site Antrios" "Enortomasaneros" "Anartoryora Station" "Pydortherum E-7" "Cronltinra" "Hermania"
+				"Colony-Anloneron" "Ceradexyphosoi" "Anlongenoi" "Pynethoros" "Avengonon" "Metadaraphosor Array"
+				"Entinium" "Lazdorgenros" "Angoserionois Station" "Sancpherphosetem" "Node-Pametioros" "Otherias Facility"
+				"Metagosilonon" "Exlixnomis Reach" "Teltalrosae" "Lepherion X" "Anaxae Nexus" "Anthonomem"
+				"Arnorlixion" "Selvaktherion V" "Armetoikon Facility" "Array-Selpherternethoi" "Altomilosii C-8" "Alpheria"
+				"Orteldoreon Station" "Site-Bintheron" "Itotaion" "Practumon" "Station Heltalethonoron" "Krynortanoros"
+				"Deltriiphere" "Herphos Complex" "Atos" "Aitrareonatherai" "Neotaiselon" "Outpost-Heryi"
+				"Aipyrvarion" "Eripherium" "Etherion VII" "Kalixotoma D-8" "Argonmetnaxe" "Ophostomnethyia"
+				"Atlonos" "Cronuson" "Pytomlixtela Nexus" "Horiuma" "Pylosseron Array" "Audexirosrisium K-2"
+			}
+		}
+	}
+
+	character_names = {
+		default = {
+			weight = 100
+			first_names = {
+				"Jacenina" "Emirai" "Karanda" "Amevaia" "Jaciken" "Saaisara"
+				"Mirry" "Nikein" "Jaca" "Oleko" "Alckain" "Jacg"
+				"Miryaih" "Marul" "Valanda" "Jaculek" "Oleck" "Mirinerais"
+				"Mary" "Rairara" "Kaiaira" "Emayaa" "Mirob" "Jacrenin"
+				"Nikol" "Nikatt" "Oleanda" "Zhaidara" "Elevaorasa" "Henl"
+				"Valian" "Kaion" "Paranda" "Amayal" "Roler" "Anevai"
+				"Marin" "Anik" "Nikcobeker" "Mirenira"
+			}
+			second_names = {
+				"Reedtonson" "Taygrayi" "Vossonsons" "Halesensky" "Thorngrave" "Hargrayovsky"
+				"Wardsonlan" "Northson" "Lawbrookwood" "Stoneilen" "Faltonward" "Crosslansky"
+				"Brenngrayworth" "Slowards" "Corgraye" "Laward" "Lawgraymonds" "Fengray"
+				"Marlward" "Westgraywood" "Falgrayov" "Valegrayrelle" "Danekovgray" "Harbrook"
+				"Blackgrayr" "Drexwardwarde" "Slobrooky" "Taysonbrooker" "Corbrooks" "Ashwardky"
+				"Keirbrook" "Taybrookrick" "Fentonwardian" "Kellbrookleyy" "Ellbrook" "Prywarders"
+				"Ellgrayei" "Taytonbrook" "Falwardwarders" "Petgrayei" "Mercward" "Petmanbrookton"
+				"Kadegray" "Tayvichward" "Petwardian" "Rookbrookton" "Ashgrayewell" "Prygray"
+				"Draybrookrov" "Petbrook" "Prybrooks" "Lawlingray" "Harwardwood" "Sloleygrayin"
+				"Slogray" "Ellward" "Ashsonward" "Fenwardrovsky" "Corwardworth" "Falengray"
+			}
+		}
+		notables = {
+			weight = 4
+			full_names = {
+				"Jack Harper" "Miranda Lawson" "Kai Leng" "Jacob Taylor"
+				"Maya Brooks" "Oleg Petrovsky" "Henry Lawson" "Paul Grayson" "Eva Core"
+			}
+		}
+	}
+}

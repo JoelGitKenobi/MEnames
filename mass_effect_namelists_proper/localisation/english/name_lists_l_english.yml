@@ -4,38 +4,21 @@
  name_list_MEG_quarian:0 "Quarian Flotilla"
  name_list_MEG_salarian:0 "Salarian Union"
  name_list_MEG_turian:0 "Turian Hierarchy"
+ name_list_MEG_citadel:0 "Citadel Space"
+ name_list_MEG_cerberus:0 "Cerberus"
+ name_list_MEG_asari:0 "Asari Republics"
  name_list_MEG_volus:0 "Vol Protectorate"
+ name_list_MEG_hanar:0 "Hanar Illuminated"
+ name_list_MEG_elcor:0 "Elcor Courts"
  
  # Alternative format without name_list prefix
  MEG_alliance:0 "Alliance"
  MEG_quarian:0 "Quarian Flotilla"
  MEG_salarian:0 "Salarian Union"
  MEG_turian:0 "Turian Hierarchy"
+ MEG_citadel:0 "Citadel Space"
+ MEG_cerberus:0 "Cerberus"
+ MEG_asari:0 "Asari Republics"
  MEG_volus:0 "Vol Protectorate"
- mec_asari_names:0 "Asari Republics"
- name_list_mec_asari_names:0 "Asari Republics"
- 
- # Asari fleet sequential names  
- MEC_NAMELIST_ASARI_FLEET_ORD:0 "$ORD$ Fleet"
- 
- # Asari named fleets
- MEC_NAMELIST_ASARI_FLEET_PARNITHA:0 "Parnitha Home Fleet"
- MEC_NAMELIST_ASARI_FLEET_SIXTH:0 "Asari Sixth Fleet"
- MEC_NAMELIST_ASARI_FLEET_SECOND:0 "Asari Second Fleet"
- MEC_NAMELIST_ASARI_FLEET_TASALE:0 "Tasale Fleet"
- 
- # Asari army sequential names
- MEC_NAMELIST_ASARI_ARMY_DEFENSE_ORD:0 "$ORD$ Commando Guard"
- MEC_NAMELIST_ASARI_ARMY_ASSAULT_ORD:0 "$ORD$ Huntress Unit"
- MEC_NAMELIST_ASARI_ARMY_SLAVE_ORD:0 "$ORD$ Indentured Unit"
- MEC_NAMELIST_ASARI_ARMY_CLONE_ROM:0 "Clone Unit $ROM$"
- MEC_NAMELIST_ASARI_ARMY_ROBOTIC_ROM:0 "Mech Unit $ROM$"
- MEC_NAMELIST_ASARI_ARMY_ROBOTIC_DEFENSE_ROM:0 "Defense Mech $ROM$"
- MEC_NAMELIST_ASARI_ARMY_PSIONIC_ROM:0 "Justicar Order $ROM$"
- MEC_NAMELIST_ASARI_ARMY_XENOMORPH_ROM:0 "Ardat-Yakshi Unit $ROM$"
- MEC_NAMELIST_ASARI_ARMY_GENE_WARRIOR_ROM:0 "Enhanced Commando $ROM$"
- MEC_NAMELIST_ASARI_ARMY_OCCUPATION_ORD:0 "$ORD$ Peacekeeping Force"
- MEC_NAMELIST_ASARI_ARMY_ROBOTIC_OCCUPATION_ROM:0 "Occupation Mech $ROM$"
- MEC_NAMELIST_ASARI_ARMY_PRIMITIVE_ORD:0 "$ORD$ Militia"
- MEC_NAMELIST_ASARI_ARMY_INDUSTRIAL_ORD:0 "$ORD$ Industrial Corps"
- MEC_NAMELIST_ASARI_ARMY_POSTATOMIC_ORD:0 "$ORD$ Defense Force"
+ MEG_hanar:0 "Hanar Illuminated"
+ MEG_elcor:0 "Elcor Courts"
